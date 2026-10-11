@@ -1,0 +1,49 @@
+\section{Implementation}
+\begin{frame}{11. Implementation Plan}
+
+    \centering
+    \tiny
+    \renewcommand{\arraystretch}{1.0}
+    \begin{tabular}{|c|>{\raggedright\arraybackslash}p{3.2cm}
+                    |>{\raggedright\arraybackslash}p{7.3cm}|c|}
+        \toprule
+        \textbf{Part} & \textbf{Goal} & \textbf{What it produced} &
+        \textbf{Status} \\
+        \midrule
+        1 & Combine all the yearly paper data into one file &
+        One merged dataset, checked for missing values and duplicate rows & \done \\
+        \midrule
+        2 & Write a short description for every paper &
+        A clean text summary on every row, filler words removed, all in English & \done \\
+        \midrule
+        3 & Turn each description into numbers &
+        4{,}256 papers embedded as 768-number vectors using \texttt{all-mpnet-base-v2} & \done \\
+        \midrule
+        4 & Group papers that are about the same problem &
+        4{,}256 papers $\rightarrow$ 1{,}053 unique descriptions $\rightarrow$
+        \textbf{1{,}035 distinct problems} & \done \\
+        \midrule
+        5 & Build one clean record per problem &
+        A JSON entry per problem: description, other names it goes by,
+        how many papers back it up, and where papers disagree & \done \\
+        \midrule
+        6 & Rank the strategies for each problem &
+        $\sim$3{,}700 ranked (algorithm, problem, metric) rows --- never
+        compared across different metrics & \done \\
+        \midrule
+        7 & Build the search system &
+        Keyword search + semantic search combined, then the top results
+        double-checked by a more accurate model & \done \\
+        \midrule
+        8 & Turn a search result into a real answer &
+        One function: ask it a plain question, get back the matched
+        problem and ranked strategies --- or an honest ``not confident
+        enough'' & \done \\
+        \midrule
+        9 & Test that it actually works &
+        Ran 20 test questions (easy / hard / nonsense) through the whole
+        system and scored the results & \done \\
+        \bottomrule
+    \end{tabular}
+    \par\vspace{0.1cm}
+\end{frame}

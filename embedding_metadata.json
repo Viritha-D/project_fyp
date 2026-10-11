@@ -1,0 +1,8 @@
+{
+  "model_name": "all-mpnet-base-v2",
+  "embedding_dim": 768,
+  "n_papers_embedded": 4256,
+  "normalized": true,
+  "generated_at": "2026-09-07T16:06:41.549411Z",
+  "paper_id_order_file": "papers_master_with_embeddings_ref.csv"
+}
