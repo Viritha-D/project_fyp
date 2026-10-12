@@ -11,6 +11,11 @@ already in the master (or was already added earlier in the same run).
 Input schema: the old extraction schema, i.e. Paper_ID plus the 26 data columns of
 the master. Any missing or extra column stops the run with an error.
 
+Duplicates: a paper is skipped when its normalised title or normalised Source_File
+already exists in the master, or its title was already added earlier in this run.
+Source_File is not used to dedupe within a run, because contributors' file names are
+not unique (generic names like "018_paper.pdf" are reused for different papers).
+
 Per input row:
     - null tokens (unknown, not reported, nan, none, n/a, na, '' - case-insensitive)
       are mapped to the master's conventions:
@@ -19,7 +24,9 @@ Per input row:
     - raw_paper_id = the input Paper_ID, unchanged
     - paper_id     = 'P' + sha1(normalised_title)[:10] + '_Ext_' + NN
       (Year is added to the hash input when two different papers - different
-      normalised Source_File - share a normalised title in this run)
+      normalised Source_File - share a normalised title in this run).
+      A row with no Paper_Title is kept (title 'Not Reported'); its paper is
+      identified, and hashed, by Source_File + Authors + Year instead.
     - matching_text, language, matching_text_original, translated are left empty
       (Part 2 fills them).
 
@@ -134,10 +141,8 @@ def load_input(path, data_cols):
         is_null = s.str.strip().str.lower().isin(NULL_TOKENS)
         df[c] = s.str.strip().where(~is_null, None)
 
-    bad = df.index[df['Paper_Title'].isna()].tolist()
-    if bad:
-        raise IngestError(f'{path}: Paper_Title is empty/unknown on data rows {[i + 2 for i in bad][:20]} '
-                          f'(line numbers in the file); cannot build paper_id. Fix the file and re-run.')
+    # rows without a title are kept; their paper is identified by Source_File + Authors + Year
+    df['_untitled'] = df['Paper_Title'].isna()
     bad = df.index[df[INPUT_ID_COL].isna()].tolist()
     if bad:
         raise IngestError(f'{path}: Paper_ID is empty on data rows {[i + 2 for i in bad][:20]} '
@@ -186,10 +191,14 @@ def main():
     files = list_inputs(args.input)
     inputs = [(f, load_input(f, data_cols)) for f in files]
 
-    # papers = distinct (normalised title, normalised Source_File) pairs
+    # papers = distinct (normalised title, normalised Source_File) pairs.
+    # An untitled paper's "title" key is built from Source_File + Authors + Year instead.
     for _, df in inputs:
-        df['_nt'] = df['Paper_Title'].map(norm_text)
         df['_ns'] = df['Source_File'].map(lambda s: '' if s == NOT_REPORTED else norm_source(s))
+        df['_nt'] = df['Paper_Title'].map(norm_text)
+        untitled_key = ('untitled' + df['_ns'] + 'by' + df['Authors'].map(norm_text)
+                        + 'in' + df['Year'].map(norm_year))
+        df['_nt'] = df['_nt'].where(~df['_untitled'], untitled_key)
 
     # titles shared by different papers anywhere in this run -> add Year to the hash
     srcs_per_title = {}
@@ -202,8 +211,9 @@ def main():
         key = nt + (norm_year(year) if nt in ambiguous_titles else '')
         return 'P' + hashlib.sha1(key.encode('utf-8')).hexdigest()[:10]
 
+    # within a run only the title key dedupes: Source_File names are not unique across
+    # contributors (e.g. generic "018_paper.pdf"), so they are matched against the master only
     added_title = {}   # norm title  -> new paper prefix (added earlier in this run)
-    added_src = {}     # norm source -> new paper prefix
     prefix_owner = {}  # new paper prefix -> (nt, ns) that claimed it
     new_rows = []
     skipped = []
@@ -215,7 +225,7 @@ def main():
     for path, df in inputs:
         rel = os.path.relpath(path, ROOT)
         st = dict(file=rel, rows_in=len(df), papers_in=0, papers_skipped=0, papers_added=0,
-                  rows_added=0, exact_dup_rows=0, cats={})
+                  rows_added=0, exact_dup_rows=0, untitled_added=0, cats={})
         papers = df.groupby(['_nt', '_ns'], sort=False)
         st['papers_in'] = papers.ngroups
         for (nt, ns), g in papers:
@@ -236,8 +246,6 @@ def main():
                 reason, match = 'Source_File already in master', master_src[ns]
             elif nt in added_title:
                 reason, match = 'title already added earlier in this run', added_title[nt]
-            elif ns and ns in added_src:
-                reason, match = 'Source_File already added earlier in this run', added_src[ns]
             if reason:
                 st['papers_skipped'] += 1
                 skipped.append({**info, 'reason': reason, 'matching_paper_id': match})
@@ -265,8 +273,8 @@ def main():
                 st['cats'][cat] = st['cats'].get(cat, 0) + 1
 
             added_title[nt] = prefix
-            if ns:
-                added_src[ns] = prefix
+            if first['_untitled']:
+                st['untitled_added'] += 1
             st['papers_added'] += 1
             st['rows_added'] += len(dedup)
             log.append({**info, 'n_rows': len(dedup), 'paper_id': prefix, 'status': 'added',
@@ -298,7 +306,7 @@ def main():
         for k, v in st['cats'].items():
             tot_cats[k] = tot_cats.get(k, 0) + v
         cats = ', '.join(f'{k}: {v}' for k, v in sorted(st['cats'].items())) or '-'
-        print(f'{st["file"][-45:]:<45} {st["rows_in"]:>7} {st["papers_in"]:>9} {st["papers_skipped"]:>8} '
+        print(f'{Path(st["file"]).name:<45} {st["rows_in"]:>7} {st["papers_in"]:>9} {st["papers_skipped"]:>8} '
               f'{st["papers_added"]:>6} {st["rows_added"]:>8} {st["exact_dup_rows"]:>14}  {cats}')
     print('-' * len(hdr))
     cats = ', '.join(f'{k}: {v}' for k, v in sorted(tot_cats.items())) or '-'
@@ -310,6 +318,10 @@ def main():
             paper_cats[r['Category']] = paper_cats.get(r['Category'], 0) + 1
     print(f'category split (papers added, by first row): '
           f'{", ".join(f"{k}: {v}" for k, v in sorted(paper_cats.items())) or "-"}')
+    n_untitled = sum(st['untitled_added'] for st in per_file)
+    print(f'untitled papers added (ID from Source_File + Authors + Year): {n_untitled}'
+          + (' [' + ', '.join(f'{st["file"].split("/")[-1]}: {st["untitled_added"]}' for st in per_file) + ']'
+             if n_untitled else ''))
     print(f'paper_id collisions: {n_collisions}')
     for c in collisions:
         print(f'  COLLISION {c}')
