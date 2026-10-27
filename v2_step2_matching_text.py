@@ -14,7 +14,8 @@ Language: safe_detect (langdetect): 'en' if the text is under 25 characters, has
 non-ASCII character, the top language is 'en', or its probability is under 0.90.
 Translations: when the same source text exists in the old master
 (backup_v2/papers_master_with_matching_text.csv, column matching_text_original), its
-matching_text / language / translated are reused. Remaining non-English rows are
+matching_text and translated are reused (language = the detected source code for
+translated rows). Remaining non-English rows are
 translated from TRANSLATIONS below; any without one stay translated=False and are listed
 in needs_translation.csv.
 
@@ -103,6 +104,8 @@ def main():
     for i, o in original.items():
         if o in old_map:
             t, lang, tr = old_map[o]
+            if tr == 'True':
+                lang = safe_detect(o)   # the old master stored 'en' after translating; keep the source code
             text.append(t), language.append(lang), translated.append(tr)
             source.append('old_master_translation' if tr == 'True' else 'old_master')
             continue

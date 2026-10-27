@@ -259,9 +259,21 @@ def main():
     if GOLD.exists() and OLD_MASTER.exists():
         raise SystemExit('gold_standard_labels.csv exists: remapping not implemented in this run')
     missing = [p.name for p in (GOLD, OLD_MASTER) if not p.exists()]
-    say(f'Skipped: {", ".join(missing)} not found (searched the repo, backups and git history). '
-        f'No `{GOLD_OUT.name}` written.\n')
-    print(f'[1g] SKIPPED: {", ".join(missing)} not found')
+    if GOLD_OUT.exists():
+        # remapped file supplied by the user: verify it against this master, never rewrite it
+        g = pd.read_csv(GOLD_OUT, dtype=str, keep_default_na=False)
+        ids = set(d['Paper_ID'])
+        assert g['new_Paper_ID'].is_unique and g['new_Paper_ID'].isin(ids).all(), 'gold new_Paper_ID check failed'
+        titles = d.set_index('Paper_ID')['Paper_Title']
+        same = int((g['Paper_Title'] == g['new_Paper_ID'].map(titles)).sum())
+        say(f'`{GOLD.name}` itself is not in the repo, so no remapping was done here. `{GOLD_OUT.name}` was '
+            f'supplied by the user and is verified, not rewritten: {len(g)} rows, every new_Paper_ID unique and '
+            f'present in this master, Paper_Title identical to the master title on {same} of {len(g)} rows.\n')
+        print(f'[1g] {GOLD_OUT.name}: {len(g)} rows verified (ids unique and present; titles equal on {same})')
+    else:
+        say(f'Skipped: {", ".join(missing)} not found (searched the repo, backups and git history). '
+            f'No `{GOLD_OUT.name}` written.\n')
+        print(f'[1g] SKIPPED: {", ".join(missing)} not found')
 
     # ---------------- freeze ----------------
     shutil.copyfile(INPUT, FROZEN)

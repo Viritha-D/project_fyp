@@ -234,7 +234,7 @@ Original_Paper_ID is a per-file extraction counter that restarts per source, so 
 
 ## Gold labels
 
-Skipped: gold_standard_labels.csv not found (searched the repo, backups and git history). No `gold_standard_labels_remapped.csv` written.
+`gold_standard_labels.csv` itself is not in the repo, so no remapping was done here. `gold_standard_labels_remapped.csv` was supplied by the user and is verified, not rewritten: 40 rows, every new_Paper_ID unique and present in this master, Paper_Title identical to the master title on 40 of 40 rows.
 
 ## Frozen copy
 
