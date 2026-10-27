@@ -17,7 +17,7 @@ Checks passed: 11,342 rows; 29 columns in the expected order; Paper_ID unique an
 
 ## Papers by Conference x Year
 
-Paper = distinct `paper_key` (Conference|Year|normalised title; untitled papers keyed by Source_File).
+Paper = distinct `paper_key` (Conference|Year|normalised title; an untitled paper is keyed Conference|Year|Source_File|untitled).
 
 | Conference | 2000 | 2004 | 2006 | 2008 | 2010 | 2011 | 2012 | 2013 | 2014 | 2015 | 2016 | 2017 | 2018 | 2019 | 2020 | 2021 | 2022 | 2023 | 2024 | 2025 | 2026 | Total |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|

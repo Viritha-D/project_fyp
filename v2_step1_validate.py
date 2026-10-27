@@ -8,7 +8,8 @@ Outputs:
     gold_standard_labels_remapped.csv  only when gold_standard_labels.csv exists
 
 Paper identity never uses Source_File alone. An untitled paper ("Not Reported") gets the
-key Conference|Year|untitled:<normalised Source_File> so untitled papers are not merged.
+key Conference|Year|<Source_File>|untitled, so untitled papers are never merged; the run
+asserts that each such key holds exactly one Paper_ID root.
 """
 
 import os
@@ -80,7 +81,11 @@ def main():
     d['_untitled'] = d['Paper_Title'].str.strip().str.lower().isin(MISSING_TITLES) | (d['_nt'] == '')
     d['_ns'] = d['Source_File'].map(norm)
     d['_cy'] = d['Conference'] + '|' + d['Year']
-    d['paper_key'] = d['_cy'] + '|' + d['_nt'].where(~d['_untitled'], 'untitled:' + d['_ns'])
+    d['paper_key'] = (d['_cy'] + '|' + d['_nt']).where(~d['_untitled'], d['_cy'] + '|' + d['Source_File'] + '|untitled')
+    u = d[d['_untitled']]
+    roots_per_key = u.groupby('paper_key')['Paper_ID'].apply(lambda s: s.map(root_id).nunique())
+    assert (roots_per_key == 1).all(), f'untitled key holds several papers: {roots_per_key[roots_per_key > 1]}'
+    print(f'[1d] untitled: {len(u)} rows -> {len(roots_per_key)} paper_keys, each exactly one Paper_ID root')
 
     titles_per_file = d[~d['_untitled']].groupby(['_cy', '_ns'])['_nt'].nunique()
     multi_title_files = set(titles_per_file[titles_per_file > 1].index)
@@ -115,7 +120,7 @@ def main():
     say('## Rows by Conference x Year\n')
     say(md_table(pd.crosstab(d['Conference'], d['Year'], margins=True, margins_name='Total')) + '\n')
     say('## Papers by Conference x Year\n')
-    say('Paper = distinct `paper_key` (Conference|Year|normalised title; untitled papers keyed by Source_File).\n')
+    say('Paper = distinct `paper_key` (Conference|Year|normalised title; an untitled paper is keyed Conference|Year|Source_File|untitled).\n')
     say(md_table(pd.crosstab(idx['Conference'], idx['Year'], margins=True, margins_name='Total')) + '\n')
 
     say('## Category counts\n')

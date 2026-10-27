@@ -1209,12 +1209,12 @@ PReMI|2008|rulesforestimationofpoppatientsdiseaseprogression,PReMI,2008,334_pape
 PReMI|2010|texturegradientusingndcwt,PReMI,2010,154_paper.pdf,Texture Gradient Using NDCWT,1,1,P2010_PReMI_065,
 PReMI|2010|aroughsetapproachforopticalcharacterrecognition,PReMI,2010,322_paper.pdf,A Rough-Set Approach for Optical Character Recognition,1,1,P2010_PReMI_142,
 PReMI|2010|aquasicliqueminingalgorithm,PReMI,2010,530_paper.pdf,A Quasi-Clique Mining Algorithm,3,1,P2010_PReMI_220,
-PReMI|2010|untitled:625paperpdf,PReMI,2010,625_paper.pdf,Not Reported,3,1,P2010_PReMI_246,untitled
+PReMI|2010|625_paper.pdf|untitled,PReMI,2010,625_paper.pdf,Not Reported,3,1,P2010_PReMI_246,untitled
 PReMI|2010|imageannotationusinglatentcomponentsandtransmediaassociation,PReMI,2010,632_paper.pdf,Image Annotation Using Latent Components and Transmedia Association,1,1,P2010_PReMI_247,
 PReMI|2011|findingoptimalroughsetreductwithasearchalgorithm,PReMI,2011,387_paper.pdf,Finding Optimal Rough Set Reduct with A* Search Algorithm,1,1,P2011_PReMI_051,
 PReMI|2011|objectsegmentationintextureimages,PReMI,2011,156_paper.pdf,Object Segmentation in Texture Images,3,1,P2011_PReMI_067,
 PReMI|2011|resultsofbinarizationscheme,PReMI,2011,166_paper.pdf,Results of Binarization Scheme,2,1,P2011_PReMI_071,
-PReMI|2011|untitled:436paperpdf,PReMI,2011,436_paper.pdf,Not Reported,2,1,P2011_PReMI_073,untitled
+PReMI|2011|436_paper.pdf|untitled,PReMI,2011,436_paper.pdf,Not Reported,2,1,P2011_PReMI_073,untitled
 PReMI|2011|apreliminaryinvestigationonagraphmodelofde,PReMI,2011,437_paper.pdf,A Preliminary Investigation on a Graph Model of DE,2,1,P2011_PReMI_074,
 PReMI|2011|ranklevelfusionusingpso,PReMI,2011,475_paper.pdf,Rank Level Fusion Using PSO,1,1,P2011_PReMI_183,
 PReMI|2012|aksinghandcchandrasekhar,PReMI,2012,093_paper.pdf,A.K. Singh and C. Chandra Sekhar,1,1,P2012_PReMI_036,
@@ -1227,7 +1227,7 @@ PReMI|2014|knnclassificationwithanoutlierinformativedistancemeasure,PReMI,2014,0
 PReMI|2014|multilabelclassificationusingsom,PReMI,2014,120_paper.pdf,Multi-label Classification Using SOM,5,1,P2014_PReMI_020,
 PReMI|2014|adasguptaetal,PReMI,2014,109_paper.pdf,A. Dasgupta et al.,1,1,P2014_PReMI_044,
 PReMI|2014|asimpleapproachofshadowcontourdetectionbasedonthehsvcolorspaceandtheglcmtexturefeatureoftheimagepixels,PReMI,2014,136_paper.pdf,A simple approach of shadow contour detection based on the HSV color space and the GLCM texture feature of the image pixels,1,1,P2014_PReMI_059,
-PReMI|2014|untitled:194paperpdf,PReMI,2014,194_paper.pdf,Not Reported,2,1,P2014_PReMI_083,untitled
+PReMI|2014|194_paper.pdf|untitled,PReMI,2014,194_paper.pdf,Not Reported,2,1,P2014_PReMI_083,untitled
 PReMI|2014|classsimilaritybasedonppforimagerecognition,PReMI,2014,503_paper.pdf,Class Similarity Based ONPP for Image Recognition,1,1,P2014_PReMI_089,
 PReMI|2014|findingsolutionforjsspusingcso,PReMI,2014,356_paper.pdf,Finding Solution for JSSP Using CSO,1,1,P2014_PReMI_156,
 PReMI|2014|analysisoffeaturesandmetricsforalignment,PReMI,2014,388_paper.pdf,Analysis of Features and Metrics for Alignment,1,1,P2014_PReMI_169,
@@ -1236,22 +1236,22 @@ PReMI|2014|novelgammatonefilterbankbasedspectrotemporalfeatures,PReMI,2014,439_p
 PReMI|2014|classificationofvectorbornevirus,PReMI,2014,523_paper.pdf,Classification of Vector-Borne Virus,1,1,P2014_PReMI_217,
 PReMI|2014|randombinarysearchtreesforannsearchinbinaryspace,PReMI,2014,607_paper.pdf,Random Binary Search Trees for ANN Search in Binary Space,2,1,P2014_PReMI_241,
 PReMI|2014|opinionminingusingsupportvectormachine,PReMI,2014,852_paper.pdf,Opinion Mining Using Support Vector Machine,1,1,P2014_PReMI_321,
-PReMI|2015|untitled:014paperpdf,PReMI,2015,014_paper.pdf,Not Reported,1,1,P2015_PReMI_007,untitled
-PReMI|2015|untitled:095paperpdf,PReMI,2015,095_paper.pdf,Not Reported,7,1,P2015_PReMI_038,untitled
+PReMI|2015|014_paper.pdf|untitled,PReMI,2015,014_paper.pdf,Not Reported,1,1,P2015_PReMI_007,untitled
+PReMI|2015|095_paper.pdf|untitled,PReMI,2015,095_paper.pdf,Not Reported,7,1,P2015_PReMI_038,untitled
 PReMI|2015|performanceofproposedpsoonbenchmarkfunctions,PReMI,2015,404_paper.pdf,Performance of proposed PSO on benchmark functions,13,1,P2015_PReMI_060,
 PReMI|2015|amachinelearninginspiredapproachfordetectionrecognitionandtracking,PReMI,2015,215_paper.pdf,"A Machine Learning Inspired Approach for Detection, Recognition and Tracking",2,1,P2015_PReMI_092,
-PReMI|2015|untitled:699paperpdf,PReMI,2015,699_paper.pdf,Not Reported,2,1,P2015_PReMI_157,untitled
+PReMI|2015|699_paper.pdf|untitled,PReMI,2015,699_paper.pdf,Not Reported,2,1,P2015_PReMI_157,untitled
 PReMI|2015|kmeansbasedk1mostdemandingproductscmdpalgorithm,PReMI,2015,578_paper.pdf,K-Means based k1-most demanding products (CMDP) algorithm,1,1,P2015_PReMI_231,
 PReMI|2015|miningrarepatternsusinghyperlinkeddatastructure,PReMI,2015,598_paper.pdf,Mining Rare Patterns Using Hyper-Linked Data Structure,4,1,P2015_PReMI_239,
 PReMI|2015|spatialdistributionbasedprovisionaldiseasediagnosis,PReMI,2015,758_paper.pdf,Spatial Distribution Based Provisional Disease Diagnosis,1,1,P2015_PReMI_293,
 PReMI|2015|hierarchicalrankingofcricketteamsincorporatingplayercomposition,PReMI,2015,801_paper.pdf,Hierarchical Ranking of Cricket Teams Incorporating Player Composition,2,1,P2015_PReMI_307,
 PReMI|2016|crossdomainrecommendationusingtrifactorization,PReMI,2016,103_paper.pdf,Cross-domain recommendation using tri-factorization,2,1,P2016_PReMI_042,
 PReMI|2016|superpixelcorrespondencefornonparametricsceneparsing,PReMI,2016,722_paper.pdf,Superpixel Correspondence for Non-parametric Scene Parsing,1,1,P2016_PReMI_110,
-PReMI|2016|untitled:349paperpdf,PReMI,2016,349_paper.pdf,Not Reported,2,1,P2016_PReMI_152,untitled
-PReMI|2016|untitled:362paperpdf,PReMI,2016,362_paper.pdf,Not Reported,1,1,P2016_PReMI_159,untitled
+PReMI|2016|349_paper.pdf|untitled,PReMI,2016,349_paper.pdf,Not Reported,2,1,P2016_PReMI_152,untitled
+PReMI|2016|362_paper.pdf|untitled,PReMI,2016,362_paper.pdf,Not Reported,1,1,P2016_PReMI_159,untitled
 PReMI|2016|dynamicprogressivempsawithlbascoringsystem,PReMI,2016,516_paper.pdf,Dynamic Progressive MPSA with LBA Scoring System,2,1,P2016_PReMI_215,
 PReMI|2016|anovelframeworktocomparethelocalstructureofdiseaseassociatedppinetworksusinggraphletfrequency,PReMI,2016,555_paper.pdf,A novel framework to compare the local structure of disease associated PPI networks using graphlet frequency,1,1,P2016_PReMI_226,
-PReMI|2016|untitled:569paperpdf,PReMI,2016,569_paper.pdf,Not Reported,1,1,P2016_PReMI_229,untitled
+PReMI|2016|569_paper.pdf|untitled,PReMI,2016,569_paper.pdf,Not Reported,1,1,P2016_PReMI_229,untitled
 PReMI|2016|randombinarysearchtrees,PReMI,2016,603_paper.pdf,Random Binary Search Trees,1,1,P2016_PReMI_240,
 PReMI|2016|effectofvariationinlengthofshortestpaths,PReMI,2016,656_paper.pdf,Effect of Variation in Length of Shortest Paths,4,1,P2016_PReMI_255,
 PReMI|2016|effectivenessofrepresentationandlengthvariation,PReMI,2016,662_paper.pdf,Effectiveness of Representation and Length Variation,5,1,P2016_PReMI_256,
@@ -1271,7 +1271,7 @@ PReMI|2017|amatrixfactorizationclusteringbasedapproachfortransferlearning,PReMI,
 PReMI|2017|selectionofrelevantelectrodesbasedontemporalsimilarity,PReMI,2017,121_paper.pdf,Selection of Relevant Electrodes Based on Temporal Similarity,4,1,P2017_PReMI_050,
 PReMI|2017|aggregatedchannelfeatureswithoptimumparametersforpedestriandetection,PReMI,2017,186_paper.pdf,Aggregated Channel Features with Optimum Parameters for Pedestrian Detection,1,1,P2017_PReMI_079,
 PReMI|2017|multistagetransferlearningbasedyogaposerecognitionusingcnn,PReMI,2017,188_paper.pdf,Multi-stage Transfer Learning Based Yoga Pose Recognition Using CNN,1,1,P2017_PReMI_080,
-PReMI|2017|untitled:216paperpdf,PReMI,2017,216_paper.pdf,Not Reported,11,1,P2017_PReMI_093,untitled
+PReMI|2017|216_paper.pdf|untitled,PReMI,2017,216_paper.pdf,Not Reported,11,1,P2017_PReMI_093,untitled
 PReMI|2017|abnormalcrowdbehaviordetectionbasedoncombinedapproachofenergymodelandthreshold,PReMI,2017,231_paper.pdf,Abnormal Crowd Behavior Detection Based on Combined Approach of Energy Model and Threshold,1,1,P2017_PReMI_100,
 PReMI|2017|unsupervisedfeaturedescriptorsbasedfacialtracking,PReMI,2017,247_paper.pdf,Unsupervised Feature Descriptors Based Facial Tracking,2,1,P2017_PReMI_107,
 PReMI|2017|facedetectionbasedonfrequencydomainfeatures,PReMI,2017,254_paper.pdf,Face Detection Based on Frequency Domain Features,2,1,P2017_PReMI_110,
@@ -1283,15 +1283,15 @@ PReMI|2017|roughsetrulesdeterminediseaseprogressionsindifferentgroupsofparkinson
 PReMI|2017|roughsetrulesdeterminediseaseprogressions,PReMI,2017,332_paper.pdf,Rough Set Rules Determine Disease Progressions,1,1,P2017_PReMI_146,
 PReMI|2017|adversarialoptimizationofindoorpositioningsystemusingdifferentialevolution,PReMI,2017,341_paper.pdf,Adversarial Optimization of Indoor Positioning System Using Differential Evolution,1,1,P2017_PReMI_148,
 PReMI|2017|musicinducedemotionclassificationfromtheprefrontalhemodynamics,PReMI,2017,364_paper.pdf,Music-Induced Emotion Classification from the Prefrontal Hemodynamics,1,1,P2017_PReMI_160,
-PReMI|2017|untitled:366paperpdf,PReMI,2017,366_paper.pdf,Not Reported,1,1,P2017_PReMI_161,untitled
-PReMI|2017|untitled:376paperpdf,PReMI,2017,376_paper.pdf,Not Reported,1,1,P2017_PReMI_164,untitled
+PReMI|2017|366_paper.pdf|untitled,PReMI,2017,366_paper.pdf,Not Reported,1,1,P2017_PReMI_161,untitled
+PReMI|2017|376_paper.pdf|untitled,PReMI,2017,376_paper.pdf,Not Reported,1,1,P2017_PReMI_164,untitled
 PReMI|2017|spoofspeechdetection,PReMI,2017,402_paper.pdf,Spoof Speech Detection,1,1,P2017_PReMI_176,
 PReMI|2017|anadaptiveivectorextractionforspeakerverificationwithshortutterance,PReMI,2017,417_paper.pdf,An Adaptive i-Vector Extraction for Speaker Verification with Short Utterance,1,1,P2017_PReMI_181,
 PReMI|2017|anadaptiveivectorextractionforspeakerverification,PReMI,2017,422_paper.pdf,An Adaptive i-Vector Extraction for Speaker Verification,1,1,P2017_PReMI_184,
 PReMI|2017|neuralnetworkscompressionforlanguagemodeling,PReMI,2017,450_paper.pdf,Neural Networks Compression for Language Modeling,3,1,P2017_PReMI_198,
 PReMI|2017|notprovided,PReMI,2017,465_paper.pdf,Not provided,1,1,P2017_PReMI_201,
 PReMI|2017|lexicaltfidfanngramfeaturespaceforcrossdomainclassificationofsentimentreviews,PReMI,2017,493_paper.pdf,Lexical TF-IDF: An n-gram Feature Space for Cross-Domain Classification of Sentiment Reviews,2,1,P2017_PReMI_208,
-PReMI|2017|untitled:514paperpdf,PReMI,2017,514_paper.pdf,Not Reported,9,1,P2017_PReMI_214,untitled
+PReMI|2017|514_paper.pdf|untitled,PReMI,2017,514_paper.pdf,Not Reported,9,1,P2017_PReMI_214,untitled
 PReMI|2017|aquasicliqueminingalgorithmforanalysisofthehumanproteinproteininteractionnetwork,PReMI,2017,528_paper.pdf,A Quasi-Clique Mining Algorithm for Analysis of the Human Protein-Protein Interaction Network,1,1,P2017_PReMI_218,
 PReMI|2017|predictionofthyroidcancergenesusinganensembleofposttranslationalmodificationsemanticandstructuralsimilaritybasedclusteringresults,PReMI,2017,535_paper.pdf,"Prediction of Thyroid Cancer Genes Using an Ensemble of Post Translational Modification, Semantic and Structural Similarity Based Clustering Results",1,1,P2017_PReMI_221,
 PReMI|2017|detectionofatypicalelementsbytransformingtasktosupervisedform,PReMI,2017,587_paper.pdf,Detection of Atypical Elements by Transforming Task to Supervised Form,1,1,P2017_PReMI_234,
@@ -1312,7 +1312,7 @@ PReMI|2017|spatiotemporalpredictionofmeteorologicaltimeseriesdataanapproachbased
 PReMI|2017|comparativestudyofprecipitationrateprediction,PReMI,2017,786_paper.pdf,Comparative study of Precipitation rate prediction,1,1,P2017_PReMI_304,
 PReMI|2017|smartwatermanagementanontologydrivencontextawareiotapplication,PReMI,2017,806_paper.pdf,Smart Water Management: An Ontology-Driven Context-Aware IoT Application,1,1,P2017_PReMI_309,
 PReMI|2017|differentiatingpeninksinhandwrittenbankchequesusingmultilayerperceptron,PReMI,2017,825_paper.pdf,Differentiating Pen Inks in Handwritten Bank Cheques Using Multi-layer Perceptron,1,1,P2017_PReMI_314,
-PReMI|2017|untitled:828paperpdf,PReMI,2017,828_paper.pdf,Not Reported,1,1,P2017_PReMI_315,untitled
+PReMI|2017|828_paper.pdf|untitled,PReMI,2017,828_paper.pdf,Not Reported,1,1,P2017_PReMI_315,untitled
 PReMI|2017|differentiatingpeninksinhandwrittenbankcheques,PReMI,2017,835_paper.pdf,Differentiating Pen Inks in Handwritten Bank Cheques,1,1,P2017_PReMI_317,
 PReMI|2017|opinionminingusingsupportvectormachinewithwebbaseddiversedata,PReMI,2017,849_paper.pdf,Opinion Mining Using Support Vector Machine with Web Based Diverse Data,1,1,P2017_PReMI_320,
 PReMI|2018|anincrementalfastpolicysearchusingasinglesamplepath,PReMI,2018,018_paper.pdf,An Incremental Fast Policy Search Using a Single Sample Path,3,1,P2018_PReMI_008,
@@ -1335,26 +1335,26 @@ PReMI|2019|superresolutionmodelusingmultidirectionalstructureintegrityprior,PReM
 PReMI|2020|incrementalkmeansmethod,PReMI,2020,060_paper.pdf,Incremental k-Means Method,6,1,P2020_PReMI_012,
 PReMI|2020|dansearchitectureforloadforecasting,PReMI,2020,033_paper.pdf,DaNSe architecture for load forecasting,2,1,P2020_PReMI_015,
 PReMI|2020|tscckcsp,PReMI,2020,120_paper.pdf,TSC-CKCSP,2,1,P2020_PReMI_049,
-PReMI|2020|untitled:225paperpdf,PReMI,2020,225_paper.pdf,Not Reported,1,1,P2020_PReMI_129,untitled
+PReMI|2020|225_paper.pdf|untitled,PReMI,2020,225_paper.pdf,Not Reported,1,1,P2020_PReMI_129,untitled
 PReMI|2020|empiricalanalyzes,PReMI,2020,304_paper.pdf,Empirical Analyzes,2,1,P2020_PReMI_134,
-PReMI|2020|untitled:344paperpdf,PReMI,2020,344_paper.pdf,Not Reported,1,1,P2020_PReMI_150,untitled
+PReMI|2020|344_paper.pdf|untitled,PReMI,2020,344_paper.pdf,Not Reported,1,1,P2020_PReMI_150,untitled
 PReMI|2020|rgbdfusionbasedonfuzzyoptimizationforsalientobjectdetection,PReMI,2020,643_paper.pdf,RGB-D Fusion Based on Fuzzy Optimization for Salient Object Detection,1,1,P2020_PReMI_151,
 PReMI|2020|segmentbasedencodingscheme,PReMI,2020,670_paper.pdf,Segment Based Encoding Scheme,1,1,P2020_PReMI_258,
 PReMI|2021|formulationoftwostagemklusingregressionframework,PReMI,2021,084_paper.pdf,Formulation of Two Stage MKL Using Regression Framework,7,1,P2021_PReMI_032,
 PReMI|2021|featureselectionandfuzzyrulemining,PReMI,2021,111_paper.pdf,Feature Selection and Fuzzy Rule Mining,1,1,P2021_PReMI_046,
 PReMI|2021|spsoforenergyefficiencyinwsn,PReMI,2021,423_paper.pdf,SPSO for Energy Efficiency in WSN,6,1,P2021_PReMI_065,
 PReMI|2021|preciseandfasterimagedescriptiongenerationwithlimitedresources,PReMI,2021,214_paper.pdf,Precise and Faster Image Description Generation with Limited Resources,3,1,P2021_PReMI_075,
-PReMI|2021|untitled:527paperpdf,PReMI,2021,527_paper.pdf,Not Reported,1,1,P2021_PReMI_092,untitled
+PReMI|2021|527_paper.pdf|untitled,PReMI,2021,527_paper.pdf,Not Reported,1,1,P2021_PReMI_092,untitled
 PReMI|2021|detectionofsplicingforgery,PReMI,2021,562_paper.pdf,Detection of Splicing Forgery,1,1,P2021_PReMI_094,
 PReMI|2021|handwrittenforgerydetection,PReMI,2021,700_paper.pdf,Handwritten Forgery Detection,2,1,P2021_PReMI_106,
 PReMI|2021|adhdnetefficientadhddetectionfromfmridataset,PReMI,2021,182_paper.pdf,ADHDNet: Efficient ADHD Detection from fMRI Dataset,2,1,P2021_PReMI_120,
 PReMI|2021|attentionassistedpatchwisecnn,PReMI,2021,269_paper.pdf,Attention Assisted Patch-Wise CNN,3,1,P2021_PReMI_136,
-PReMI|2021|untitled:280paperpdf,PReMI,2021,280_paper.pdf,Not Reported,1,1,P2021_PReMI_140,untitled
+PReMI|2021|280_paper.pdf|untitled,PReMI,2021,280_paper.pdf,Not Reported,1,1,P2021_PReMI_140,untitled
 PReMI|2021|grammaticalevolutionbasedparameterconfigurationofensembledifferentialevolution,PReMI,2021,714_paper.pdf,Grammatical Evolution based Parameter Configuration of Ensemble Differential Evolution,3,1,P2021_PReMI_163,
 PReMI|2021|agebasedautomatedconfigurationofanensembledealgorithm,PReMI,2021,716_paper.pdf,A GE Based Automated Configuration of an Ensemble DE Algorithm,5,1,P2021_PReMI_165,
 PReMI|2021|comparisononeconomicloaddispatchprobleminstances,PReMI,2021,717_paper.pdf,Comparison on Economic Load Dispatch problem instances,10,1,P2021_PReMI_166,
-PReMI|2021|untitled:447paperpdf,PReMI,2021,447_paper.pdf,Not Reported,1,1,P2021_PReMI_177,untitled
-PReMI|2021|untitled:978paperpdf,PReMI,2021,978_paper.pdf,Not Reported,1,1,P2021_PReMI_189,untitled
+PReMI|2021|447_paper.pdf|untitled,PReMI,2021,447_paper.pdf,Not Reported,1,1,P2021_PReMI_177,untitled
+PReMI|2021|978_paper.pdf|untitled,PReMI,2021,978_paper.pdf,Not Reported,1,1,P2021_PReMI_189,untitled
 PReMI|2021|restoringfaceoccludedimagesusingganbasedinpainting,PReMI,2021,533_paper.pdf,Restoring Face Occluded Images Using GAN Based Inpainting,1,1,P2021_PReMI_191,
 PReMI|2021|spatialsmote,PReMI,2021,587_paper.pdf,Spatial-SMOTE,1,1,P2021_PReMI_195,
 PReMI|2021|maskedfacedetectionforeffectivecovid19containment,PReMI,2021,516_paper.pdf,Masked Face Detection for Effective COVID-19 Containment,3,1,P2021_PReMI_196,
@@ -1400,8 +1400,8 @@ PReMI|2023|horiehelpfulnessofonlinereviewswithimprovedembedding,PReMI,2023,018_p
 PReMI|2023|iqausingcombinationofdeepcnns,PReMI,2023,026_paper.pdf,IQA Using Combination of Deep CNNs,44,1,P2023_PReMI_076,
 PReMI|2023|inversereinforcementlearningwithconstraintrecovery,PReMI,2023,219_paper.pdf,Inverse Reinforcement Learning with Constraint Recovery,1,1,P2023_PReMI_077,
 PReMI|2023|arobustcolorvideowatermarkingtechnique,PReMI,2023,182_paper.pdf,A Robust Color Video Watermarking Technique,2,1,P2023_PReMI_078,
-PReMI|2023|untitled:223paperpdf,PReMI,2023,223_paper.pdf,Not Reported,1,1,P2023_PReMI_079,untitled
-PReMI|2023|untitled:225paperpdf,PReMI,2023,225_paper.pdf,Not Reported,1,1,P2023_PReMI_081,untitled
+PReMI|2023|223_paper.pdf|untitled,PReMI,2023,223_paper.pdf,Not Reported,1,1,P2023_PReMI_079,untitled
+PReMI|2023|225_paper.pdf|untitled,PReMI,2023,225_paper.pdf,Not Reported,1,1,P2023_PReMI_081,untitled
 PReMI|2023|blindimageforgerydetectionusinglbpandstatisticalmoments,PReMI,2023,039_paper.pdf,Blind Image Forgery Detection Using LBP and Statistical Moments,4,1,P2023_PReMI_082,
 PReMI|2023|findingmodifiedfeaturevaluesofthetargetusingpso,PReMI,2023,052_paper.pdf,Finding Modified Feature Values of the Target Using PSO,1,1,P2023_PReMI_091,
 PReMI|2023|deepsparserepresentationlearningformulticlassimageclassification,PReMI,2023,278_paper.pdf,Deep Sparse Representation Learning for Multi-class Image Classification,3,1,P2023_PReMI_092,
@@ -1409,7 +1409,7 @@ PReMI|2023|anovelgraphrepresentationlearningapproach,PReMI,2023,289_paper.pdf,A 
 PReMI|2023|explainabledecisiontreebasedscreeningofcognitiveimpairmentleveragingminimalneuropsychologicaltests,PReMI,2023,295_paper.pdf,Explainable Decision Tree-Based Screening of Cognitive Impairment Leveraging Minimal Neuropsychological Tests,1,1,P2023_PReMI_098,
 PReMI|2023|semisupervisedcontrastiveregressionforestimationofeyegaze,PReMI,2023,309_paper.pdf,Semi-supervised Contrastive Regression for Estimation of Eye Gaze,3,1,P2023_PReMI_101,
 PReMI|2023|abnormalcrowdbehaviordetection,PReMI,2023,238_paper.pdf,Abnormal Crowd Behavior Detection,1,1,P2023_PReMI_103,
-PReMI|2023|untitled:126paperpdf,PReMI,2023,126_paper.pdf,Not Reported,1,1,P2023_PReMI_108,untitled
+PReMI|2023|126_paper.pdf|untitled,PReMI,2023,126_paper.pdf,Not Reported,1,1,P2023_PReMI_108,untitled
 PReMI|2023|autoencoderassistedcancersubtypingbyintegratingmultiomicsdata,PReMI,2023,172_paper.pdf,Autoencoder Assisted Cancer Subtyping by Integrating Multi-omics Data,3,1,P2023_PReMI_117,
 PReMI|2023|neuralpoolingmethodsforgraphclassification,PReMI,2023,208_paper.pdf,Neural Pooling Methods for Graph Classification,4,1,P2023_PReMI_125,
 PReMI|2023|lbpinducedoptimizedcnnforbraintumordiagnosis,PReMI,2023,492_paper.pdf,LBP Induced Optimized CNN for Brain Tumor Diagnosis,1,1,P2023_PReMI_133,
@@ -1422,33 +1422,33 @@ PReMI|2023|adversarialoptimizationofindoorpositioningsystem,PReMI,2023,347_paper
 PReMI|2023|multiobjectivenonoverlappingfrontgenerationapivotbaseddeterministicnondominatedsortingapproach,PReMI,2023,679_paper.pdf,Multi-objective Non-overlapping Front Generation: A Pivot-Based Deterministic Non-dominated Sorting Approach,1,1,P2023_PReMI_153,
 PReMI|2023|frontgenerationusingpivots,PReMI,2023,687_paper.pdf,Front Generation Using Pivots,5,1,P2023_PReMI_155,
 PReMI|2023|elephantswarmwatersearchalgorithmleswsaforsolvingconstrainedoptimizationproblemsalistbasedrandomizedapproach,PReMI,2023,692_paper.pdf,Elephant Swarm Water Search Algorithm (LESWSA) for Solving Constrained Optimization Problems: A List Based Randomized Approach,1,1,P2023_PReMI_156,
-PReMI|2023|untitled:375paperpdf,PReMI,2023,375_paper.pdf,Not Reported,1,1,P2023_PReMI_161,untitled
+PReMI|2023|375_paper.pdf|untitled,PReMI,2023,375_paper.pdf,Not Reported,1,1,P2023_PReMI_161,untitled
 PReMI|2023|agrammaticalevolutionbasedautomatedconfigurationofanensembledifferentialevolutionalgorithm,PReMI,2023,713_paper.pdf,A Grammatical Evolution Based Automated Configuration of an Ensemble Differential Evolution Algorithm,1,1,P2023_PReMI_162,
 PReMI|2023|scalablecentroidbasedfuzzyminmaxneuralnetwork,PReMI,2023,730_paper.pdf,Scalable Centroid Based Fuzzy Min-Max Neural Network,12,1,P2023_PReMI_167,
 PReMI|2023|heterogeneousstackedensembleframeworkforemgsignalclassification,PReMI,2023,829_paper.pdf,Heterogeneous Stacked Ensemble Framework for EMG Signal Classification,1,1,P2023_PReMI_174,
-PReMI|2023|untitled:467paperpdf,PReMI,2023,467_paper.pdf,Not Reported,2,1,P2023_PReMI_180,untitled
-PReMI|2023|untitled:473paperpdf,PReMI,2023,473_paper.pdf,Not Reported,2,1,P2023_PReMI_182,untitled
-PReMI|2023|untitled:476paperpdf,PReMI,2023,476_paper.pdf,Not Reported,1,1,P2023_PReMI_184,untitled
-PReMI|2023|untitled:477paperpdf,PReMI,2023,477_paper.pdf,Not Reported,1,1,P2023_PReMI_185,untitled
+PReMI|2023|467_paper.pdf|untitled,PReMI,2023,467_paper.pdf,Not Reported,2,1,P2023_PReMI_180,untitled
+PReMI|2023|473_paper.pdf|untitled,PReMI,2023,473_paper.pdf,Not Reported,2,1,P2023_PReMI_182,untitled
+PReMI|2023|476_paper.pdf|untitled,PReMI,2023,476_paper.pdf,Not Reported,1,1,P2023_PReMI_184,untitled
+PReMI|2023|477_paper.pdf|untitled,PReMI,2023,477_paper.pdf,Not Reported,1,1,P2023_PReMI_185,untitled
 PReMI|2023|identifyingapersoninmaskfusionofmaskedfaceandiris,PReMI,2023,969_paper.pdf,Identifying a Person in Mask: Fusion of Masked Face and Iris,1,1,P2023_PReMI_186,
 PReMI|2023|stochasticquasinewtonminimumcomplexitymachineforpatternclassification,PReMI,2023,620_paper.pdf,Stochastic Quasi-Newton Minimum Complexity Machine for Pattern Classification,5,1,P2023_PReMI_199,
 PReMI|2023|machinelearningapproachforidentificationofmirnamrna,PReMI,2023,572_paper.pdf,Machine Learning Approach for Identification of miRNA-mRNA,2,1,P2023_PReMI_230,
 PReMI|2023|incrementallearningofnonstationarytemporalcausalnetworks,PReMI,2023,644_paper.pdf,Incremental Learning of Non-stationary Temporal Causal Networks,1,1,P2023_PReMI_251,
-PReMI|2023|untitled:832paperpdf,PReMI,2023,832_paper.pdf,Not Reported,1,1,P2023_PReMI_316,untitled
+PReMI|2023|832_paper.pdf|untitled,PReMI,2023,832_paper.pdf,Not Reported,1,1,P2023_PReMI_316,untitled
 PReMI|2023|imagereattentionizingusingparticleswarmoptimization,PReMI,2023,048_paper.pdf,Image Re-attentionizing Using Particle Swarm Optimization,4,1,P2023_PReMI_317,
 PReMI|2023|automatedmeasurementoftranslationalmarginsandrotationalshifts,PReMI,2023,127_paper.pdf,Automated Measurement of Translational Margins and Rotational Shifts,1,1,P2023_PReMI_318,
 PReMI|2023|linearcurvefittingbasedheadlineestimationinhandwrittenwords,PReMI,2023,145_paper.pdf,Linear Curve Fitting-Based Headline Estimation in Handwritten Words,1,1,P2023_PReMI_319,
 PReMI|2023|maryrandomforest,PReMI,2023,200_paper.pdf,M-ary Random Forest,2,1,P2023_PReMI_320,
-PReMI|2023|untitled:213paperpdf,PReMI,2023,213_paper.pdf,Not Reported,1,1,P2023_PReMI_321,untitled
+PReMI|2023|213_paper.pdf|untitled,PReMI,2023,213_paper.pdf,Not Reported,1,1,P2023_PReMI_321,untitled
 PReMI|2023|fastconvergencetonearoptimalsolutionforjobshopschedulingusingcatswarmoptimization,PReMI,2023,353_paper.pdf,Fast Convergence to Near Optimal Solution for Job Shop Scheduling Using Cat Swarm Optimization,3,1,P2023_PReMI_322,
-PReMI|2023|untitled:355paperpdf,PReMI,2023,355_paper.pdf,Not Reported,1,1,P2023_PReMI_323,untitled
+PReMI|2023|355_paper.pdf|untitled,PReMI,2023,355_paper.pdf,Not Reported,1,1,P2023_PReMI_323,untitled
 PReMI|2023|fastconvergencetonearoptimalsolutionforjobshopscheduling,PReMI,2023,359_paper.pdf,Fast Convergence to Near Optimal Solution for Job Shop Scheduling,3,1,P2023_PReMI_324,
 PReMI|2023|asearchbasedoptimalreductcomputationinroughsettheory,PReMI,2023,388_paper.pdf,A* Search Based Optimal Reduct Computation in Rough Set Theory,1,1,P2023_PReMI_325,
-PReMI|2023|untitled:394paperpdf,PReMI,2023,394_paper.pdf,Not Reported,32,1,P2023_PReMI_326,untitled
+PReMI|2023|394_paper.pdf|untitled,PReMI,2023,394_paper.pdf,Not Reported,32,1,P2023_PReMI_326,untitled
 PReMI|2023|analyticalstudyandempiricalvalidationsontheimpact,PReMI,2023,395_paper.pdf,Analytical Study and Empirical Validations on the Impact,4,1,P2023_PReMI_327,
 PReMI|2023|imageregistrationusingsingleswarmpso,PReMI,2023,405_paper.pdf,Image Registration Using Single Swarm PSO,2,1,P2023_PReMI_328,
 PReMI|2023|enhancingeegbasedemotionrecognition,PReMI,2023,418_paper.pdf,Enhancing EEG-Based Emotion Recognition,1,1,P2023_PReMI_329,
-PReMI|2023|untitled:430paperpdf,PReMI,2023,430_paper.pdf,Not Reported,1,1,P2023_PReMI_330,untitled
+PReMI|2023|430_paper.pdf|untitled,PReMI,2023,430_paper.pdf,Not Reported,1,1,P2023_PReMI_330,untitled
 PReMI|2023|anempiricalanalysisofgeneticalgorithmwithdifferentmutation,PReMI,2023,431_paper.pdf,An Empirical Analysis of Genetic Algorithm with Different Mutation,6,1,P2023_PReMI_331,
 PReMI|2023|edgedetectioningrayscaleimagesusingpartialsumofsecondordertaylorseriesexpansion,PReMI,2023,018_paper.pdf,Edge Detection in Gray Scale Images Using Partial Sum of Second Order Taylor Series Expansion,1,1,P2023_PReMI_332,source_file_has_multiple_titles
 PReMI|2023|waveletresiduallearningforefficientfutureframepredictionfromnaturalvideosequences,PReMI,2023,018_paper.pdf,Wavelet Residual Learning for Efficient Future Frame Prediction from Natural Video Sequences,1,1,P2023_PReMI_333,source_file_has_multiple_titles
@@ -1473,23 +1473,23 @@ PReMI|2023|dsalgandenoisingbasedsaliencypredictionwithgenerativeadversarialnetwo
 PReMI|2023|legalcaseretrievalusingsvmclassifier,PReMI,2023,018_paper.pdf,Legal Case Retrieval Using SVM Classifier,1,1,P2023_PReMI_352,source_file_has_multiple_titles
 PReMI|2023|modelingtopicevolutiontosteerinteractiveinformationsearch,PReMI,2023,018_paper.pdf,Modeling Topic Evolution to Steer Interactive Information Search,1,1,P2023_PReMI_353,source_file_has_multiple_titles
 PReMI|2023|categorywisereliabilityawaresocialrecommendation,PReMI,2023,248_paper.pdf,Category-Wise Reliability-Aware Social Recommendation,1,1,P2023_PReMI_354,
-PReMI|2023|untitled:421paperpdf,PReMI,2023,421_paper.pdf,Not Reported,1,1,P2023_PReMI_355,untitled
+PReMI|2023|421_paper.pdf|untitled,PReMI,2023,421_paper.pdf,Not Reported,1,1,P2023_PReMI_355,untitled
 PReMI|2023|anefficientapproachforfindingsdocumentsimilarity,PReMI,2023,023_paper.pdf,An Efficient Approach for Findings Document Similarity,4,1,P2023_PReMI_356,
 PReMI|2023|searchtimeefficientdeviceconstraintsawareneuralarchitecturesearch,PReMI,2023,064_paper.pdf,Search-Time Efficient Device Constraints-Aware Neural Architecture Search,3,1,P2023_PReMI_357,
-PReMI|2023|untitled:069paperpdf,PReMI,2023,069_paper.pdf,Not Reported,1,1,P2023_PReMI_358,untitled
+PReMI|2023|069_paper.pdf|untitled,PReMI,2023,069_paper.pdf,Not Reported,1,1,P2023_PReMI_358,untitled
 PReMI|2023|gdelnumberbasedencodingtechniqueforeffectiveclustering,PReMI,2023,083_paper.pdf,Gödel Number Based Encoding Technique for Effective Clustering,8,1,P2023_PReMI_359,
 PReMI|2023|clusterbasedroiforfingerprints,PReMI,2023,1005_paper.pdf,Cluster Based ROI for Fingerprints,2,1,P2023_PReMI_360,
 PReMI|2023|encodeddeepvectorsforeukaryoticexonprediction,PReMI,2023,1013_paper.pdf,Encoded Deep Vectors for Eukaryotic Exon Prediction,1,1,P2023_PReMI_361,
-PReMI|2023|untitled:1023paperpdf,PReMI,2023,1023_paper.pdf,Not Reported,1,1,P2023_PReMI_362,untitled
+PReMI|2023|1023_paper.pdf|untitled,PReMI,2023,1023_paper.pdf,Not Reported,1,1,P2023_PReMI_362,untitled
 PReMI|2023|cclooperpredictingchromatinloopsthroughoutthegenome,PReMI,2023,1058_paper.pdf,ccLoopER: Predicting chromatin loops throughout the genome,1,1,P2023_PReMI_363,
 PReMI|2023|multicriteriadecisionmakingbasedclassifierensemble,PReMI,2023,133_paper.pdf,Multi-criteria Decision-Making Based Classifier Ensemble,1,1,P2023_PReMI_364,
 PReMI|2023|compressionoflstmmodels,PReMI,2023,181_paper.pdf,Compression of LSTM Models,1,1,P2023_PReMI_365,
-PReMI|2023|untitled:488paperpdf,PReMI,2023,488_paper.pdf,Not Reported,1,1,P2023_PReMI_366,untitled
+PReMI|2023|488_paper.pdf|untitled,PReMI,2023,488_paper.pdf,Not Reported,1,1,P2023_PReMI_366,untitled
 PReMI|2023|membershipadjustedsuperpixelbasedfuzzycmeans,PReMI,2023,739_paper.pdf,Membership Adjusted Superpixel Based Fuzzy C-Means,4,1,P2023_PReMI_367,
 PReMI|2024|novelsupportvectormachinealgorithmsforthediagnosisofalzheimersdisease,PReMI,2024,015_paper.pdf,Novel Support Vector Machine Algorithms for the Diagnosis of Alzheimer’s Disease,1,1,P2024_PReMI_006,
 PReMI|2024|asteadystategeneticalgorithmapproachforthemultipointrelaynodeselectionproblem,PReMI,2024,451_paper.pdf,A Steady-State Genetic Algorithm Approach for the Multi-Point Relay Node Selection Problem,1,1,P2024_PReMI_077,
 PReMI|2024|anaggregatedrankremovalheuristicforwrsp,PReMI,2024,471_paper.pdf,An Aggregated Rank Removal Heuristic for WRSP,5,1,P2024_PReMI_084,
 PReMI|2024|graphbasedrepresentationofthehumanvisualprocessingsystememployingneuralcombinatorialoptimization,PReMI,2024,284_paper.pdf,Graph-based representation of the human visual processing system employing Neural Combinatorial Optimization,1,1,P2024_PReMI_094,
 PReMI|2024|xtscintexplainabledecisiontreebasedscreeningofcognitiveimpairmentleveragingneuropsychologicaltestsframework,PReMI,2024,299_paper.pdf,XT-SCI-NT: Explainable Decision Tree-based Screening of Cognitive Impairment Leveraging Neuropsychological Tests Framework,1,1,P2024_PReMI_099,
-PReMI|2024|untitled:457paperpdf,PReMI,2024,457_paper.pdf,Not Reported,1,1,P2024_PReMI_125,untitled
+PReMI|2024|457_paper.pdf|untitled,PReMI,2024,457_paper.pdf,Not Reported,1,1,P2024_PReMI_125,untitled
 PReMI|2024|analysisofcausalinteractionsandpredictivemodellingoffinancialmarkets,PReMI,2024,839_paper.pdf,Analysis of Causal Interactions and Predictive Modelling of Financial Markets,1,1,P2024_PReMI_318,
