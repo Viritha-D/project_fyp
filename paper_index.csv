@@ -1196,11 +1196,11 @@ GECCO|2026|s3lraxnesstepsizeandshapeseparatedlearningrateadaptationforexponentia
 GECCO|2026|valueconsistencyprioritizationforacceleratingknowledgediscoveryinsparserewardanticipatoryclassifiersystems,GECCO,2026,Unold and Zemło - 2026 - Value Consistency Prioritization for Accelerating Knowledge Discovery in Sparse Reward Anticipatory.pdf,Value Consistency Prioritization for Accelerating Knowledge Discovery in Sparse Reward Anticipatory Classifier Systems,8,1,P2026_GECCO_154,
 GECCO|2026|dynamicdescriptormutationsimproveautomatedqualitydiversity,GECCO,2026,Van Der Bank and Nitschke - 2026 - Dynamic Descriptor Mutations Improve Automated Quality-Diversity.pdf,Dynamic Descriptor Mutations Improve Automated Quality-Diversity,6,1,P2026_GECCO_155,
 GECCO|2026|wavegacyclicalevolutionaryoptimizationforstreamingclassificationwithemerginglabels,GECCO,2026,Vassiliou et al. - 2026 - Wave-GA Cyclical Evolutionary Optimization for Streaming Classification with Emerging Labels.pdf,Wave-GA: Cyclical Evolutionary Optimization for Streaming Classification with Emerging Labels,13,1,P2026_GECCO_156,
-PPSN|2016|onlinemodelselectionforrestrictedcovariancematrixadaptation,PPSN,2016,PPSN_2016-compressed.pdf,Online Model Selection for Restricted Covariance Matrix Adaptation,22,1,P2016_PPSN_001,
-PPSN|2018|acomparativestudyoflargescalevariantsofcmaes,PPSN,2018,PPSN_2018.pdf,A Comparative Study of Large-Scale Variants of CMA-ES,15,1,P2018_PPSN_002,
-PPSN|2020|parallelproblemsolvingfromnatureppsnxvi,PPSN,2020,PPSN_2020-compressed.pdf,Parallel Problem Solving from Nature – PPSN XVI,14,1,P2020_PPSN_003,
-PPSN|2022|adaptivefunctionvaluewarpingforsurrogatemodelassistedevolutionaryoptimization,PPSN,2022,PPSN_2022-compressed.pdf,Adaptive Function Value Warping for Surrogate Model Assisted Evolutionary Optimization,28,1,P2022_PPSN_004,
-PPSN|2024|parallelproblemsolvingfromnatureppsnxviii,PPSN,2024,PPSN_24.pdf,Parallel Problem Solving from Nature – PPSN XVIII,13,1,P2024_PPSN_005,
+PPSN|2016|onlinemodelselectionforrestrictedcovariancematrixadaptation,PPSN,2016,PPSN_2016-compressed.pdf,Online Model Selection for Restricted Covariance Matrix Adaptation,22,1,P2016_PPSN_001,mixed_context
+PPSN|2018|acomparativestudyoflargescalevariantsofcmaes,PPSN,2018,PPSN_2018.pdf,A Comparative Study of Large-Scale Variants of CMA-ES,15,1,P2018_PPSN_002,mixed_context
+PPSN|2020|parallelproblemsolvingfromnatureppsnxvi,PPSN,2020,PPSN_2020-compressed.pdf,Parallel Problem Solving from Nature – PPSN XVI,14,1,P2020_PPSN_003,whole_proceedings_suspect
+PPSN|2022|adaptivefunctionvaluewarpingforsurrogatemodelassistedevolutionaryoptimization,PPSN,2022,PPSN_2022-compressed.pdf,Adaptive Function Value Warping for Surrogate Model Assisted Evolutionary Optimization,28,1,P2022_PPSN_004,mixed_context
+PPSN|2024|parallelproblemsolvingfromnatureppsnxviii,PPSN,2024,PPSN_24.pdf,Parallel Problem Solving from Nature – PPSN XVIII,13,1,P2024_PPSN_005,whole_proceedings_suspect
 PReMI|2000|awprzybyszewskietal,PReMI,2000,330_paper.pdf,A.W. Przybyszewski et al.,1,1,P2000_PReMI_145,
 PReMI|2004|anevolutionaryapproachtomprselectioninmanet,PReMI,2004,459_paper.pdf,An Evolutionary Approach to MPR Selection in MANET,3,1,P2004_PReMI_079,
 PReMI|2006|amethodforsemanticrelatednessbasedquery,PReMI,2006,502_paper.pdf,A Method for Semantic Relatedness Based Query,1,1,P2006_PReMI_211,

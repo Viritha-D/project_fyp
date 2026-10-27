@@ -39,6 +39,7 @@ EXPECTED_COLS = ['Conference', 'Paper_ID', 'Original_Paper_ID', 'Category', 'Eva
 REPEAT_KEY = ['Paper_Title', 'Benchmark_Name', 'Algorithm_Name', 'Evaluation_Dataset']
 NOT_REPORTED = 'not reported'
 MISSING_TITLES = {'', 'not reported', 'unknown', 'n/a', 'na', 'none', 'nan'}
+PROCEEDINGS_TITLE = 'parallelproblemsolvingfromnature'   # normalised PPSN proceedings name
 
 
 def norm(s):
@@ -101,6 +102,12 @@ def main():
             flags.append('title_under_multiple_source_files')
         if any((first['_cy'], norm(f)) in multi_title_files for f in files):
             flags.append('source_file_has_multiple_titles')
+        if first['Conference'] == 'PPSN':
+            # the title is the proceedings name, or the file mixes several Problem_Contexts
+            if first['_nt'].startswith(PROCEEDINGS_TITLE):
+                flags.append('whole_proceedings_suspect')
+            elif g['Problem_Context'].nunique() > 1:
+                flags.append('mixed_context')
         rows.append(dict(paper_key=key, Conference=first['Conference'], Year=first['Year'],
                          Source_Files=';'.join(files), title=first['Paper_Title'], n_rows=len(g),
                          n_source_files=len(files), paper_id_roots=';'.join(dict.fromkeys(g['Paper_ID'].map(root_id))),
