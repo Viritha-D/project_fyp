@@ -1,0 +1,102 @@
+Total same-category pairs above similarity 0.95: 2645
+  flagged as likely legitimate numbered variants (DTLZ1 vs DTLZ2-style): 1246
+  flagged as likely legitimate named-instance variants (...on Mylyn vs ...on Eclipse-style): 350
+  remaining after those two filters: 1241
+    -> true merge candidates (name_word_overlap >= 0.6): 358
+    -> description-underspecified, needs enrichment not merging (identical description, name_word_overlap < 0.4): 0 pairs, 0 distinct entities
+
+Full report saved to entity_dedup_candidates.csv
+
+=== TRUE MERGE CANDIDATES (near-synonym names, review before merging) ===
+  sim=0.959  overlap=1.00  [Pure Math]  E01223 "Sharp Ridge (BBOB F13)" (1p)  <->  E02818 "BBOB F13 (Sharp Ridge)" (1p)
+  sim=0.979  overlap=0.91  [Applied]  E00165 "Temperature Parameter Optimization for T-RBM (MNIST, 128 hidden units)" (1p)  <->  E00171 "Temperature Parameter Optimization for T-RBM (Kuzushiji-MNIST, 128 hidden units)" (1p)
+  sim=0.979  overlap=0.91  [Applied]  E00167 "Temperature Parameter Optimization for T-RBM (MNIST, 512 hidden units)" (1p)  <->  E00173 "Temperature Parameter Optimization for T-RBM (Kuzushiji-MNIST, 512 hidden units)" (1p)
+  sim=0.976  overlap=0.91  [Applied]  E00166 "Temperature Parameter Optimization for T-RBM (MNIST, 256 hidden units)" (1p)  <->  E00172 "Temperature Parameter Optimization for T-RBM (Kuzushiji-MNIST, 256 hidden units)" (1p)
+  sim=0.955  overlap=0.88  [Pure Math]  E00871 "Chance-Constrained Knapsack Problem (Instance 4: Dual profit and weight classes, pi in {1+eps, 2})" (1p)  <->  E00872 "Chance-Constrained Knapsack Problem (Instance 5: Dual profit and weight classes, pi in {1, 2+eps})" (1p)
+  sim=1.000  overlap=0.88  [Applied]  E01878 "Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse PDE UI" (1p)  <->  E01883 "Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse PDE UI" (1p)
+  sim=1.000  overlap=0.88  [Applied]  E01874 "Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse JDT Core" (1p)  <->  E01879 "Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse JDT Core" (1p)
+  sim=0.993  overlap=0.88  [Applied]  E01941 "Emergency Medical Dispatch (EMD) on EGL Graph" (1p)  <->  E01942 "Emergency Medical Dispatch (EMD) on EGL-G Graph" (1p)
+  sim=1.000  overlap=0.86  [Applied]  E01877 "Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Mylyn" (1p)  <->  E01882 "Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Mylyn" (1p)
+  sim=1.000  overlap=0.86  [Applied]  E01876 "Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Lucene" (1p)  <->  E01881 "Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Lucene" (1p)
+  sim=1.000  overlap=0.86  [Applied]  E01875 "Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Equinox" (1p)  <->  E01880 "Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Equinox" (1p)
+  sim=0.956  overlap=0.86  [Pure Math]  E00839 "DTLZ1 with a Constraint on f3" (1p)  <->  E00840 "Inverted DTLZ1 with a Constraint on f3" (1p)
+  sim=1.000  overlap=0.83  [Applied]  E00097 "Ordered Clustered Traveling Salesman Problem (OCTSP) - bayg29 instance (9,9,10 clusters)" (1p)  <->  E00099 "Ordered Clustered Traveling Salesman Problem (OCTSP) - bays29 instance (9,9,10 clusters)" (1p)
+  sim=1.000  overlap=0.83  [Applied]  E00111 "Ordered Clustered Traveling Salesman Problem (OCTSP) - dantzig42 instance (10,10,10,11 clusters)" (1p)  <->  E00114 "Ordered Clustered Traveling Salesman Problem (OCTSP) - swiss42 instance (10,10,10,11 clusters)" (1p)
+  sim=1.000  overlap=0.83  [Applied]  E00110 "Ordered Clustered Traveling Salesman Problem (OCTSP) - dantzig42 instance (13,14,14 clusters)" (1p)  <->  E00113 "Ordered Clustered Traveling Salesman Problem (OCTSP) - swiss42 instance (13,14,14 clusters)" (1p)
+  sim=1.000  overlap=0.83  [Applied]  E00109 "Ordered Clustered Traveling Salesman Problem (OCTSP) - dantzig42 instance (20,21 clusters)" (1p)  <->  E00112 "Ordered Clustered Traveling Salesman Problem (OCTSP) - swiss42 instance (20,21 clusters)" (1p)
+  sim=0.960  overlap=0.83  [Pure Math]  E02327 "Simplex Pareto Front (Archiving Task)" (1p)  <->  E02328 "Inverted Simplex Pareto Front (Archiving Task)" (1p)
+  sim=0.979  overlap=0.82  [Pure Math]  E00870 "Chance-Constrained Knapsack Problem (Instance 3: Dual profit and weight classes, pi in {1, 2})" (1p)  <->  E00872 "Chance-Constrained Knapsack Problem (Instance 5: Dual profit and weight classes, pi in {1, 2+eps})" (1p)
+  sim=1.000  overlap=0.82  [Applied]  E00096 "Ordered Clustered Traveling Salesman Problem (OCTSP) - bayg29 instance (14,14 clusters)" (1p)  <->  E00098 "Ordered Clustered Traveling Salesman Problem (OCTSP) - bays29 instance (14,14 clusters)" (1p)
+  sim=0.982  overlap=0.82  [Applied]  E01389 "UAV-based ad-hoc wireless mesh network deployment (Two-hop)" (1p)  <->  E01390 "UAV-based ad-hoc wireless mesh network deployment (One-hop)" (1p)
+  sim=0.971  overlap=0.80  [Applied]  E01033 "NGAFID Engine Parameter Prediction" (1p)  <->  E01034 "NGAFID Non-Engine Parameter Prediction" (1p)
+  sim=1.000  overlap=0.78  [Applied]  E00090 "Ordered Clustered Traveling Salesman Problem (OCTSP) - burma14 instance" (1p)  <->  E00104 "Ordered Clustered Traveling Salesman Problem (OCTSP) - berlin52 instance" (1p)
+  sim=1.000  overlap=0.78  [Applied]  E00090 "Ordered Clustered Traveling Salesman Problem (OCTSP) - burma14 instance" (1p)  <->  E00105 "Ordered Clustered Traveling Salesman Problem (OCTSP) - st70 instance" (1p)
+  sim=1.000  overlap=0.78  [Applied]  E00090 "Ordered Clustered Traveling Salesman Problem (OCTSP) - burma14 instance" (1p)  <->  E00106 "Ordered Clustered Traveling Salesman Problem (OCTSP) - eil76 instance" (1p)
+  sim=1.000  overlap=0.78  [Applied]  E00090 "Ordered Clustered Traveling Salesman Problem (OCTSP) - burma14 instance" (1p)  <->  E00107 "Ordered Clustered Traveling Salesman Problem (OCTSP) - rat99 instance" (1p)
+  sim=1.000  overlap=0.78  [Applied]  E00090 "Ordered Clustered Traveling Salesman Problem (OCTSP) - burma14 instance" (1p)  <->  E00108 "Ordered Clustered Traveling Salesman Problem (OCTSP) - kroA100 instance" (1p)
+  sim=1.000  overlap=0.78  [Applied]  E00090 "Ordered Clustered Traveling Salesman Problem (OCTSP) - burma14 instance" (1p)  <->  E00093 "Ordered Clustered Traveling Salesman Problem (OCTSP) - gr21 instance" (1p)
+  sim=1.000  overlap=0.78  [Applied]  E00090 "Ordered Clustered Traveling Salesman Problem (OCTSP) - burma14 instance" (1p)  <->  E00094 "Ordered Clustered Traveling Salesman Problem (OCTSP) - ulysses22 instance" (1p)
+  sim=1.000  overlap=0.78  [Applied]  E00090 "Ordered Clustered Traveling Salesman Problem (OCTSP) - burma14 instance" (1p)  <->  E00095 "Ordered Clustered Traveling Salesman Problem (OCTSP) - fri26 instance" (1p)
+  sim=1.000  overlap=0.78  [Applied]  E00090 "Ordered Clustered Traveling Salesman Problem (OCTSP) - burma14 instance" (1p)  <->  E00091 "Ordered Clustered Traveling Salesman Problem (OCTSP) - ulysses16 instance" (1p)
+
+=== DESCRIPTION-UNDERSPECIFIED entities (need richer base_description, not merging) ===
+
+Total true-merge-candidate pairs: 358
+Isolated 1:1 pairs (deg=1 both sides -- highest-confidence candidates): 33
+
+=== Isolated pairs (max_deg == 1) ===
+  sim=1.000  overlap=0.71  [Applied]  E00569 "Traceability recovery between NVD and ExploitDB"  <->  E00570 "Traceability recovery between NVD and Openwall"
+  sim=1.000  overlap=0.64  [Applied]  E00520 "Power structure optimization model for carbon peak (Scenario 1: High imported power)"  <->  E00521 "Power structure optimization model for carbon peak (Scenario 2: High nuclear capacity)"
+  sim=1.000  overlap=0.60  [Applied]  E00555 "ECU Fingerprinting Classification (M1 - Step Response Features)"  <->  E00556 "ECU Fingerprinting Classification (M2 - Step Response + Spectral Analysis Features)"
+  sim=1.000  overlap=0.67  [Applied]  E02930 "Matrix Factorization (MMMF/PMF) with K-means clustering"  <->  E02931 "Matrix Factorization (MMMF/PMF) with Spectral clustering"
+  sim=0.993  overlap=0.88  [Applied]  E01941 "Emergency Medical Dispatch (EMD) on EGL Graph"  <->  E01942 "Emergency Medical Dispatch (EMD) on EGL-G Graph"
+  sim=0.992  overlap=0.60  [Applied]  E00746 "Restricted Container Relocation Problem"  <->  E00747 "Unrestricted Container Relocation Problem"
+  sim=0.991  overlap=0.78  [Pure Math]  E00455 "Hinton & Nowlan needle-in-a-haystack (fixed-length)"  <->  E00456 "Hinton & Nowlan needle-in-a-haystack (variable-length)"
+  sim=0.991  overlap=0.60  [Applied]  E00007 "Red Wine Quality Prediction"  <->  E00008 "White Wine Quality Prediction"
+  sim=0.982  overlap=0.82  [Applied]  E01389 "UAV-based ad-hoc wireless mesh network deployment (Two-hop)"  <->  E01390 "UAV-based ad-hoc wireless mesh network deployment (One-hop)"
+  sim=0.980  overlap=0.71  [Applied]  E02590 "Movable-Antenna-and-RIS-aided System Optimization (Task 0: Sum-Rate Maximization)"  <->  E02591 "Movable-Antenna-and-RIS-aided System Optimization (Task 1: Min-Rate Maximization)"
+  sim=0.975  overlap=0.78  [Applied]  E00989 "ADS Path Planner Collision Avoidance (Two-Stage Approach)"  <->  E00990 "ADS Path Planner Collision Avoidance (Single-Stage Approach)"
+  sim=0.973  overlap=0.75  [Applied]  E01968 "Single NAND gate design in granular metamaterial"  <->  E01969 "Polycomputational NAND gate design in granular metamaterial"
+  sim=0.972  overlap=0.70  [Pure Math]  E02208 "Symmetric Triangle Function (n=16, m=1, s=4)"  <->  E02209 "Triangle Function (n=16, m=1, s=8)"
+  sim=0.971  overlap=0.80  [Applied]  E01033 "NGAFID Engine Parameter Prediction"  <->  E01034 "NGAFID Non-Engine Parameter Prediction"
+  sim=0.970  overlap=0.67  [Applied]  E01149 "Perth wave scenario (49-buoy)"  <->  E01151 "Sydney wave scenario (49-buoy)"
+  sim=0.968  overlap=0.67  [Applied]  E01945 "Single-Sensor Robot Swarm Model"  <->  E01946 "Two-Sensor Robot Swarm Model"
+  sim=0.968  overlap=0.67  [Applied]  E01150 "Perth wave scenario (100-buoy)"  <->  E01152 "Sydney wave scenario (100-buoy)"
+  sim=0.968  overlap=0.67  [Applied]  E00004 "Energy Efficiency (Cooling Load) Prediction"  <->  E00005 "Energy Efficiency (Heating Load) Prediction"
+  sim=0.966  overlap=0.67  [Applied]  E01966 "Three-Beams"  <->  E01967 "Three-Beams + Structure"
+  sim=0.964  overlap=0.67  [Applied]  E01964 "Two-Beams"  <->  E01965 "Two-Beams + Structure"
+  sim=0.964  overlap=0.60  [Applied]  E02471 "Travelling Thief Problem (TTP)"  <->  E02875 "Traveling Thief Problem (TTP)"
+  sim=0.963  overlap=0.60  [Applied]  E02955 "Scene Multi-label Classification"  <->  E02956 "Image Multi-label Classification"
+  sim=0.963  overlap=0.71  [Applied]  E01782 "Three-option collective perceptual discrimination task"  <->  E01783 "Two-option collective perceptual discrimination task"
+  sim=0.962  overlap=0.78  [Applied]  E02699 "Exact-match text-to-image retrieval on MIMIC"  <->  E02701 "Class-match text-to-image retrieval on MIMIC"
+  sim=0.961  overlap=0.71  [Applied]  E02353 "Multi-Skill Resource-Constrained Project Scheduling Problem (MS-RCPSP) - iMOPSE d36 instances"  <->  E02354 "Multi-Skill Resource-Constrained Project Scheduling Problem (MS-RCPSP) - Large-scale instances"
+  sim=0.961  overlap=0.71  [Pure Math]  E01861 "NCA Morphogenesis (Square Target Shape)"  <->  E01862 "NCA Morphogenesis (Up-scaled Square Target Shape)"
+  sim=0.960  overlap=0.83  [Pure Math]  E02327 "Simplex Pareto Front (Archiving Task)"  <->  E02328 "Inverted Simplex Pareto Front (Archiving Task)"
+  sim=0.959  overlap=1.00  [Pure Math]  E01223 "Sharp Ridge (BBOB F13)"  <->  E02818 "BBOB F13 (Sharp Ridge)"
+  sim=0.958  overlap=0.60  [Applied]  E00475 "Vehicle aerodynamic drag optimization"  <->  E00476 "Vehicle aerodynamic lift optimization"
+  sim=0.956  overlap=0.86  [Pure Math]  E00839 "DTLZ1 with a Constraint on f3"  <->  E00840 "Inverted DTLZ1 with a Constraint on f3"
+  sim=0.955  overlap=0.75  [Pure Math]  E02743 "CPLEX-CORLAT-REG"  <->  E02745 "CPLEX-CORLAT-REG-RCW"
+  sim=0.952  overlap=0.78  [Applied]  E02698 "Exact-match text-to-image retrieval on ENTRep"  <->  E02700 "Class-match text-to-image retrieval on ENTRep"
+  sim=0.952  overlap=0.77  [Pure Math]  E02210 "2-range Asymmetric Triangle Function (n=16, m=(2,1), s=(2,4))"  <->  E02212 "2-range Asymmetric Incomplete Triangle Function (n=14, m=(2,1), s=(2,4))"
+
+=== Low-degree pairs (max_deg in 2-3, still worth a look) ===
+  sim=1.000  overlap=0.67  deg=2  [Applied]  E01136 "Voxel-based Soft Robot Locomotion (Non-sensing Controller)"  <->  E01138 "Voxel-based Soft Robot Locomotion (Distributed Controller)"
+  sim=1.000  overlap=0.67  deg=2  [Applied]  E01136 "Voxel-based Soft Robot Locomotion (Non-sensing Controller)"  <->  E01137 "Voxel-based Soft Robot Locomotion (Centralized Controller)"
+  sim=1.000  overlap=0.60  deg=2  [Applied]  E03034 "Flickr8k Image Captioning Evaluation"  <->  E03036 "MSCOCO Image Captioning Evaluation"
+  sim=1.000  overlap=0.60  deg=2  [Applied]  E03035 "Flickr30k Image Captioning Evaluation"  <->  E03036 "MSCOCO Image Captioning Evaluation"
+  sim=0.992  overlap=0.67  deg=2  [Applied]  E02136 "Latitude Correction (Ensemble Weight Optimization)"  <->  E02137 "Longitude Correction (Ensemble Weight Optimization)"
+  sim=0.990  overlap=0.60  deg=2  [Applied]  E02132 "Latitude Correction (Feature Selection)"  <->  E02133 "Longitude Correction (Feature Selection)"
+  sim=0.988  overlap=0.67  deg=2  [Applied]  E02134 "Latitude Prediction (Ensemble Weight Optimization)"  <->  E02135 "Longitude Prediction (Ensemble Weight Optimization)"
+  sim=0.987  overlap=0.71  deg=2  [Pure Math]  E01238 "Multi-Objective Minimum Spanning Tree on Triangular-tailed graph G1^m"  <->  E01240 "Multi-Objective Minimum Spanning Tree on Triangular-tailed graphs G1^m and G2^m"
+  sim=0.987  overlap=0.71  deg=2  [Pure Math]  E01239 "Multi-Objective Minimum Spanning Tree on Triangular-tailed graph G2^m"  <->  E01240 "Multi-Objective Minimum Spanning Tree on Triangular-tailed graphs G1^m and G2^m"
+  sim=0.986  overlap=0.64  deg=2  [Pure Math]  E01234 "Minimum Spanning Tree on Triangular-tailed graphs G1 and G2"  <->  E01236 "Minimum Spanning Tree on Triangular-tailed graph G2"
+  sim=0.984  overlap=0.60  deg=2  [Applied]  E02130 "Latitude Prediction (Feature Selection)"  <->  E02131 "Longitude Prediction (Feature Selection)"
+  sim=0.982  overlap=0.64  deg=2  [Pure Math]  E01234 "Minimum Spanning Tree on Triangular-tailed graphs G1 and G2"  <->  E01235 "Minimum Spanning Tree on Triangular-tailed graph G1"
+  sim=0.981  overlap=0.67  deg=2  [Applied]  E02134 "Latitude Prediction (Ensemble Weight Optimization)"  <->  E02136 "Latitude Correction (Ensemble Weight Optimization)"
+  sim=0.980  overlap=0.60  deg=2  [Applied]  E02130 "Latitude Prediction (Feature Selection)"  <->  E02132 "Latitude Correction (Feature Selection)"
+  sim=0.979  overlap=0.67  deg=2  [Applied]  E02135 "Longitude Prediction (Ensemble Weight Optimization)"  <->  E02137 "Longitude Correction (Ensemble Weight Optimization)"
+  sim=0.979  overlap=0.82  deg=2  [Pure Math]  E00870 "Chance-Constrained Knapsack Problem (Instance 3: Dual profit and weight classes, pi in {1, 2})"  <->  E00872 "Chance-Constrained Knapsack Problem (Instance 5: Dual profit and weight classes, pi in {1, 2+eps})"
+  sim=0.976  overlap=0.60  deg=2  [Applied]  E02131 "Longitude Prediction (Feature Selection)"  <->  E02133 "Longitude Correction (Feature Selection)"
+  sim=0.970  overlap=0.67  deg=2  [Applied]  E00142 "UAV Network Deployment - Scenario S2 User Distribution (Two Clusters)"  <->  E00147 "UAV Network Deployment - Scenario S7 User Distribution (Two Clusters, different distributions)"
+  sim=0.963  overlap=0.73  deg=2  [Pure Math]  E01133 "uMTR Case 3 (f1 and f2 with no bias)"  <->  E01134 "uMTR Case 4 (f1, f2, and f3 with no bias)"
+  sim=0.955  overlap=0.88  deg=2  [Pure Math]  E00871 "Chance-Constrained Knapsack Problem (Instance 4: Dual profit and weight classes, pi in {1+eps, 2})"  <->  E00872 "Chance-Constrained Knapsack Problem (Instance 5: Dual profit and weight classes, pi in {1, 2+eps})"
