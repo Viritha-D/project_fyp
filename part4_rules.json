@@ -1,0 +1,95 @@
+{
+  "_about": "Part 4 entity-resolution rules, reconstructed from part4_methodology.md and checked against part4_answer_key_map.csv (the original Part 4 output, 4,256 rows, 1,038 entities). Used by part4_entities.py. Regexes are Python, applied case-insensitively.",
+  "1_name_key": {
+    "description": "Lowercase Benchmark_Name, split into runs of letters/digits, drop the filler words, join with no separator.",
+    "token_regex": "[a-z0-9]+",
+    "filler_words": [
+      "function",
+      "functions",
+      "suite",
+      "benchmark",
+      "test",
+      "the",
+      "set",
+      "ieee"
+    ]
+  },
+  "2_cec_year_key": {
+    "description": "Any 'CEC <year>' phrasing, either word order, collapses the whole name to cec_<year>. Only whitespace or a hyphen may separate CEC and the year (CEC'2013 and CEC'13 are NOT matched, as in the original). Different years stay distinct.",
+    "regex": "cec[\\s\\-]*(\\d{4})|(\\d{4})[\\s\\-]*cec",
+    "key_template": "cec_{year}"
+  },
+  "3_blocking": {
+    "description": "Rows sharing (Category, name_key) form one base entity. Base entity ids are assigned in order of first appearance.",
+    "never_a_key": [
+      "not reported",
+      "custom simulated data"
+    ],
+    "never_a_key_fallback": "A Benchmark_Name in never_a_key is not used as a grouping key; such a row gets its own entity per paper (key 'unkeyed:<Paper_ID root>', resolution_method 'no_benchmark_name'). New for v2; the original data had no such rows."
+  },
+  "4_acronym_merge": {
+    "description": "Within one Category, a name ending in a parenthesised acronym whose letters are the initials of the preceding words is merged with the same name without the acronym. The side with more rows keeps its entity id (ties: the earlier id); the absorbed rows get resolution_method 'name_key+acronym_merge'.",
+    "trailing_acronym_regex": "^(.*?)\\s*\\(([A-Za-z]{2,})\\)\\s*$",
+    "initials_word_regex": "[A-Za-z][A-Za-z0-9]*"
+  },
+  "5_text_hash_dedupe": {
+    "description": "part4a: rows are deduplicated by sha256(matching_text) for description building; this does not change the grouping (blocking works per row). Reported as a count only."
+  },
+  "6_suite_child_split": {
+    "description": "Only inside cec_<year> groups (the only keys that merge different names). Names containing a range are suite-level and stay in the suite (range-exclusion fix). A name with exactly one function number becomes a single_function child keyed by that number. A name listing two or more function numbers (no range) becomes a named_subset. A CEC transformation configuration (Bias/Shift/Rotation with a 3-digit code) becomes a named_subset keyed by its code. The parent keeps entity_type 'suite' only if it has children; children are numbered after the base ids, groups in descending row count, children by first appearance.",
+    "range_regex": "\\bf\\s*\\d+\\s*[-\\u2013]\\s*f?\\s*\\d+",
+    "function_number_regex": "\\bf\\s*0*(\\d+)\\b",
+    "transformation_config_regex": "\\b(bias|shift|rotation)\\b.*\\((\\d{3})\\)",
+    "series_split_flag": "--series-split (off for the fidelity run, on for v2)",
+    "series_split_function_number_regex": "\\bg\\s*0*(\\d+)\\b",
+    "series_split_series": {
+      "description": "MSTSP<n> and RWMOP<n> are already one entity per number under the base rules (their names differ). With --series-split they are tagged with a series_key so they can be read as one series; no rows are regrouped and no empty parent entity is created.",
+      "series_regex": "^(mstsp|rwmop)\\s*0*(\\d+)$"
+    }
+  },
+  "7_digit_guard": {
+    "description": "Report-only. Inside one final entity, two DISTINCT single-function names (each carrying exactly one series identifier, same letter prefix, different number, no range) would be a digit merge (DTLZ1 vs DTLZ2, G2 vs G4). Ranges folding into their suite and spelling variants of one function (F01 vs F1: same number) are not reported. Every case goes to digit_merge_report.csv.",
+    "identifier_regex": "\\b([a-z]+)\\s?0*(\\d+)\\b",
+    "ignore_before_matching": [
+      "cec[\\s\\-']*\\d{2,4}",
+      "\\b\\d{4}\\b"
+    ]
+  },
+  "8_post_part4_repairs": {
+    "description": "Repairs applied after Part 4 in the old pipeline (all in one initial commit, so git history gives no order; the order below follows the scripts' docstrings: Part 5 build -> enrichment (part7_apply_enrichment.py) -> entity_dedup_audit.py -> find_true_duplicates.py -> merge_tsp_duplicates.py -> fix_underspecified_entities.py). On v2 they are applied by rule, not by old entity id.",
+    "spelling_variant_merges": {
+      "script": "merge_tsp_duplicates.py",
+      "description": "Within one Category, the entity holding the absorbed name_key is merged into the entity holding the target name_key. Old pipeline: done on entity records after Part 5 (the target kept its description); v2: done on the map before Part 5, so the description covers every member.",
+      "pairs": [
+        {
+          "category": "Pure Math",
+          "absorbed_name_key": "travelingsalespersonproblem",
+          "target_name_key": "travelingsalesmanproblem",
+          "old_ids": [
+            "E00822",
+            "E00435"
+          ]
+        },
+        {
+          "category": "Applied",
+          "absorbed_name_key": "travelingsalespersonproblemfoga2019",
+          "target_name_key": "travelingsalesmanproblemtsp",
+          "old_ids": [
+            "E00857",
+            "E00376"
+          ]
+        }
+      ]
+    },
+    "underspecified_descriptions": {
+      "script": "fix_underspecified_entities.py (ids found by entity_dedup_audit.py)",
+      "description": "Same Category, identical base_description, not a parent/child pair, not a numbered variant (names equal after digit stripping) or named-instance variant (names equal after stripping a trailing ' on/for/-/(' clause), and name word Jaccard < 0.4 -> prepend canonical_name to base_description. On the old data this selects exactly the 7 hard-coded ids."
+    },
+    "extraction_artifacts": {
+      "description": "Old pipeline dropped E00599 (Benchmark_Name 'Evolutionary Algorithm', 1 row) from problem_entities.json but kept it in the map. v2 keeps every row in an entity and flags such an entity 'extraction_artifact_suspect' instead of dropping it.",
+      "benchmark_names": [
+        "Evolutionary Algorithm"
+      ]
+    }
+  }
+}
