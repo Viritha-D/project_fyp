@@ -53,7 +53,10 @@ files; no original master value is ever edited.
   titles match the same proceedings paper (pp. 37-45, Dey, Jenamani, De).
 - Proposed merges (none applied): Fast Convergence pair, Document Similarity pair, Front
   Generation pair and the 3 other-year copies above, i.e. 6 merges: 1,494 papers would
-  become **1,488**. Decisions go in the `my_decision` column of `premi2023_review.csv`.
+  become **1,488**. **Approved and applied** (2026-10-28) to `paper_index.csv` only, by
+  `v2_apply_paper_decisions.py`: 1,488 papers; absorbed keys are listed in `merged_keys`.
+- `paper_index.csv` flags `year_unverified` on the 84 paper_keys (85 titles, one absorbed
+  by a merge) of titled PReMI 2023 papers not found in the proceedings; no Year is changed.
 - The PReMI extraction scripts (said to be in a zip) are not in any branch or commit.
 
 ## PPSN caveat
@@ -73,7 +76,8 @@ files; no original master value is ever edited.
   the extractions of all 200-page parts under the first part's metadata. So the title and
   authors on every PPSN row describe the whole PDF, not the paper the row came from. The
   PPSN PDFs are not in the repository, so the paper behind each row cannot be checked.
-- No titles are invented and no file is split.
+- No titles are invented and no file is split. Each PPSN file counts as one paper and is
+  flagged `ppsn_partial` in `paper_index.csv`.
 
 ## Repeated rows
 
