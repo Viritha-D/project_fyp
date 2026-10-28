@@ -28,13 +28,33 @@ files; no original master value is ever edited.
     one paper_key per title is kept.
   - `289_paper.pdf`: 2 different titles by the same author ("M. Das") with different
     Problem_Contexts. Classified "unclear".
-- Across files, 3 title pairs where one title extends the other were found; 1 is proposed
-  as "same paper, title variants" (`353_paper.pdf` / `359_paper.pdf`, "Fast Convergence to
-  Near Optimal Solution for Job Shop Scheduling ...", same authors and Problem_Context),
-  2 are "unclear". Note that this pair's Problem_Context (DC-DC buck converter design)
-  does not match its title.
-- Nothing is merged yet. Decisions go in the `my_decision` column of
-  `premi2023_review.csv`. If the one proposed merge is accepted the count becomes 1,493.
+- Across files, 3 title pairs where one title extends the other were found. 2 are
+  proposed as "same paper, title variants": `353_paper.pdf` / `359_paper.pdf` ("Fast
+  Convergence to Near Optimal Solution for Job Shop Scheduling ...", same authors and
+  Problem_Context, though that context, DC-DC buck converter design, does not match the
+  title, and neither copy is in the 2023 proceedings), and the Document Similarity pair
+  below. The EEG pair (different authors and contexts) stays "unclear".
+- **Checked against the real proceedings.** `2023-fyp.pdf` (Git LFS, on `main`) is the
+  PReMI 2023 proceedings, Springer LNCS 14301, 892 pages, 91 papers
+  (`premi2023_proceedings_toc.csv`, built by `v2_partD_premi2023_proceedings.py` from the
+  PDF bookmarks, first-page author lines and running heads). Of the 107 titled
+  "PReMI 2023" papers in the master only **22** are in it: 12 by exact title and 10 by the
+  paper's running head (the short title printed on its pages). The other **85** titles do
+  not occur anywhere in the volume's text. 56 of the 57 titles in `018_paper.pdf` are not
+  2023 papers. So most rows labelled PReMI 2023 come from other PReMI volumes, and their
+  Year is not reliable. Per-paper results: `premi2023_proceedings_check.csv`.
+- 7 PReMI papers labelled 2020, 2021 or 2022 are in the 2023 proceedings with a shared
+  author; 3 of them are short-title copies of a 2023 paper_key ("Identifying a Person in
+  Mask", "Elephant Swarm Water Search Algorithm (LESWSA)", "A GE Based Automated
+  Configuration of an Ensemble DE Algorithm").
+- One proceedings paper appears twice in 2023 under its full title and its running head:
+  `679_paper.pdf` / `687_paper.pdf` ("Front Generation Using Pivots", Mandal and Dutta).
+- The "Document Similarity" pair (`018_paper.pdf` / `023_paper.pdf`) is one paper: both
+  titles match the same proceedings paper (pp. 37-45, Dey, Jenamani, De).
+- Proposed merges (none applied): Fast Convergence pair, Document Similarity pair, Front
+  Generation pair and the 3 other-year copies above, i.e. 6 merges: 1,494 papers would
+  become **1,488**. Decisions go in the `my_decision` column of `premi2023_review.csv`.
+- The PReMI extraction scripts (said to be in a zip) are not in any branch or commit.
 
 ## PPSN caveat
 
@@ -47,8 +67,12 @@ files; no original master value is ever edited.
 - ESTIMATE (distinct Problem_Context per file, a heuristic only): 22 underlying papers in
   the 5 files (5 + 7 + 4 + 3 + 3). See `ppsn_review.csv`.
 - Origin: the same 5 files were already in the first commit of the old master (90 rows;
-  90 of the 92 v2 rows match them, PPSN_2018 grew from 13 to 15 rows). No raw PPSN PDF or
-  CSV, extraction script or notebook exists in any branch or commit of this repository.
+  90 of the 92 v2 rows match them, PPSN_2018 grew from 13 to 15 rows). They were
+  extracted with the Gemini pipeline now in `extraction/gecco_pipeline/`. It returns one
+  `metadata` block (title, authors, year) per PDF and, for PDFs over 200 pages, merges
+  the extractions of all 200-page parts under the first part's metadata. So the title and
+  authors on every PPSN row describe the whole PDF, not the paper the row came from. The
+  PPSN PDFs are not in the repository, so the paper behind each row cannot be checked.
 - No titles are invented and no file is split.
 
 ## Repeated rows
