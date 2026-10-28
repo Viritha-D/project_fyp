@@ -358,13 +358,13 @@ def note_text(n, parent_name):
     sentences = [s1 + '.']
     bits = []
     if n['typical_dimensions']:
-        bits.append('typical dimensions ' + ', '.join(f"{x['value']} ({x['count']})" for x in n['typical_dimensions']))
+        bits.append('typical dimensions ' + '; '.join(f"{x['value']} ({x['count']})" for x in n['typical_dimensions']))
     land = [x['value'] for f in ('Modality', 'Separability') for x in n['landscape'][f][:1]]
     land += [x['value'] for x in n['landscape']['Landscape_Characteristics'][:3]]
     if land:
         bits.append('reported landscape: ' + ', '.join(land))
     if bits:
-        sentences.append(bits[0][0].upper() + '; '.join(bits)[1:] + '.')
+        sentences.append(bits[0][0].upper() + ', '.join(bits)[1:] + '.') if len(bits) > 1 else sentences.append(bits[0][0].upper() + bits[0][1:] + '.')
     perf = []
     if n['metrics']:
         perf.append('results are reported as ' + '; '.join(x['value'] for x in n['metrics']))
@@ -380,7 +380,8 @@ def note_text(n, parent_name):
         sentences.append('Caveats: ' + '; '.join(cav[c] for c in n['evidence_caveats']) + '.')
     if len(sentences) == 1:
         sentences.append('No dimension, landscape or metric details were reported.')
-    return ' '.join(sentences[:4])
+    assert 2 <= len(sentences) <= 4, sentences
+    return ' '.join(sentences), len(sentences)
 
 
 def stage_c():
@@ -394,6 +395,7 @@ def stage_c():
     name = {e['entity_id']: e['canonical_name'] for e in ents}
     real = lambda s: [v for v in s if v.strip() and v.strip() not in MISSING]
     notes = []
+    sentence_counts = Counter()
     for e in ents:
         g = by_e[e['entity_id']]
         alias_papers = g.groupby('Benchmark_Name')['paper_key'].nunique().sort_values(ascending=False)
@@ -433,7 +435,8 @@ def stage_c():
         if blank >= 3:
             cav.append('sparse_metadata')
         n['evidence_caveats'] = cav
-        n['note_text'] = note_text(n, name.get(e['parent_benchmark_id']))
+        n['note_text'], k = note_text(n, name.get(e['parent_benchmark_id']))
+        sentence_counts[k] += 1
         notes.append(n)
 
     # ---- assertions ----
@@ -441,10 +444,11 @@ def stage_c():
     assert all(n['n_papers'] == pk_count[n['entity_id']] for n in notes), 'note n_papers != paper_index count'
     assert len(notes) == len(ents) == len(OUT_EIDS.read_text(encoding='utf-8').splitlines()) == np.load(OUT_EEMB).shape[0]
     assert [n['entity_id'] for n in notes] == OUT_EIDS.read_text(encoding='utf-8').splitlines()
-    assert all(1 < len(re.findall(r'[.!?](?:\s|$)', n['note_text'])) <= 4 or n['note_text'].count('. ') + 1 <= 4 for n in notes)
+    assert set(sentence_counts) <= {2, 3, 4}, sentence_counts   # counted as built by the template
     dump_json(notes, OUT_NOTES)
     say(f'[C] assertions passed: {len(notes)} notes; n_papers equals the paper_index count for every entity; '
-        f'n_entities equal across notes, entity json, embeddings and order file')
+        f'n_entities equal across notes, entity json, embeddings and order file; sentences per note '
+        f'{dict(sorted(sentence_counts.items()))}')
     caveats = Counter(c for n in notes for c in n['evidence_caveats'])
     say(f'[C] caveat counts: {dict(caveats)}')
 

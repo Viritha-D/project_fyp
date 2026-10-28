@@ -106,3 +106,20 @@ kept**.
 is unique and exists in `papers_master_v2.csv`, and title, Benchmark_Name, Category and
 Problem_Context are identical to the master on all 40 rows. The original
 `gold_standard_labels.csv` is not in this repository.
+
+## Problem entities (v2)
+
+- Built by `python v2_entities_pipeline.py --stage all` (fidelity -> A -> B -> C); rules in
+  `part4_rules.json`, reconstructed from `part4_methodology.md`. Name-key blocking does all
+  the grouping; embeddings only pick each entity's medoid.
+- Fidelity on the old 4,256-row master: name_key 100%, ARI/NMI 1.0 against the original
+  Part 4 map (1,038 entities); Part 5 + enrichment + repairs reproduce the old
+  `problem_entities.json` except 3 medoid tie-breaks.
+- v2: 3,199 entities (3,187 single_function, 8 named_subset, 4 suite; Applied 1,765,
+  Pure Math 1,434); 2,946 are supported by a single paper. Gold (38 labelled rows):
+  ARI 1.0, NMI 1.0. `--series-split` splits CEC 2006 into a suite + 7 G functions; digit
+  guard reports 0 cases.
+- `entity_notes_v2.json`: one data-only note per entity (fixed template, no LLM text),
+  with caveats single_paper (2,946), sparse_metadata (1,138), premi_year_unverified (94),
+  ppsn_partial (47). E00657 "Evolutionary Algorithm" is kept but flagged
+  extraction_artifact_suspect.
