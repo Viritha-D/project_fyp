@@ -135,3 +135,13 @@ Problem_Context are identical to the master on all 40 rows. The original
   functions (Sphere + Rastrigin via CEC 2013) and build very large families (UCI: 162
   entities); the template rule joins different CEC years; the software-bug HPO grid splits
   into 4 families; "Sharp Ridge (BBOB F13)" / "BBOB F13 (Sharp Ridge)" are not grouped.
+
+## Families v3
+
+- `python v3_families.py`, rules in `family_rules_v3.json`: one family key per entity
+  (standard suite > stem > template > library cue > single), no union across rules. Suite
+  and stem families may mix Categories; template keys require digit tokens to match.
+- 2,027 families; records in families with >= 2 papers 46.7% (v2 46.0%). Suite families
+  (ZDT, WFG, DTLZ, BBOB, CEC <year> ...) replace the chained v2 families; library cues are
+  kept per entity as suite_memberships. `family_review_sample_v3.csv` is the sample to label
+  (blind); the v2 sample is superseded.

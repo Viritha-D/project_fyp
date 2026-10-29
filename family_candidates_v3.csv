@@ -1,0 +1,1138 @@
+similarity,category,entity_id_a,name_a,family_a,entity_id_b,name_b,family_b
+1.0,Applied,E03034,Flickr8k Image Captioning Evaluation,F01882,E03036,MSCOCO Image Captioning Evaluation,F01883
+1.0,Applied,E03035,Flickr30k Image Captioning Evaluation,F01882,E03036,MSCOCO Image Captioning Evaluation,F01883
+1.0,Applied,E03098,Akiyo Video Watermarking,F01935,E03099,Sangsay Video Watermarking,F01936
+1.0,Applied,E01869,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse JDT Core,F01152,E01877,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Mylyn,F01157
+1.0,Applied,E01869,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse JDT Core,F01152,E01878,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse PDE UI,F01158
+1.0,Applied,E01869,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse JDT Core,F01152,E01879,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse JDT Core,F01154
+1.0,Applied,E01869,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse JDT Core,F01152,E01880,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Equinox,F01155
+1.0,Applied,E01869,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse JDT Core,F01152,E01881,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Lucene,F01156
+1.0,Applied,E01869,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse JDT Core,F01152,E01882,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Mylyn,F01157
+1.0,Applied,E01869,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse JDT Core,F01152,E01883,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse PDE UI,F01158
+1.0,Applied,E01869,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse JDT Core,F01152,E01885,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01869,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse JDT Core,F01152,E01870,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01869,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse JDT Core,F01152,E01871,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01869,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse JDT Core,F01152,E01872,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01869,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse JDT Core,F01152,E01874,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse JDT Core,F01154
+1.0,Applied,E01869,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse JDT Core,F01152,E01875,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Equinox,F01155
+1.0,Applied,E01869,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse JDT Core,F01152,E01876,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Lucene,F01156
+1.0,Applied,E01398,Harvard University campus urban layout,F00845,E01399,MIT campus urban layout,F00846
+1.0,Applied,E01526,im-3,F00940,E01529,im-10,F00942
+1.0,Applied,E02953,Corel-5k Multi-label Classification,F01807,E02956,Image Multi-label Classification,F01810
+1.0,Applied,E02953,Corel-5k Multi-label Classification,F01807,E02957,MSRC-v2 Multi-label Classification,F01811
+1.0,Applied,E02956,Image Multi-label Classification,F01810,E02957,MSRC-v2 Multi-label Classification,F01811
+1.0,Applied,E01903,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse PDE UI,F01152,E01907,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01904,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse JDT Core,F01152,E01905,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01904,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse JDT Core,F01152,E01906,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01904,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse JDT Core,F01152,E01907,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01905,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Equinox,F01153,E01908,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01906,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Lucene,F01153,E01908,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01907,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Mylyn,F01153,E01908,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01901,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Lucene,F01153,E01903,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01901,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Lucene,F01153,E01904,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01901,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Lucene,F01153,E01908,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01902,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Mylyn,F01153,E01903,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01902,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Mylyn,F01153,E01904,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01902,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Mylyn,F01153,E01908,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01903,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse PDE UI,F01152,E01905,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01903,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse PDE UI,F01152,E01906,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01899,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse JDT Core,F01152,E01901,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01899,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse JDT Core,F01152,E01902,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01899,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse JDT Core,F01152,E01905,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01899,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse JDT Core,F01152,E01906,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01899,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse JDT Core,F01152,E01907,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01900,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Equinox,F01153,E01903,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01900,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Equinox,F01153,E01904,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01900,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Equinox,F01153,E01908,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01898,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse PDE UI,F01159,E01902,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01898,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse PDE UI,F01159,E01903,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01898,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse PDE UI,F01159,E01904,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01898,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse PDE UI,F01159,E01905,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01898,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse PDE UI,F01159,E01906,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01898,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse PDE UI,F01159,E01907,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01898,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse PDE UI,F01159,E01908,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01899,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse JDT Core,F01152,E01900,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01870,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Equinox,F01153,E01881,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Lucene,F01156
+1.0,Applied,E01870,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Equinox,F01153,E01882,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Mylyn,F01157
+1.0,Applied,E01870,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Equinox,F01153,E01883,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse PDE UI,F01158
+1.0,Applied,E01870,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Equinox,F01153,E01884,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01870,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Equinox,F01153,E01888,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01870,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Equinox,F01153,E01889,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01870,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Equinox,F01153,E01893,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01870,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Equinox,F01153,E01894,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse JDT Core,F01159
+1.0,Applied,E01870,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Equinox,F01153,E01873,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01870,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Equinox,F01153,E01874,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse JDT Core,F01154
+1.0,Applied,E01870,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Equinox,F01153,E01875,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Equinox,F01155
+1.0,Applied,E01870,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Equinox,F01153,E01876,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Lucene,F01156
+1.0,Applied,E01870,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Equinox,F01153,E01877,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Mylyn,F01157
+1.0,Applied,E01870,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Equinox,F01153,E01878,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse PDE UI,F01158
+1.0,Applied,E01870,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Equinox,F01153,E01879,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse JDT Core,F01154
+1.0,Applied,E01870,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Equinox,F01153,E01880,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Equinox,F01155
+1.0,Applied,E01869,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse JDT Core,F01152,E01897,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Mylyn,F01160
+1.0,Applied,E01869,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse JDT Core,F01152,E01898,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse PDE UI,F01159
+1.0,Applied,E01869,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse JDT Core,F01152,E01900,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01869,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse JDT Core,F01152,E01901,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01869,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse JDT Core,F01152,E01902,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01869,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse JDT Core,F01152,E01905,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01869,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse JDT Core,F01152,E01906,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01869,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse JDT Core,F01152,E01907,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01869,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse JDT Core,F01152,E01886,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01869,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse JDT Core,F01152,E01887,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01869,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse JDT Core,F01152,E01890,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01869,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse JDT Core,F01152,E01891,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01869,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse JDT Core,F01152,E01892,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01869,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse JDT Core,F01152,E01894,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse JDT Core,F01159
+1.0,Applied,E01869,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse JDT Core,F01152,E01895,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Equinox,F01160
+1.0,Applied,E01869,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse JDT Core,F01152,E01896,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Lucene,F01160
+1.0,Applied,E01871,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Lucene,F01153,E01895,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Equinox,F01160
+1.0,Applied,E01871,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Lucene,F01153,E01896,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Lucene,F01160
+1.0,Applied,E01871,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Lucene,F01153,E01897,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Mylyn,F01160
+1.0,Applied,E01871,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Lucene,F01153,E01898,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse PDE UI,F01159
+1.0,Applied,E01871,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Lucene,F01153,E01899,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01871,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Lucene,F01153,E01903,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01871,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Lucene,F01153,E01904,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01871,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Lucene,F01153,E01908,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01871,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Lucene,F01153,E01881,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Lucene,F01156
+1.0,Applied,E01871,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Lucene,F01153,E01882,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Mylyn,F01157
+1.0,Applied,E01871,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Lucene,F01153,E01883,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse PDE UI,F01158
+1.0,Applied,E01871,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Lucene,F01153,E01884,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01871,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Lucene,F01153,E01888,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01871,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Lucene,F01153,E01889,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01871,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Lucene,F01153,E01893,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01871,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Lucene,F01153,E01894,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse JDT Core,F01159
+1.0,Applied,E01871,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Lucene,F01153,E01873,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01871,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Lucene,F01153,E01874,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse JDT Core,F01154
+1.0,Applied,E01871,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Lucene,F01153,E01875,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Equinox,F01155
+1.0,Applied,E01871,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Lucene,F01153,E01876,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Lucene,F01156
+1.0,Applied,E01871,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Lucene,F01153,E01877,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Mylyn,F01157
+1.0,Applied,E01871,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Lucene,F01153,E01878,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse PDE UI,F01158
+1.0,Applied,E01871,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Lucene,F01153,E01879,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse JDT Core,F01154
+1.0,Applied,E01871,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Lucene,F01153,E01880,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Equinox,F01155
+1.0,Applied,E01870,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Equinox,F01153,E01895,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Equinox,F01160
+1.0,Applied,E01870,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Equinox,F01153,E01896,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Lucene,F01160
+1.0,Applied,E01870,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Equinox,F01153,E01897,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Mylyn,F01160
+1.0,Applied,E01870,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Equinox,F01153,E01898,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse PDE UI,F01159
+1.0,Applied,E01870,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Equinox,F01153,E01899,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01870,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Equinox,F01153,E01903,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01870,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Equinox,F01153,E01904,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01870,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Equinox,F01153,E01908,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01873,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse PDE UI,F01152,E01874,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse JDT Core,F01154
+1.0,Applied,E01873,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse PDE UI,F01152,E01875,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Equinox,F01155
+1.0,Applied,E01873,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse PDE UI,F01152,E01876,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Lucene,F01156
+1.0,Applied,E01873,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse PDE UI,F01152,E01877,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Mylyn,F01157
+1.0,Applied,E01873,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse PDE UI,F01152,E01878,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse PDE UI,F01158
+1.0,Applied,E01873,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse PDE UI,F01152,E01879,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse JDT Core,F01154
+1.0,Applied,E01873,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse PDE UI,F01152,E01880,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Equinox,F01155
+1.0,Applied,E01873,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse PDE UI,F01152,E01881,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Lucene,F01156
+1.0,Applied,E01872,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Mylyn,F01153,E01895,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Equinox,F01160
+1.0,Applied,E01872,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Mylyn,F01153,E01896,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Lucene,F01160
+1.0,Applied,E01872,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Mylyn,F01153,E01897,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Mylyn,F01160
+1.0,Applied,E01872,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Mylyn,F01153,E01898,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse PDE UI,F01159
+1.0,Applied,E01872,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Mylyn,F01153,E01899,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01872,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Mylyn,F01153,E01903,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01872,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Mylyn,F01153,E01904,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01872,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Mylyn,F01153,E01908,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01872,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Mylyn,F01153,E01881,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Lucene,F01156
+1.0,Applied,E01872,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Mylyn,F01153,E01882,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Mylyn,F01157
+1.0,Applied,E01872,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Mylyn,F01153,E01883,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse PDE UI,F01158
+1.0,Applied,E01872,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Mylyn,F01153,E01884,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01872,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Mylyn,F01153,E01888,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01872,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Mylyn,F01153,E01889,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01872,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Mylyn,F01153,E01893,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01872,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Mylyn,F01153,E01894,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse JDT Core,F01159
+1.0,Applied,E01872,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Mylyn,F01153,E01873,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01872,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Mylyn,F01153,E01874,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse JDT Core,F01154
+1.0,Applied,E01872,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Mylyn,F01153,E01875,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Equinox,F01155
+1.0,Applied,E01872,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Mylyn,F01153,E01876,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Lucene,F01156
+1.0,Applied,E01872,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Mylyn,F01153,E01877,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Mylyn,F01157
+1.0,Applied,E01872,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Mylyn,F01153,E01878,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse PDE UI,F01158
+1.0,Applied,E01872,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Mylyn,F01153,E01879,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse JDT Core,F01154
+1.0,Applied,E01872,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Mylyn,F01153,E01880,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Equinox,F01155
+1.0,Applied,E01874,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01881,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Lucene,F01156
+1.0,Applied,E01874,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01882,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Mylyn,F01157
+1.0,Applied,E01874,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01883,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse PDE UI,F01158
+1.0,Applied,E01874,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01884,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01874,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01885,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01874,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01886,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01874,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01887,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01874,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01888,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01873,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse PDE UI,F01152,E01905,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01873,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse PDE UI,F01152,E01906,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01873,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse PDE UI,F01152,E01907,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01874,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01875,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Equinox,F01155
+1.0,Applied,E01874,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01876,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Lucene,F01156
+1.0,Applied,E01874,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01877,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Mylyn,F01157
+1.0,Applied,E01874,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01878,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse PDE UI,F01158
+1.0,Applied,E01874,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01880,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Equinox,F01155
+1.0,Applied,E01873,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse PDE UI,F01152,E01894,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse JDT Core,F01159
+1.0,Applied,E01873,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse PDE UI,F01152,E01895,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Equinox,F01160
+1.0,Applied,E01873,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse PDE UI,F01152,E01896,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Lucene,F01160
+1.0,Applied,E01873,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse PDE UI,F01152,E01897,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Mylyn,F01160
+1.0,Applied,E01873,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse PDE UI,F01152,E01898,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse PDE UI,F01159
+1.0,Applied,E01873,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse PDE UI,F01152,E01900,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01873,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse PDE UI,F01152,E01901,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01873,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse PDE UI,F01152,E01902,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01873,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse PDE UI,F01152,E01882,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Mylyn,F01157
+1.0,Applied,E01873,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse PDE UI,F01152,E01883,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse PDE UI,F01158
+1.0,Applied,E01873,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse PDE UI,F01152,E01885,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01873,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse PDE UI,F01152,E01886,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01873,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse PDE UI,F01152,E01887,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01873,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse PDE UI,F01152,E01890,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01873,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse PDE UI,F01152,E01891,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01873,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse PDE UI,F01152,E01892,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01875,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Equinox,F01155,E01881,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Lucene,F01156
+1.0,Applied,E01875,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Equinox,F01155,E01882,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Mylyn,F01157
+1.0,Applied,E01875,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Equinox,F01155,E01883,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse PDE UI,F01158
+1.0,Applied,E01875,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Equinox,F01155,E01884,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01875,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Equinox,F01155,E01885,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01875,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Equinox,F01155,E01886,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01875,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Equinox,F01155,E01887,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01875,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Equinox,F01155,E01888,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01874,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01905,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01874,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01906,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01874,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01907,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01874,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01908,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01875,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Equinox,F01155,E01876,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Lucene,F01156
+1.0,Applied,E01875,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Equinox,F01155,E01877,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Mylyn,F01157
+1.0,Applied,E01875,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Equinox,F01155,E01878,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse PDE UI,F01158
+1.0,Applied,E01875,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Equinox,F01155,E01879,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse JDT Core,F01154
+1.0,Applied,E01874,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01897,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Mylyn,F01160
+1.0,Applied,E01874,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01898,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse PDE UI,F01159
+1.0,Applied,E01874,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01899,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01874,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01900,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01874,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01901,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01874,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01902,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01874,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01903,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01874,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01904,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01874,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01889,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01874,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01890,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01874,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01891,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01874,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01892,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01874,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01893,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01874,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01894,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse JDT Core,F01159
+1.0,Applied,E01874,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01895,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Equinox,F01160
+1.0,Applied,E01874,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01896,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Lucene,F01160
+1.0,Applied,E01876,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Lucene,F01156,E01882,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Mylyn,F01157
+1.0,Applied,E01876,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Lucene,F01156,E01883,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse PDE UI,F01158
+1.0,Applied,E01876,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Lucene,F01156,E01884,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01876,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Lucene,F01156,E01885,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01876,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Lucene,F01156,E01886,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01876,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Lucene,F01156,E01887,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01876,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Lucene,F01156,E01888,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01876,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Lucene,F01156,E01889,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01875,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Equinox,F01155,E01905,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01875,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Equinox,F01155,E01906,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01875,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Equinox,F01155,E01907,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01875,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Equinox,F01155,E01908,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01876,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Lucene,F01156,E01877,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Mylyn,F01157
+1.0,Applied,E01876,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Lucene,F01156,E01878,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse PDE UI,F01158
+1.0,Applied,E01876,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Lucene,F01156,E01879,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse JDT Core,F01154
+1.0,Applied,E01876,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Lucene,F01156,E01880,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Equinox,F01155
+1.0,Applied,E01875,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Equinox,F01155,E01897,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Mylyn,F01160
+1.0,Applied,E01875,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Equinox,F01155,E01898,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse PDE UI,F01159
+1.0,Applied,E01875,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Equinox,F01155,E01899,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01875,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Equinox,F01155,E01900,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01875,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Equinox,F01155,E01901,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01875,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Equinox,F01155,E01902,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01875,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Equinox,F01155,E01903,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01875,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Equinox,F01155,E01904,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01875,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Equinox,F01155,E01889,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01875,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Equinox,F01155,E01890,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01875,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Equinox,F01155,E01891,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01875,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Equinox,F01155,E01892,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01875,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Equinox,F01155,E01893,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01875,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Equinox,F01155,E01894,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse JDT Core,F01159
+1.0,Applied,E01875,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Equinox,F01155,E01895,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Equinox,F01160
+1.0,Applied,E01875,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Equinox,F01155,E01896,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Lucene,F01160
+1.0,Applied,E01877,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Mylyn,F01157,E01884,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01877,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Mylyn,F01157,E01885,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01877,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Mylyn,F01157,E01886,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01877,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Mylyn,F01157,E01887,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01877,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Mylyn,F01157,E01888,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01877,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Mylyn,F01157,E01889,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01877,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Mylyn,F01157,E01890,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01877,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Mylyn,F01157,E01891,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01876,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Lucene,F01156,E01906,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01876,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Lucene,F01156,E01907,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01876,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Lucene,F01156,E01908,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01877,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Mylyn,F01157,E01878,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse PDE UI,F01158
+1.0,Applied,E01877,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Mylyn,F01157,E01879,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse JDT Core,F01154
+1.0,Applied,E01877,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Mylyn,F01157,E01880,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Equinox,F01155
+1.0,Applied,E01877,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Mylyn,F01157,E01881,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Lucene,F01156
+1.0,Applied,E01877,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Mylyn,F01157,E01883,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse PDE UI,F01158
+1.0,Applied,E01876,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Lucene,F01156,E01898,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse PDE UI,F01159
+1.0,Applied,E01876,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Lucene,F01156,E01899,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01876,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Lucene,F01156,E01900,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01876,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Lucene,F01156,E01901,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01876,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Lucene,F01156,E01902,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01876,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Lucene,F01156,E01903,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01876,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Lucene,F01156,E01904,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01876,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Lucene,F01156,E01905,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01876,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Lucene,F01156,E01890,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01876,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Lucene,F01156,E01891,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01876,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Lucene,F01156,E01892,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01876,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Lucene,F01156,E01893,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01876,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Lucene,F01156,E01894,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse JDT Core,F01159
+1.0,Applied,E01876,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Lucene,F01156,E01895,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Equinox,F01160
+1.0,Applied,E01876,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Lucene,F01156,E01896,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Lucene,F01160
+1.0,Applied,E01876,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Lucene,F01156,E01897,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Mylyn,F01160
+1.0,Applied,E01878,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse PDE UI,F01158,E01887,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01878,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse PDE UI,F01158,E01888,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01878,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse PDE UI,F01158,E01889,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01878,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse PDE UI,F01158,E01890,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01878,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse PDE UI,F01158,E01891,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01878,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse PDE UI,F01158,E01892,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01878,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse PDE UI,F01158,E01893,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01878,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse PDE UI,F01158,E01894,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse JDT Core,F01159
+1.0,Applied,E01877,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Mylyn,F01157,E01908,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01878,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse PDE UI,F01158,E01879,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse JDT Core,F01154
+1.0,Applied,E01878,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse PDE UI,F01158,E01880,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Equinox,F01155
+1.0,Applied,E01878,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse PDE UI,F01158,E01881,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Lucene,F01156
+1.0,Applied,E01878,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse PDE UI,F01158,E01882,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Mylyn,F01157
+1.0,Applied,E01878,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse PDE UI,F01158,E01884,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01878,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse PDE UI,F01158,E01885,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01878,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse PDE UI,F01158,E01886,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01877,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Mylyn,F01157,E01900,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01877,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Mylyn,F01157,E01901,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01877,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Mylyn,F01157,E01902,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01877,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Mylyn,F01157,E01903,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01877,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Mylyn,F01157,E01904,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01877,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Mylyn,F01157,E01905,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01877,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Mylyn,F01157,E01906,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01877,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Mylyn,F01157,E01907,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01877,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Mylyn,F01157,E01892,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01877,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Mylyn,F01157,E01893,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01877,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Mylyn,F01157,E01894,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse JDT Core,F01159
+1.0,Applied,E01877,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Mylyn,F01157,E01895,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Equinox,F01160
+1.0,Applied,E01877,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Mylyn,F01157,E01896,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Lucene,F01160
+1.0,Applied,E01877,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Mylyn,F01157,E01897,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Mylyn,F01160
+1.0,Applied,E01877,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Mylyn,F01157,E01898,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse PDE UI,F01159
+1.0,Applied,E01877,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Mylyn,F01157,E01899,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01879,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01890,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01879,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01891,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01879,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01892,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01879,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01893,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01879,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01894,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse JDT Core,F01159
+1.0,Applied,E01879,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01895,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Equinox,F01160
+1.0,Applied,E01879,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01896,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Lucene,F01160
+1.0,Applied,E01879,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01897,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Mylyn,F01160
+1.0,Applied,E01879,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01882,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Mylyn,F01157
+1.0,Applied,E01879,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01883,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse PDE UI,F01158
+1.0,Applied,E01879,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01884,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01879,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01885,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01879,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01886,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01879,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01887,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01879,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01888,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01879,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01889,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01878,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse PDE UI,F01158,E01903,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01878,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse PDE UI,F01158,E01904,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01878,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse PDE UI,F01158,E01905,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01878,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse PDE UI,F01158,E01906,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01878,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse PDE UI,F01158,E01907,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01878,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse PDE UI,F01158,E01908,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01879,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01880,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Equinox,F01155
+1.0,Applied,E01879,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01881,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Lucene,F01156
+1.0,Applied,E01878,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse PDE UI,F01158,E01895,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Equinox,F01160
+1.0,Applied,E01878,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse PDE UI,F01158,E01896,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Lucene,F01160
+1.0,Applied,E01878,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse PDE UI,F01158,E01897,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Mylyn,F01160
+1.0,Applied,E01878,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse PDE UI,F01158,E01898,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse PDE UI,F01159
+1.0,Applied,E01878,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse PDE UI,F01158,E01899,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01878,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse PDE UI,F01158,E01900,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01878,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse PDE UI,F01158,E01901,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01878,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse PDE UI,F01158,E01902,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01880,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Equinox,F01155,E01894,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse JDT Core,F01159
+1.0,Applied,E01880,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Equinox,F01155,E01895,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Equinox,F01160
+1.0,Applied,E01880,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Equinox,F01155,E01896,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Lucene,F01160
+1.0,Applied,E01880,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Equinox,F01155,E01897,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Mylyn,F01160
+1.0,Applied,E01880,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Equinox,F01155,E01898,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse PDE UI,F01159
+1.0,Applied,E01880,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Equinox,F01155,E01899,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01880,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Equinox,F01155,E01900,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01880,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Equinox,F01155,E01901,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01880,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Equinox,F01155,E01886,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01880,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Equinox,F01155,E01887,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01880,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Equinox,F01155,E01888,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01880,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Equinox,F01155,E01889,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01880,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Equinox,F01155,E01890,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01880,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Equinox,F01155,E01891,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01880,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Equinox,F01155,E01892,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01880,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Equinox,F01155,E01893,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01879,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01906,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01879,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01907,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01879,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01908,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01880,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Equinox,F01155,E01881,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Lucene,F01156
+1.0,Applied,E01880,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Equinox,F01155,E01882,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Mylyn,F01157
+1.0,Applied,E01880,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Equinox,F01155,E01883,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse PDE UI,F01158
+1.0,Applied,E01880,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Equinox,F01155,E01884,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01880,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Equinox,F01155,E01885,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01879,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01898,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse PDE UI,F01159
+1.0,Applied,E01879,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01899,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01879,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01900,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01879,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01901,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01879,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01902,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01879,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01903,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01879,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01904,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01879,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse JDT Core,F01154,E01905,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01881,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Lucene,F01156,E01899,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01881,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Lucene,F01156,E01900,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01881,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Lucene,F01156,E01901,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01881,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Lucene,F01156,E01902,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01881,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Lucene,F01156,E01903,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01881,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Lucene,F01156,E01904,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01881,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Lucene,F01156,E01905,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01881,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Lucene,F01156,E01906,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01881,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Lucene,F01156,E01891,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01881,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Lucene,F01156,E01892,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01881,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Lucene,F01156,E01893,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01881,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Lucene,F01156,E01894,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse JDT Core,F01159
+1.0,Applied,E01881,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Lucene,F01156,E01895,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Equinox,F01160
+1.0,Applied,E01881,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Lucene,F01156,E01896,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Lucene,F01160
+1.0,Applied,E01881,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Lucene,F01156,E01897,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Mylyn,F01160
+1.0,Applied,E01881,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Lucene,F01156,E01898,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse PDE UI,F01159
+1.0,Applied,E01881,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Lucene,F01156,E01883,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse PDE UI,F01158
+1.0,Applied,E01881,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Lucene,F01156,E01884,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01881,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Lucene,F01156,E01885,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01881,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Lucene,F01156,E01886,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01881,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Lucene,F01156,E01887,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01881,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Lucene,F01156,E01888,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01881,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Lucene,F01156,E01889,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01881,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Lucene,F01156,E01890,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01880,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Equinox,F01155,E01902,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01880,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Equinox,F01155,E01903,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01880,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Equinox,F01155,E01904,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01880,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Equinox,F01155,E01905,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01880,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Equinox,F01155,E01906,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01880,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Equinox,F01155,E01907,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01880,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Equinox,F01155,E01908,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01881,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Lucene,F01156,E01882,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Mylyn,F01157
+1.0,Applied,E01882,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Mylyn,F01157,E01905,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01882,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Mylyn,F01157,E01906,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01882,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Mylyn,F01157,E01907,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01882,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Mylyn,F01157,E01908,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01883,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse PDE UI,F01158,E01884,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01883,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse PDE UI,F01158,E01885,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01883,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse PDE UI,F01158,E01886,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01883,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse PDE UI,F01158,E01887,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01882,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Mylyn,F01157,E01897,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Mylyn,F01160
+1.0,Applied,E01882,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Mylyn,F01157,E01898,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse PDE UI,F01159
+1.0,Applied,E01882,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Mylyn,F01157,E01899,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01882,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Mylyn,F01157,E01900,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01882,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Mylyn,F01157,E01901,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01882,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Mylyn,F01157,E01902,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01882,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Mylyn,F01157,E01903,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01882,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Mylyn,F01157,E01904,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01882,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Mylyn,F01157,E01889,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01882,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Mylyn,F01157,E01890,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01882,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Mylyn,F01157,E01891,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01882,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Mylyn,F01157,E01892,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01882,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Mylyn,F01157,E01893,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01882,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Mylyn,F01157,E01894,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse JDT Core,F01159
+1.0,Applied,E01882,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Mylyn,F01157,E01895,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Equinox,F01160
+1.0,Applied,E01882,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Mylyn,F01157,E01896,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Lucene,F01160
+1.0,Applied,E01881,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Lucene,F01156,E01907,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01881,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Lucene,F01156,E01908,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01882,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Mylyn,F01157,E01883,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse PDE UI,F01158
+1.0,Applied,E01882,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Mylyn,F01157,E01884,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01882,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Mylyn,F01157,E01885,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01882,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Mylyn,F01157,E01886,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01882,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Mylyn,F01157,E01887,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01882,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Mylyn,F01157,E01888,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01884,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse JDT Core,F01152,E01890,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01884,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse JDT Core,F01152,E01891,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01884,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse JDT Core,F01152,E01892,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01884,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse JDT Core,F01152,E01894,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse JDT Core,F01159
+1.0,Applied,E01884,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse JDT Core,F01152,E01895,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Equinox,F01160
+1.0,Applied,E01884,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse JDT Core,F01152,E01896,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Lucene,F01160
+1.0,Applied,E01884,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse JDT Core,F01152,E01897,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Mylyn,F01160
+1.0,Applied,E01884,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse JDT Core,F01152,E01898,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse PDE UI,F01159
+1.0,Applied,E01883,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse PDE UI,F01158,E01904,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01883,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse PDE UI,F01158,E01905,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01883,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse PDE UI,F01158,E01906,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01883,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse PDE UI,F01158,E01907,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01883,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse PDE UI,F01158,E01908,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01884,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse JDT Core,F01152,E01885,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01884,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse JDT Core,F01152,E01886,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01884,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse JDT Core,F01152,E01887,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01883,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse PDE UI,F01158,E01896,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Lucene,F01160
+1.0,Applied,E01883,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse PDE UI,F01158,E01897,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Mylyn,F01160
+1.0,Applied,E01883,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse PDE UI,F01158,E01898,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse PDE UI,F01159
+1.0,Applied,E01883,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse PDE UI,F01158,E01899,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01883,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse PDE UI,F01158,E01900,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01883,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse PDE UI,F01158,E01901,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01883,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse PDE UI,F01158,E01902,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01883,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse PDE UI,F01158,E01903,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01883,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse PDE UI,F01158,E01888,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01883,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse PDE UI,F01158,E01889,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01883,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse PDE UI,F01158,E01890,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01883,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse PDE UI,F01158,E01891,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01883,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse PDE UI,F01158,E01892,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01883,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse PDE UI,F01158,E01893,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01883,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse PDE UI,F01158,E01894,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse JDT Core,F01159
+1.0,Applied,E01883,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse PDE UI,F01158,E01895,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Equinox,F01160
+1.0,Applied,E01886,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Lucene,F01153,E01897,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Mylyn,F01160
+1.0,Applied,E01886,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Lucene,F01153,E01898,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse PDE UI,F01159
+1.0,Applied,E01886,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Lucene,F01153,E01899,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01886,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Lucene,F01153,E01903,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01886,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Lucene,F01153,E01904,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01886,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Lucene,F01153,E01908,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01887,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Mylyn,F01153,E01888,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01887,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Mylyn,F01153,E01889,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01885,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Equinox,F01153,E01904,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01885,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Equinox,F01153,E01908,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01886,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Lucene,F01153,E01888,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01886,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Lucene,F01153,E01889,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01886,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Lucene,F01153,E01893,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01886,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Lucene,F01153,E01894,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse JDT Core,F01159
+1.0,Applied,E01886,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Lucene,F01153,E01895,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Equinox,F01160
+1.0,Applied,E01886,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Lucene,F01153,E01896,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Lucene,F01160
+1.0,Applied,E01885,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Equinox,F01153,E01893,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01885,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Equinox,F01153,E01894,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse JDT Core,F01159
+1.0,Applied,E01885,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Equinox,F01153,E01895,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Equinox,F01160
+1.0,Applied,E01885,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Equinox,F01153,E01896,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Lucene,F01160
+1.0,Applied,E01885,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Equinox,F01153,E01897,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Mylyn,F01160
+1.0,Applied,E01885,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Equinox,F01153,E01898,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse PDE UI,F01159
+1.0,Applied,E01885,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Equinox,F01153,E01899,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01885,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Equinox,F01153,E01903,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01884,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse JDT Core,F01152,E01900,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01884,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse JDT Core,F01152,E01901,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01884,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse JDT Core,F01152,E01902,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01884,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse JDT Core,F01152,E01905,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01884,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse JDT Core,F01152,E01906,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01884,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse JDT Core,F01152,E01907,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01885,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Equinox,F01153,E01888,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01885,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Equinox,F01153,E01889,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01889,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse JDT Core,F01152,E01890,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01889,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse JDT Core,F01152,E01891,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01889,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse JDT Core,F01152,E01892,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01889,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse JDT Core,F01152,E01894,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse JDT Core,F01159
+1.0,Applied,E01889,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse JDT Core,F01152,E01895,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Equinox,F01160
+1.0,Applied,E01889,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse JDT Core,F01152,E01896,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Lucene,F01160
+1.0,Applied,E01889,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse JDT Core,F01152,E01897,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Mylyn,F01160
+1.0,Applied,E01889,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse JDT Core,F01152,E01898,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse PDE UI,F01159
+1.0,Applied,E01888,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse PDE UI,F01152,E01897,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Mylyn,F01160
+1.0,Applied,E01888,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse PDE UI,F01152,E01898,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse PDE UI,F01159
+1.0,Applied,E01888,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse PDE UI,F01152,E01900,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01888,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse PDE UI,F01152,E01901,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01888,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse PDE UI,F01152,E01902,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01888,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse PDE UI,F01152,E01905,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01888,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse PDE UI,F01152,E01906,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01888,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse PDE UI,F01152,E01907,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01887,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Mylyn,F01153,E01904,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01887,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Mylyn,F01153,E01908,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01888,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse PDE UI,F01152,E01890,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01888,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse PDE UI,F01152,E01891,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01888,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse PDE UI,F01152,E01892,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01888,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse PDE UI,F01152,E01894,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse JDT Core,F01159
+1.0,Applied,E01888,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse PDE UI,F01152,E01895,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Equinox,F01160
+1.0,Applied,E01888,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse PDE UI,F01152,E01896,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Lucene,F01160
+1.0,Applied,E01887,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Mylyn,F01153,E01893,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01887,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Mylyn,F01153,E01894,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse JDT Core,F01159
+1.0,Applied,E01887,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Mylyn,F01153,E01895,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Equinox,F01160
+1.0,Applied,E01887,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Mylyn,F01153,E01896,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Lucene,F01160
+1.0,Applied,E01887,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Mylyn,F01153,E01897,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Mylyn,F01160
+1.0,Applied,E01887,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Mylyn,F01153,E01898,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse PDE UI,F01159
+1.0,Applied,E01887,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Mylyn,F01153,E01899,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01887,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Mylyn,F01153,E01903,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01891,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Lucene,F01153,E01904,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01891,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Lucene,F01153,E01908,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01892,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Mylyn,F01153,E01893,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01892,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Mylyn,F01153,E01894,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse JDT Core,F01159
+1.0,Applied,E01892,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Mylyn,F01153,E01895,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Equinox,F01160
+1.0,Applied,E01892,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Mylyn,F01153,E01896,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Lucene,F01160
+1.0,Applied,E01892,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Mylyn,F01153,E01897,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Mylyn,F01160
+1.0,Applied,E01892,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Mylyn,F01153,E01898,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse PDE UI,F01159
+1.0,Applied,E01891,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Lucene,F01153,E01893,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01891,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Lucene,F01153,E01894,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse JDT Core,F01159
+1.0,Applied,E01891,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Lucene,F01153,E01895,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Equinox,F01160
+1.0,Applied,E01891,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Lucene,F01153,E01896,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Lucene,F01160
+1.0,Applied,E01891,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Lucene,F01153,E01897,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Mylyn,F01160
+1.0,Applied,E01891,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Lucene,F01153,E01898,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse PDE UI,F01159
+1.0,Applied,E01891,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Lucene,F01153,E01899,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01891,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Lucene,F01153,E01903,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01890,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Equinox,F01153,E01895,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Equinox,F01160
+1.0,Applied,E01890,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Equinox,F01153,E01896,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Lucene,F01160
+1.0,Applied,E01890,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Equinox,F01153,E01897,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Mylyn,F01160
+1.0,Applied,E01890,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Equinox,F01153,E01898,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse PDE UI,F01159
+1.0,Applied,E01890,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Equinox,F01153,E01899,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01890,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Equinox,F01153,E01903,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01890,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Equinox,F01153,E01904,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01890,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Equinox,F01153,E01908,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01889,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse JDT Core,F01152,E01900,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01889,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse JDT Core,F01152,E01901,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01889,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse JDT Core,F01152,E01902,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01889,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse JDT Core,F01152,E01905,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01889,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse JDT Core,F01152,E01906,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01889,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse JDT Core,F01152,E01907,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01890,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Equinox,F01153,E01893,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01890,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Equinox,F01153,E01894,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse JDT Core,F01159
+1.0,Applied,E01894,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse JDT Core,F01159,E01905,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01894,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse JDT Core,F01159,E01906,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01894,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse JDT Core,F01159,E01907,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01894,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse JDT Core,F01159,E01908,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01895,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Equinox,F01160,E01898,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse PDE UI,F01159
+1.0,Applied,E01895,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Equinox,F01160,E01899,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01895,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Equinox,F01160,E01900,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01895,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Equinox,F01160,E01901,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01894,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse JDT Core,F01159,E01896,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Lucene,F01160
+1.0,Applied,E01894,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse JDT Core,F01159,E01897,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Mylyn,F01160
+1.0,Applied,E01894,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse JDT Core,F01159,E01899,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01894,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse JDT Core,F01159,E01900,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01894,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse JDT Core,F01159,E01901,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01894,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse JDT Core,F01159,E01902,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01894,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse JDT Core,F01159,E01903,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01894,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse JDT Core,F01159,E01904,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01893,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse PDE UI,F01152,E01898,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse PDE UI,F01159
+1.0,Applied,E01893,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse PDE UI,F01152,E01900,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01893,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse PDE UI,F01152,E01901,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01893,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse PDE UI,F01152,E01902,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01893,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse PDE UI,F01152,E01905,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01893,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse PDE UI,F01152,E01906,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01893,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse PDE UI,F01152,E01907,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01894,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse JDT Core,F01159,E01895,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Equinox,F01160
+1.0,Applied,E01892,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Mylyn,F01153,E01899,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01892,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Mylyn,F01153,E01903,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01892,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Mylyn,F01153,E01904,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01892,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Mylyn,F01153,E01908,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01893,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse PDE UI,F01152,E01894,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse JDT Core,F01159
+1.0,Applied,E01893,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse PDE UI,F01152,E01895,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Equinox,F01160
+1.0,Applied,E01893,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse PDE UI,F01152,E01896,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Lucene,F01160
+1.0,Applied,E01893,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse PDE UI,F01152,E01897,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Mylyn,F01160
+1.0,Applied,E01897,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Mylyn,F01160,E01904,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01897,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Mylyn,F01160,E01905,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01897,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Mylyn,F01160,E01906,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01897,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Mylyn,F01160,E01907,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01897,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Mylyn,F01160,E01908,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01898,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse PDE UI,F01159,E01899,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01898,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse PDE UI,F01159,E01900,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01898,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse PDE UI,F01159,E01901,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01896,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Lucene,F01160,E01907,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01896,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Lucene,F01160,E01908,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01897,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Mylyn,F01160,E01898,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse PDE UI,F01159
+1.0,Applied,E01897,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Mylyn,F01160,E01899,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01897,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Mylyn,F01160,E01900,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01897,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Mylyn,F01160,E01901,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01897,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Mylyn,F01160,E01902,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01897,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Mylyn,F01160,E01903,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01896,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Lucene,F01160,E01899,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01896,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Lucene,F01160,E01900,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01896,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Lucene,F01160,E01901,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01896,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Lucene,F01160,E01902,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01896,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Lucene,F01160,E01903,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01896,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Lucene,F01160,E01904,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01896,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Lucene,F01160,E01905,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01896,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Lucene,F01160,E01906,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01895,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Equinox,F01160,E01902,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01895,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Equinox,F01160,E01903,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01895,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Equinox,F01160,E01904,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse JDT Core,F01152
+1.0,Applied,E01895,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Equinox,F01160,E01905,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Equinox,F01153
+1.0,Applied,E01895,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Equinox,F01160,E01906,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Lucene,F01153
+1.0,Applied,E01895,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Equinox,F01160,E01907,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Mylyn,F01153
+1.0,Applied,E01895,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Equinox,F01160,E01908,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse PDE UI,F01152
+1.0,Applied,E01896,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Lucene,F01160,E01898,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse PDE UI,F01159
+1.0,Applied,E01188,CIFAR100 Image Classification,F00705,E02013,ImageNet Image Classification,F01228
+1.0,Applied,E00568,Traceability recovery between NVD and IBM X-Force,F00275,E00569,Traceability recovery between NVD and ExploitDB,F00276
+1.0,Applied,E00568,Traceability recovery between NVD and IBM X-Force,F00275,E00570,Traceability recovery between NVD and Openwall,F00276
+1.0,Applied,E00513,Pascal-VOC 2012,F00228,E00514,Pascal-Context,F00229
+0.9929,Applied,E02122,MicroRTS Scenario A,F01275,E02123,MicroRTS Scenario B,F01276
+0.9923,Applied,E02123,MicroRTS Scenario B,F01276,E02124,MicroRTS Scenario C,F01277
+0.9923,Applied,E02136,Latitude Correction (Ensemble Weight Optimization),F01283,E02137,Longitude Correction (Ensemble Weight Optimization),F01284
+0.992,Applied,E00746,Restricted Container Relocation Problem,F00416,E00747,Unrestricted Container Relocation Problem,F00417
+0.9918,Pure Math,E02786,f2,F01694,E02787,f3,F01695
+0.9913,Applied,E02123,MicroRTS Scenario B,F01276,E02125,MicroRTS Scenario D,F01275
+0.9906,Applied,E00007,Red Wine Quality Prediction,F00006,E00008,White Wine Quality Prediction,F00007
+0.99,Applied,E02132,Latitude Correction (Feature Selection),F01283,E02133,Longitude Correction (Feature Selection),F01284
+0.9898,Pure Math,E00420,ZZJ8,F00181,E00421,ZZJ9,F00182
+0.9896,Pure Math,E02787,f3,F01695,E02788,f4,F01696
+0.9896,Pure Math,E02790,f6,F01698,E02791,f7,F01699
+0.9886,Pure Math,E02664,SYN-1,F01602,E02665,SYN-2,F01603
+0.988,Pure Math,E02787,f3,F01695,E02790,f6,F01698
+0.988,Pure Math,E02786,f2,F01694,E02788,f4,F01696
+0.9879,Pure Math,E00416,ZZJ4,F00177,E00424,ZZJ2,F00185
+0.9877,Pure Math,E02665,SYN-2,F01603,E02666,SYN-3,F01604
+0.9877,Applied,E02134,Latitude Prediction (Ensemble Weight Optimization),F01281,E02135,Longitude Prediction (Ensemble Weight Optimization),F01282
+0.9874,Pure Math,E00415,ZZJ3,F00176,E00416,ZZJ4,F00177
+0.9871,Pure Math,E01238,Multi-Objective Minimum Spanning Tree on Triangular-tailed graph G1^m,F00734,E01240,Multi-Objective Minimum Spanning Tree on Triangular-tailed graphs G1^m and G2^m,F00735
+0.987,Pure Math,E00416,ZZJ4,F00177,E00417,ZZJ5,F00178
+0.987,Pure Math,E01239,Multi-Objective Minimum Spanning Tree on Triangular-tailed graph G2^m,F00734,E01240,Multi-Objective Minimum Spanning Tree on Triangular-tailed graphs G1^m and G2^m,F00735
+0.987,Applied,E02928,Cricket Team Ranking,F01783,E02929,Weighted HITS,F01784
+0.9866,Pure Math,E00415,ZZJ3,F00176,E00424,ZZJ2,F00185
+0.9861,Pure Math,E01234,Minimum Spanning Tree on Triangular-tailed graphs G1 and G2,F00731,E01236,Minimum Spanning Tree on Triangular-tailed graph G2,F00732
+0.9861,Pure Math,E00417,ZZJ5,F00178,E00424,ZZJ2,F00185
+0.986,Pure Math,E02675,F6 (Layeb05),F01613,E02676,F7 (Layeb06),F01614
+0.9859,Pure Math,E01472,P1,F00905,E01473,P2,F00906
+0.9858,Pure Math,E00423,ZZJ1,F00184,E00424,ZZJ2,F00185
+0.9856,Pure Math,E02665,SYN-2,F01603,E02667,SYN-4,F01605
+0.9856,Pure Math,E00420,ZZJ8,F00181,E00423,ZZJ1,F00184
+0.9853,Applied,E02124,MicroRTS Scenario C,F01277,E02125,MicroRTS Scenario D,F01275
+0.9852,Pure Math,E00421,ZZJ9,F00182,E00423,ZZJ1,F00184
+0.9844,Pure Math,E02786,f2,F01694,E02790,f6,F01698
+0.9841,Applied,E02130,Latitude Prediction (Feature Selection),F01281,E02131,Longitude Prediction (Feature Selection),F01282
+0.984,Pure Math,E00417,ZZJ5,F00178,E00419,ZZJ7,F00180
+0.9839,Pure Math,E02677,F8 (Layeb08),F01615,E02678,F9 (Layeb11),F01616
+0.9839,Pure Math,E00416,ZZJ4,F00177,E00419,ZZJ7,F00180
+0.9839,Pure Math,E00417,ZZJ5,F00178,E00418,ZZJ6,F00179
+0.9836,Applied,E02122,MicroRTS Scenario A,F01275,E02124,MicroRTS Scenario C,F01277
+0.9836,Pure Math,E00416,ZZJ4,F00177,E00420,ZZJ8,F00181
+0.9834,Pure Math,E02788,f4,F01696,E02790,f6,F01698
+0.9831,Pure Math,E00415,ZZJ3,F00176,E00417,ZZJ5,F00178
+0.9831,Pure Math,E02665,SYN-2,F01603,E02668,SYN-5,F01606
+0.983,Pure Math,E00417,ZZJ5,F00178,E00422,ZZJ10,F00183
+0.983,Pure Math,E02785,f1,F01693,E02786,f2,F01694
+0.9829,Pure Math,E02787,f3,F01695,E02791,f7,F01699
+0.9829,Pure Math,E00415,ZZJ3,F00176,E00423,ZZJ1,F00184
+0.9827,Pure Math,E00416,ZZJ4,F00177,E00422,ZZJ10,F00183
+0.9826,Pure Math,E00418,ZZJ6,F00179,E00419,ZZJ7,F00180
+0.9825,Pure Math,E00416,ZZJ4,F00177,E00418,ZZJ6,F00179
+0.9824,Pure Math,E00415,ZZJ3,F00176,E00420,ZZJ8,F00181
+0.9824,Pure Math,E02785,f1,F01693,E02787,f3,F01695
+0.9822,Applied,E00464,K-means clustering of regenerative electric heating load,F00193,E00465,Hybrid decision trees (regression tree and strategy tree),F00194
+0.9822,Pure Math,E02785,f1,F01693,E02788,f4,F01696
+0.9821,Pure Math,E01234,Minimum Spanning Tree on Triangular-tailed graphs G1 and G2,F00731,E01235,Minimum Spanning Tree on Triangular-tailed graph G1,F00732
+0.9818,Pure Math,E00378,MMF14,F00148,E00379,MMF14_a,F00149
+0.9817,Pure Math,E00417,ZZJ5,F00178,E00421,ZZJ9,F00182
+0.9816,Pure Math,E00417,ZZJ5,F00178,E00423,ZZJ1,F00184
+0.9814,Pure Math,E00415,ZZJ3,F00176,E00419,ZZJ7,F00180
+0.9814,Applied,E02134,Latitude Prediction (Ensemble Weight Optimization),F01281,E02136,Latitude Correction (Ensemble Weight Optimization),F01283
+0.9814,Pure Math,E00380,MMF15,F00150,E00381,MMF15_a,F00151
+0.9813,Applied,E01557,RE3-4-7,F00962,E02214,RE3-4-3,F01341
+0.9811,Pure Math,E00417,ZZJ5,F00178,E00420,ZZJ8,F00181
+0.9811,Pure Math,E00422,ZZJ10,F00183,E00424,ZZJ2,F00185
+0.981,Pure Math,E00419,ZZJ7,F00180,E00424,ZZJ2,F00185
+0.9809,Pure Math,E00419,ZZJ7,F00180,E00420,ZZJ8,F00181
+0.9808,Applied,E01957,"AMASF (TSPLIB instances: ulysses16, bays29, berlin52, st70, eil101, kr124, ch150, kroA200)",F00503,E01959,AMASF (Gnutella115),F01195
+0.9807,Pure Math,E00416,ZZJ4,F00177,E00423,ZZJ1,F00184
+0.9807,Pure Math,E00415,ZZJ3,F00176,E00421,ZZJ9,F00182
+0.9806,Pure Math,E02666,SYN-3,F01604,E02668,SYN-5,F01606
+0.9804,Pure Math,E00416,ZZJ4,F00177,E00421,ZZJ9,F00182
+0.9801,Pure Math,E02786,f2,F01694,E02791,f7,F01699
+0.98,Pure Math,E00418,ZZJ6,F00179,E00420,ZZJ8,F00181
+0.98,Pure Math,E00419,ZZJ7,F00180,E00421,ZZJ9,F00182
+0.9798,Applied,E01816,Scenario A (Single static CB area),F01109,E01817,Scenario B (Two static CB areas),F01110
+0.9796,Pure Math,E02667,SYN-4,F01605,E02668,SYN-5,F01606
+0.9796,Applied,E02130,Latitude Prediction (Feature Selection),F01281,E02132,Latitude Correction (Feature Selection),F01283
+0.9794,Applied,E02135,Longitude Prediction (Ensemble Weight Optimization),F01282,E02137,Longitude Correction (Ensemble Weight Optimization),F01284
+0.9794,Pure Math,E00415,ZZJ3,F00176,E00418,ZZJ6,F00179
+0.9793,Pure Math,E00419,ZZJ7,F00180,E00422,ZZJ10,F00183
+0.9792,Applied,E01957,"AMASF (TSPLIB instances: ulysses16, bays29, berlin52, st70, eil101, kr124, ch150, kroA200)",F00503,E01958,AMASF (DIMACS10),F01195
+0.9791,Pure Math,E02664,SYN-1,F01602,E02667,SYN-4,F01605
+0.9791,Pure Math,E00421,ZZJ9,F00182,E00424,ZZJ2,F00185
+0.979,Pure Math,E00418,ZZJ6,F00179,E00424,ZZJ2,F00185
+0.9786,Pure Math,E00418,ZZJ6,F00179,E00421,ZZJ9,F00182
+0.9782,Applied,E02133,Longitude Correction (Feature Selection),F01284,E02136,Latitude Correction (Ensemble Weight Optimization),F01283
+0.9781,Pure Math,E00420,ZZJ8,F00181,E00424,ZZJ2,F00185
+0.9778,Pure Math,E00415,ZZJ3,F00176,E00422,ZZJ10,F00183
+0.9775,Pure Math,E00559,G1 (Randomly generated graph),F00266,E00560,G2 (Randomly generated graph),F00267
+0.9775,Pure Math,E02788,f4,F01696,E02791,f7,F01699
+0.9773,Pure Math,E02785,f1,F01693,E02790,f6,F01698
+0.9768,Pure Math,E02666,SYN-3,F01604,E02667,SYN-4,F01605
+0.9766,Pure Math,E00237,VIE1,F00103,E00238,VIE2,F00104
+0.9763,Applied,E02131,Longitude Prediction (Feature Selection),F01282,E02133,Longitude Correction (Feature Selection),F01284
+0.9761,Pure Math,E00419,ZZJ7,F00180,E00423,ZZJ1,F00184
+0.976,Pure Math,E02676,F7 (Layeb06),F01614,E02678,F9 (Layeb11),F01616
+0.976,Pure Math,E01286,MIPLIB 2017 - s100,F00766,E01287,MIPLIB 2017 - s250r10,F00767
+0.976,Pure Math,E00418,ZZJ6,F00179,E00422,ZZJ10,F00183
+0.9759,Pure Math,E00421,ZZJ9,F00182,E00422,ZZJ10,F00183
+0.9758,Applied,E02132,Latitude Correction (Feature Selection),F01283,E02137,Longitude Correction (Ensemble Weight Optimization),F01284
+0.9757,Pure Math,E00383,MMF1,F00153,E00385,MMF1_e,F00155
+0.9753,Pure Math,E02675,F6 (Layeb05),F01613,E02678,F9 (Layeb11),F01616
+0.9742,Pure Math,E00420,ZZJ8,F00181,E00422,ZZJ10,F00183
+0.9741,Applied,E00586,K-means clustering for load classification,F00290,E00587,Hybrid decision tree method,F00291
+0.974,Applied,E01308,PH2 (Binary),F00785,E01310,PH2 (Multi-class),F00787
+0.9737,Pure Math,E02675,F6 (Layeb05),F01613,E02677,F8 (Layeb08),F01615
+0.9735,Pure Math,E02664,SYN-1,F01602,E02666,SYN-3,F01604
+0.9733,Pure Math,E01291,MIPLIB 2017 - thor50dday,F00771,E01292,MIPLIB 2017 - neos-787933,F00765
+0.9726,Applied,E01305,Small Search Space,F00782,E01307,Large Search Space,F00784
+0.9719,Pure Math,E02208,"Symmetric Triangle Function (n=16, m=1, s=4)",F01336,E02209,"Triangle Function (n=16, m=1, s=8)",F01337
+0.9719,Pure Math,E00477,CEC'05,F00204,E00478,CEC'17,F00092
+0.9719,Pure Math,E00379,MMF14_a,F00149,E00381,MMF15_a,F00151
+0.9718,Pure Math,E00418,ZZJ6,F00179,E00423,ZZJ1,F00184
+0.9717,Applied,E02134,Latitude Prediction (Ensemble Weight Optimization),F01281,E02137,Longitude Correction (Ensemble Weight Optimization),F01284
+0.9717,Pure Math,E02274,RLSFH,F01381,E02275,rRLSFH,F01382
+0.9714,Pure Math,E01285,MIPLIB 2017 - neos-848589,F00765,E01291,MIPLIB 2017 - thor50dday,F00771
+0.9714,Applied,E01033,NGAFID Engine Parameter Prediction,F00609,E01034,NGAFID Non-Engine Parameter Prediction,F00610
+0.9712,Applied,E02135,Longitude Prediction (Ensemble Weight Optimization),F01282,E02136,Latitude Correction (Ensemble Weight Optimization),F01283
+0.9704,Pure Math,E00422,ZZJ10,F00183,E00423,ZZJ1,F00184
+0.9704,Pure Math,E00238,VIE2,F00104,E00239,VIE3,F00105
+0.9702,Pure Math,E02785,f1,F01693,E02791,f7,F01699
+0.9701,Pure Math,E02788,f4,F01696,E02789,f5,F01697
+0.97,Applied,E01149,Perth wave scenario (49-buoy),F00698,E01151,Sydney wave scenario (49-buoy),F00699
+0.9694,Pure Math,E02676,F7 (Layeb06),F01614,E02677,F8 (Layeb08),F01615
+0.9691,Applied,E02131,Longitude Prediction (Feature Selection),F01282,E02134,Latitude Prediction (Ensemble Weight Optimization),F01281
+0.969,Pure Math,E00384,MMF1_z,F00154,E00385,MMF1_e,F00155
+0.9689,Applied,E02239,ATP1D,F01351,E02240,ATP7D,F01352
+0.9689,Pure Math,E02664,SYN-1,F01602,E02668,SYN-5,F01606
+0.9682,Pure Math,E00376,MMF12,F00146,E00377,MMF13,F00147
+0.9681,Pure Math,E00377,MMF13,F00147,E00381,MMF15_a,F00151
+0.9679,Applied,E01150,Perth wave scenario (100-buoy),F00698,E01152,Sydney wave scenario (100-buoy),F00699
+0.9674,Applied,E02130,Latitude Prediction (Feature Selection),F01281,E02136,Latitude Correction (Ensemble Weight Optimization),F01283
+0.9673,Applied,E02130,Latitude Prediction (Feature Selection),F01281,E02133,Longitude Correction (Feature Selection),F01284
+0.9668,Applied,E02130,Latitude Prediction (Feature Selection),F01281,E02135,Longitude Prediction (Ensemble Weight Optimization),F01282
+0.9664,Pure Math,E01769,F15 in [29] (F8),F01082,E01770,F16 in [29] (F9),F01083
+0.9656,Pure Math,E00377,MMF13,F00147,E00380,MMF15,F00150
+0.9655,Applied,E01966,Three-Beams,F01201,E01967,Three-Beams + Structure,F01202
+0.9655,Applied,E02131,Longitude Prediction (Feature Selection),F01282,E02132,Latitude Correction (Feature Selection),F01283
+0.9653,Pure Math,E01852,L-track Racetrack,F01138,E01854,O-track Racetrack,F01140
+0.9649,Pure Math,E00195,j50 (Modified PSPLIB),F00084,E00196,j75 (Modified PSPLIB),F00085
+0.9642,Applied,E01964,Two-Beams,F01199,E01965,Two-Beams + Structure,F01200
+0.9637,Pure Math,E01472,P1,F00905,E01474,P3,F00907
+0.9633,Applied,E02955,Scene Multi-label Classification,F01809,E02957,MSRC-v2 Multi-label Classification,F01811
+0.9633,Applied,E02955,Scene Multi-label Classification,F01809,E02956,Image Multi-label Classification,F01810
+0.9633,Applied,E02953,Corel-5k Multi-label Classification,F01807,E02955,Scene Multi-label Classification,F01809
+0.9633,Pure Math,E00377,MMF13,F00147,E00383,MMF1,F00153
+0.9631,Pure Math,E00383,MMF1,F00153,E00384,MMF1_z,F00154
+0.9631,Pure Math,E02786,f2,F01694,E02789,f5,F01697
+0.9631,Applied,E02594,ETTh1 Dataset Forecasting,F01556,E02596,ETTm1 Dataset Forecasting,F01557
+0.9631,Applied,E02131,Longitude Prediction (Feature Selection),F01282,E02137,Longitude Correction (Ensemble Weight Optimization),F01284
+0.963,Pure Math,E01474,P3,F00907,E01475,P4,F00908
+0.9626,Pure Math,E02787,f3,F01695,E02789,f5,F01697
+0.9625,Applied,E02132,Latitude Correction (Feature Selection),F01283,E02134,Latitude Prediction (Ensemble Weight Optimization),F01281
+0.9625,Applied,E02970,Parkinson's Disease Progression Prediction,F01824,E02971,UPDRS Disease Progression Prediction,F01825
+0.9621,Pure Math,E02785,f1,F01693,E02789,f5,F01697
+0.962,Pure Math,E00193,j20 (Modified PSPLIB),F00082,E00197,j100 (Modified PSPLIB),F00086
+0.9614,Applied,E02353,Multi-Skill Resource-Constrained Project Scheduling Problem (MS-RCPSP) - iMOPSE d36 instances,F01406,E02354,Multi-Skill Resource-Constrained Project Scheduling Problem (MS-RCPSP) - Large-scale instances,F01407
+0.961,Applied,E00012,Single Mode LFO Parameter Estimation,F00011,E00013,Multiple Mode LFO Parameter Estimation (2 modes),F00012
+0.9609,Applied,E02133,Longitude Correction (Feature Selection),F01284,E02135,Longitude Prediction (Ensemble Weight Optimization),F01282
+0.9608,Pure Math,E02219,maze6,F01344,E02223,mazeF4,F01345
+0.9602,Pure Math,E02327,Simplex Pareto Front (Archiving Task),F01393,E02328,Inverted Simplex Pareto Front (Archiving Task),F01394
+0.96,Pure Math,E02270,RLSF,F01378,E02271,rRLSF,F01379
+0.9599,Pure Math,E01770,F16 in [29] (F9),F01083,E01771,F19 in [29] (F10),F01084
+0.9594,Pure Math,E01287,MIPLIB 2017 - s250r10,F00767,E01290,MIPLIB 2017 - bab6,F00770
+0.9594,Pure Math,E00377,MMF13,F00147,E00378,MMF14,F00148
+0.9592,Applied,E00960,CW,F00558,E00962,CC,F00560
+0.9591,Pure Math,E00195,j50 (Modified PSPLIB),F00084,E00197,j100 (Modified PSPLIB),F00086
+0.9589,Pure Math,E00376,MMF12,F00146,E00378,MMF14,F00148
+0.9589,Pure Math,E02219,maze6,F01344,E02222,mazeF3,F01345
+0.9587,Pure Math,E01286,MIPLIB 2017 - s100,F00766,E01290,MIPLIB 2017 - bab6,F00770
+0.9587,Pure Math,E00377,MMF13,F00147,E00379,MMF14_a,F00149
+0.9584,Pure Math,E02270,RLSF,F01378,E02274,RLSFH,F01381
+0.9581,Pure Math,E02218,maze5,F01344,E02223,mazeF4,F01345
+0.958,Pure Math,E02674,F5 (Layeb03),F01612,E02675,F6 (Layeb05),F01613
+0.9579,Pure Math,E02219,maze6,F01344,E02221,mazeF2,F01345
+0.9578,Pure Math,E02271,rRLSF,F01379,E02275,rRLSFH,F01382
+0.9576,Applied,E00475,Vehicle aerodynamic drag optimization,F00202,E00476,Vehicle aerodynamic lift optimization,F00203
+0.9574,Pure Math,E01690,MG17,F01034,E01691,MG30,F01035
+0.9567,Pure Math,E02674,F5 (Layeb03),F01612,E02678,F9 (Layeb11),F01616
+0.9565,Pure Math,E00381,MMF15_a,F00151,E00383,MMF1,F00153
+0.9564,Pure Math,E00194,j30 (Modified PSPLIB),F00083,E00195,j50 (Modified PSPLIB),F00084
+0.956,Applied,E02595,ETTh2 Dataset Forecasting,F01556,E02597,ETTm2 Dataset Forecasting,F01557
+0.9558,Applied,E02131,Longitude Prediction (Feature Selection),F01282,E02136,Latitude Correction (Ensemble Weight Optimization),F01283
+0.9555,Pure Math,E01472,P1,F00905,E01475,P4,F00908
+0.9554,Pure Math,E00380,MMF15,F00150,E00394,MMF10,F00164
+0.9553,Applied,E02411,kroAB100,F01432,E02412,kroAC100,F00823
+0.9549,Pure Math,E02743,CPLEX-CORLAT-REG,F01663,E02745,CPLEX-CORLAT-REG-RCW,F01665
+0.9549,Pure Math,E02269,rDTLZ2α,F01377,E02273,rDTLZ2αH,F01380
+0.9547,Applied,E02130,Latitude Prediction (Feature Selection),F01281,E02137,Longitude Correction (Ensemble Weight Optimization),F01284
+0.9547,Pure Math,E00194,j30 (Modified PSPLIB),F00083,E00197,j100 (Modified PSPLIB),F00086
+0.9546,Pure Math,E02674,F5 (Layeb03),F01612,E02677,F8 (Layeb08),F01615
+0.9542,Pure Math,E00192,j11 (Modified PSPLIB),F00081,E00193,j20 (Modified PSPLIB),F00082
+0.9541,Pure Math,E00237,VIE1,F00103,E00239,VIE3,F00105
+0.9541,Pure Math,E00378,MMF14,F00148,E00380,MMF15,F00150
+0.954,Applied,E02411,kroAB100,F01432,E02414,kroBC100,F00823
+0.9539,Pure Math,E00377,MMF13,F00147,E00387,MMF3,F00157
+0.9537,Pure Math,E02218,maze5,F01344,E02222,mazeF3,F01345
+0.9535,Pure Math,E00389,MMF5,F00159,E00390,MMF6,F00160
+0.9534,Pure Math,E02218,maze5,F01344,E02221,mazeF2,F01345
+0.9529,Applied,E02133,Longitude Correction (Feature Selection),F01284,E02134,Latitude Prediction (Ensemble Weight Optimization),F01281
+0.9529,Pure Math,E00378,MMF14,F00148,E00388,MMF4,F00158
+0.9525,Pure Math,E02219,maze6,F01344,E02220,mazeF1,F01345
+0.9524,Pure Math,E01287,MIPLIB 2017 - s250r10,F00767,E01288,MIPLIB 2017 - rail02,F00768
+0.9523,Pure Math,E02789,f5,F01697,E02790,f6,F01698
+0.952,Pure Math,E00376,MMF12,F00146,E00379,MMF14_a,F00149
+0.9519,Pure Math,E00376,MMF12,F00146,E00383,MMF1,F00153
+0.9518,Pure Math,E00192,j11 (Modified PSPLIB),F00081,E00197,j100 (Modified PSPLIB),F00086
+0.9518,Applied,E00012,Single Mode LFO Parameter Estimation,F00011,E00014,Multiple Mode LFO Parameter Estimation (3 modes),F00012
+0.9517,Pure Math,E00376,MMF12,F00146,E00381,MMF15_a,F00151
+0.9517,Pure Math,E00377,MMF13,F00147,E00385,MMF1_e,F00155
+0.9514,Pure Math,E00387,MMF3,F00157,E00388,MMF4,F00158
+0.9513,Pure Math,E01473,P2,F00906,E01474,P3,F00907
+0.9513,Pure Math,E00376,MMF12,F00146,E00380,MMF15,F00150
+0.951,Pure Math,E00193,j20 (Modified PSPLIB),F00082,E00194,j30 (Modified PSPLIB),F00083
+0.951,Applied,E01049,Constrained MACRA WDP,F00621,E01050,Unconstrained MACRA WDP,F00622
+0.9508,Applied,E02132,Latitude Correction (Feature Selection),F01283,E02135,Longitude Prediction (Ensemble Weight Optimization),F01282
+0.9507,Pure Math,E02520,LZ_09_F1,F01507,E02521,LZ_09_F2,F01508
+0.9504,Pure Math,E00383,MMF1,F00153,E00387,MMF3,F00157
+0.9503,Pure Math,E01286,MIPLIB 2017 - s100,F00766,E01291,MIPLIB 2017 - thor50dday,F00771
+0.9502,Pure Math,E00378,MMF14,F00148,E00381,MMF15_a,F00151
+0.9502,Pure Math,E00388,MMF4,F00158,E00389,MMF5,F00159
+0.9497,Pure Math,E00379,MMF14_a,F00149,E00385,MMF1_e,F00155
+0.9495,Pure Math,E00387,MMF3,F00157,E00389,MMF5,F00159
+0.9495,Pure Math,E02521,LZ_09_F2,F01508,E02522,LZ_09_F3,F01509
+0.9494,Applied,E02411,kroAB100,F01432,E02415,kroBD100,F00823
+0.9492,Applied,E02613,Single-Page (24D) Configuration,F01570,E02614,Multi-Page (27D) Configuration,F01571
+0.9488,Pure Math,E00381,MMF15_a,F00151,E00385,MMF1_e,F00155
+0.9487,Pure Math,E00196,j75 (Modified PSPLIB),F00085,E00197,j100 (Modified PSPLIB),F00086
+0.9483,Pure Math,E00380,MMF15,F00150,E00383,MMF1,F00153
+0.9482,Pure Math,E02218,maze5,F01344,E02220,mazeF1,F01345
+0.9477,Pure Math,E00376,MMF12,F00146,E00394,MMF10,F00164
+0.9476,Applied,E01928,Board Game Design,F01174,E01930,2023 Global Game Jam,F01176
+0.9474,Pure Math,E00390,MMF6,F00160,E00391,MMF7,F00161
+0.9473,Pure Math,E02674,F5 (Layeb03),F01612,E02676,F7 (Layeb06),F01614
+0.9473,Applied,E02412,kroAC100,F00823,E02422,kroAB200,F01432
+0.9472,Applied,E01310,PH2 (Multi-class),F00787,E01311,Dermofit (Multi-class),F00786
+0.9471,Applied,E01150,Perth wave scenario (100-buoy),F00698,E01151,Sydney wave scenario (49-buoy),F00699
+0.947,Pure Math,E00380,MMF15,F00150,E00389,MMF5,F00159
+0.9468,Pure Math,E00383,MMF1,F00153,E00395,MMF11,F00165
+0.9467,Pure Math,E01287,MIPLIB 2017 - s250r10,F00767,E01291,MIPLIB 2017 - thor50dday,F00771
+0.9467,Pure Math,E00505,F1(x),F00220,E00506,F2(x),F00221
+0.9466,Pure Math,E00376,MMF12,F00146,E00386,MMF2,F00156
+0.9463,Applied,E01755,Ugdb23,F01074,E01756,Uval10A,F01075
+0.9462,Applied,E02415,kroBD100,F00823,E02422,kroAB200,F01432
+0.9462,Applied,E02891,Image Binarization,F01753,E02892,Text Segmentation,F01754
+0.9461,Pure Math,E01286,MIPLIB 2017 - s100,F00766,E01288,MIPLIB 2017 - rail02,F00768
+0.9461,Pure Math,E00379,MMF14_a,F00149,E00383,MMF1,F00153
+0.946,Applied,E02886,Maximal Quasi-Clique Mining,F01748,E02981,Quasi-Clique Mining,F01835
+0.9457,Pure Math,E00193,j20 (Modified PSPLIB),F00082,E00195,j50 (Modified PSPLIB),F00084
+0.9454,Pure Math,E00388,MMF4,F00158,E00392,MMF8,F00162
+0.9452,Pure Math,E00383,MMF1,F00153,E00388,MMF4,F00158
+0.9452,Pure Math,E00387,MMF3,F00157,E00395,MMF11,F00165
+0.945,Applied,E02107,FEI_1,F01264,E02109,VGDB,F01266
+0.945,Pure Math,E00193,j20 (Modified PSPLIB),F00082,E00196,j75 (Modified PSPLIB),F00085
+0.9445,Pure Math,E01183,"12-bit Hierarchical Carry-one, 9-bit Hierarchical Multiplexer, and 9-bit Hierarchical Majority-on",F00701,E01184,18-bit Hierarchical Carry-one and 18-bit Hierarchical Multiplexer,F00702
+0.9445,Pure Math,E00377,MMF13,F00147,E00395,MMF11,F00165
+0.9444,Applied,E00260,MNIST Basic (MB),F00118,E00261,MRDBI,F00119
+0.9444,Pure Math,E00381,MMF15_a,F00151,E00394,MMF10,F00164
+0.9443,Pure Math,E00387,MMF3,F00157,E00390,MMF6,F00160
+0.9443,Pure Math,E00192,j11 (Modified PSPLIB),F00081,E00196,j75 (Modified PSPLIB),F00085
+0.9441,Pure Math,E01288,MIPLIB 2017 - rail02,F00768,E01290,MIPLIB 2017 - bab6,F00770
+0.944,Pure Math,E02789,f5,F01697,E02791,f7,F01699
+0.9438,Pure Math,E00388,MMF4,F00158,E00390,MMF6,F00160
+0.9438,Pure Math,E00390,MMF6,F00160,E00392,MMF8,F00162
+0.9437,Applied,E01928,Board Game Design,F01174,E01929,Minimalistic Video Game Design,F01175
+0.9437,Pure Math,E00381,MMF15_a,F00151,E00384,MMF1_z,F00154
+0.9435,Applied,E02040,Penguins,F01236,E02042,kc2,F00596
+0.9433,Applied,E03012,Image Registration,F01863,E03154,Translation and Rotation Image Registration,F01984
+0.943,Pure Math,E02209,"Triangle Function (n=16, m=1, s=8)",F01337,E02211,"Incomplete Triangle Function (n=14, m=1, s=4)",F01339
+0.9429,Pure Math,E00379,MMF14_a,F00149,E00380,MMF15,F00150
+0.9427,Pure Math,E00389,MMF5,F00159,E00391,MMF7,F00161
+0.9427,Pure Math,E00383,MMF1,F00153,E00386,MMF2,F00156
+0.9426,Pure Math,E00379,MMF14_a,F00149,E00384,MMF1_z,F00154
+0.9426,Pure Math,E00377,MMF13,F00147,E00394,MMF10,F00164
+0.9425,Pure Math,E01852,L-track Racetrack,F01138,E01853,R-track Racetrack,F01139
+0.9423,Applied,E02412,kroAC100,F00823,E02421,kroAB150,F01432
+0.9421,Pure Math,E00377,MMF13,F00147,E00384,MMF1_z,F00154
+0.9419,Pure Math,E00387,MMF3,F00157,E00392,MMF8,F00162
+0.9419,Applied,E01754,Ugdb8,F01074,E01756,Uval10A,F01075
+0.9416,Pure Math,E00378,MMF14,F00148,E00383,MMF1,F00153
+0.9415,Pure Math,E00394,MMF10,F00164,E00395,MMF11,F00165
+0.9412,Pure Math,E00376,MMF12,F00146,E00392,MMF8,F00162
+0.9412,Pure Math,E00194,j30 (Modified PSPLIB),F00083,E00196,j75 (Modified PSPLIB),F00085
+0.9412,Applied,E01308,PH2 (Binary),F00785,E01309,Dermofit (Binary),F00786
+0.9409,Pure Math,E01768,F10 in [29] (F7),F01081,E01770,F16 in [29] (F9),F01083
+0.9409,Pure Math,E00376,MMF12,F00146,E00395,MMF11,F00165
+0.9406,Applied,E02412,kroAC100,F00823,E02423,kroAB300,F01432
+0.9406,Pure Math,E00388,MMF4,F00158,E00391,MMF7,F00161
+0.9405,Applied,E01305,Small Search Space,F00782,E01306,Medium Search Space,F00783
+0.9405,Pure Math,E00379,MMF14_a,F00149,E00388,MMF4,F00158
+0.9404,Pure Math,E00380,MMF15,F00150,E00391,MMF7,F00161
+0.9397,Pure Math,E00392,MMF8,F00162,E00395,MMF11,F00165
+0.9397,Pure Math,E02270,RLSF,F01378,E02275,rRLSFH,F01382
+0.9396,Applied,E00522,Feature Selection,F00021,E00669,High-dimensional feature selection,F00350
+0.9394,Pure Math,E01473,P2,F00906,E01475,P4,F00908
+0.9393,Applied,E02415,kroBD100,F00823,E02421,kroAB150,F01432
+0.9393,Pure Math,E00377,MMF13,F00147,E00391,MMF7,F00161
+0.9393,Pure Math,E00392,MMF8,F00162,E00393,MMF9,F00163
+0.9392,Applied,E01149,Perth wave scenario (49-buoy),F00698,E01152,Sydney wave scenario (100-buoy),F00699
+0.939,Pure Math,E01768,F10 in [29] (F7),F01081,E01769,F15 in [29] (F8),F01082
+0.9388,Pure Math,E00378,MMF14,F00148,E00394,MMF10,F00164
+0.9388,Pure Math,E00383,MMF1,F00153,E00394,MMF10,F00164
+0.9387,Pure Math,E02217,littman89,F01343,E02224,woods101,F01346
+0.9384,Pure Math,E00381,MMF15_a,F00151,E00395,MMF11,F00165
+0.9381,Applied,E01964,Two-Beams,F01199,E01966,Three-Beams,F01201
+0.938,Pure Math,E00383,MMF1,F00153,E00391,MMF7,F00161
+0.9379,Applied,E01965,Two-Beams + Structure,F01200,E01967,Three-Beams + Structure,F01202
+0.9373,Pure Math,E00376,MMF12,F00146,E00388,MMF4,F00158
+0.9372,Pure Math,E00387,MMF3,F00157,E00393,MMF9,F00163
+0.9372,Applied,E02414,kroBC100,F00823,E02422,kroAB200,F01432
+0.9372,Pure Math,E00376,MMF12,F00146,E00385,MMF1_e,F00155
+0.937,Pure Math,E01769,F15 in [29] (F8),F01082,E01771,F19 in [29] (F10),F01084
+0.9367,Pure Math,E01141,SMD7,F00690,E01142,SMD8,F00691
+0.9366,Pure Math,E00950,MTQ,F00550,E00951,MTQ 125,F00551
+0.9365,Pure Math,E00393,MMF9,F00163,E00395,MMF11,F00165
+0.9362,Applied,E02415,kroBD100,F00823,E02423,kroAB300,F01432
+0.936,Pure Math,E00387,MMF3,F00157,E00391,MMF7,F00161
+0.9357,Pure Math,E00380,MMF15,F00150,E00387,MMF3,F00157
+0.9357,Pure Math,E00377,MMF13,F00147,E00386,MMF2,F00156
+0.9354,Pure Math,E00630,IEEE CEC'13 benchmark suite,F00126,E00662,CEC 2015 Benchmark Suite,F00256
+0.9351,Pure Math,E00383,MMF1,F00153,E00389,MMF5,F00159
+0.935,Pure Math,E00385,MMF1_e,F00155,E00386,MMF2,F00156
+0.9348,Pure Math,E00377,MMF13,F00147,E00392,MMF8,F00162
+0.9348,Pure Math,E01768,F10 in [29] (F7),F01081,E01771,F19 in [29] (F10),F01084
+0.9347,Pure Math,E00380,MMF15,F00150,E00395,MMF11,F00165
+0.9346,Pure Math,E00383,MMF1,F00153,E00392,MMF8,F00162
+0.9343,Pure Math,E00381,MMF15_a,F00151,E00389,MMF5,F00159
+0.9341,Pure Math,E00378,MMF14,F00148,E00391,MMF7,F00161
+0.9339,Applied,E01929,Minimalistic Video Game Design,F01175,E01930,2023 Global Game Jam,F01176
+0.9337,Pure Math,E00381,MMF15_a,F00151,E00391,MMF7,F00161
+0.9336,Pure Math,E00389,MMF5,F00159,E00395,MMF11,F00165
+0.9334,Applied,E02412,kroAC100,F00823,E02425,kroAB500,F01432
+0.9333,Applied,E02414,kroBC100,F00823,E02421,kroAB150,F01432
+0.9332,Pure Math,E00388,MMF4,F00158,E00394,MMF10,F00164
+0.9331,Applied,E02414,kroBC100,F00823,E02423,kroAB300,F01432
+0.933,Applied,E02415,kroBD100,F00823,E02425,kroAB500,F01432
+0.9329,Pure Math,E01853,R-track Racetrack,F01139,E01854,O-track Racetrack,F01140
+0.9327,Pure Math,E00377,MMF13,F00147,E00388,MMF4,F00158
+0.9323,Pure Math,E00192,j11 (Modified PSPLIB),F00081,E00195,j50 (Modified PSPLIB),F00084
+0.9318,Pure Math,E00389,MMF5,F00159,E00392,MMF8,F00162
+0.9317,Pure Math,E00376,MMF12,F00146,E00384,MMF1_z,F00154
+0.9315,Pure Math,E00390,MMF6,F00160,E00395,MMF11,F00165
+0.9314,Pure Math,E00381,MMF15_a,F00151,E00387,MMF3,F00157
+0.9313,Pure Math,E00378,MMF14,F00148,E00386,MMF2,F00156
+0.9311,Pure Math,E00378,MMF14,F00148,E00385,MMF1_e,F00155
+0.931,Applied,E02414,kroBC100,F00823,E02425,kroAB500,F01432
+0.9309,Pure Math,E00389,MMF5,F00159,E00394,MMF10,F00164
+0.9307,Pure Math,E00376,MMF12,F00146,E00391,MMF7,F00161
+0.93,Pure Math,E00376,MMF12,F00146,E00387,MMF3,F00157
+0.93,Pure Math,E01286,MIPLIB 2017 - s100,F00766,E01292,MIPLIB 2017 - neos-787933,F00765
+0.9299,Applied,E01306,Medium Search Space,F00783,E01307,Large Search Space,F00784
+0.9299,Pure Math,E00192,j11 (Modified PSPLIB),F00081,E00194,j30 (Modified PSPLIB),F00083
+0.9296,Pure Math,E00388,MMF4,F00158,E00393,MMF9,F00163
+0.9294,Applied,E01303,Static Exploratory Path Planning,F00780,E01304,Dynamic Exploratory Path Planning,F00781
+0.9293,Applied,E01754,Ugdb8,F01074,E01757,Uval10D,F01075
+0.9293,Applied,E02735,Wargame Simulation - Case 1: Expensive-Offence Configuration,F01656,E02736,Wargame Simulation - Case 2: Expensive-Defence Configuration,F01657
+0.9292,Applied,E02594,ETTh1 Dataset Forecasting,F01556,E02597,ETTm2 Dataset Forecasting,F01557
+0.9289,Pure Math,E00388,MMF4,F00158,E00395,MMF11,F00165
+0.9288,Pure Math,E01285,MIPLIB 2017 - neos-848589,F00765,E01286,MIPLIB 2017 - s100,F00766
+0.9288,Pure Math,E00376,MMF12,F00146,E00390,MMF6,F00160
+0.9287,Pure Math,E00381,MMF15_a,F00151,E00392,MMF8,F00162
+0.9286,Pure Math,E00392,MMF8,F00162,E00394,MMF10,F00164
+0.9284,Pure Math,E00391,MMF7,F00161,E00392,MMF8,F00162
+0.9282,Pure Math,E02520,LZ_09_F1,F01507,E02522,LZ_09_F3,F01509
+0.9282,Pure Math,E00917,mul3 (Multiplier),F00524,E00918,mul5 (Multiplier),F00525
+0.928,Pure Math,E00379,MMF14_a,F00149,E00394,MMF10,F00164
+0.9279,Applied,E01309,Dermofit (Binary),F00786,E01310,PH2 (Multi-class),F00787
+0.9277,Pure Math,E01285,MIPLIB 2017 - neos-848589,F00765,E01287,MIPLIB 2017 - s250r10,F00767
+0.9276,Pure Math,E00391,MMF7,F00161,E00395,MMF11,F00165
+0.9275,Applied,E02702,GCC Compiler Testing,F01631,E02703,Clang Compiler Testing,F01632
+0.9274,Pure Math,E01299,Uncorrelated Chance-Constrained Knapsack Problem,F00777,E01300,Bounded Strongly Correlated Chance-Constrained Knapsack Problem,F00778
+0.9273,Pure Math,E01111,Dsc1,F00668,E01112,Dsc2,F00669
+0.9271,Pure Math,E01287,MIPLIB 2017 - s250r10,F00767,E01292,MIPLIB 2017 - neos-787933,F00765
+0.927,Pure Math,E00391,MMF7,F00161,E00394,MMF10,F00164
+0.9262,Pure Math,E00380,MMF15,F00150,E00392,MMF8,F00162
+0.9262,Applied,E01082,CNV-W1A1 Memory Packing,F00644,E01089,RN152-W1A2 Memory Packing,F00648
+0.9262,Applied,E02265,Omentum,F00596,E02268,IEEE Malware,F01376
+0.9256,Pure Math,E00386,MMF2,F00156,E00388,MMF4,F00158
+0.9256,Pure Math,E00380,MMF15,F00150,E00388,MMF4,F00158
+0.9256,Pure Math,E00380,MMF15,F00150,E00385,MMF1_e,F00155
+0.9255,Pure Math,E00379,MMF14_a,F00149,E00391,MMF7,F00161
+0.9254,Pure Math,E01657,RUD1,F01015,E01658,RUD2,F01016
+0.9254,Pure Math,E00389,MMF5,F00159,E00393,MMF9,F00163
+0.9252,Pure Math,E00384,MMF1_z,F00154,E00386,MMF2,F00156
+0.9252,Applied,E02256,"2DPackLib (beng, class, A instances)",F01367,E02257,Almost Squares in Almost Squares (Asqas),F01368
+0.9251,Applied,E01755,Ugdb23,F01074,E01757,Uval10D,F01075
+0.9247,Pure Math,E00381,MMF15_a,F00151,E00388,MMF4,F00158
+0.9247,Pure Math,E00390,MMF6,F00160,E00393,MMF9,F00163
+0.9246,Pure Math,E02208,"Symmetric Triangle Function (n=16, m=1, s=4)",F01336,E02211,"Incomplete Triangle Function (n=14, m=1, s=4)",F01339
+0.9244,Pure Math,E02743,CPLEX-CORLAT-REG,F01663,E02744,CPLEX-CORLAT,F01664
+0.9242,Pure Math,E01288,MIPLIB 2017 - rail02,F00768,E01291,MIPLIB 2017 - thor50dday,F00771
+0.9241,Pure Math,E00838,Max-DTLZ1,F00032,E01406,IDTLZ1,F00852
+0.924,Pure Math,E00387,MMF3,F00157,E00394,MMF10,F00164
+0.9236,Applied,E02411,kroAB100,F01432,E02413,kroAD100,F00823
+0.9235,Pure Math,E00377,MMF13,F00147,E00389,MMF5,F00159
+0.9233,Applied,E02266,Uterus,F00596,E02268,IEEE Malware,F01376
+0.923,Pure Math,E00391,MMF7,F00161,E00393,MMF9,F00163
+0.9229,Pure Math,E00564,clf5605 airfoil reproduction,F00271,E00565,NACA0012 airfoil reproduction,F00272
+0.9227,Pure Math,E01290,MIPLIB 2017 - bab6,F00770,E01291,MIPLIB 2017 - thor50dday,F00771
+0.9223,Applied,E00962,CC,F00560,E00963,Tiny,F00561
+0.9222,Pure Math,E00383,MMF1,F00153,E00390,MMF6,F00160
+0.9221,Applied,E02595,ETTh2 Dataset Forecasting,F01556,E02596,ETTm1 Dataset Forecasting,F01557
+0.9221,Pure Math,E00376,MMF12,F00146,E00389,MMF5,F00159
+0.9215,Applied,E02414,kroBC100,F00823,E02424,kroAB400,F01432
+0.9212,Pure Math,E00379,MMF14_a,F00149,E00386,MMF2,F00156
+0.921,Applied,E03029,Energy Efficiency Cooling,F01878,E03030,Energy Efficiency Heating,F01879
+0.921,Pure Math,E00630,IEEE CEC'13 benchmark suite,F00126,E00703,CEC'14 benchmark suite,F00040
+0.9208,Pure Math,E00380,MMF15,F00150,E00390,MMF6,F00160
+0.9207,Pure Math,E00386,MMF2,F00156,E00387,MMF3,F00157
+0.9204,Pure Math,E02216,littman57,F01343,E02224,woods101,F01346
+0.9204,Pure Math,E00378,MMF14,F00148,E00384,MMF1_z,F00154
+0.9202,Applied,E02412,kroAC100,F00823,E02424,kroAB400,F01432
+0.9196,Pure Math,E00385,MMF1_e,F00155,E00388,MMF4,F00158
+0.9195,Pure Math,E00385,MMF1_e,F00155,E00394,MMF10,F00164
+0.9194,Pure Math,E01482,pr2392,F00503,E01486,rl11849,F00913
+0.9192,Pure Math,E01481,pr1002,F00503,E01486,rl11849,F00913
+0.919,Pure Math,E00380,MMF15,F00150,E00384,MMF1_z,F00154
+0.9189,Pure Math,E00384,MMF1_z,F00154,E00387,MMF3,F00157
+0.9189,Pure Math,E00377,MMF13,F00147,E00390,MMF6,F00160
+0.9184,Pure Math,E01148,Normalized Pareto Fronts (Triangular and Inverted Triangular),F00697,E01540,Triangular and Inverted Triangular Pareto Fronts,F00947
+0.9183,Pure Math,E01112,Dsc2,F00669,E01113,Dsc3,F00670
+0.9183,Pure Math,E00939,16-4-bit Encode,F00541,E00940,4-16-bit Decode,F00542
+0.9182,Applied,E01682,LeNet-5 on MNIST and VGG-16 on CIFAR-10,F01029,E01683,ResNet-18 on ILSVRC-2012,F01030
+0.918,Pure Math,E00385,MMF1_e,F00155,E00387,MMF3,F00157
+0.9179,Pure Math,E00393,MMF9,F00163,E00394,MMF10,F00164
+0.9176,Applied,E01308,PH2 (Binary),F00785,E01311,Dermofit (Multi-class),F00786
+0.9175,Applied,E02939,Weisfeiler-Lehman (WL)-SP kernel,F01793,E02941,Weisfeiler-Lehman (WL)-subtree kernel,F01795
+0.9173,Pure Math,E01215,Synthetic 1,F00719,E01216,Synthetic 2,F00720
+0.9171,Applied,E02249,Sinusoidal Trajectory,F01360,E02250,Random Trajectory,F01361
+0.917,Applied,E01752,Ugdb1,F01074,E01756,Uval10A,F01075
+0.9168,Pure Math,E00662,CEC 2015 Benchmark Suite,F00256,E00703,CEC'14 benchmark suite,F00040
+0.9166,Pure Math,E00385,MMF1_e,F00155,E00395,MMF11,F00165
+0.9164,Pure Math,E02211,"Incomplete Triangle Function (n=14, m=1, s=4)",F01339,E02212,"2-range Asymmetric Incomplete Triangle Function (n=14, m=(2,1), s=(2,4))",F01338
+0.9161,Pure Math,E00379,MMF14_a,F00149,E00395,MMF11,F00165
+0.9159,Applied,E01082,CNV-W1A1 Memory Packing,F00644,E01087,RN50-W1A2 Memory Packing,F00648
+0.9159,Pure Math,E00380,MMF15,F00150,E00386,MMF2,F00156
+0.9158,Pure Math,E00384,MMF1_z,F00154,E00394,MMF10,F00164
+0.9155,Applied,E02415,kroBD100,F00823,E02424,kroAB400,F01432
+0.9152,Pure Math,E01054,minus-DTLZ1,F00032,E01406,IDTLZ1,F00852
+0.9151,Pure Math,E01443,G1: Linearly separable well-separated clustering,F00883,E01444,G2: Linearly separable overlapped clustering,F00884
+0.9151,Pure Math,E00384,MMF1_z,F00154,E00395,MMF11,F00165
+0.9146,Pure Math,E02271,rRLSF,F01379,E02274,RLSFH,F01381
+0.9144,Applied,E01942,Emergency Medical Dispatch (EMD) on EGL-G Graph,F01185,E01943,Emergency Medical Dispatch (EMD) on HFE Graph,F01186
+0.9141,Pure Math,E00384,MMF1_z,F00154,E00388,MMF4,F00158
+0.9139,Pure Math,E00384,MMF1_z,F00154,E00391,MMF7,F00161
+0.9138,Pure Math,E02209,"Triangle Function (n=16, m=1, s=8)",F01337,E02210,"2-range Asymmetric Triangle Function (n=16, m=(2,1), s=(2,4))",F01338
+0.9135,Pure Math,E00381,MMF15_a,F00151,E00390,MMF6,F00160
+0.9135,Pure Math,E00378,MMF14,F00148,E00395,MMF11,F00165
+0.9134,Pure Math,E00390,MMF6,F00160,E00394,MMF10,F00164
+0.913,Pure Math,E00386,MMF2,F00156,E00394,MMF10,F00164
+0.9127,Applied,E02707,PC-RPR Dataset A (Reverse-generated),F01635,E02708,PC-RPR Dataset B (Random-generated),F01636
+0.912,Pure Math,E00385,MMF1_e,F00155,E00391,MMF7,F00161
+0.912,Pure Math,E00378,MMF14,F00148,E00392,MMF8,F00162
+0.9117,Pure Math,E01285,MIPLIB 2017 - neos-848589,F00765,E01288,MIPLIB 2017 - rail02,F00768
+0.9117,Pure Math,E01117,Mal2,F00674,E01118,Mal3,F00675
+0.9116,Pure Math,E00379,MMF14_a,F00149,E00392,MMF8,F00162
+0.9116,Pure Math,E00381,MMF15_a,F00151,E00386,MMF2,F00156
+0.9116,Applied,E01083,CNV-W2A2 Memory Packing,F00644,E01089,RN152-W1A2 Memory Packing,F00648
+0.9114,Pure Math,E00386,MMF2,F00156,E00391,MMF7,F00161
+0.9112,Applied,E03110,Glioblastoma multiforme (GBM) multi-omics clustering,F01947,E03111,Breast Invasive Carcinoma (BIC) multi-omics clustering,F01948
+0.9109,Applied,E02413,kroAD100,F00823,E02422,kroAB200,F01432
+0.9105,Pure Math,E00383,MMF1,F00153,E00393,MMF9,F00163
+0.9103,Applied,E01082,CNV-W1A1 Memory Packing,F00644,E01088,RN101-W1A2 Memory Packing,F00648
+0.9103,Pure Math,E02138,Benchmark I,F01285,E02139,Benchmark II,F01286
+0.91,Pure Math,E00385,MMF1_e,F00155,E00392,MMF8,F00162
+0.91,Applied,E02276,Multi-Skill Resource Constrained Project Scheduling Problem (MS-RCPSP),F01383,E02354,Multi-Skill Resource-Constrained Project Scheduling Problem (MS-RCPSP) - Large-scale instances,F01407
+0.9098,Applied,E00516,Rectangular Angle Cut Ultra Wideband Antenna,F00231,E00517,Polygon Ultra Wideband Antenna,F00232
+0.9098,Applied,E01599,ResNet50 Image Classification Testing,F00980,E01601,GoogleNet Image Classification Testing,F00981
+0.9095,Applied,E02055,Pong,F01242,E02056,Arkanoid,F01243
+0.9092,Pure Math,E01288,MIPLIB 2017 - rail02,F00768,E01292,MIPLIB 2017 - neos-787933,F00765
+0.9091,Applied,E01964,Two-Beams,F01199,E01967,Three-Beams + Structure,F01202
+0.9089,Pure Math,E01112,Dsc2,F00669,E01114,Dsc4,F00671
+0.9083,Applied,E02575,ALOI,F01543,E02578,Jannis,F01546
+0.9082,Pure Math,E02217,littman89,F01343,E02220,mazeF1,F01345
+0.908,Applied,E01371,pr1002,F00503,E02419,randAB100,F00823
+0.9078,Pure Math,E01482,pr2392,F00503,E01487,brd14051,F00913
+0.9076,Pure Math,E00529,Concave (Ishibuchi),F00242,E00532,Inverted concave (Ishibuchi),F00244
+0.9073,Applied,E02413,kroAD100,F00823,E02425,kroAB500,F01432
+0.907,Pure Math,E00378,MMF14,F00148,E00387,MMF3,F00157
+0.9066,Applied,E02413,kroAD100,F00823,E02423,kroAB300,F01432
+0.9055,Pure Math,E01285,MIPLIB 2017 - neos-848589,F00765,E01290,MIPLIB 2017 - bab6,F00770
+0.9051,Pure Math,E00377,MMF13,F00147,E00393,MMF9,F00163
+0.9049,Pure Math,E01290,MIPLIB 2017 - bab6,F00770,E01292,MIPLIB 2017 - neos-787933,F00765
+0.9047,Applied,E02276,Multi-Skill Resource Constrained Project Scheduling Problem (MS-RCPSP),F01383,E02353,Multi-Skill Resource-Constrained Project Scheduling Problem (MS-RCPSP) - iMOPSE d36 instances,F01406
+0.9046,Applied,E02880,MANET P-MPR Selection,F01742,E03014,Multi-point Relay Selection Problem,F01865
+0.9046,Pure Math,E00384,MMF1_z,F00154,E00392,MMF8,F00162
+0.9044,Applied,E02413,kroAD100,F00823,E02421,kroAB150,F01432
+0.9042,Pure Math,E02170,SMD4,F01306,E02171,SMD5,F01307
+0.9035,Pure Math,E00378,MMF14,F00148,E00389,MMF5,F00159
+0.9032,Applied,E01752,Ugdb1,F01074,E01757,Uval10D,F01075
+0.9032,Pure Math,E00379,MMF14_a,F00149,E00387,MMF3,F00157
+0.9031,Pure Math,E02273,rDTLZ2αH,F01380,E02275,rRLSFH,F01382
+0.9027,Applied,E01600,ResNet101 Image Classification Testing,F00980,E01601,GoogleNet Image Classification Testing,F00981
+0.9023,Pure Math,E01481,pr1002,F00503,E01487,brd14051,F00913
+0.9014,Pure Math,E00378,MMF14,F00148,E00390,MMF6,F00160
+0.9014,Pure Math,E00385,MMF1_e,F00155,E00389,MMF5,F00159
+0.9013,Pure Math,E02220,mazeF1,F01345,E02224,woods101,F01346
+0.9013,Applied,E01371,pr1002,F00503,E02420,randCD100,F00823
+0.9013,Pure Math,E00380,MMF15,F00150,E00393,MMF9,F00163
+0.9009,Applied,E03126,CoverType Classification,F01960,E03131,Thyroid Classification,F01965
+0.9007,Pure Math,E02682,Adjacent MNK Landscapes,F01620,E02683,Random MNK Landscapes,F01621
+0.9003,Applied,E01941,Emergency Medical Dispatch (EMD) on EGL Graph,F01185,E01943,Emergency Medical Dispatch (EMD) on HFE Graph,F01186
+0.9001,Pure Math,E00756,JY1,F00425,E00757,JY2,F00426
+0.9001,Pure Math,E01195,Orienteering Problem (OP),F00706,E01196,Orienteering Problem with Time Windows (OPTW),F00707
