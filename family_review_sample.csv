@@ -1,0 +1,81 @@
+entity_id_a,name_a,category_a,n_papers_a,entity_id_b,name_b,category_b,n_papers_b,same_family (y/n),notes,pair_type,evidence,family_a,family_b
+E00512,Xin-She Yang function,Pure Math,1,E02895,Negative Log Likelihood minimization for CRF,Applied,1,,,negative_control,"random pair, different families",F00266,F01866
+E02339,PMLB_230,Applied,1,E02343,PMLB_561,Applied,1,,,merged_by_library_cue,library_cue: PMLB,F00891,F00891
+E00547,CEC'2015 test suite (F1-F15),Pure Math,2,E00662,CEC 2015 Benchmark Suite,Pure Math,3,,,merged_by_library_cue,library_cue: CEC 2015,F00296,F00296
+E00210,UF2,Pure Math,1,E00212,UF4,Pure Math,1,,,candidate_not_merged,cosine 0.919,F00100,F00102
+E01896,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Lucene,Applied,1,E01898,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse PDE UI,Applied,1,,,candidate_not_merged,cosine 1.000,F01239,F01238
+E02789,f5,Pure Math,1,E02790,f6,Pure Math,1,,,candidate_not_merged,cosine 0.952,F01803,F01804
+E01157,Cleveland,Applied,1,E01158,Contraceptive,Applied,1,,,merged_by_library_cue,library_cue: UCI,F00014,F00014
+E02985,Non-stationary Temporal Causal Network (nsTCN) learning,Applied,1,E02986,Non-stationary temporal causal networks (nsTCN) learning,Applied,1,,,merged_by_template,template: 1 token edit(s),F01947,F01947
+E00447,CEC2017 F12 (Hybrid Function 2),Pure Math,1,E01235,Minimum Spanning Tree on Triangular-tailed graph G1,Pure Math,1,,,negative_control,"random pair, different families",F00077,F00802
+E01886,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Lucene,Applied,1,E01903,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse PDE UI,Applied,1,,,candidate_not_merged,cosine 1.000,F01237,F01236
+E00211,UF3,Pure Math,1,E00213,UF5,Pure Math,1,,,candidate_not_merged,cosine 0.928,F00101,F00103
+E00833,Twomax,Pure Math,1,E02214,RE3-4-3,Applied,1,,,negative_control,"random pair, different families",F00524,F01424
+E00292,F5 (CEC'2013 Niching Benchmark Suite),Pure Math,1,E00295,F8 (CEC'2013 Niching Benchmark Suite),Pure Math,1,,,candidate_not_merged,cosine 0.986,F00148,F00151
+E01836,Ship Berthing Control Task 1 (Steady Wind Disturbance),Applied,1,E01837,Ship Berthing Control Task 2 (General Disturbance),Applied,1,,,merged_by_template,template: 1 token edit(s),F01210,F01210
+E02215,Multi-objective problems (unspecified),Pure Math,1,E02865,BBOB F15-19,Pure Math,1,,,negative_control,"random pair, different families",F01425,F00481
+E01179,Waveform_w_noise,Applied,1,E02407,Artificial 40-node full-mesh network,Applied,1,,,negative_control,"random pair, different families",F00014,F01527
+E01335,Mackey-Glass,Pure Math,1,E02204,Mackey-Glass (TV-ESN Parameter Optimization),Pure Math,1,,,merged_by_stem,stem: mackey glass,F00871,F00871
+E01299,Uncorrelated Chance-Constrained Knapsack Problem,Pure Math,1,E02358,Custom Multi-objective Test Problem 3,Pure Math,1,,,negative_control,"random pair, different families",F00849,F01506
+E02007,OpenML Task 145681 (wine-quality-white),Applied,1,E02266,Uterus,Applied,1,,,merged_by_library_cue,library_cue: OpenML,F00626,F00626
+E00136,Salt-and-Pepper Noise Removal,Applied,1,E00765,Tension/Compression Spring Design,Applied,1,,,negative_control,"random pair, different families",F00061,F00475
+E00689,CEC 2009 CF Test Suite,Pure Math,3,E02511,CEC 2023 DCF Test Suite,Pure Math,1,,,merged_by_template,template: 2 token edit(s),F00077,F00077
+E01363,Constrained Minimum Spanning Tree,Pure Math,1,E02243,JURA,Applied,1,,,negative_control,"random pair, different families",F00893,F01438
+E01888,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse PDE UI,Applied,1,E01895,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Equinox,Applied,1,,,candidate_not_merged,cosine 1.000,F01236,F01239
+E01782,Three-option collective perceptual discrimination task,Applied,1,E01783,Two-option collective perceptual discrimination task,Applied,1,,,merged_by_template,template: 1 token edit(s),F01174,F01174
+E02394,Gymnasium environments,Applied,1,E02617,Pong (Atari 2600),Applied,1,,,merged_by_library_cue,library_cue: OpenAI Gym,F00646,F00646
+E00499,CEC 2021 Shift (010),Pure Math,1,E00503,"CEC 2021 Shift, Rotation (011)",Pure Math,1,,,candidate_not_merged,cosine 0.911,F00253,F00257
+E00241,Flexible Job Shop Scheduling Problem (Brandimarte Mk01-Mk10),Applied,1,E00483,Dynamic Flexible Job Shop Scheduling,Applied,2,,,merged_by_template,template: 2 token edit(s),F00124,F00124
+E00285,F16 (CEC'2013 Niching Benchmark Suite),Pure Math,1,E00286,F17 (CEC'2013 Niching Benchmark Suite),Pure Math,1,,,candidate_not_merged,cosine 0.994,F00141,F00142
+E00291,F4 (CEC'2013 Niching Benchmark Suite),Pure Math,1,E00296,F9 (CEC'2013 Niching Benchmark Suite),Pure Math,1,,,candidate_not_merged,cosine 0.990,F00147,F00152
+E00700,St1 trading strategy,Applied,1,E00702,St3 trading strategy,Applied,1,,,merged_by_stem,stem: st trading strategy,F00416,F00416
+E03045,ELD 6D,Applied,1,E03046,ELD 13D,Applied,1,,,merged_by_library_cue,library_cue: CEC 2011,F02000,F02000
+E00159,MR-to-HU mapping for Cortical Bone tissue,Applied,1,E00329,RWMOP27,Applied,1,,,negative_control,"random pair, different families",F00074,F00158
+E01816,Scenario A (Single static CB area),Applied,1,E01817,Scenario B (Two static CB areas),Applied,1,,,candidate_not_merged,cosine 0.980,F01192,F01193
+E01904,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse JDT Core,Applied,1,E01907,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Mylyn,Applied,1,,,candidate_not_merged,cosine 1.000,F01236,F01237
+E01962,Ant-v2,Pure Math,1,E02017,Ant-v3,Pure Math,1,,,merged_by_stem,stem: ant v,F01276,F01276
+E02730,Auto-H-LSGO Type 1,Pure Math,1,E02731,Auto-H-LSGO Type 2,Pure Math,1,,,merged_by_template,template: 1 token edit(s),F01758,F01758
+E01768,F10 in [29] (F7),Pure Math,1,E01770,F16 in [29] (F9),Pure Math,1,,,candidate_not_merged,cosine 0.941,F01164,F01166
+E00383,MMF1,Pure Math,1,E00388,MMF4,Pure Math,1,,,candidate_not_merged,cosine 0.945,F00184,F00189
+E01278,BBOB noiseless suite (Function 21),Pure Math,1,E01675,24 noiseless BBOB functions,Pure Math,1,,,merged_by_library_cue,library_cue: BBOB,F00481,F00481
+E02300,MW6,Pure Math,1,E02309,MW14,Pure Math,1,,,candidate_not_merged,cosine 0.955,F01477,F01485
+E02242,ENB,Applied,1,E02471,Travelling Thief Problem (TTP),Applied,1,,,negative_control,"random pair, different families",F01437,F00044
+E01581,3-input 1-output digital circuit G-P map,Pure Math,1,E01582,4-input 1-output digital circuit G-P map,Pure Math,1,,,merged_by_stem,stem: input output digital circuit p map,F01043,F01043
+E01899,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse JDT Core,Applied,1,E01902,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Mylyn,Applied,1,,,candidate_not_merged,cosine 1.000,F01236,F01237
+E01890,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Equinox,Applied,1,E01895,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Equinox,Applied,1,,,candidate_not_merged,cosine 1.000,F01237,F01239
+E01869,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse JDT Core,Applied,1,E01886,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Lucene,Applied,1,,,candidate_not_merged,cosine 1.000,F01236,F01237
+E00388,MMF4,Pure Math,1,E00390,MMF6,Pure Math,1,,,candidate_not_merged,cosine 0.944,F00189,F00191
+E00785,Rosenbrock (unrotated),Pure Math,1,E01764,Rosenbrock (F3),Pure Math,1,,,merged_by_stem,stem: rosenbrock,F00056,F00056
+E01193,WFG8,Pure Math,2,E02258,constrained DTLZ,Pure Math,1,,,negative_control,"random pair, different families",F00771,F01452
+E02787,f3,Pure Math,2,E02790,f6,Pure Math,1,,,candidate_not_merged,cosine 0.988,F01801,F01804
+E02216,littman57,Pure Math,1,E02217,littman89,Pure Math,1,,,merged_by_stem,stem: littman,F01426,F01426
+E00124,Different Powers Function (f5),Pure Math,1,E02849,Different powers function (fdiff_pow),Pure Math,1,,,merged_by_stem,stem: different powers,F00051,F00051
+E01015,"TSPlib (eil51, eil76, eil101)",Pure Math,1,E01629,TSPLIB,Pure Math,1,,,merged_by_stem,stem: tsplib,F00241,F00241
+E01603,Bi-objective Quadratic Assignment Problem,Pure Math,1,E02800,PyGame Geometric 2D Navigation,Pure Math,1,,,negative_control,"random pair, different families",F00694,F01814
+E01578,Uncertain Capacitated Arc Routing Problem (Ugdb and Uval),Applied,1,E01747,Dynamic Capacitated Arc Routing Problem (egl-E2-A),Applied,1,,,merged_by_template,template: 1 token edit(s),F00013,F00013
+E00992,Pollution,Applied,2,E01190,WFG5,Pure Math,3,,,negative_control,"random pair, different families",F00641,F00768
+E00423,ZZJ1,Pure Math,1,E00424,ZZJ2,Pure Math,1,,,candidate_not_merged,cosine 0.986,F00214,F00215
+E02024,Tunable Test Problem PID 3 (Skewed Schwefel N02 Function),Pure Math,1,E02026,Tunable Test Problem PID 5 (Skewed Ackley Function),Pure Math,1,,,merged_by_template,template: 1 token edit(s),F01313,F01313
+E02781,EMA Crossover Trading Strategy Optimization,Applied,1,E03104,Olivetti Faces Image Classification,Applied,1,,,negative_control,"random pair, different families",F01797,F02051
+E01066,ResNet-110 Compression,Applied,1,E01952,EEG Feature Selection (SVM Classifier),Applied,1,,,negative_control,"random pair, different families",F00691,F00724
+E00850,Weighted Minimum Vertex Cover,Pure Math,1,E00851,Weighted Minimum Vertex Cover (Hard Instance G),Pure Math,1,,,merged_by_stem,stem: weighted minimum vertex cover,F00534,F00534
+E00334,RWMOP32,Applied,1,E00346,RWMOP09,Applied,1,,,merged_by_library_cue,library_cue: CEC 2021,F00158,F00158
+E00420,ZZJ8,Pure Math,1,E00424,ZZJ2,Pure Math,1,,,candidate_not_merged,cosine 0.978,F00211,F00215
+E00202,Hybrid Dielectric Resonator Antenna Design (Problem 1),Applied,1,E00203,Hybrid Dielectric Resonator Antenna Design (Problem 2),Applied,1,,,merged_by_stem,stem: hybrid dielectric resonator antenna design,F00095,F00095
+E00917,mul3 (Multiplier),Pure Math,1,E00918,mul5 (Multiplier),Pure Math,1,,,candidate_not_merged,cosine 0.928,F00582,F00583
+E00012,Single Mode LFO Parameter Estimation,Applied,1,E00013,Multiple Mode LFO Parameter Estimation (2 modes),Applied,1,,,merged_by_template,template: 1 token edit(s),F00011,F00011
+E00289,F20 (CEC'2013 Niching Benchmark Suite),Pure Math,1,E00290,F3 (CEC'2013 Niching Benchmark Suite),Pure Math,1,,,candidate_not_merged,cosine 0.990,F00145,F00146
+E00283,F2 (CEC'2013 Niching Benchmark Suite),Pure Math,1,E00368,Game Content Generation Problems,Applied,1,,,negative_control,"random pair, different families",F00139,F00169
+E01742,Quadratic Assignment Problem,Pure Math,2,E02855,Quadratic Assignment Problem (tai15a),Pure Math,1,,,merged_by_library_cue,library_cue: QAPLIB,F01152,F01152
+E01682,LeNet-5 on MNIST and VGG-16 on CIFAR-10,Applied,1,E01683,ResNet-18 on ILSVRC-2012,Applied,1,,,candidate_not_merged,cosine 0.918,F01109,F01110
+E00248,Shifted Griewank's function (F17),Pure Math,1,E00254,Shifted Rotated Rastrigin's function (F23),Pure Math,1,,,merged_by_library_cue,library_cue: CEC 2014,F00045,F00045
+E01870,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Equinox,Applied,1,E01884,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse JDT Core,Applied,1,,,candidate_not_merged,cosine 1.000,F01237,F01236
+E00376,MMF12,Pure Math,1,E01823,Walking scenario,Applied,1,,,negative_control,"random pair, different families",F00177,F01197
+E01870,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Equinox,Applied,1,E01896,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Lucene,Applied,1,,,candidate_not_merged,cosine 1.000,F01237,F01239
+E02510,COCO BBOB Suite,Pure Math,1,E02690,Schaffer,Pure Math,2,,,negative_control,"random pair, different families",F01074,F01731
+E01875,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Equinox,Applied,1,E01893,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse PDE UI,Applied,1,,,candidate_not_merged,cosine 1.000,F01237,F01236
+E01235,Minimum Spanning Tree on Triangular-tailed graph G1,Pure Math,1,E01236,Minimum Spanning Tree on Triangular-tailed graph G2,Pure Math,1,,,merged_by_template,template: 1 token edit(s),F00802,F00802
+E00939,16-4-bit Encode,Pure Math,1,E00940,4-16-bit Decode,Pure Math,1,,,candidate_not_merged,cosine 0.918,F00600,F00601
+E00534,Inverted linear (Ishibuchi),Pure Math,1,E00613,Rotated Rosenbrock,Pure Math,1,,,negative_control,"random pair, different families",F00286,F00347
+E02309,MW14,Pure Math,1,E02322,MW2,Pure Math,1,,,candidate_not_merged,cosine 0.963,F01485,F01487
+E00754,MWSN Routing Optimization,Applied,1,E00776,CEC benchmark functions (F1-F4),Pure Math,1,,,negative_control,"random pair, different families",F00464,F00484

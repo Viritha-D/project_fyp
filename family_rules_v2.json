@@ -1,0 +1,77 @@
+{
+  "_about": "Family layer rules (v2). Families group entities; entities, entity ids and notes are never changed. Merges are rule-based only (stem, library cue, template) and are applied with union-find within one Category. Embedding similarity never merges; it only lists candidates for review. The digit guard does not apply to families. Regexes are Python, case-insensitive.",
+
+  "spelling_us": {
+    "_description": "British -> American word map, applied to lowercased names before stems, templates and the duplicate check.",
+    "travelling": "traveling", "travelled": "traveled", "modelling": "modeling", "modelled": "modeled",
+    "labelling": "labeling", "labelled": "labeled", "optimisation": "optimization", "optimisations": "optimizations",
+    "optimise": "optimize", "optimised": "optimized", "optimiser": "optimizer", "minimisation": "minimization",
+    "maximisation": "maximization", "minimise": "minimize", "maximise": "maximize", "generalisation": "generalization",
+    "normalisation": "normalization", "organisation": "organization", "utilisation": "utilization",
+    "visualisation": "visualization", "parameterisation": "parameterization", "characterisation": "characterization",
+    "behaviour": "behavior", "behaviours": "behaviors", "colour": "color", "neighbour": "neighbor",
+    "neighbourhood": "neighborhood", "centre": "center", "analyse": "analyze", "analysed": "analyzed",
+    "programme": "program", "defence": "defense", "favour": "favor", "harbour": "harbor"
+  },
+
+  "stem": {
+    "_description": "Lowercase the canonical name (spelling_us applied); remove parenthetical / bracketed text (parameters, acronyms, instance details); split into letter runs and digit runs; drop digit runs except 4-digit years 1990-2039, F/G function numbers, size tokens, instance ids (instance_prefixes / explicit_instances), the words below; keep the remaining alphabetic tokens in order. Two entities in one Category with the same non-empty stem are merged.",
+    "parenthetical_regex": "\\([^()]*\\)|\\[[^\\[\\]]*\\]",
+    "token_regex": "[a-z]+|\\d+",
+    "year_regex": "^(199\\d|20[0-3]\\d)$",
+    "size_token_regex": "^(\\d+d|\\d+x\\d+|n|m|k|d|bit|bits|buoy|nodes?|cities|jobs|clusters?|variables?|dims?|dimensions?)$",
+    "drop_words": ["instance", "instances", "function", "functions", "suite", "benchmark", "benchmarks", "test", "the", "set", "ieee", "problem", "problems", "f", "g", "a", "an", "of", "on", "for", "and", "with"],
+    "min_stem_chars": 4,
+    "generic_stems": ["task", "dataset", "data", "model", "scenario", "case", "case study", "setting", "experiment", "instance", "real world", "synthetic"]
+  },
+
+  "instance_ids": {
+    "_description": "A token that is a library instance id: one of instance_prefixes (at least 3 letters) followed by digits, or a name in explicit_instances. Fixed from Part 1: one- and two-letter prefixes (a, d, u, ch, pr, st, gr, ...) no longer match on their own; only the explicit names below.",
+    "instance_prefixes": {
+      "TSPLIB": ["att", "bayg", "bays", "berlin", "burma", "eil", "fri", "kroa", "krob", "kroc", "krod", "kroe", "lin", "pcb", "rat", "ulysses", "ali", "swiss", "dantzig", "brazil", "gil", "pla", "pbk", "xqf", "dsj", "fnl", "rl", "usa", "vm", "nrw", "fl"],
+      "QAPLIB": ["tai", "nug", "chr", "esc", "had", "kra", "lipa", "rou", "scr", "sko", "ste", "tho", "wil", "bur", "els"],
+      "other": ["bal"]
+    },
+    "min_prefix_letters": 3,
+    "explicit_instances": ["a280", "d198", "d493", "d657", "d1291", "d1655", "d2103", "u159", "u574", "u724", "u1060", "u1432", "u1817", "u2152", "u2319", "ch130", "ch150", "pr76", "pr107", "pr124", "pr136", "pr144", "pr152", "pr226", "pr264", "pr299", "pr439", "pr1002", "pr2392", "st70", "gr17", "gr21", "gr24", "gr48", "gr96", "gr120", "gr137", "gr202", "gr229", "gr431", "gr666", "rd100", "rd400", "ts225", "tsp225", "p654", "ft53", "ft70", "ftv33"],
+    "bare_instance_stem": "A name that is only an instance id gets the stem '<library> instance' (e.g. 'qaplib instance'), so bare instances of one library form one family."
+  },
+
+  "library_cue": {
+    "_description": "A cue found on the entity's rows in Dataset_Name or Source_Platform. Each entity gets at most one cue: the one on most of its rows (ties: list order). Entities in one Category with the same cue are merged. 'CEC <year>' keeps the year, so different years stay separate.",
+    "cues": [
+      {"cue": "CEC {year}", "regex": "\\bcec[\\s\\-']*(\\d{4}|\\d{2})\\b"},
+      {"cue": "BBOB", "regex": "\\bbbob\\b|\\bcoco\\s*(platform|framework|bbob)"},
+      {"cue": "TSPLIB", "regex": "\\btsp\\s*lib"},
+      {"cue": "QAPLIB", "regex": "\\bqap\\s*lib"},
+      {"cue": "CVRPLIB", "regex": "\\bcvrp\\s*lib"},
+      {"cue": "OR-Library", "regex": "\\bor[\\s\\-]*lib(rary)?\\b"},
+      {"cue": "UCI", "regex": "\\buci\\b"},
+      {"cue": "OpenML", "regex": "\\bopenml\\b"},
+      {"cue": "PMLB", "regex": "\\bpmlb\\b"},
+      {"cue": "OpenAI Gym", "regex": "\\bopenai\\s*gym\\b|\\bgymnasium\\b"},
+      {"cue": "ACLib", "regex": "\\baclib\\b"}
+    ]
+  },
+
+  "template": {
+    "_description": "Within one Category, names with at least min_tokens tokens (lowercased, spelling_us applied, parenthetical text removed, split on non-alphanumerics) whose token sequences differ by at most max_token_edits token insertions / deletions / substitutions are merged (union-find, so a grid of settings joins one family). No embedding similarity is used.",
+    "min_tokens": 5,
+    "max_token_edits": 2
+  },
+
+  "standard_suite_regex": {
+    "_description": "Names of standard benchmark suites / libraries. Used ONLY for the reuse signal 'standard_suite_name' (on any member's canonical name or alias), never to merge.",
+    "patterns": ["\\bcec[\\s\\-']*\\d{2,4}\\b", "\\bbbob\\b", "\\bcoco\\b", "\\bdtlz\\s*\\d*\\b", "\\bzdt\\s*\\d*\\b", "\\bwfg\\s*\\d*\\b", "\\buf\\s*\\d+\\b", "\\bmaf\\s*\\d*\\b", "\\blsmop\\s*\\d*\\b", "\\bdascmop\\s*\\d*\\b", "\\bmw\\s*\\d+\\b", "\\bonemax\\b", "\\bleadingones\\b", "\\bjump\\b", "\\btwomax\\b", "\\btrap\\b", "\\bnk[\\s\\-]*landscape", "\\btsplib\\b", "\\bqaplib\\b", "\\bcvrplib\\b", "\\buci\\b", "\\bmstsp\\s*\\d*\\b", "\\brwmop\\s*\\d*\\b", "\\bmoving peaks\\b", "\\bmpb\\b", "\\bpsb2\\b", "\\bpmlb\\b", "\\bsrbench\\b", "\\bnas[\\s\\-]*bench", "\\bopenai\\s*gym\\b", "\\bmujoco\\b", "\\bopenml\\b"]
+  },
+
+  "embedding_candidates": {
+    "_description": "Review list only: same-Category entity pairs in different families with cosine >= threshold on entity_embeddings_v2.npy.",
+    "threshold": 0.9
+  },
+
+  "possible_duplicates": {
+    "_description": "Report only, entity ids unchanged: canonical-name pairs with the same token set (any order), or Levenshtein distance <= 1, after lowercasing and spelling_us.",
+    "max_char_edits": 1
+  }
+}

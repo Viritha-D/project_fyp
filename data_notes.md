@@ -123,3 +123,15 @@ Problem_Context are identical to the master on all 40 rows. The original
   with caveats single_paper (2,946), sparse_metadata (1,138), premi_year_unverified (94),
   ppsn_partial (47). E00657 "Evolutionary Algorithm" is kept but flagged
   extraction_artifact_suspect.
+
+## Families (v2)
+
+- `python v2_families.py`, rules in `family_rules_v2.json`: entities in one Category are
+  grouped by equal name stem, equal library cue (rows' Dataset_Name / Source_Platform) or
+  template names (>= 5 tokens, <= 2 token edits). Embedding similarity never merges
+  (`family_candidates_v2.csv` lists pairs for review). Entities are unchanged.
+- 2,136 families for 3,199 entities; records in families with >= 2 papers: 46.0% (26.3%
+  at entity level). Known issues, reported not fixed: library cues chain unrelated
+  functions (Sphere + Rastrigin via CEC 2013) and build very large families (UCI: 162
+  entities); the template rule joins different CEC years; the software-bug HPO grid splits
+  into 4 families; "Sharp Ridge (BBOB F13)" / "BBOB F13 (Sharp Ridge)" are not grouped.
