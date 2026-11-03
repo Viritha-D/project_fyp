@@ -8,3 +8,6 @@
 - Human-phrased set: teammates fill `human_queries_template.csv` (quotas in its header) using
   `families_browse.csv` to choose gold families **before** seeing any system output, then run
   `score_human_queries.py <file>` (same metrics; writes `results_human.csv`, `report_human.md`).
+- v2.1 (Part C): `PREREGISTRATION.md` (committed before the run), `evaluate_v21.py` (hygiene, paper-kNN,
+  stacked ranker, seeds 42 and 43) -> `report_v21.md`, `results_v21_seed*.csv`, `candidates_v21_seed*.csv`,
+  `folds_seed43.csv`; deployment model `retrieval_v2/v21_model.json`, CLI `retrieval_v2/recommend_v21.py`.
