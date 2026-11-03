@@ -1,0 +1,61 @@
+{
+ "_about": "Retrieval v2.2 selection (PREREGISTRATION_v22.md). queries_v2 is a selection set for this lambda.",
+ "lambda": 1.0,
+ "popularity_auto_hit5": {
+  "42": 0.3279569892473118,
+  "43": 0.3102189781021898
+ },
+ "candidates": [
+  {
+   "lambda": 0.0,
+   "auto_hit5_seed42": 0.1863799283154122,
+   "auto_hit5_seed43": 0.20802919708029197,
+   "eligible": false,
+   "queries_v2_mrr": 0.4283549783549784
+  },
+  {
+   "lambda": 0.25,
+   "auto_hit5_seed42": 0.1917562724014337,
+   "auto_hit5_seed43": 0.2116788321167883,
+   "eligible": false,
+   "queries_v2_mrr": 0.42623376623376624
+  },
+  {
+   "lambda": 0.5,
+   "auto_hit5_seed42": 0.18996415770609318,
+   "auto_hit5_seed43": 0.2116788321167883,
+   "eligible": false,
+   "queries_v2_mrr": 0.46792207792207796
+  },
+  {
+   "lambda": 0.75,
+   "auto_hit5_seed42": 0.1935483870967742,
+   "auto_hit5_seed43": 0.20985401459854014,
+   "eligible": false,
+   "queries_v2_mrr": 0.4679004329004329
+  },
+  {
+   "lambda": 1.0,
+   "auto_hit5_seed42": 0.3763440860215054,
+   "auto_hit5_seed43": 0.3521897810218978,
+   "eligible": true,
+   "queries_v2_mrr": 0.3362770562770563
+  }
+ ],
+ "no_eligible_lambda": false,
+ "tier_hit1_pooled_auto": {
+  "low": 0.08602150537634409,
+  "medium": 0.17679558011049723,
+  "high": 0.2446236559139785
+ },
+ "tier_n_pooled_auto": {
+  "low": 372,
+  "medium": 362,
+  "high": 372
+ },
+ "tier_one_in_n": {
+  "low": 12,
+  "medium": 6,
+  "high": 4
+ }
+}
