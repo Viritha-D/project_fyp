@@ -62,6 +62,14 @@ def suite_key(name, stem):
     return key, label
 
 
+def cue_display_name(cue):
+    names = R['library_cue']['display_names']
+    m = re.match(r'CEC (\d{4})$', cue)
+    if m:
+        return names['CEC {year}'].format(year=m.group(1))
+    return names.get(cue, f'{cue} collection')
+
+
 def template_match(a, b):
     """Tokens with digits identical (same sequence); other tokens within max_token_edits."""
     da, db = [t for t in a if re.search(r'\d', t)], [t for t in b if re.search(r'\d', t)]
@@ -178,6 +186,7 @@ def main():
     std_hit = {e: key[e][0] == 'standard_suite' for e in order}
     real = lambda s: [v for v in s if v.strip() and v.strip() not in MISSING]
 
+    cue_count = Counter(key[ids[0]][2] for _, ids in fam_order if key[ids[0]][0] == 'library_cue')
     families, fnotes = [], []
     for fkey, ids in fam_order:
         kind_key = key[ids[0]][0]
@@ -187,12 +196,16 @@ def main():
         if kind_key == 'single':
             name = mem.iloc[0]['name']
         elif kind_key == 'library_cue':
-            task = g.groupby('Problem_Context')['paper_key'].nunique().sort_values(ascending=False, kind='stable')
-            name = f"{key[ids[0]][2]} datasets ({task.index[0]})"
+            name = cue_display_name(key[ids[0]][2])
+            if cue_count[key[ids[0]][2]] > 1:          # same cue in both Categories: keep names unique
+                name += f" ({mem.iloc[0]['category']})"
         elif kind_key == 'stem':
             name = key[ids[0]][2]
         else:
             name = key[ids[0]][2]
+        tasks = g[g['Problem_Context'].map(lambda v: v.strip() not in MISSING)].groupby('Problem_Context')['paper_key'] \
+            .nunique().sort_values(ascending=False, kind='stable')
+        top_tasks = [{'task': t, 'n_papers': int(c)} for t, c in tasks.head(5).items()]
         cats = Counter(mem['category'])
         cat_counts = {c: {'entities': int(n), 'records': int(g[g['Category'] == c].shape[0])} for c, n in sorted(cats.items())}
         n_pap = int(g['paper_key'].nunique())
@@ -217,7 +230,8 @@ def main():
                'category': next(iter(cats)) if len(cats) == 1 else 'mixed', 'category_counts': cat_counts,
                'member_entity_ids': mem['entity_id'].tolist(), 'n_members': len(ids), 'n_papers': n_pap,
                'n_records': int(len(g)), 'venues': venues,
-               'suite_memberships': [{'cue': c, 'n_papers': n} for c, n in memberships], 'reuse_signals': signals}
+               'suite_memberships': [{'cue': c, 'n_papers': n} for c, n in memberships], 'top_tasks': top_tasks,
+               'reuse_signals': signals}
         families.append(fam)
 
         yrs = g[(g['Conference'] != 'PReMI') & ~g['paper_key'].map(lambda k: 'year_unverified' in flags[k])]['Year']
@@ -249,6 +263,7 @@ def main():
         n['suite_memberships'] = fam['suite_memberships']
         n['members'] = [{'entity_id': r.entity_id, 'name': r.name, 'n_papers': int(r.n_papers)} for r in mem.head(10).itertuples()]
         n['reuse_signals'] = signals
+        n['top_tasks'] = top_tasks
         text, k = v2.family_note_text({**n, 'category': n['category'] if n['category'] != 'mixed' else
                                        'mixed: ' + ', '.join(f"{c} {v['entities']}" for c, v in cat_counts.items())}, len(ids))
         if memberships and k < 4:

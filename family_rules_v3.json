@@ -341,7 +341,7 @@
     "digit_tokens_identical": true
   },
   "library_cue": {
-    "_description": "A cue on the entity's rows (Dataset_Name / Source_Platform); the entity's cue is the one on most rows (ties: list order). Used as a family key only in the last pass. Every cue on an entity's rows is also recorded as suite_memberships (cue + paper count), an attribute, never a merge. Family name = '<cue> datasets (<most common Problem_Context by papers>)'.",
+    "_description": "A cue on the entity's rows (Dataset_Name / Source_Platform); the entity's cue is the one on most rows (ties: list order). Used as a family key only in the last pass. Every cue on an entity's rows is also recorded as suite_memberships (cue + paper count), an attribute, never a merge. A repository-collection family is named after its cue only (display_names); when two families share a cue (one per Category) the Category is appended. Its tasks go in top_tasks.",
     "cues": [
       {
         "cue": "CEC {year}",
@@ -387,10 +387,26 @@
         "cue": "ACLib",
         "regex": "\\baclib\\b"
       }
-    ]
+    ],
+    "display_names": {
+      "UCI": "UCI Machine Learning Repository datasets",
+      "OpenML": "OpenML datasets",
+      "PMLB": "PMLB datasets",
+      "OpenAI Gym": "OpenAI Gym environments",
+      "TSPLIB": "TSPLIB instances",
+      "QAPLIB": "QAPLIB instances",
+      "CVRPLIB": "CVRPLIB instances",
+      "OR-Library": "OR-Library instances",
+      "ACLib": "ACLib configuration scenarios",
+      "BBOB": "BBOB (COCO) problems",
+      "CEC {year}": "CEC {year} competition problems"
+    }
   },
   "embedding_candidates": {
     "_description": "Review list only: same-Category entity pairs in different families with cosine >= threshold on entity_embeddings_v2.npy.",
     "threshold": 0.9
+  },
+  "top_tasks": {
+    "_description": "Every family carries top_tasks: the 5 most common Problem_Context values over its rows, with the number of distinct papers (paper_key) for each."
   }
 }
