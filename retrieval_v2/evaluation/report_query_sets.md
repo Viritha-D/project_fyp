@@ -5,9 +5,9 @@ Models frozen at tag `retrieval-v2.1-frozen` (c0f8802). Pre-registration: `PRERE
 ## Provenance (from `PROVENANCE.md`, unedited)
 
 > Queries written by: Sanjesh. Gold families chosen by: Darshan . Date and time finished: 3/11/26 11:43.
-> Tools used (including any AI tool): IEEE(reference. System outputs seen before the file was final.
+> Tools used (including any AI tool): IEEE(reference. System outputs seen before the file was final: Unknown.
 
-Blank in the statement: "System outputs seen before the file was final." has no answer (left blank, as given). The "Tools used" entry reads "IEEE(reference." as given.
+The answer to "System outputs seen before the file was final" is "Unknown" (filled in by the user on request). The "Tools used" entry reads "IEEE(reference." as given.
 
 ## Gold validation
 

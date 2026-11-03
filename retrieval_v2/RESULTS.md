@@ -230,5 +230,5 @@ Secondary sets `ai_queries_v1.csv` and `queries_reworded_v1.csv`: not run (files
 - **Gold selection.** Gold for all query sets (automatic and written) was chosen with the families browse file (`evaluation/families_browse.csv`), i.e. within the v5 family layer.
 - **Written queries.** On the 55 written queries, stacked is below full v2 (hit@5 difference -.073 [-.182, .036], MRR -.086 [-.186, .002]); the stacked ranker often fills the top 5 with large generic suites (BBOB, CEC 2017, DTLZ) for specific queries.
 - **Provenance.** The provenance statement is in `evaluation/PROVENANCE.md`: "Queries written by: Sanjesh. Gold families chosen by: Darshan . Date and time finished: 3/11/26 11:43.
-Tools used (including any AI tool): IEEE(reference. System outputs seen before the file was final." The item "System outputs seen before the file was final" has no answer.
+Tools used (including any AI tool): IEEE(reference. System outputs seen before the file was final: Unknown." It is unknown whether system outputs were seen before the file was final.
 

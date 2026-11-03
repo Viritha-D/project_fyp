@@ -80,8 +80,8 @@ def main():
           '- **Written queries.** On the 55 written queries, stacked is below full v2 (hit@5 difference -.073 [-.182, .036], '
           'MRR -.086 [-.186, .002]); the stacked ranker often fills the top 5 with large generic suites (BBOB, CEC 2017, '
           'DTLZ) for specific queries.',
-          f'- **Provenance.** The provenance statement is in `evaluation/PROVENANCE.md`: "{prov}" The item "System outputs '
-          'seen before the file was final" has no answer.', '']
+          f'- **Provenance.** The provenance statement is in `evaluation/PROVENANCE.md`: "{prov}" It is unknown whether system '
+          'outputs were seen before the file was final.', '']
     (HERE.parent / 'RESULTS.md').write_text('\n'.join(L) + '\n', encoding='utf-8')
     print('\n'.join(L))
 

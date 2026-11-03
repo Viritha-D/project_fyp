@@ -40,7 +40,7 @@ def main():
          'Models frozen at tag `retrieval-v2.1-frozen` (c0f8802). Pre-registration: `PREREGISTRATION_queries.md` '
          '(aed8464, committed before scoring). The query file was committed before any scoring (c0f8802; marker 2bf6321).', '',
          '## Provenance (from `PROVENANCE.md`, unedited)', '', '> ' + prov.replace('\n', '\n> '), '',
-         'Blank in the statement: "System outputs seen before the file was final." has no answer (left blank, as given). '
+         'The answer to "System outputs seen before the file was final" is "Unknown" (filled in by the user on request). '
          'The "Tools used" entry reads "IEEE(reference." as given.', '',
          '## Gold validation', '',
          '126 gold ids in 55 queries; every id exists in families_v5, none is a hygiene-excluded family '
