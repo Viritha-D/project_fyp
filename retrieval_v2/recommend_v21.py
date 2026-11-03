@@ -40,23 +40,35 @@ def _load():
     return _S
 
 
+def rank_batch(queries):
+    """Stacked v2.1 ranking for many queries (the same computation recommend_v21 uses for one)."""
+    s = _load()
+    m = s['model']
+    QV = hybrid.encode_queries(queries)
+    PS = s['knn'].paper_sims(QV)
+    votes = [s['knn'].votes(PS[i], m['K']) for i in range(len(queries))]
+    cands_all, _ = v21.candidate_features(s['clean'], queries, QV, votes, s['kind'])
+    out = []
+    for qv, cands, v in zip(QV, cands_all, votes):
+        p = v21.proba_from_export(m['stacker'], [[c[f] for f in v21.FEATURES] for c in cands])
+        for c, pi in zip(cands, p):
+            c['prob'] = float(pi)
+        cands.sort(key=lambda c: (-c['prob'], c['family_id']))
+        by = {c['family_id']: c for c in cands}
+        order = [c['family_id'] for c in cands] + [f for f in s['pop'] if f not in by]
+        top1 = cands[0]['prob'] if cands else 0.0
+        out.append({'qvec': qv, 'cands': by, 'order': order, 'votes': v, 'knn_order': v21.ranked_votes(v),
+                    'top1_prob': top1, 'tier': v21.tier(top1, m['tier_cuts'])})
+    return out
+
+
 def recommend_v21(query, k=5, slate=False):
     s = _load()
     m = s['model']
-    qv = hybrid.encode_queries([query])
-    votes = s['knn'].votes(s['knn'].paper_sims(qv)[0], m['K'])
-    cands, _ = v21.candidate_features(s['clean'], [query], qv, [votes], s['kind'])
-    cands = cands[0]
-    p = v21.proba_from_export(m['stacker'], [[c[f] for f in v21.FEATURES] for c in cands])
-    for c, pi in zip(cands, p):
-        c['prob'] = float(pi)
-    cands.sort(key=lambda c: (-c['prob'], c['family_id']))
-    by = {c['family_id']: c for c in cands}
-    order = [c['family_id'] for c in cands] + [f for f in s['pop'] if f not in by]
+    r = rank_batch([query])[0]
+    by, order, top1, t = r['cands'], r['order'], r['top1_prob'], r['tier']
     if slate:
-        order = v21.two_slate(order, v21.ranked_votes(votes), s['kind'])
-    top1 = cands[0]['prob'] if cands else 0.0
-    t = v21.tier(top1, m['tier_cuts'])
+        order = v21.two_slate(order, r['knn_order'], s['kind'])
     out = {'query': query, 'confidence': {'top1_probability': round(top1, 4), 'tier': t,
                                           'label': 'LOW EVIDENCE' if t == 'low' else t, 'tier_cuts': m['tier_cuts']},
            'families': []}
