@@ -8,7 +8,11 @@ estimated chance that the top-1 family is one papers used; "low" is shown as LOW
 explained by how often the top family was right in the cross-validation (report_v21.md). The output is a
 suggestion list, not a verdict. Benchmarks only, no algorithm recommendation.
 
-Usage:  python retrieval_v2/recommend_v21.py "<query>" [--k 5] [--slate]
+v2.2: --lambda blends the full v2 family ranking with the stacked one by weighted reciprocal rank
+(retrieval_v2/v22/blend.py); the default is the pre-registered selection in retrieval_v2/v22/v22_selection.json
+(lambda = 1.0, i.e. the stacked v2.1 ranking unchanged).
+
+Usage:  python retrieval_v2/recommend_v21.py "<query>" [--k 5] [--slate] [--lambda 1.0]
 """
 
 import argparse
@@ -20,6 +24,8 @@ import numpy as np
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 sys.path.insert(0, str(Path(__file__).resolve().parent / 'evaluation'))
+sys.path.insert(0, str(Path(__file__).resolve().parent / 'v22'))
+import blend as v22blend  # noqa: E402
 import hybrid  # noqa: E402
 import v21  # noqa: E402
 
@@ -33,6 +39,21 @@ TIER_MEANING = {
     'high': 'in similar cases in our tests, about 1 in 4 times the top family was one that papers actually used',
 }
 MEMBERS_SHOWN = C['retrieval']['members_shown']
+_SEL_PATH = Path(__file__).resolve().parent / 'v22' / 'v22_selection.json'
+SELECTION = json.loads(_SEL_PATH.read_text(encoding='utf-8')) if _SEL_PATH.exists() else {'lambda': 1.0}
+DEFAULT_LAMBDA = float(SELECTION['lambda'])
+
+
+def tier_meaning(t, lam):
+    """lambda = 1: the v2.1 wording. The chosen lambda: hit@1 measured for it (v22_selection.json). Others: none."""
+    if lam == 1.0:
+        return TIER_MEANING[t]
+    if lam == DEFAULT_LAMBDA and 'tier_one_in_n' in SELECTION:
+        return (f'in similar cases in our tests, about 1 in {SELECTION["tier_one_in_n"][t]} times the top family was one '
+                'that papers actually used')
+    measured = sorted({1.0, DEFAULT_LAMBDA})
+    return f'not measured for lambda = {lam} (tiers were measured for lambda = {" and ".join(map(str, measured))} only)'
+
 
 
 def _load():
@@ -72,15 +93,22 @@ def rank_batch(queries):
     return out
 
 
-def recommend_v21(query, k=5, slate=False):
+def recommend_v21(query, k=5, slate=False, lam=None):
     s = _load()
     m = s['model']
+    lam = DEFAULT_LAMBDA if lam is None else float(lam)
     r = rank_batch([query])[0]
     by, order, top1, t = r['cands'], r['order'], r['top1_prob'], r['tier']
+    if lam != 1.0:
+        if 'full_index' not in s:
+            s['full_index'] = hybrid.Index.from_config()
+        full = s['full_index'].rank_full([query], r['qvec'][None, :])[0]
+        order = v22blend.blend([f['family_id'] for f in full['families']], list(by), lam, s['pop'])
     if slate:
         order = v21.two_slate(order, r['knn_order'], s['kind'])
-    out = {'query': query, 'confidence': {'top1_score': round(top1, 4), 'tier': t,
-                                          'label': 'LOW EVIDENCE' if t == 'low' else t, 'meaning': TIER_MEANING[t],
+    out = {'query': query, 'lambda': lam,
+           'confidence': {'top1_score': round(top1, 4), 'tier': t,
+                                          'label': 'LOW EVIDENCE' if t == 'low' else t, 'meaning': tier_meaning(t, lam),
                                           'tier_cuts': m['tier_cuts']},
            'families': []}
     clean = s['clean']
@@ -117,10 +145,14 @@ def main():
     ap.add_argument('query')
     ap.add_argument('--k', type=int, default=5)
     ap.add_argument('--slate', action='store_true', help='3 standard choices + 2 specific matches')
+    ap.add_argument('--lambda', dest='lam', type=float, default=DEFAULT_LAMBDA,
+                    help=f'blend weight of the stacked ranking vs full v2 (default {DEFAULT_LAMBDA}, the v2.2 selection)')
     a = ap.parse_args()
-    r = recommend_v21(a.query, a.k, a.slate)
+    r = recommend_v21(a.query, a.k, a.slate, a.lam)
     c = r['confidence']
     print(f'Query: {r["query"]}')
+    if r['lambda'] != 1.0:
+        print(f'Ranking: blend of full v2 and stacked, lambda = {r["lambda"]} (tier still from the stacked model)')
     print(f'Confidence tier: {c["label"]} (ranker score for the top family {c["top1_score"]:.3f}; '
           f'tier cut-offs {c["tier_cuts"][0]:.3f} / {c["tier_cuts"][1]:.3f})')
     print(f'What this tier means: {c["meaning"]}. Treat the list as suggestions to check, not as an answer.')
