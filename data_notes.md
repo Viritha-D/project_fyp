@@ -155,3 +155,12 @@ Problem_Context are identical to the master on all 40 rows. The original
   from v3 stem groups without numbers (sphere, rastrigin, rosenbrock, ...): 144 of 239 are
   now singles, since only numbered series replace the stem rule. The bug-prediction grid is
   one family (v3: 9). New blind pack: `labeling/family_review_sample_v4_blind.csv` (60 pairs).
+
+## Families v5
+
+- `python v5_families.py`, rules in `family_rules_v5.json`: standard suite > template > stem >
+  single. Stem key = (a) plain v3 stem (>= 4 letters) or (b) the v4 numbered-series rule with
+  numbers of >= 4 digits ignored. Template edits: 2 for 5-7 tokens, 3 for >= 8, at most 40%.
+- 2,173 families; records in families with >= 2 papers 42.0% (v3 46.7%, v4 37.3%). The
+  "{...} problem" template family is gone; the bug-prediction grid stays one family. Delta
+  pack: `labeling/family_review_sample_v5_delta_blind.csv` (20 new-in-v5 pairs).
