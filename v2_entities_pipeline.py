@@ -3,6 +3,7 @@ v2 entity pipeline - one re-runnable command.
 
     python v2_entities_pipeline.py --stage all        (fidelity -> A -> B -> C)
     python v2_entities_pipeline.py --stage fidelity|A|B|C
+    python v2_entities_pipeline.py --hold-out <paper_keys.txt> --out-dir <dir>   (evaluation folds)
 
 fidelity  Part 4 rules on the old master vs part4_answer_key_map.csv (gate: name_key >= 99%,
           ARI >= 0.99) and Part 5 + repairs on the old master vs backup_v2/problem_entities.json
@@ -333,6 +334,40 @@ def stage_b():
     say(f'[B] find_true_duplicates.py: ' + ' | '.join(l.strip() for l in b.stdout.splitlines()[:2]))
 
 
+# ---------------------------------------------------------------- hold-out build (for evaluation folds)
+def stage_holdout(holdout_file, out_dir):
+    """Stages A (Part 5 records) + B (enrichment, underspecified repair, embeddings) on the TRAINING rows
+    only: every row whose paper_key is listed in holdout_file is left out. Entity grouping (entity ids) comes
+    from paper_to_entity_map_v2.csv; entities with no training row are dropped. Paper embeddings are reused by
+    row index. Writes problem_entities_enriched.json, entity_embeddings.npy, entity_ids_order.txt to out_dir."""
+    out = Path(out_dir)
+    out.mkdir(parents=True, exist_ok=True)
+    held = set(Path(holdout_file).read_text(encoding='utf-8').splitlines()) - {''}
+    d = pd.read_csv(V2_MASTER, dtype=str, keep_default_na=False)
+    m = pd.read_csv(OUT_MAP, dtype=str, keep_default_na=False)
+    emb = np.load(V2_EMB)
+    assert m['paper_id'].tolist() == d['Paper_ID'].tolist() and emb.shape[0] == len(d)
+    train = ~m['paper_key'].isin(held)
+    assert held <= set(m['paper_key']), 'hold-out paper_key not in the map'
+    mt = m[train].reset_index(drop=True)
+    dt = d[train.values].reset_index(drop=True).rename(columns={'Paper_ID': 'paper_id'})
+    ents = p5.build_entities(mt, dt, emb[train.values], 'paper_id')
+    pk = mt.groupby('entity_id')['paper_key'].nunique()
+    for e in ents:
+        e['n_papers_by_paper_key'] = int(pk[e['entity_id']])
+    n_enr = p5.enrich(ents, dt.set_index('paper_id'))
+    fix = underspecified(ents)
+    p5.prefix_canonical(ents, fix)
+    vec = embed([e['base_description'] for e in ents])
+    assert vec.shape == (len(ents), 768) and not np.isnan(vec).any()
+    assert np.all(np.abs(np.linalg.norm(vec, axis=1) - 1) < 1e-3)
+    dump_json(ents, out / 'problem_entities_enriched.json')
+    np.save(out / 'entity_embeddings.npy', vec)
+    (out / 'entity_ids_order.txt').write_text('\n'.join(e['entity_id'] for e in ents) + '\n', encoding='utf-8')
+    say(f'[hold-out] {len(held)} papers held out ({int((~train).sum())} rows); {len(ents)} training entities '
+        f'(of {m["entity_id"].nunique()}); enriched {n_enr}; underspecified repair {len(fix)} -> {out}')
+
+
 # ---------------------------------------------------------------- C
 def top(counter, k):
     return [{'value': v, 'count': int(c)} for v, c in counter.most_common(k)]
@@ -468,7 +503,17 @@ def stage_c():
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument('--stage', default='all', choices=['fidelity', 'A', 'B', 'C', 'all'])
-    s = ap.parse_args().stage
+    ap.add_argument('--hold-out', metavar='PAPER_KEYS_FILE',
+                    help='build entity descriptions / embeddings from the training rows only (rows whose paper_key '
+                         'is NOT in this file); needs --out-dir; the normal stages are not run')
+    ap.add_argument('--out-dir', help='output folder for --hold-out')
+    args = ap.parse_args()
+    if args.hold_out:
+        if not args.out_dir:
+            ap.error('--hold-out needs --out-dir')
+        stage_holdout(args.hold_out, args.out_dir)
+        return 0
+    s = args.stage
     if s in ('fidelity', 'all'):
         stage_fidelity()
     if s in ('A', 'all'):
