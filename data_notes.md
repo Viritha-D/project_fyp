@@ -145,3 +145,13 @@ Problem_Context are identical to the master on all 40 rows. The original
   (ZDT, WFG, DTLZ, BBOB, CEC <year> ...) replace the chained v2 families; library cues are
   kept per entity as suite_memberships. `family_review_sample_v3.csv` is the sample to label
   (blind); the v2 sample is superseded.
+
+## Families v4
+
+- `python v4_families.py`, rules in `family_rules_v4.json`: standard suite > template (same
+  primary Problem_Context, <= 3 token edits, digit tokens identical) > numbered series >
+  single. Library cues are attribute-only (suite_memberships).
+- 2,391 families; records in families with >= 2 papers 37.3% (v3 46.7%). The drop comes
+  from v3 stem groups without numbers (sphere, rastrigin, rosenbrock, ...): 144 of 239 are
+  now singles, since only numbered series replace the stem rule. The bug-prediction grid is
+  one family (v3: 9). New blind pack: `labeling/family_review_sample_v4_blind.csv` (60 pairs).

@@ -1,0 +1,402 @@
+{
+  "_about": "Family layer rules, v4 (changes from the labelled v3 sample). Each entity gets exactly ONE family key by priority standard_suite > template > numbered_series > single; no union across rules. Library cues are an attribute only (suite_memberships), never a merge key. Embedding similarity never merges. Regexes are Python, case-insensitive.",
+  "primary_key": {
+    "_description": "Pass 1: every entity whose canonical name matches a standard suite gets that suite key (even if alone; may span Categories). Pass 2, entities without a suite key: template components within one Category. Pass 3, the rest: numbered-series groups within one Category. Anything left is 'single'.",
+    "priority": [
+      "standard_suite",
+      "template",
+      "numbered_series"
+    ],
+    "family_kind": {
+      "standard_suite": "suite_series",
+      "template": "template_grid",
+      "numbered_series": "numbered_series",
+      "single": "single"
+    }
+  },
+  "standard_suites": {
+    "_description": "The suite key is set directly by these patterns on the canonical name, regardless of stem length, at any position (so 'Sharp Ridge (BBOB F13)' and 'BBOB F13 (Sharp Ridge)' both get 'bbob'). If several match, the one that appears first in the name wins (ties: list order). CEC keys keep the year (CEC'13 / CEC 2013 / CEC-2013 -> cec_2013). Bare TSPLIB / QAPLIB instance names (instance_ids) get tsplib / qaplib.",
+    "suites": [
+      {
+        "key": "cec_{year}",
+        "name": "CEC {year} suite",
+        "regex": "\\bcec[\\s\\-']*(\\d{4}|\\d{2})\\b"
+      },
+      {
+        "key": "bbob",
+        "name": "BBOB (COCO)",
+        "regex": "\\bbbob\\b|\\bcoco\\s*(/|bbob|benchmark|suite)"
+      },
+      {
+        "key": "dtlz",
+        "name": "DTLZ",
+        "regex": "\\bdtlz"
+      },
+      {
+        "key": "zdt",
+        "name": "ZDT",
+        "regex": "\\bzdt"
+      },
+      {
+        "key": "wfg",
+        "name": "WFG",
+        "regex": "\\bwfg"
+      },
+      {
+        "key": "uf",
+        "name": "UF (CEC 2009 unconstrained)",
+        "regex": "\\buf\\s*\\d+\\b"
+      },
+      {
+        "key": "maf",
+        "name": "MaF",
+        "regex": "\\bmaf\\b|\\bmaf\\s*\\d+"
+      },
+      {
+        "key": "lsmop",
+        "name": "LSMOP",
+        "regex": "\\blsmop"
+      },
+      {
+        "key": "dascmop",
+        "name": "DASCMOP",
+        "regex": "\\bdascmop"
+      },
+      {
+        "key": "mw",
+        "name": "MW",
+        "regex": "\\bmw\\s*\\d+\\b|\\bmw\\s+suite\\b"
+      },
+      {
+        "key": "lz09",
+        "name": "LZ09",
+        "regex": "\\blz\\s*0?\\d\\s*-\\s*lz\\s*0?\\d|\\blz09\\b"
+      },
+      {
+        "key": "onemax",
+        "name": "OneMax",
+        "regex": "\\bone\\s*max\\b"
+      },
+      {
+        "key": "leadingones",
+        "name": "LeadingOnes",
+        "regex": "\\bleading\\s*ones\\b"
+      },
+      {
+        "key": "twomax",
+        "name": "TwoMax",
+        "regex": "\\btwo\\s*max\\b"
+      },
+      {
+        "key": "jump",
+        "name": "Jump",
+        "regex": "\\bjump(_?k|k|offset\\w*)?\\b"
+      },
+      {
+        "key": "trap",
+        "name": "Trap",
+        "regex": "\\btrap\\b"
+      },
+      {
+        "key": "nk_landscape",
+        "name": "NK landscape",
+        "regex": "\\bnk[\\s\\-]*landscapes?\\b"
+      },
+      {
+        "key": "mstsp",
+        "name": "MSTSP",
+        "regex": "\\bmstsp"
+      },
+      {
+        "key": "rwmop",
+        "name": "RWMOP (CEC 2021 real-world MOPs)",
+        "regex": "\\brwmop"
+      },
+      {
+        "key": "moving_peaks",
+        "name": "Moving Peaks",
+        "regex": "\\bmoving\\s+peaks\\b|\\bmpb\\b"
+      },
+      {
+        "key": "tsplib",
+        "name": "TSPLIB",
+        "regex": "\\btsp\\s*lib\\b"
+      },
+      {
+        "key": "qaplib",
+        "name": "QAPLIB",
+        "regex": "\\bqap\\s*lib\\b"
+      },
+      {
+        "key": "psb2",
+        "name": "PSB2",
+        "regex": "\\bpsb2\\b"
+      }
+    ]
+  },
+  "spelling_us": {
+    "_description": "British -> American word map, applied to lowercased names before stems, templates and the duplicate check.",
+    "travelling": "traveling",
+    "travelled": "traveled",
+    "modelling": "modeling",
+    "modelled": "modeled",
+    "labelling": "labeling",
+    "labelled": "labeled",
+    "optimisation": "optimization",
+    "optimisations": "optimizations",
+    "optimise": "optimize",
+    "optimised": "optimized",
+    "optimiser": "optimizer",
+    "minimisation": "minimization",
+    "maximisation": "maximization",
+    "minimise": "minimize",
+    "maximise": "maximize",
+    "generalisation": "generalization",
+    "normalisation": "normalization",
+    "organisation": "organization",
+    "utilisation": "utilization",
+    "visualisation": "visualization",
+    "parameterisation": "parameterization",
+    "characterisation": "characterization",
+    "behaviour": "behavior",
+    "behaviours": "behaviors",
+    "colour": "color",
+    "neighbour": "neighbor",
+    "neighbourhood": "neighborhood",
+    "centre": "center",
+    "analyse": "analyze",
+    "analysed": "analyzed",
+    "programme": "program",
+    "defence": "defense",
+    "favour": "favor",
+    "harbour": "harbor"
+  },
+  "stem": {
+    "_description": "Same stem as v2: lowercase (spelling_us), remove parenthetical text, keep alphabetic tokens and 4-digit years, drop numbers, F/G numbers, size tokens, instance ids and drop_words. A stem shorter than min_stem_chars or generic gives no key (short series names are handled by standard_suites). Family name = the stem.",
+    "parenthetical_regex": "\\([^()]*\\)|\\[[^\\[\\]]*\\]",
+    "token_regex": "[a-z]+|\\d+",
+    "year_regex": "^(199\\d|20[0-3]\\d)$",
+    "size_token_regex": "^(\\d+d|\\d+x\\d+|n|m|k|d|bit|bits|buoy|nodes?|cities|jobs|clusters?|variables?|dims?|dimensions?)$",
+    "drop_words": [
+      "instance",
+      "instances",
+      "function",
+      "functions",
+      "suite",
+      "benchmark",
+      "benchmarks",
+      "test",
+      "the",
+      "set",
+      "ieee",
+      "problem",
+      "problems",
+      "f",
+      "g",
+      "a",
+      "an",
+      "of",
+      "on",
+      "for",
+      "and",
+      "with"
+    ],
+    "min_stem_chars": 4,
+    "generic_stems": [
+      "task",
+      "dataset",
+      "data",
+      "model",
+      "scenario",
+      "case",
+      "case study",
+      "setting",
+      "experiment",
+      "instance",
+      "real world",
+      "synthetic"
+    ]
+  },
+  "instance_ids": {
+    "_description": "A token that is a library instance id: one of instance_prefixes (at least 3 letters) followed by digits, or a name in explicit_instances. Fixed from Part 1: one- and two-letter prefixes (a, d, u, ch, pr, st, gr, ...) no longer match on their own; only the explicit names below.",
+    "instance_prefixes": {
+      "TSPLIB": [
+        "att",
+        "bayg",
+        "bays",
+        "berlin",
+        "burma",
+        "eil",
+        "fri",
+        "kroa",
+        "krob",
+        "kroc",
+        "krod",
+        "kroe",
+        "lin",
+        "pcb",
+        "rat",
+        "ulysses",
+        "ali",
+        "swiss",
+        "dantzig",
+        "brazil",
+        "gil",
+        "pla",
+        "pbk",
+        "xqf",
+        "dsj",
+        "fnl",
+        "rl",
+        "usa",
+        "vm",
+        "nrw",
+        "fl"
+      ],
+      "QAPLIB": [
+        "tai",
+        "nug",
+        "chr",
+        "esc",
+        "had",
+        "kra",
+        "lipa",
+        "rou",
+        "scr",
+        "sko",
+        "ste",
+        "tho",
+        "wil",
+        "bur",
+        "els"
+      ],
+      "other": [
+        "bal"
+      ]
+    },
+    "min_prefix_letters": 3,
+    "explicit_instances": [
+      "a280",
+      "d198",
+      "d493",
+      "d657",
+      "d1291",
+      "d1655",
+      "d2103",
+      "u159",
+      "u574",
+      "u724",
+      "u1060",
+      "u1432",
+      "u1817",
+      "u2152",
+      "u2319",
+      "ch130",
+      "ch150",
+      "pr76",
+      "pr107",
+      "pr124",
+      "pr136",
+      "pr144",
+      "pr152",
+      "pr226",
+      "pr264",
+      "pr299",
+      "pr439",
+      "pr1002",
+      "pr2392",
+      "st70",
+      "gr17",
+      "gr21",
+      "gr24",
+      "gr48",
+      "gr96",
+      "gr120",
+      "gr137",
+      "gr202",
+      "gr229",
+      "gr431",
+      "gr666",
+      "rd100",
+      "rd400",
+      "ts225",
+      "tsp225",
+      "p654",
+      "ft53",
+      "ft70",
+      "ftv33"
+    ],
+    "bare_instance_stem": "A name that is only an instance id gets the stem '<library> instance' (e.g. 'qaplib instance'), so bare instances of one library form one family."
+  },
+  "template": {
+    "_description": "Within one Category, among entities without a suite key: names with >= min_tokens tokens (lowercased, spelling_us, parenthetical text removed) whose tokens containing digits are identical (same sequence), whose other tokens differ by <= max_token_edits insertions / deletions / substitutions, and whose primary Problem_Context (the most common one by papers, compared lowercased) is the same. Connected components form template groups; family name = shared tokens with {...} for the varying part.",
+    "min_tokens": 5,
+    "max_token_edits": 3,
+    "digit_tokens_identical": true,
+    "same_problem_context": true
+  },
+  "numbered_series": {
+    "_description": "Within one Category, among entities still without a key. For each name (lowercased, spelling_us): qualifier = letters of the parenthetical text; the rest gives base = its letter tokens and number = the tuple of its digit runs. Entities with the same base (and, for a base of 1-2 letters, the same non-generic qualifier) form a group; the group merges its members that carry a number when it has at least two different numbers. Members without a number stay single. For a short base without a parenthetical qualifier, the entity's primary Problem_Context is used as the qualifier, and generic qualifiers never count.",
+    "min_base_letters": 3,
+    "min_series_members": 2,
+    "qualifier_min_token_letters": 3,
+    "generic_qualifiers": [
+      "evaluating mathematical landscapes",
+      "not reported",
+      "unknown",
+      "n a"
+    ]
+  },
+  "library_cue": {
+    "_description": "Attribute only (v4): every cue found on an entity's rows (Dataset_Name / Source_Platform) is recorded in suite_memberships with its paper count. No family is keyed on a cue.",
+    "cues": [
+      {
+        "cue": "CEC {year}",
+        "regex": "\\bcec[\\s\\-']*(\\d{4}|\\d{2})\\b"
+      },
+      {
+        "cue": "BBOB",
+        "regex": "\\bbbob\\b|\\bcoco\\s*(platform|framework|bbob)"
+      },
+      {
+        "cue": "TSPLIB",
+        "regex": "\\btsp\\s*lib"
+      },
+      {
+        "cue": "QAPLIB",
+        "regex": "\\bqap\\s*lib"
+      },
+      {
+        "cue": "CVRPLIB",
+        "regex": "\\bcvrp\\s*lib"
+      },
+      {
+        "cue": "OR-Library",
+        "regex": "\\bor[\\s\\-]*lib(rary)?\\b"
+      },
+      {
+        "cue": "UCI",
+        "regex": "\\buci\\b"
+      },
+      {
+        "cue": "OpenML",
+        "regex": "\\bopenml\\b"
+      },
+      {
+        "cue": "PMLB",
+        "regex": "\\bpmlb\\b"
+      },
+      {
+        "cue": "OpenAI Gym",
+        "regex": "\\bopenai\\s*gym\\b|\\bgymnasium\\b"
+      },
+      {
+        "cue": "ACLib",
+        "regex": "\\baclib\\b"
+      }
+    ]
+  },
+  "top_tasks": {
+    "_description": "Every family carries top_tasks: the 5 most common Problem_Context values over its rows, with the number of distinct papers (paper_key) for each."
+  }
+}
