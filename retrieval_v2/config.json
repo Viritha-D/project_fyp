@@ -1,0 +1,32 @@
+{
+  "_about": "Retrieval v2 configuration. Paths are relative to the repository root. To move to a new family layer (e.g. v6), change only the 'families' block.",
+  "entities": {
+    "descriptions": "problem_entities_enriched_v2.json",
+    "embeddings": "entity_embeddings_v2.npy",
+    "order": "entity_ids_order_v2.txt",
+    "notes": "entity_notes_v2.json",
+    "map": "paper_to_entity_map_v2.csv",
+    "master": "papers_master_with_matching_text_v2.csv"
+  },
+  "families": {
+    "version": "v5",
+    "entity_to_family": "entity_to_family_v5.csv",
+    "families": "families_v5.json",
+    "notes": "family_notes_v5.json"
+  },
+  "paper_index": "paper_index.csv",
+  "models": {
+    "embed": "sentence-transformers/all-mpnet-base-v2",
+    "cross_encoder": "cross-encoder/ms-marco-MiniLM-L-6-v2"
+  },
+  "retrieval": {
+    "bm25_top": 20,
+    "dense_top": 20,
+    "rrf_k": 60,
+    "shortlist": 10,
+    "evidence_weight": 0.5,
+    "margin_threshold": 1.0,
+    "members_shown": 3
+  },
+  "unmapped_log": "retrieval_v2/unmapped_queries_v2.csv"
+}
