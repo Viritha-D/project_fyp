@@ -1,0 +1,81 @@
+pair_id,entity_id_a,entity_id_b,pair_type,evidence,family_a,family_b
+P01,E00174,E01392,negative_control,"random pair, different families",F00072,F00839
+P02,E02785,E02791,candidate_not_merged,cosine 0.970,F01693,F01699
+P03,E00774,E00775,merged_by_stem,stem: rsa crt,F00441,F00441
+P04,E02834,E01925,merged_by_library_cue,library_cue: OpenML,F00596,F00596
+P05,E02440,E02638,negative_control,"random pair, different families",F00021,F01582
+P06,E00316,E00443,negative_control,"random pair, different families",F00126,F00092
+P07,E00574,E00575,merged_by_library_cue,library_cue: CEC 2013,F00280,F00280
+P08,E01209,E01208,merged_by_template,template: {...} on tsp rue 1000 3000,F00715,F00715
+P09,E03177,E02975,merged_by_template,template: feature selection for emotion classification,F01829,F01829
+P10,E01890,E01893,candidate_not_merged,cosine 1.000,F01153,F01152
+P11,E01079,E02501,negative_control,"random pair, different families",F00504,F01492
+P12,E02209,E02210,candidate_not_merged,cosine 0.914,F01337,F01338
+P13,E02582,E01621,merged_by_library_cue,library_cue: CVRPLIB,F00998,F00998
+P14,E01892,E01906,merged_by_template,template: hyper parameter optimization of {...} for software bug prediction on {...},F01153,F01153
+P15,E01894,E01902,candidate_not_merged,cosine 1.000,F01159,F01153
+P16,E01212,E01210,merged_by_library_cue,library_cue: ACLib,F00716,F00716
+P17,E01875,E01895,candidate_not_merged,cosine 1.000,F01155,F01160
+P18,E01896,E01903,candidate_not_merged,cosine 1.000,F01160,F01152
+P19,E02212,E02210,merged_by_template,template: 2 range asymmetric triangle function,F01338,F01338
+P20,E03147,E03010,merged_by_stem,stem: dc dc buck converter design,F01861,F01861
+P21,E01542,E01541,merged_by_template,template: evoapt cyber attack and mitigation {...} network,F00948,F00948
+P22,E01767,E02599,negative_control,"random pair, different families",F00052,F01559
+P23,E01861,E01862,merged_by_stem,stem: nca morphogenesis,F01145,F01145
+P24,E01876,E01891,candidate_not_merged,cosine 1.000,F01156,F01153
+P25,E00421,E02541,negative_control,"random pair, different families",F00182,F01522
+P26,E00388,E00390,candidate_not_merged,cosine 0.944,F00158,F00160
+P27,E01706,E01707,merged_by_stem,stem: cyc bim,F01046,F01046
+P28,E02863,E02709,merged_by_stem,stem: schwefel,F00658,F00658
+P29,E01880,E01891,candidate_not_merged,cosine 1.000,F01155,F01153
+P30,E02877,E01037,merged_by_library_cue,library_cue: OR-Library,F00613,F00613
+P31,E01969,E01968,merged_by_template,template: {...} nand gate design in granular metamaterial,F01203,F01203
+P32,E01895,E01904,candidate_not_merged,cosine 1.000,F01160,F01152
+P33,E01804,E01805,merged_by_stem,stem: discrete lsi,F01100,F01100
+P34,E01266,E00999,merged_by_library_cue,library_cue: OpenAI Gym,F00587,F00587
+P35,E01873,E01876,candidate_not_merged,cosine 1.000,F01152,F01156
+P36,E02194,E02457,negative_control,"random pair, different families",F01326,F01453
+P37,E01876,E01903,candidate_not_merged,cosine 1.000,F01156,F01152
+P38,E02674,E02678,candidate_not_merged,cosine 0.957,F01612,F01616
+P39,E01885,E01904,candidate_not_merged,cosine 1.000,F01153,F01152
+P40,E00640,E02826,negative_control,"random pair, different families",F00323,F00439
+P41,E00157,E00158,merged_by_template,template: mr to hu mapping for {...} tissue,F00069,F00069
+P42,E03045,E03048,merged_by_library_cue,library_cue: CEC 2011,F01891,F01891
+P43,E00030,E01269,negative_control,"random pair, different families",F00024,F00756
+P44,E01883,E01892,candidate_not_merged,cosine 1.000,F01158,F01153
+P45,E00623,E00622,merged_by_template,template: direct torque control with {...},F00314,F00314
+P46,E01638,E03054,merged_by_library_cue,library_cue: UCI,F00021,F00021
+P47,E01112,E02077,negative_control,"random pair, different families",F00669,F01250
+P48,E01946,E01945,merged_by_template,template: {...} sensor robot swarm model,F01188,F01188
+P49,E00152,E00153,merged_by_library_cue,library_cue: OpenAI Gym,F00066,F00066
+P50,E01356,E02257,negative_control,"random pair, different families",F00014,F01368
+P51,E00129,E00809,negative_control,"random pair, different families",F00049,F00459
+P52,E00352,E00353,merged_by_stem,stem: uav route planning environment e,F00128,F00128
+P53,E01874,E01904,candidate_not_merged,cosine 1.000,F01154,F01152
+P54,E01195,E01671,negative_control,"random pair, different families",F00706,F01024
+P55,E01871,E01875,candidate_not_merged,cosine 1.000,F01153,F01155
+P56,E01872,E01876,candidate_not_merged,cosine 1.000,F01153,F01156
+P57,E01582,E02131,negative_control,"random pair, different families",F00970,F01282
+P58,E01883,E01904,candidate_not_merged,cosine 1.000,F01158,F01152
+P59,E01544,E01886,negative_control,"random pair, different families",F00950,F01153
+P60,E00148,E00967,negative_control,"random pair, different families",F00062,F00565
+P61,E01881,E01885,candidate_not_merged,cosine 1.000,F01156,F01153
+P62,E01286,E01476,negative_control,"random pair, different families",F00766,F00909
+P63,E02414,E02556,merged_by_library_cue,library_cue: TSPLIB,F00823,F00823
+P64,E02786,E02790,candidate_not_merged,cosine 0.984,F01694,F01698
+P65,E01871,E01904,candidate_not_merged,cosine 1.000,F01153,F01152
+P66,E01775,E01522,merged_by_stem,stem: permutation flowshop scheduling,F00878,F00878
+P67,E01898,E01894,merged_by_template,template: hyper parameter optimization of linear discriminate analysis for software bug prediction on eclipse {...},F01159,F01159
+P68,E01883,E01906,candidate_not_merged,cosine 1.000,F01158,F01153
+P69,E01644,E01642,merged_by_stem,stem: covid chest x ray image generation,F01003,F01003
+P70,E00559,E00560,candidate_not_merged,cosine 0.978,F00266,F00267
+P71,E01879,E01907,candidate_not_merged,cosine 1.000,F01154,F01153
+P72,E01757,E01756,merged_by_stem,stem: uval,F01075,F01075
+P73,E00378,E00388,candidate_not_merged,cosine 0.953,F00148,F00158
+P74,E01144,E02071,negative_control,"random pair, different families",F00693,F00021
+P75,E02291,E02790,negative_control,"random pair, different families",F01387,F01698
+P76,E00567,E01548,negative_control,"random pair, different families",F00274,F00954
+P77,E02664,E02666,candidate_not_merged,cosine 0.974,F01602,F01604
+P78,E01874,E01906,candidate_not_merged,cosine 1.000,F01154,F01153
+P79,E01894,E01895,candidate_not_merged,cosine 1.000,F01159,F01160
+P80,E01884,E01894,candidate_not_merged,cosine 1.000,F01152,F01159
