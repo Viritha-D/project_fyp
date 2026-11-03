@@ -11,3 +11,7 @@
 - v2.1 (Part C): `PREREGISTRATION.md` (committed before the run), `evaluate_v21.py` (hygiene, paper-kNN,
   stacked ranker, seeds 42 and 43) -> `report_v21.md`, `results_v21_seed*.csv`, `candidates_v21_seed*.csv`,
   `folds_seed43.csv`; deployment model `retrieval_v2/v21_model.json`, CLI `retrieval_v2/recommend_v21.py`.
+- Written query sets (models frozen at tag `retrieval-v2.1-frozen`): `queries_v2.xlsx` / `queries_v2.csv`,
+  `PROVENANCE.md`, `PREREGISTRATION_queries.md`; `score_human_queries.py <csv>` (six systems) writes
+  `results_<stem>.csv`, `report_<stem>.md`; `report_query_sets.py` -> `report_query_sets.md` (with error analysis);
+  `build_results_md.py` -> `retrieval_v2/RESULTS.md`. Demo: `retrieval_v2/demo_outputs.md`.
