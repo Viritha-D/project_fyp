@@ -26,13 +26,19 @@ def main():
     R = {s: pd.read_csv(HERE / f'results_v21_seed{s}.csv') for s in (42, 43)}
     m = json.loads((HERE.parent / 'v21_model.json').read_text(encoding='utf-8'))
     prov = (HERE / 'PROVENANCE.md').read_text(encoding='utf-8').strip()
+    r22 = (HERE.parent / 'v22' / 'report_v22.md').read_text(encoding='utf-8')
+    sel = json.loads((HERE.parent / 'v22' / 'v22_selection.json').read_text(encoding='utf-8'))
     rel42 = section(r21.split('## Seed 43')[0], '### Reliability (stacked, top-1 probability tiers; cut-offs from training folds)', None)
     rel43 = section(r21.split('## Seed 43')[1], '### Reliability (stacked, top-1 probability tiers; cut-offs from training folds)', '## Pre-registered')
-    L = ['# Retrieval v2.1: results', '',
+    L = ['# Retrieval v2.1 / v2.2: results', '',
+         '**v2.2 ranks identically to v2.1.** The v2.2 blend experiment selected lambda = 1.0, which is the stacked '
+         'v2.1 ranking unchanged (checked: identical top-5 on all 55 / 558 / 548 queries, and identical CLI output on the '
+         '7 demo queries). The product system is therefore called the **stacked ranker (v2.1/v2.2)** below; tables label '
+         'it `stacked ranker (v2.1/v2.2)`. Tags: `retrieval-v2.1-frozen`, `retrieval-v2.2`.', '',
          'Benchmark-family recommendation from a problem description. Models frozen at tag `retrieval-v2.1-frozen`. '
          'Details: `evaluation/report_auto.md` (v2), `evaluation/report_v21.md` (v2.1), '
          '`evaluation/report_query_sets.md` (written queries); pre-registrations `evaluation/PREREGISTRATION.md`, '
-         '`evaluation/PREREGISTRATION_queries.md`.', '',
+         '`evaluation/PREREGISTRATION_queries.md`, `v22/PREREGISTRATION_v22.md`; blend experiment `v22/report_v22.md`.', '',
          '## Setup', '',
          '- 1,488 papers (11,342 benchmark records), 3,199 problem entities, 2,173 v5 benchmark families.',
          '- Five folds **by paper**, stratified by Category x Conference; two seeds (42 primary, 43 replication).',
@@ -41,7 +47,7 @@ def main():
          '- One automatic query per held-out paper from its own fields, with every **benchmark name token masked**; gold = '
          'the paper\'s families that exist in the training index ("seen"). Papers without seen gold are "unseen" and not scored.',
          '- Systems: popularity; BM25 only; dense only (all-mpnet-base-v2); full v2 (BM25 + dense, RRF, cross-encoder, '
-         'family roll-up with evidence bonus); paper-kNN voting; stacked (logistic regression over 8 features of the '
+         'family roll-up with evidence bonus); paper-kNN voting; stacked ranker (v2.1/v2.2) (logistic regression over 8 features of the '
          'candidates from full v2 and paper-kNN, cross-fitted).',
          '- 95% bootstrap intervals over papers (1,000 resamples).', '']
     for s in (42, 43):
@@ -80,8 +86,49 @@ def main():
           '- **Written queries.** On the 55 written queries, stacked is below full v2 (hit@5 difference -.073 [-.182, .036], '
           'MRR -.086 [-.186, .002]); the stacked ranker often fills the top 5 with large generic suites (BBOB, CEC 2017, '
           'DTLZ) for specific queries.',
+          '- **queries_v2 is a selection set.** The v2.2 lambda was selected on queries_v2 (MRR), so every number on '
+          'queries_v2 after the blend experiment is a selection number, not a test number.',
           f'- **Provenance.** The provenance statement is in `evaluation/PROVENANCE.md`: "{prov}" It is unknown whether system '
           'outputs were seen before the file was final.', '']
+    blend_tab = section(r22, '## B1. Blend curves (score = (1-lambda)/(60+rank_full) + lambda/(60+rank_stacked))', '## B2. Selection')
+    sel_tab = section(r22, '## B2. Selection', '**Chosen lambda')
+    L += ['## Blend experiment (v2.2)', '',
+          'Final ranking = weighted reciprocal rank fusion of the full v2 family ranking and the stacked family ranking: '
+          'score = (1 - lambda) / (60 + rank_full) + lambda / (60 + rank_stacked); a family missing from one list gets no '
+          'contribution from that term; lambda in {0, 0.25, 0.5, 0.75, 1}. Pre-registered in `v22/PREREGISTRATION_v22.md` '
+          'before any run.', '', blend_tab, '',
+          '**Selection rule (fixed before the run).** Among the lambdas whose automatic-evaluation hit@5 is not below '
+          'popularity\'s on both seeds (.328 / .310), choose the highest MRR on queries_v2; ties go to the smaller lambda.', '',
+          sel_tab, '',
+          f'**Why the rule chose lambda = {sel["lambda"]}.** Only lambda = 1.0 meets the eligibility condition: it keeps the '
+          'stacked ranker\'s automatic hit@5 (.376 / .352), while every lambda < 1 falls to about .19 / .21, far below '
+          'popularity. lambda = 0.5 and 0.75 have the higher queries_v2 MRR (.468 vs .336) but are not eligible.', '',
+          '**Why every lambda < 1 collapses on the automatic evaluation.** Full v2\'s families (its shortlist roll-up) are '
+          'always also stacked candidates, because the stacked candidate set is the shortlist families plus the top kNN '
+          'families. A family on both lists receives both terms of the fused score, so as soon as full v2 has any weight its '
+          'families outrank the families that only the stacked ranking places high; the blended top 5 is then essentially '
+          'full v2\'s families in a new order, and inherits full v2\'s low automatic hit@5.', '',
+          '**Selection, not test.** lambda was selected on queries_v2, so the queries_v2 numbers in this section are '
+          'selection numbers, not test numbers. The final independent test is pre-registered in '
+          '`evaluation/PREREGISTRATION_final.md`.', '',
+          '## Known weaknesses (from `v22/report_v22.md`)', '',
+          '- **Size bias.** The stacked ranker favours large families: on the 21 cause-(b) misses of queries_v2 the mean '
+          'size of its top-5 families is 25.8 papers vs 5.7 for full v2 (24.8 vs 4.8 on all 55 queries). In 7 of those 21 '
+          'queries full v2 had a gold family in its top 5 (e.g. linear ordering and symbolic regression at rank 1) that the '
+          'stacked ranker pushed below rank 5.',
+          '- **(1+1) EA runtime example.** For "I need benchmarks for a runtime analysis of a (1+1) EA on pseudo-Boolean '
+          'functions", OneMax is rank 7 and LeadingOnes rank 30 (reached only through popularity padding) in the stacked '
+          'ranker; neither is a candidate in BM25 only or in full v2.',
+          '- **Full v2 brings in odd single-paper families.** E.g. "Stackelberg duopoly" (rank 1) and "Indoor localization '
+          'using TOA and RSS" for the differential-evolution demo query, "Gymnasium environments" and "Test-Assignment '
+          'Problem" for the TSP query; the stacked ranker instead pads with generic suites (DTLZ for TSP; sphere, rastrigin, '
+          'mnist for software defect prediction).', '']
+    text = '\n'.join(L)
+    for a, b in (('| stacked |', '| stacked ranker (v2.1/v2.2) |'), ('| stacked - ', '| stacked ranker (v2.1/v2.2) - ')):
+        text = text.replace(a, b)
+    (HERE.parent / 'RESULTS.md').write_text(text + '\n', encoding='utf-8')
+    print(text)
+    return
     (HERE.parent / 'RESULTS.md').write_text('\n'.join(L) + '\n', encoding='utf-8')
     print('\n'.join(L))
 

@@ -1,6 +1,8 @@
-# Retrieval v2.1: results
+# Retrieval v2.1 / v2.2: results
 
-Benchmark-family recommendation from a problem description. Models frozen at tag `retrieval-v2.1-frozen`. Details: `evaluation/report_auto.md` (v2), `evaluation/report_v21.md` (v2.1), `evaluation/report_query_sets.md` (written queries); pre-registrations `evaluation/PREREGISTRATION.md`, `evaluation/PREREGISTRATION_queries.md`.
+**v2.2 ranks identically to v2.1.** The v2.2 blend experiment selected lambda = 1.0, which is the stacked v2.1 ranking unchanged (checked: identical top-5 on all 55 / 558 / 548 queries, and identical CLI output on the 7 demo queries). The product system is therefore called the **stacked ranker (v2.1/v2.2)** below; tables label it `stacked ranker (v2.1/v2.2)`. Tags: `retrieval-v2.1-frozen`, `retrieval-v2.2`.
+
+Benchmark-family recommendation from a problem description. Models frozen at tag `retrieval-v2.1-frozen`. Details: `evaluation/report_auto.md` (v2), `evaluation/report_v21.md` (v2.1), `evaluation/report_query_sets.md` (written queries); pre-registrations `evaluation/PREREGISTRATION.md`, `evaluation/PREREGISTRATION_queries.md`, `v22/PREREGISTRATION_v22.md`; blend experiment `v22/report_v22.md`.
 
 ## Setup
 
@@ -8,7 +10,7 @@ Benchmark-family recommendation from a problem description. Models frozen at tag
 - Five folds **by paper**, stratified by Category x Conference; two seeds (42 primary, 43 replication).
 - Each fold's index (entity descriptions, entity embeddings, BM25, family paper counts, kNN paper pool) is **rebuilt from the training papers only**.
 - One automatic query per held-out paper from its own fields, with every **benchmark name token masked**; gold = the paper's families that exist in the training index ("seen"). Papers without seen gold are "unseen" and not scored.
-- Systems: popularity; BM25 only; dense only (all-mpnet-base-v2); full v2 (BM25 + dense, RRF, cross-encoder, family roll-up with evidence bonus); paper-kNN voting; stacked (logistic regression over 8 features of the candidates from full v2 and paper-kNN, cross-fitted).
+- Systems: popularity; BM25 only; dense only (all-mpnet-base-v2); full v2 (BM25 + dense, RRF, cross-encoder, family roll-up with evidence bonus); paper-kNN voting; stacked ranker (v2.1/v2.2) (logistic regression over 8 features of the candidates from full v2 and paper-kNN, cross-fitted).
 - 95% bootstrap intervals over papers (1,000 resamples).
 
 ## Overall, seed 42 (n = 558 scored papers)
@@ -20,7 +22,7 @@ Benchmark-family recommendation from a problem description. Models frozen at tag
 | all | dense_only | 558 | 0.023 [0.013, 0.036] | 0.057 [0.039, 0.077] | 0.099 [0.073, 0.124] | 0.080 [0.059, 0.102] | 0.058 [0.044, 0.073] |
 | all | full_v2 | 558 | 0.072 [0.050, 0.093] | 0.156 [0.127, 0.186] | 0.186 [0.156, 0.219] | 0.157 [0.130, 0.187] | 0.116 [0.095, 0.139] |
 | all | paper_knn | 558 | 0.066 [0.047, 0.090] | 0.151 [0.122, 0.183] | 0.242 [0.208, 0.281] | 0.194 [0.165, 0.226] | 0.142 [0.122, 0.168] |
-| all | stacked | 558 | 0.172 [0.143, 0.203] | 0.296 [0.254, 0.333] | 0.376 [0.337, 0.421] | 0.300 [0.265, 0.337] | 0.255 [0.225, 0.285] |
+| all | stacked ranker (v2.1/v2.2) | 558 | 0.172 [0.143, 0.203] | 0.296 [0.254, 0.333] | 0.376 [0.337, 0.421] | 0.300 [0.265, 0.337] | 0.255 [0.225, 0.285] |
 
 ## Overall, seed 43 (n = 548 scored papers)
 
@@ -31,7 +33,7 @@ Benchmark-family recommendation from a problem description. Models frozen at tag
 | all | dense_only | 548 | 0.024 [0.011, 0.036] | 0.066 [0.046, 0.088] | 0.108 [0.084, 0.133] | 0.080 [0.060, 0.101] | 0.063 [0.048, 0.079] |
 | all | full_v2 | 548 | 0.071 [0.049, 0.091] | 0.161 [0.131, 0.192] | 0.208 [0.175, 0.241] | 0.168 [0.141, 0.197] | 0.122 [0.101, 0.145] |
 | all | paper_knn | 548 | 0.080 [0.058, 0.104] | 0.161 [0.131, 0.193] | 0.235 [0.199, 0.270] | 0.193 [0.160, 0.223] | 0.150 [0.125, 0.174] |
-| all | stacked | 548 | 0.166 [0.133, 0.195] | 0.276 [0.239, 0.314] | 0.352 [0.314, 0.392] | 0.288 [0.253, 0.323] | 0.244 [0.212, 0.274] |
+| all | stacked ranker (v2.1/v2.2) | 548 | 0.166 [0.133, 0.195] | 0.276 [0.239, 0.314] | 0.352 [0.314, 0.392] | 0.288 [0.253, 0.323] | 0.244 [0.212, 0.274] |
 
 ## By Category (seed 42)
 
@@ -42,13 +44,13 @@ Benchmark-family recommendation from a problem description. Models frozen at tag
 | Applied | dense_only | 158 | 0.044 [0.013, 0.082] | 0.076 [0.038, 0.114] | 0.082 [0.044, 0.127] | 0.067 [0.032, 0.105] | 0.065 [0.034, 0.102] |
 | Applied | full_v2 | 158 | 0.101 [0.057, 0.152] | 0.139 [0.088, 0.196] | 0.152 [0.095, 0.209] | 0.134 [0.083, 0.188] | 0.122 [0.076, 0.170] |
 | Applied | paper_knn | 158 | 0.006 [0.000, 0.019] | 0.013 [0.000, 0.032] | 0.019 [0.000, 0.038] | 0.012 [0.000, 0.027] | 0.026 [0.014, 0.043] |
-| Applied | stacked | 158 | 0.089 [0.044, 0.133] | 0.108 [0.057, 0.158] | 0.127 [0.076, 0.177] | 0.113 [0.069, 0.162] | 0.107 [0.063, 0.151] |
+| Applied | stacked ranker (v2.1/v2.2) | 158 | 0.089 [0.044, 0.133] | 0.108 [0.057, 0.158] | 0.127 [0.076, 0.177] | 0.113 [0.069, 0.162] | 0.107 [0.063, 0.151] |
 | Pure Math | popularity | 400 | 0.092 [0.067, 0.125] | 0.278 [0.235, 0.320] | 0.453 [0.405, 0.502] | 0.315 [0.276, 0.355] | 0.226 [0.198, 0.256] |
 | Pure Math | bm25_only | 400 | 0.040 [0.022, 0.058] | 0.072 [0.050, 0.100] | 0.110 [0.080, 0.140] | 0.092 [0.066, 0.118] | 0.075 [0.056, 0.095] |
 | Pure Math | dense_only | 400 | 0.015 [0.005, 0.028] | 0.050 [0.030, 0.072] | 0.105 [0.077, 0.135] | 0.085 [0.060, 0.112] | 0.055 [0.041, 0.069] |
 | Pure Math | full_v2 | 400 | 0.060 [0.037, 0.083] | 0.163 [0.128, 0.198] | 0.200 [0.160, 0.240] | 0.166 [0.132, 0.200] | 0.114 [0.089, 0.141] |
 | Pure Math | paper_knn | 400 | 0.090 [0.062, 0.120] | 0.205 [0.168, 0.245] | 0.330 [0.285, 0.375] | 0.266 [0.227, 0.305] | 0.188 [0.160, 0.218] |
-| Pure Math | stacked | 400 | 0.205 [0.168, 0.245] | 0.370 [0.323, 0.415] | 0.475 [0.425, 0.522] | 0.374 [0.330, 0.415] | 0.313 [0.277, 0.349] |
+| Pure Math | stacked ranker (v2.1/v2.2) | 400 | 0.205 [0.168, 0.245] | 0.370 [0.323, 0.415] | 0.475 [0.425, 0.522] | 0.374 [0.330, 0.415] | 0.313 [0.277, 0.349] |
 
 ## By Category (seed 43)
 
@@ -59,13 +61,13 @@ Benchmark-family recommendation from a problem description. Models frozen at tag
 | Applied | dense_only | 157 | 0.045 [0.013, 0.076] | 0.051 [0.019, 0.089] | 0.070 [0.032, 0.108] | 0.055 [0.023, 0.092] | 0.055 [0.024, 0.089] |
 | Applied | full_v2 | 157 | 0.083 [0.045, 0.134] | 0.115 [0.064, 0.166] | 0.127 [0.076, 0.185] | 0.108 [0.063, 0.158] | 0.101 [0.057, 0.149] |
 | Applied | paper_knn | 157 | 0.006 [0.000, 0.019] | 0.025 [0.006, 0.051] | 0.032 [0.006, 0.064] | 0.025 [0.003, 0.051] | 0.028 [0.013, 0.044] |
-| Applied | stacked | 157 | 0.070 [0.032, 0.115] | 0.089 [0.045, 0.140] | 0.108 [0.057, 0.159] | 0.094 [0.051, 0.141] | 0.086 [0.046, 0.130] |
+| Applied | stacked ranker (v2.1/v2.2) | 157 | 0.070 [0.032, 0.115] | 0.089 [0.045, 0.140] | 0.108 [0.057, 0.159] | 0.094 [0.051, 0.141] | 0.086 [0.046, 0.130] |
 | Pure Math | popularity | 391 | 0.105 [0.077, 0.136] | 0.292 [0.246, 0.340] | 0.430 [0.379, 0.481] | 0.297 [0.258, 0.338] | 0.237 [0.208, 0.268] |
 | Pure Math | bm25_only | 391 | 0.043 [0.026, 0.064] | 0.082 [0.054, 0.113] | 0.128 [0.095, 0.164] | 0.104 [0.074, 0.133] | 0.080 [0.059, 0.102] |
 | Pure Math | dense_only | 391 | 0.015 [0.005, 0.028] | 0.072 [0.049, 0.097] | 0.123 [0.092, 0.156] | 0.090 [0.065, 0.116] | 0.067 [0.051, 0.084] |
 | Pure Math | full_v2 | 391 | 0.066 [0.043, 0.092] | 0.179 [0.141, 0.217] | 0.240 [0.199, 0.284] | 0.192 [0.155, 0.231] | 0.131 [0.105, 0.159] |
 | Pure Math | paper_knn | 391 | 0.110 [0.079, 0.141] | 0.215 [0.171, 0.256] | 0.317 [0.271, 0.366] | 0.260 [0.218, 0.301] | 0.199 [0.168, 0.231] |
-| Pure Math | stacked | 391 | 0.205 [0.166, 0.246] | 0.350 [0.304, 0.399] | 0.450 [0.402, 0.499] | 0.366 [0.320, 0.409] | 0.307 [0.268, 0.348] |
+| Pure Math | stacked ranker (v2.1/v2.2) | 391 | 0.205 [0.166, 0.246] | 0.350 [0.304, 0.399] | 0.450 [0.402, 0.499] | 0.366 [0.320, 0.409] | 0.307 [0.268, 0.348] |
 
 ## Pre-registered criterion
 
@@ -157,14 +159,14 @@ paper-kNN K = 100; tier cut-offs 0.0723 / 0.1372.
 | all | dense_only | 55 | 0.218 [0.109, 0.345] | 0.455 [0.309, 0.582] | 0.527 [0.400, 0.655] | 0.367 [0.258, 0.473] | 0.354 [0.252, 0.460] |
 | all | full_v2 | 55 | 0.327 [0.200, 0.455] | 0.509 [0.382, 0.636] | 0.564 [0.436, 0.691] | 0.364 [0.264, 0.464] | 0.423 [0.311, 0.536] |
 | all | paper_knn | 55 | 0.091 [0.018, 0.182] | 0.309 [0.200, 0.436] | 0.400 [0.273, 0.527] | 0.242 [0.161, 0.336] | 0.230 [0.161, 0.316] |
-| all | stacked | 55 | 0.200 [0.091, 0.309] | 0.400 [0.273, 0.527] | 0.491 [0.363, 0.618] | 0.294 [0.206, 0.394] | 0.336 [0.239, 0.433] |
+| all | stacked ranker (v2.1/v2.2) | 55 | 0.200 [0.091, 0.309] | 0.400 [0.273, 0.527] | 0.491 [0.363, 0.618] | 0.294 [0.206, 0.394] | 0.336 [0.239, 0.433] |
 
 ### Primary comparisons (paired bootstrap, stacked minus reference)
 
 | comparison | d hit@5 | d MRR |
 |---|---|---|
-| stacked - popularity | 0.291 [0.127, 0.436] | 0.234 [0.131, 0.341] |
-| stacked - full_v2 | -0.073 [-0.182, 0.036] | -0.086 [-0.186, 0.002] |
+| stacked ranker (v2.1/v2.2) - popularity | 0.291 [0.127, 0.436] | 0.234 [0.131, 0.341] |
+| stacked ranker (v2.1/v2.2) - full_v2 | -0.073 [-0.182, 0.036] | -0.086 [-0.186, 0.002] |
 
 ### By group
 
@@ -177,37 +179,37 @@ Group sizes: continuous single-objective 15, multi-objective 10, combinatorial 1
 | combinatorial | dense_only | 10 | 0.400 [0.100, 0.700] | 0.900 [0.700, 1.000] | 0.900 [0.700, 1.000] | 0.750 [0.550, 0.917] | 0.646 [0.442, 0.850] |
 | combinatorial | full_v2 | 10 | 0.800 [0.500, 1.000] | 0.900 [0.700, 1.000] | 0.900 [0.700, 1.000] | 0.783 [0.550, 1.000] | 0.850 [0.600, 1.000] |
 | combinatorial | paper_knn | 10 | 0.100 [0.000, 0.300] | 0.300 [0.000, 0.600] | 0.500 [0.200, 0.800] | 0.383 [0.133, 0.650] | 0.263 [0.087, 0.475] |
-| combinatorial | stacked | 10 | 0.300 [0.100, 0.600] | 0.600 [0.300, 0.900] | 0.700 [0.400, 0.900] | 0.467 [0.250, 0.683] | 0.481 [0.262, 0.706] |
+| combinatorial | stacked ranker (v2.1/v2.2) | 10 | 0.300 [0.100, 0.600] | 0.600 [0.300, 0.900] | 0.700 [0.400, 0.900] | 0.467 [0.250, 0.683] | 0.481 [0.262, 0.706] |
 | continuous single-objective | popularity | 15 | 0.000 [0.000, 0.000] | 0.400 [0.200, 0.667] | 0.467 [0.267, 0.733] | 0.233 [0.111, 0.367] | 0.194 [0.089, 0.311] |
 | continuous single-objective | bm25_only | 15 | 0.133 [0.000, 0.333] | 0.200 [0.000, 0.400] | 0.200 [0.000, 0.400] | 0.067 [0.000, 0.133] | 0.167 [0.000, 0.367] |
 | continuous single-objective | dense_only | 15 | 0.067 [0.000, 0.200] | 0.267 [0.067, 0.467] | 0.333 [0.133, 0.600] | 0.178 [0.056, 0.333] | 0.183 [0.050, 0.350] |
 | continuous single-objective | full_v2 | 15 | 0.200 [0.000, 0.400] | 0.267 [0.067, 0.533] | 0.333 [0.133, 0.600] | 0.133 [0.056, 0.233] | 0.250 [0.083, 0.467] |
 | continuous single-objective | paper_knn | 15 | 0.133 [0.000, 0.333] | 0.267 [0.067, 0.467] | 0.333 [0.133, 0.600] | 0.167 [0.056, 0.322] | 0.243 [0.106, 0.423] |
-| continuous single-objective | stacked | 15 | 0.200 [0.000, 0.400] | 0.400 [0.200, 0.667] | 0.400 [0.200, 0.667] | 0.222 [0.089, 0.400] | 0.300 [0.122, 0.511] |
+| continuous single-objective | stacked ranker (v2.1/v2.2) | 15 | 0.200 [0.000, 0.400] | 0.400 [0.200, 0.667] | 0.400 [0.200, 0.667] | 0.222 [0.089, 0.400] | 0.300 [0.122, 0.511] |
 | control / RL | popularity | 5 | 0.000 [0.000, 0.000] | 0.000 [0.000, 0.000] | 0.000 [0.000, 0.000] | 0.000 [0.000, 0.000] | 0.000 [0.000, 0.000] |
 | control / RL | bm25_only | 5 | 0.400 [0.000, 0.800] | 0.400 [0.000, 0.800] | 0.600 [0.200, 1.000] | 0.233 [0.067, 0.400] | 0.440 [0.040, 0.840] |
 | control / RL | dense_only | 5 | 0.200 [0.000, 0.600] | 0.600 [0.200, 1.000] | 0.800 [0.400, 1.000] | 0.400 [0.200, 0.600] | 0.407 [0.140, 0.733] |
 | control / RL | full_v2 | 5 | 0.200 [0.000, 0.600] | 0.800 [0.400, 1.000] | 0.800 [0.400, 1.000] | 0.433 [0.200, 0.633] | 0.467 [0.267, 0.733] |
 | control / RL | paper_knn | 5 | 0.000 [0.000, 0.000] | 0.200 [0.000, 0.600] | 0.400 [0.000, 0.800] | 0.200 [0.000, 0.467] | 0.140 [0.000, 0.340] |
-| control / RL | stacked | 5 | 0.000 [0.000, 0.000] | 0.200 [0.000, 0.600] | 0.600 [0.200, 1.000] | 0.233 [0.067, 0.400] | 0.205 [0.065, 0.365] |
+| control / RL | stacked ranker (v2.1/v2.2) | 5 | 0.000 [0.000, 0.000] | 0.200 [0.000, 0.600] | 0.600 [0.200, 1.000] | 0.233 [0.067, 0.400] | 0.205 [0.065, 0.365] |
 | machine learning | popularity | 10 | 0.000 [0.000, 0.000] | 0.000 [0.000, 0.000] | 0.000 [0.000, 0.000] | 0.000 [0.000, 0.000] | 0.000 [0.000, 0.000] |
 | machine learning | bm25_only | 10 | 0.300 [0.000, 0.600] | 0.600 [0.300, 0.900] | 0.600 [0.300, 0.900] | 0.317 [0.133, 0.517] | 0.417 [0.167, 0.683] |
 | machine learning | dense_only | 10 | 0.400 [0.100, 0.700] | 0.400 [0.100, 0.700] | 0.500 [0.200, 0.800] | 0.333 [0.100, 0.600] | 0.450 [0.175, 0.738] |
 | machine learning | full_v2 | 10 | 0.200 [0.000, 0.500] | 0.600 [0.300, 0.900] | 0.600 [0.300, 0.900] | 0.350 [0.150, 0.567] | 0.350 [0.133, 0.583] |
 | machine learning | paper_knn | 10 | 0.000 [0.000, 0.000] | 0.200 [0.000, 0.500] | 0.300 [0.098, 0.600] | 0.200 [0.049, 0.450] | 0.120 [0.033, 0.227] |
-| machine learning | stacked | 10 | 0.200 [0.000, 0.500] | 0.400 [0.100, 0.700] | 0.400 [0.100, 0.700] | 0.250 [0.050, 0.483] | 0.308 [0.087, 0.562] |
+| machine learning | stacked ranker (v2.1/v2.2) | 10 | 0.200 [0.000, 0.500] | 0.400 [0.100, 0.700] | 0.400 [0.100, 0.700] | 0.250 [0.050, 0.483] | 0.308 [0.087, 0.562] |
 | multi-objective | popularity | 10 | 0.100 [0.000, 0.300] | 0.100 [0.000, 0.300] | 0.100 [0.000, 0.300] | 0.050 [0.000, 0.150] | 0.111 [0.000, 0.311] |
 | multi-objective | bm25_only | 10 | 0.200 [0.000, 0.500] | 0.400 [0.100, 0.700] | 0.500 [0.200, 0.800] | 0.267 [0.083, 0.467] | 0.299 [0.091, 0.553] |
 | multi-objective | dense_only | 10 | 0.200 [0.000, 0.500] | 0.400 [0.100, 0.700] | 0.500 [0.200, 0.800] | 0.367 [0.133, 0.667] | 0.325 [0.100, 0.550] |
 | multi-objective | full_v2 | 10 | 0.300 [0.000, 0.600] | 0.400 [0.100, 0.700] | 0.500 [0.200, 0.800] | 0.317 [0.117, 0.567] | 0.392 [0.150, 0.667] |
 | multi-objective | paper_knn | 10 | 0.100 [0.000, 0.300] | 0.400 [0.100, 0.700] | 0.400 [0.100, 0.700] | 0.217 [0.050, 0.400] | 0.242 [0.078, 0.462] |
-| multi-objective | stacked | 10 | 0.100 [0.000, 0.300] | 0.300 [0.000, 0.600] | 0.400 [0.100, 0.700] | 0.233 [0.050, 0.433] | 0.266 [0.118, 0.452] |
+| multi-objective | stacked ranker (v2.1/v2.2) | 10 | 0.100 [0.000, 0.300] | 0.300 [0.000, 0.600] | 0.400 [0.100, 0.700] | 0.233 [0.050, 0.433] | 0.266 [0.118, 0.452] |
 | vague | popularity | 5 | 0.200 [0.000, 0.600] | 0.400 [0.000, 0.800] | 0.600 [0.200, 1.000] | 0.333 [0.100, 0.567] | 0.317 [0.050, 0.667] |
 | vague | bm25_only | 5 | 0.000 [0.000, 0.000] | 0.000 [0.000, 0.000] | 0.200 [0.000, 0.600] | 0.067 [0.000, 0.200] | 0.070 [0.000, 0.170] |
 | vague | dense_only | 5 | 0.000 [0.000, 0.000] | 0.200 [0.000, 0.600] | 0.200 [0.000, 0.600] | 0.200 [0.000, 0.600] | 0.100 [0.000, 0.300] |
 | vague | full_v2 | 5 | 0.200 [0.000, 0.600] | 0.200 [0.000, 0.600] | 0.400 [0.000, 0.800] | 0.267 [0.000, 0.600] | 0.250 [0.000, 0.600] |
 | vague | paper_knn | 5 | 0.200 [0.000, 0.600] | 0.600 [0.200, 1.000] | 0.600 [0.200, 1.000] | 0.367 [0.067, 0.700] | 0.412 [0.157, 0.725] |
-| vague | stacked | 5 | 0.400 [0.000, 0.800] | 0.400 [0.000, 0.800] | 0.600 [0.200, 1.000] | 0.433 [0.100, 0.767] | 0.484 [0.129, 0.840] |
+| vague | stacked ranker (v2.1/v2.2) | 5 | 0.400 [0.000, 0.800] | 0.400 [0.000, 0.800] | 0.600 [0.200, 1.000] | 0.433 [0.100, 0.767] | 0.484 [0.129, 0.840] |
 
 ### Confidence tiers on the written queries
 
@@ -229,6 +231,64 @@ Secondary sets `ai_queries_v1.csv` and `queries_reworded_v1.csv`: not run (files
 - **Automatic Pure Math queries carry little information.** With benchmark names masked, a Pure Math query is mostly an algorithm name, a dimension and generic landscape words, which favours popular suites.
 - **Gold selection.** Gold for all query sets (automatic and written) was chosen with the families browse file (`evaluation/families_browse.csv`), i.e. within the v5 family layer.
 - **Written queries.** On the 55 written queries, stacked is below full v2 (hit@5 difference -.073 [-.182, .036], MRR -.086 [-.186, .002]); the stacked ranker often fills the top 5 with large generic suites (BBOB, CEC 2017, DTLZ) for specific queries.
+- **queries_v2 is a selection set.** The v2.2 lambda was selected on queries_v2 (MRR), so every number on queries_v2 after the blend experiment is a selection number, not a test number.
 - **Provenance.** The provenance statement is in `evaluation/PROVENANCE.md`: "Queries written by: Sanjesh. Gold families chosen by: Darshan . Date and time finished: 3/11/26 11:43.
 Tools used (including any AI tool): IEEE(reference. System outputs seen before the file was final: Unknown." It is unknown whether system outputs were seen before the file was final.
+
+## Blend experiment (v2.2)
+
+Final ranking = weighted reciprocal rank fusion of the full v2 family ranking and the stacked family ranking: score = (1 - lambda) / (60 + rank_full) + lambda / (60 + rank_stacked); a family missing from one list gets no contribution from that term; lambda in {0, 0.25, 0.5, 0.75, 1}. Pre-registered in `v22/PREREGISTRATION_v22.md` before any run.
+
+Reproduction checks (top-5 identical to the earlier results files): queries_v2: full_v2 55/55, lambda=1 vs stacked 55/55; seed 42: full_v2 558/558, lambda=1 vs stacked 558/558; seed 43: full_v2 548/548, lambda=1 vs stacked 548/548
+
+| data | system | n | hit@1 | hit@3 | hit@5 | recall@5 | mrr |
+|---|---|---|---|---|---|---|---|
+| queries_v2 (55) | popularity (reference) | 55 | 0.036 [0.000, 0.091] | 0.164 [0.073, 0.273] | 0.200 [0.091, 0.309] | 0.103 [0.045, 0.164] | 0.102 [0.048, 0.172] |
+| queries_v2 (55) | full_v2 (reference) | 55 | 0.327 [0.200, 0.455] | 0.509 [0.382, 0.636] | 0.564 [0.436, 0.691] | 0.364 [0.264, 0.464] | 0.423 [0.311, 0.536] |
+| queries_v2 (55) | stacked v2.1 (reference) | 55 | 0.200 [0.091, 0.309] | 0.400 [0.273, 0.527] | 0.491 [0.363, 0.618] | 0.294 [0.206, 0.394] | 0.336 [0.239, 0.433] |
+| queries_v2 (55) | blend lambda=0.0 | 55 | 0.327 [0.200, 0.455] | 0.509 [0.382, 0.636] | 0.564 [0.436, 0.691] | 0.364 [0.264, 0.464] | 0.428 [0.315, 0.542] |
+| queries_v2 (55) | blend lambda=0.25 | 55 | 0.309 [0.182, 0.436] | 0.527 [0.400, 0.655] | 0.582 [0.455, 0.709] | 0.382 [0.276, 0.488] | 0.426 [0.319, 0.537] |
+| queries_v2 (55) | blend lambda=0.5 | 55 | 0.382 [0.255, 0.509] | 0.527 [0.400, 0.655] | 0.600 [0.473, 0.727] | 0.382 [0.276, 0.485] | 0.468 [0.349, 0.585] |
+| queries_v2 (55) | blend lambda=0.75 | 55 | 0.382 [0.255, 0.509] | 0.527 [0.400, 0.655] | 0.582 [0.455, 0.709] | 0.382 [0.276, 0.488] | 0.468 [0.347, 0.585] |
+| queries_v2 (55) | blend lambda=1.0 | 55 | 0.200 [0.091, 0.309] | 0.400 [0.273, 0.527] | 0.491 [0.363, 0.618] | 0.294 [0.206, 0.394] | 0.336 [0.239, 0.433] |
+| auto seed 42 (558) | popularity (reference) | 558 | 0.066 [0.045, 0.088] | 0.201 [0.165, 0.235] | 0.328 [0.290, 0.371] | 0.227 [0.195, 0.259] | 0.164 [0.140, 0.188] |
+| auto seed 42 (558) | stacked v2.1 (reference) | 558 | 0.172 [0.143, 0.203] | 0.296 [0.254, 0.333] | 0.376 [0.337, 0.421] | 0.300 [0.265, 0.337] | 0.255 [0.225, 0.285] |
+| auto seed 42 (558) | full_v2 (reference) | 558 | 0.072 [0.050, 0.093] | 0.156 [0.127, 0.186] | 0.186 [0.156, 0.219] | 0.157 [0.130, 0.187] | 0.116 [0.095, 0.139] |
+| auto seed 42 (558) | blend lambda=0.0 | 558 | 0.072 [0.050, 0.093] | 0.156 [0.127, 0.186] | 0.186 [0.156, 0.219] | 0.157 [0.130, 0.187] | 0.118 [0.096, 0.141] |
+| auto seed 42 (558) | blend lambda=0.25 | 558 | 0.108 [0.082, 0.134] | 0.181 [0.150, 0.213] | 0.192 [0.159, 0.226] | 0.161 [0.134, 0.191] | 0.147 [0.121, 0.174] |
+| auto seed 42 (558) | blend lambda=0.5 | 558 | 0.116 [0.091, 0.143] | 0.179 [0.149, 0.211] | 0.190 [0.158, 0.222] | 0.159 [0.131, 0.190] | 0.159 [0.133, 0.186] |
+| auto seed 42 (558) | blend lambda=0.75 | 558 | 0.129 [0.102, 0.158] | 0.177 [0.145, 0.210] | 0.194 [0.161, 0.228] | 0.163 [0.135, 0.193] | 0.166 [0.138, 0.193] |
+| auto seed 42 (558) | blend lambda=1.0 | 558 | 0.172 [0.143, 0.203] | 0.296 [0.254, 0.333] | 0.376 [0.337, 0.421] | 0.300 [0.265, 0.337] | 0.255 [0.225, 0.285] |
+| auto seed 43 (548) | popularity (reference) | 548 | 0.075 [0.053, 0.099] | 0.210 [0.175, 0.245] | 0.310 [0.268, 0.349] | 0.214 [0.184, 0.247] | 0.171 [0.147, 0.195] |
+| auto seed 43 (548) | stacked v2.1 (reference) | 548 | 0.166 [0.133, 0.195] | 0.276 [0.239, 0.314] | 0.352 [0.314, 0.392] | 0.288 [0.253, 0.323] | 0.244 [0.212, 0.274] |
+| auto seed 43 (548) | full_v2 (reference) | 548 | 0.071 [0.049, 0.091] | 0.161 [0.131, 0.192] | 0.208 [0.175, 0.241] | 0.168 [0.141, 0.197] | 0.122 [0.101, 0.145] |
+| auto seed 43 (548) | blend lambda=0.0 | 548 | 0.071 [0.049, 0.091] | 0.161 [0.131, 0.192] | 0.208 [0.175, 0.241] | 0.168 [0.141, 0.197] | 0.124 [0.103, 0.146] |
+| auto seed 43 (548) | blend lambda=0.25 | 548 | 0.108 [0.082, 0.133] | 0.195 [0.162, 0.230] | 0.212 [0.181, 0.246] | 0.171 [0.144, 0.199] | 0.153 [0.128, 0.180] |
+| auto seed 43 (548) | blend lambda=0.5 | 548 | 0.111 [0.088, 0.139] | 0.193 [0.161, 0.226] | 0.212 [0.181, 0.246] | 0.171 [0.144, 0.199] | 0.160 [0.134, 0.186] |
+| auto seed 43 (548) | blend lambda=0.75 | 548 | 0.128 [0.102, 0.155] | 0.193 [0.161, 0.226] | 0.210 [0.177, 0.245] | 0.170 [0.142, 0.199] | 0.170 [0.143, 0.197] |
+| auto seed 43 (548) | blend lambda=1.0 | 548 | 0.166 [0.133, 0.195] | 0.276 [0.239, 0.314] | 0.352 [0.314, 0.392] | 0.288 [0.253, 0.323] | 0.244 [0.212, 0.274] |
+
+**Selection rule (fixed before the run).** Among the lambdas whose automatic-evaluation hit@5 is not below popularity's on both seeds (.328 / .310), choose the highest MRR on queries_v2; ties go to the smaller lambda.
+
+Popularity automatic hit@5: seed 42 0.328, seed 43 0.310.
+
+| lambda | auto hit@5 seed 42 | auto hit@5 seed 43 | eligible | queries_v2 MRR |
+|---|---|---|---|---|
+| 0.0 | 0.186 | 0.208 | False | 0.428 |
+| 0.25 | 0.192 | 0.212 | False | 0.426 |
+| 0.5 | 0.190 | 0.212 | False | 0.468 |
+| 0.75 | 0.194 | 0.210 | False | 0.468 |
+| 1.0 | 0.376 | 0.352 | True | 0.336 |
+
+**Why the rule chose lambda = 1.0.** Only lambda = 1.0 meets the eligibility condition: it keeps the stacked ranker's automatic hit@5 (.376 / .352), while every lambda < 1 falls to about .19 / .21, far below popularity. lambda = 0.5 and 0.75 have the higher queries_v2 MRR (.468 vs .336) but are not eligible.
+
+**Why every lambda < 1 collapses on the automatic evaluation.** Full v2's families (its shortlist roll-up) are always also stacked candidates, because the stacked candidate set is the shortlist families plus the top kNN families. A family on both lists receives both terms of the fused score, so as soon as full v2 has any weight its families outrank the families that only the stacked ranking places high; the blended top 5 is then essentially full v2's families in a new order, and inherits full v2's low automatic hit@5.
+
+**Selection, not test.** lambda was selected on queries_v2, so the queries_v2 numbers in this section are selection numbers, not test numbers. The final independent test is pre-registered in `evaluation/PREREGISTRATION_final.md`.
+
+## Known weaknesses (from `v22/report_v22.md`)
+
+- **Size bias.** The stacked ranker favours large families: on the 21 cause-(b) misses of queries_v2 the mean size of its top-5 families is 25.8 papers vs 5.7 for full v2 (24.8 vs 4.8 on all 55 queries). In 7 of those 21 queries full v2 had a gold family in its top 5 (e.g. linear ordering and symbolic regression at rank 1) that the stacked ranker pushed below rank 5.
+- **(1+1) EA runtime example.** For "I need benchmarks for a runtime analysis of a (1+1) EA on pseudo-Boolean functions", OneMax is rank 7 and LeadingOnes rank 30 (reached only through popularity padding) in the stacked ranker; neither is a candidate in BM25 only or in full v2.
+- **Full v2 brings in odd single-paper families.** E.g. "Stackelberg duopoly" (rank 1) and "Indoor localization using TOA and RSS" for the differential-evolution demo query, "Gymnasium environments" and "Test-Assignment Problem" for the TSP query; the stacked ranker instead pads with generic suites (DTLZ for TSP; sphere, rastrigin, mnist for software defect prediction).
 
