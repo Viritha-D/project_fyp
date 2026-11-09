@@ -12,6 +12,46 @@ sys.path.insert(0, str(HERE))
 import evaluate as ev  # noqa: E402
 import evaluate_v21 as e21  # noqa: E402
 
+# Hand-written section added during the pre-final audit (52cf7ef); kept verbatim on every regeneration.
+DECISIONS_AFTER_QUERIES_V2 = '''
+## Decisions made after seeing queries_v2
+
+queries_v2 was committed at c0f8802 and first scored at 27c4b84 (2026-11-03 06:34 UTC). Nothing was trained on
+queries_v2 text or gold, with one exception, the v2.2 λ selection:
+
+- The frozen model files were last changed before queries_v2 was committed: `v21_model.json` (stacker weights,
+  tier cut-offs, K) at c7a0e04, `v21.py` at 6b0e1fc, `hybrid.py` and `config.json` at 31b4d55, and families,
+  entities and embeddings even earlier. Their hashes are in `evaluation/FROZEN_HASHES.txt`.
+- The only code that reads queries_v2 is the scorer and report scripts (`score_human_queries.py`,
+  `report_query_sets.py`, `build_results_md.py`) and `v22/run_v22.py`.
+
+Every decision taken after the queries_v2 results were seen:
+
+1. **v2.2 λ, selected on queries_v2 (tuning).** λ was the argmax of queries_v2 MRR among the eligible values
+   (`v22/run_v22.py`). The rule chose λ = 1.0, i.e. no change to the ranking. Even so, queries_v2 numbers from then
+   on are selection numbers, not test numbers.
+2. **Design of the v2.2 experiment (design choice).** The idea of blending full v2 with the stacked ranker, the
+   RRF form with k = 60 and the λ grid {0, 0.25, 0.5, 0.75, 1} were all chosen after queries_v2 showed full v2 ahead
+   of the stacked ranker.
+3. **Eligibility condition for λ (threshold).** The rule required automatic hit@5 ≥ popularity's on both seeds
+   (.328 / .310). It was written before the v2.2 run, but after queries_v2 results were known.
+4. **Diagnostics (report only).** The diagnostics A1/A2 and the "Known weaknesses" section were chosen because of
+   the queries_v2 misses (size bias, the (1+1) EA example).
+5. **Secondary systems of the final test (design choice).** Full v2 (λ = 0) and blend λ = 0.5 are in the final
+   pre-registration because they did well on queries_v2. Blend 0.5 had the highest queries_v2 MRR (tied with 0.75),
+   and the final decision rule lets it replace the primary. It was therefore picked after looking at queries_v2.
+6. **Final decision rule on the pooled set (design choice).** Using the pooled t1+t2+t3 set for the product
+   decision was decided while writing `evaluation/PREREGISTRATION_final.md`, after queries_v2 and v2.2 results.
+7. **CLI wording (display only, no ranking change).** The plain tier meanings in `recommend_v21.py` ("about 1 in 10 /
+   6 / 4") were added after queries_v2 was scored. The numbers come from the automatic evaluation, not from queries_v2.
+8. **Documentation.** The RESULTS.md limitations about queries_v2 (stacked below full v2, generic suites in the top 5)
+   and the provenance answer "Unknown" were added afterwards. They are text only.
+
+Not decided after queries_v2: index hygiene, paper-kNN K, the stacker features and weights, the tier cut-offs, the
+dropped margin gate, the two-slate output and the gold of queries_v2. All of these predate it (Part C,
+pre-registered in `evaluation/PREREGISTRATION.md`). The gold of queries_v2 and its 55 queries were never edited.
+'''
+
 MAIN = ['popularity', 'bm25_only', 'dense_only', 'full_v2', 'paper_knn', 'stacked']
 
 
@@ -126,11 +166,9 @@ def main():
     text = '\n'.join(L)
     for a, b in (('| stacked |', '| stacked ranker (v2.1/v2.2) |'), ('| stacked - ', '| stacked ranker (v2.1/v2.2) - ')):
         text = text.replace(a, b)
-    (HERE.parent / 'RESULTS.md').write_text(text + '\n', encoding='utf-8')
+    text = text + '\n' + DECISIONS_AFTER_QUERIES_V2
+    (HERE.parent / 'RESULTS.md').write_text(text, encoding='utf-8')
     print(text)
-    return
-    (HERE.parent / 'RESULTS.md').write_text('\n'.join(L) + '\n', encoding='utf-8')
-    print('\n'.join(L))
 
 
 if __name__ == '__main__':
