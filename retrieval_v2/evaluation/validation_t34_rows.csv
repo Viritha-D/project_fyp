@@ -1,0 +1,94 @@
+set,query_id,name_as_written,id_as_written,resolution,family_id,stored_name,candidates,n_papers,excluded,row_valid,row_problems,name_similarity
+t3,Q01,OneMax,,match,F00445,OneMax,,32,,True,,
+t3,Q01,LeadingOnes,,match,F00455,LeadingOnes,,18,,True,,
+t3,Q02,Multimodal Optimization Problems,,match,F00145,Multimodal Optimization Problems,,1,,True,,
+t3,Q02,Dynamic Multimodal Optimization Problems (DMMOPs),,match,F00152,Dynamic Multimodal Optimization Problems (DMMOPs),,1,,True,,
+t3,Q03,DeJong F4 (Quartic Function with Noise),,match,F00797,DeJong F4 (Quartic Function with Noise),,1,,True,,
+t3,Q03,Noisy Rastrigin with LED,,match,F01571,Noisy Rastrigin with LED,,1,,True,,
+t3,Q03,YANOISYBBOB,,match,F00672,YANOISYBBOB,,1,,True,,
+t3,Q04,CEC 2010 suite,,match,F00608,CEC 2010 suite,,2,,True,,
+t3,Q04,BBOB (COCO),,match,F00434,BBOB (COCO),,35,,True,,
+t3,Q05,NK landscape,,match,F00299,NK landscape,,14,,True,,
+t3,Q05,Best-of-Traps (BoT),,match,F01070,Best-of-Traps (BoT),,1,,True,,
+t3,Q05,Trap,,match,F00500,Trap,,4,,True,,
+t3,Q06,BBOB (COCO),,match,F00434,BBOB (COCO),,35,,True,,
+t3,Q06,CEC 2017 suite,,match,F00090,CEC 2017 suite,,44,,True,,
+t3,Q07,CEC 2013 suite,,match,F00135,CEC 2013 suite,,22,,True,,
+t3,Q07,CEC 2014 suite,,match,F00042,CEC 2014 suite,,16,,True,,
+t3,Q08,Traffic Signal Timing Optimization (TSTO),,match,F01309,Traffic Signal Timing Optimization (TSTO),,1,,True,,
+t3,Q08,Traffic Light Scheduling Problem (TLSP),,match,F00861,Traffic Light Scheduling Problem (TLSP),,1,,True,,
+t3,Q09,Cloud Task Scheduling,,match,F00426,Cloud Task Scheduling,,1,,True,,
+t3,Q10,Traveling Salesman Problem with Drone Launch Station Location (TSP-DLSL),,match,F01650,Traveling Salesman Problem with Drone Launch Station Location (TSP-DLSL),,1,,True,,
+t3,Q10,Drone scheduling for ship emission monitoring,,match,F00173,Drone scheduling for ship emission monitoring,,1,,True,,
+t3,Q10,uav path planning,,match,F00096,uav path planning,,3,,True,,
+t3,Q11,"Water Distribution Network Optimization (SN200, SN300, SN400, SN500, MN200, MN300, MN400, MN500, Balerma)",,match,F00636,"Water Distribution Network Optimization (SN200, SN300, SN400, SN500, MN200, MN300, MN400, MN500, Balerma)",,1,,True,,
+t3,Q11,Modena Water Distribution Network,,match,F00637,Modena Water Distribution Network,,1,,True,,
+t3,Q12,Wireless Sensor Network Energy Optimization,,match,F02130,Wireless Sensor Network Energy Optimization,,1,,True,,
+t3,Q12,WSN deployment problem,,match,F00305,WSN deployment problem,,1,,True,,
+t3,Q12,MWSN Routing Optimization,,match,F00418,MWSN Routing Optimization,,1,,True,,
+t3,Q13,curriculum based course timetabling,,match,F00102,curriculum based course timetabling,,2,,True,,
+t3,Q13,Conference Scheduling Problem (CoSP),,match,F01527,Conference Scheduling Problem (CoSP),,1,,True,,
+t3,Q14,Organic solar cell thin-film fabrication optimization,,match,F00210,Organic solar cell thin-film fabrication optimization,,1,,True,,
+t3,Q14,Photovoltaic potential estimation in Bangu neighborhood,,match,F00211,Photovoltaic potential estimation in Bangu neighborhood,,1,,True,,
+t3,Q15,Music mood estimation via Twin Gaussian Processes,,match,F01941,Music mood estimation via Twin Gaussian Processes,,1,,True,,
+t3,Q16,nca morphogenesis,,match,F01221,nca morphogenesis,,1,,True,,
+t3,Q16,Car structure design problem,,match,F00605,Car structure design problem,,1,,True,,
+t3,Q17,voxel based soft robot locomotion,,match,F00679,voxel based soft robot locomotion,,2,,True,,
+t3,Q17,Brittle star robot locomotion,,match,F01765,Brittle star robot locomotion,,1,,True,,
+t3,Q17,Six-Legged Locomotion,,match,F00685,Six-Legged Locomotion,,1,,True,,
+t3,Q18,Texture,,match,F00708,Texture,,1,,True,,
+t3,Q18,Texture Image Segmentation,,match,F01887,Texture Image Segmentation,,1,,True,,
+t3,Q19,Board Game Design,,match,F01247,Board Game Design,,1,,True,,
+t3,Q19,GVGAI games,,match,F00028,GVGAI games,,1,,True,,
+t3,Q19,Game Content Generation Problems,,match,F00147,Game Content Generation Problems,,1,,True,,
+t3,Q20,3D Single Container Loading Problem (SCLP),,match,F01777,3D Single Container Loading Problem (SCLP),,1,,True,,
+t3,Q20,pressure vessel design,,match,F00427,pressure vessel design,,2,,True,,
+t4,Q01,CEC 2011 suite,F00329,name matches id,F00329,CEC 2011 suite,F00329,2,,True,,1.0
+t4,Q01,RWMOP (CEC 2021 real-world MOPs),F00136,name matches id,F00136,RWMOP (CEC 2021 real-world MOPs),F00136,1,,True,,1.0
+t4,Q01,Tanabe and Ishibuchi Real-World Suite,F01055,name matches id,F01055,Tanabe and Ishibuchi Real-World Suite,F01055,1,,True,,1.0
+t4,Q02,MW,F01396,name matches id,F01396,MW,F01396,2,,True,,1.0
+t4,Q02,DASCMOP,F00293,name matches id,F00293,DASCMOP,F00293,5,,True,,1.0
+t4,Q02,CF1-CF10,F00112,name matches id,F00112,CF1-CF10,F00112,1,,True,,1.0
+t4,Q03,CEC 2006 suite,F00036,name matches id,F00036,CEC 2006 suite,F00036,3,,True,,1.0
+t4,Q03,rastrigin,F00054,name matches id,F00054,rastrigin,F00054,27,,True,,1.0
+t4,Q03,TSPLIB,F00499,name matches id,F00499,TSPLIB,F00499,9,,True,,1.0
+t4,Q04,CEC 2011 suite,F00329,name matches id,F00329,CEC 2011 suite,F00329,2,,True,,1.0
+t4,Q04,CEC 2020 suite,F00043,name matches id,F00043,CEC 2020 suite,F00043,5,,True,,1.0
+t4,Q04,pressure vessel design,F00427,name matches id,F00427,pressure vessel design,F00427,2,,True,,1.0
+t4,Q05,BBOB (COCO),F00434,name matches id,F00434,BBOB (COCO),F00434,35,,True,,1.0
+t4,Q05,CEC 2017 suite,F00090,name matches id,F00090,CEC 2017 suite,F00090,44,,True,,1.0
+t4,Q06,YANOISYBBOB,F00672,name matches id,F00672,YANOISYBBOB,F00672,1,,True,,1.0
+t4,Q06,DASCMOP,F00293,name matches id,F00293,DASCMOP,F00293,5,,True,,1.0
+t4,Q06,Optimal Power Flow (OPF) Problems under double-sided uncertainties,F00151,name matches id,F00151,Optimal Power Flow (OPF) Problems under double-sided uncertainties,F00151,1,,True,,1.0
+t4,Q07,CEC 2011 suite,F00329,name matches id,F00329,CEC 2011 suite,F00329,2,,True,,1.0
+t4,Q07,RWMOP (CEC 2021 real-world MOPs),F00136,name matches id,F00136,RWMOP (CEC 2021 real-world MOPs),F00136,1,,True,,1.0
+t4,Q07,CEC 2020 suite,F00043,name matches id,F00043,CEC 2020 suite,F00043,5,,True,,1.0
+t4,Q08,3COL (Graph Coloring Problem),F00425,name matches id,F00425,3COL (Graph Coloring Problem),F00425,1,,True,,1.0
+t4,Q08,bin packing,F00550,name matches id,F00550,bin packing,F00550,1,,True,,1.0
+t4,Q09,3D Single Container Loading Problem (SCLP),F01777,name matches id,F01777,3D Single Container Loading Problem (SCLP),F01777,1,,True,,1.0
+t4,Q09,bin packing,F00550,name matches id,F00550,bin packing,F00550,1,,True,,1.0
+t4,Q10,Traffic Signal Timing Optimization (TSTO),F01309,name matches id,F01309,Traffic Signal Timing Optimization (TSTO),F01309,1,,True,,1.0
+t4,Q10,Traffic Light Scheduling Problem (TLSP),F00861,name matches id,F00861,Traffic Light Scheduling Problem (TLSP),F00861,1,,True,,1.0
+t4,Q10,Network Signal Setting Design (NSSD) for two interacting junctions,F00327,name matches id,F00327,Network Signal Setting Design (NSSD) for two interacting junctions,F00327,1,,True,,1.0
+t4,Q11,Demand-Balanced Railway Route Design,F01661,name matches id,F01661,Demand-Balanced Railway Route Design,F01661,1,,True,,1.0
+t4,Q12,Day-ahead energy resource scheduling,F00185,name matches id,F00185,Day-ahead energy resource scheduling,F00185,1,,True,,1.0
+t4,Q12,Microgrid environmental protection and economic dispatch model,F00370,name matches id,F00370,Microgrid environmental protection and economic dispatch model,F00370,1,,True,,1.0
+t4,Q12,Optimal Power Flow (OPF) Problems under double-sided uncertainties,F00151,name matches id,F00151,Optimal Power Flow (OPF) Problems under double-sided uncertainties,F00151,1,,True,,1.0
+t4,Q13,Capacitated Vehicle Routing Problem,F01053,name matches id,F01053,Capacitated Vehicle Routing Problem,F01053,2,,True,,1.0
+t4,Q13,Vehicle Routing Problem with Cross-Docking (VRPCD),F00034,name matches id,F00034,Vehicle Routing Problem with Cross-Docking (VRPCD),F00034,1,,True,,1.0
+t4,Q14,Wind Farm Layout and Cable Connection Layout Optimization,F01245,name matches id,F01245,Wind Farm Layout and Cable Connection Layout Optimization,F01245,1,,True,,1.0
+t4,Q14,Multi-microgrid scheduling optimization,F00371,name matches id,F00371,Multi-microgrid scheduling optimization,F00371,1,,True,,1.0
+t4,Q14,Energy consumption prediction and scheduling,F00373,name matches id,F00373,Energy consumption prediction and scheduling,F00373,1,,True,,1.0
+t4,Q15,Handwritten digit classification,F01935,name matches id,F01935,Handwritten digit classification,F01935,1,,True,,1.0
+t4,Q15,MNIST Handwritten Digit Recognition,F00059,name matches id,F00059,MNIST Handwritten Digit Recognition,F00059,1,,True,,1.0
+t4,Q16,Symbolic Regression,F01863,name matches id,F01863,Symbolic Regression,F01863,1,,True,,1.0
+t4,Q16,Spatio-temporal prediction,F01940,name matches id,F01940,Spatio-temporal prediction,F01940,2,,True,,1.0
+t4,Q17,Steel Plates Faults (SPF),F01319,name matches id,F01319,Steel Plates Faults (SPF),F01319,1,,True,,1.0
+t4,Q17,WSN deployment problem,F00305,name matches id,F00305,WSN deployment problem,F00305,1,,True,,1.0
+t4,Q18,3D Multi-Objective Path Planning (MOPP),F00272,name matches id,F00272,3D Multi-Objective Path Planning (MOPP),F00272,1,,True,,1.0
+t4,Q18,Path Planning,F01258,name matches id,F01258,Path Planning,F01258,1,,True,,1.0
+t4,Q18,uav path planning,F00096,name matches id,F00096,uav path planning,F00096,3,,True,,1.0
+t4,Q19,Vehicle aerodynamic drag optimization,F00188,name matches id,F00188,Vehicle aerodynamic drag optimization,F00188,1,,True,,1.0
+t4,Q20,"Water Distribution Network Optimization (SN200, SN300, SN400, SN500, MN200, MN300, MN400, MN500, Balerma)",F00636,name matches id,F00636,"Water Distribution Network Optimization (SN200, SN300, SN400, SN500, MN200, MN300, MN400, MN500, Balerma)",F00636,1,,True,,1.0
+t4,Q20,Modena Water Distribution Network,F00637,name matches id,F00637,Modena Water Distribution Network,F00637,1,,True,,1.0
+t4,Q20,Chesapeake Bay Watershed Optimization,F00392,name matches id,F00392,Chesapeake Bay Watershed Optimization,F00392,1,,True,,1.0
