@@ -1,0 +1,2800 @@
+{
+ "_about": "Precomputed, unedited output of the frozen recommender (tag retrieval-v2.2) on six fixed queries of the development set queries_v2. Not the independent test. Built by app/tools/build_gallery.py.",
+ "label": "development set, not the independent test",
+ "rule": "queries_v2 Q01, Q11, Q21, Q31, Q41, Q51 (every tenth query from Q01), fixed before any output was seen",
+ "system_hash": "27fcc517a4ff6f27b1cf49064afa12258ef4bad7312c9e05f9bef5528c457abb",
+ "built": "2026-11-11T10:53:29+00:00",
+ "items": [
+  {
+   "query_id": "Q01",
+   "query_text": "what are the 'standard' test problems for multi objective stuff",
+   "gold_families": "F00032;F00033",
+   "gold_family_names": "ZDT; DTLZ",
+   "notes": "vague; guess",
+   "result": {
+    "query": "what are the 'standard' test problems for multi objective stuff",
+    "families": [
+     {
+      "family_id": "F01445",
+      "family_name": "19 dynamic multi-objective test problems",
+      "family_kind": "single",
+      "ranker_score": 0.1808,
+      "note": {
+       "family_id": "F01445",
+       "family_name": "19 dynamic multi-objective test problems",
+       "n_papers": 1,
+       "n_records": 6,
+       "years": [
+        2024,
+        2024
+       ],
+       "pure_math_share": 1.0,
+       "applied_share": 0.0,
+       "common": {
+        "Problem_Context": [
+         "Evaluating mathematical landscapes"
+        ],
+        "Landscape_Characteristics": [
+         "dynamic",
+         "time-varying"
+        ],
+        "Dimensionality": [],
+        "Modality": [],
+        "Separability": []
+       },
+       "evidence_papers": [
+        {
+         "title": "A Dynamic Preference-driven Evolutionary Algorithm for Solving Dynamic Multi-objective Problems",
+         "conference": "GECCO",
+         "year": "2024",
+         "cosine": 0.676
+        }
+       ],
+       "members": [
+        "19 dynamic multi-objective test problems"
+       ],
+       "single_paper": true,
+       "paper_categories": {
+        "GECCO|2024|adynamicpreferencedrivenevolutionaryalgorithmforsolvingdynamicmultiobjectiveproblems": "Pure Math"
+       }
+      }
+     },
+     {
+      "family_id": "F00434",
+      "family_name": "BBOB (COCO)",
+      "family_kind": "suite_series",
+      "ranker_score": 0.1396,
+      "note": {
+       "family_id": "F00434",
+       "family_name": "BBOB (COCO)",
+       "n_papers": 35,
+       "n_records": 176,
+       "years": [
+        2018,
+        2026
+       ],
+       "pure_math_share": 1.0,
+       "applied_share": 0.0,
+       "common": {
+        "Problem_Context": [
+         "Evaluating mathematical landscapes"
+        ],
+        "Landscape_Characteristics": [
+         "noiseless",
+         "single-objective"
+        ],
+        "Dimensionality": [
+         "5D",
+         "2D, 5D, 10D"
+        ],
+        "Modality": [
+         "Multimodal",
+         "Unimodal"
+        ],
+        "Separability": [
+         "Non-separable",
+         "Separable"
+        ]
+       },
+       "evidence_papers": [
+        {
+         "title": "A Two-phase Framework with a Bézier Simplex-based Interpolation Method for Computationally Expensive Multi-objective Optimization",
+         "conference": "GECCO",
+         "year": "2022",
+         "cosine": 0.462
+        },
+        {
+         "title": "MOLE: Digging Tunnels Through Multimodal Multi-Objective Landscapes",
+         "conference": "GECCO",
+         "year": "2022",
+         "cosine": 0.46
+        }
+       ],
+       "members": [
+        "BBOB benchmark suite (24 single-objective, noiseless, continuous black-box problems)",
+        "55 bi-objective BBOB problems",
+        "Bi-Objective BBOB",
+        "BBOB Suite",
+        "MA-BBOB"
+       ],
+       "single_paper": false,
+       "paper_categories": {
+        "CEC|2024|generalizationabilityoffeaturebasedperformancepredictionmodelsastatisticalanalysisacrossbenchmarks": "Pure Math",
+        "FOGA|2019|newfeaturesforcontinuousexploratorylandscapeanalysisbasedonthesootree": "Pure Math",
+        "FOGA|2023|curingillconditionalityviarepresentationagnosticdistancedrivenperturbations": "Pure Math",
+        "FOGA|2023|neuralnetworksasblackboxbenchmarkfunctionsoptimizedforexploratorylandscapefeatures": "Pure Math",
+        "GECCO|2020|expectedimprovementversuspredictedvalueinsurrogatebasedoptimization": "Pure Math",
+        "GECCO|2020|analyzingadaptiveparameterlandscapesinparameteradaptationmethodsfordifferentialevolution": "Pure Math",
+        "GECCO|2020|integratedvssequentialapproachesforselectingandtuningcmaesvariants": "Pure Math",
+        "GECCO|2020|towardsdynamicalgorithmselectionfornumericalblackboxoptimizationinvestigatingbbobasausecase": "Pure Math",
+        "GECCO|2020|designingparallelisminsurrogateassistedmultiobjectiveoptimizationbasedondecomposition": "Pure Math",
+        "GECCO|2020|initialdesignstrategiesandtheireffectsonsequentialmodelbasedoptimizationanexploratorycasestudybasedonbbob": "Pure Math",
+        "GECCO|2020|landscapeawarefixedbudgetperformanceregressionandalgorithmselectionformodularcmaesvariants": "Pure Math",
+        "GECCO|2021|personalizingperformanceregressionmodelstoblackboxoptimizationproblems": "Pure Math",
+        "GECCO|2021|theimpactofhyperparametertuningforlandscapeawareperformanceregressionandalgorithmselection": "Pure Math",
+        "GECCO|2022|selectorselectingarepresentativebenchmarksuiteforreproduciblestatisticalcomparison": "Pure Math",
+        "GECCO|2022|dibbdistributingblackboxoptimization": "Pure Math",
+        "GECCO|2022|theimportanceoflandscapefeaturesforperformancepredictionofmodularcmaesvariants": "Pure Math",
+        "GECCO|2022|molediggingtunnelsthroughmultimodalmultiobjectivelandscapes": "Pure Math",
+        "GECCO|2022|acollectionofdeeplearningbasedfeaturefreeapproachesforcharacterizingsingleobjectivecontinuousfitnesslandscapes": "Pure Math",
+        "GECCO|2022|atwophaseframeworkwithabziersimplexbasedinterpolationmethodforcomputationallyexpensivemultiobjectiveoptimization": "Pure Math",
+        "GECCO|2023|algorithminstancefootprintseparatingeasilysolvableandchallengingprobleminstances": "Pure Math",
+        "GECCO|2024|ongeneralizationofelafeaturegroups": "Pure Math",
+        "GECCO|2025|comparingoptimizationalgorithmsthroughthelensofsearchbehavioranalysis": "Pure Math",
+        "GECCO|2025|aninvestigationofinherentstructuralbiasinestablishedbenchmarksets": "Pure Math",
+        "GECCO|2025|geometriclearninginblackboxoptimizationagnnframeworkforalgorithmperformanceprediction": "Pure Math",
+        "GECCO|2025|acomparisonofdimensionalityreductiontechniquesforvisualisingsearchbehaviour": "Pure Math",
+        "GECCO|2025|acontinuationmethodbasedoncmaes": "Pure Math",
+        "GECCO|2025|neighborhoodadaptivedifferentialevolution": "Pure Math",
+        "GECCO|2026|constructingstreamsofoptimizationinstancesforbenchmarkingalgorithmselectionandconfigurationapproachesinstreamingscenarios": "Pure Math",
+        "GECCO|2026|similaritybasedportfolioconstructionforblackboxoptimization": "Pure Math",
+        "GECCO|2026|llameaboalargelanguagemodelevolutionaryalgorithmforautomaticallygeneratingbayesianoptimizationalgorithms": "Pure Math",
+        "GECCO|2026|evaluationofelementwiseeffectivenessestimationforaugmentedlagrangiancmaes": "Pure Math",
+        "GECCO|2026|designinglandscapeawarebenchmarkswithexplicitlocaloptimaforsingleandmultiobjectiveoptimization": "Pure Math",
+        "GECCO|2026|automaticallydesigningnovelevolutionaryarchitectures": "Pure Math",
+        "PPSN|2018|acomparativestudyoflargescalevariantsofcmaes": "Pure Math",
+        "PPSN|2020|parallelproblemsolvingfromnatureppsnxvi": "Pure Math"
+       }
+      }
+     },
+     {
+      "family_id": "F01509",
+      "family_name": "custom multi objective",
+      "family_kind": "stem_group",
+      "ranker_score": 0.1307,
+      "note": {
+       "family_id": "F01509",
+       "family_name": "custom multi objective",
+       "n_papers": 1,
+       "n_records": 30,
+       "years": [
+        2025,
+        2025
+       ],
+       "pure_math_share": 1.0,
+       "applied_share": 0.0,
+       "common": {
+        "Problem_Context": [
+         "Evaluating mathematical landscapes"
+        ],
+        "Landscape_Characteristics": [
+         "rugged"
+        ],
+        "Dimensionality": [
+         "30D"
+        ],
+        "Modality": [
+         "Multimodal"
+        ],
+        "Separability": []
+       },
+       "evidence_papers": [
+        {
+         "title": "Investigating the Spreadability of Problems in Evolutionary Multi-objective Optimization Algorithms",
+         "conference": "GECCO",
+         "year": "2025",
+         "cosine": 0.68
+        }
+       ],
+       "members": [
+        "Custom Multi-objective Test Problem 1",
+        "Custom Multi-objective Test Problem 6",
+        "Custom Multi-objective Test Problem 7",
+        "Custom Multi-objective Test Problem 2",
+        "Custom Multi-objective Test Problem 3"
+       ],
+       "single_paper": true,
+       "paper_categories": {
+        "GECCO|2025|investigatingthespreadabilityofproblemsinevolutionarymultiobjectiveoptimizationalgorithms": "Pure Math"
+       }
+      }
+     },
+     {
+      "family_id": "F01431",
+      "family_name": "Multi-objective problems (unspecified)",
+      "family_kind": "single",
+      "ranker_score": 0.1022,
+      "note": {
+       "family_id": "F01431",
+       "family_name": "Multi-objective problems (unspecified)",
+       "n_papers": 1,
+       "n_records": 3,
+       "years": [
+        2024,
+        2024
+       ],
+       "pure_math_share": 1.0,
+       "applied_share": 0.0,
+       "common": {
+        "Problem_Context": [
+         "Evaluating multi-objective optimization algorithms"
+        ],
+        "Landscape_Characteristics": [],
+        "Dimensionality": [
+         "2D",
+         "3D"
+        ],
+        "Modality": [],
+        "Separability": []
+       },
+       "evidence_papers": [
+        {
+         "title": "Interactive tool for visualizing the comprehensive performance of evolutionary multi-objective algorithms applied to problems with two or three objectives",
+         "conference": "GECCO",
+         "year": "2024",
+         "cosine": 0.704
+        }
+       ],
+       "members": [
+        "Multi-objective problems (unspecified)"
+       ],
+       "single_paper": true,
+       "paper_categories": {
+        "GECCO|2024|interactivetoolforvisualizingthecomprehensiveperformanceofevolutionarymultiobjectivealgorithmsappliedtoproblemswithtwoorthreeobjectives": "Pure Math"
+       }
+      }
+     },
+     {
+      "family_id": "F00090",
+      "family_name": "CEC 2017 suite",
+      "family_kind": "suite_series",
+      "ranker_score": 0.0807,
+      "note": {
+       "family_id": "F00090",
+       "family_name": "CEC 2017 suite",
+       "n_papers": 44,
+       "n_records": 357,
+       "years": [
+        2020,
+        2025
+       ],
+       "pure_math_share": 1.0,
+       "applied_share": 0.0,
+       "common": {
+        "Problem_Context": [
+         "Evaluating mathematical landscapes"
+        ],
+        "Landscape_Characteristics": [
+         "unimodal",
+         "hybrid"
+        ],
+        "Dimensionality": [
+         "30D",
+         "50D"
+        ],
+        "Modality": [
+         "Multimodal",
+         "Unimodal"
+        ],
+        "Separability": [
+         "Non-separable"
+        ]
+       },
+       "evidence_papers": [
+        {
+         "title": "An Enhanced Levy-Based Whale Optimization Algorithm for Global Optimization",
+         "conference": "CEC",
+         "year": "2021",
+         "cosine": 0.364
+        },
+        {
+         "title": "A Grammatical Evolution Based Automated Configuration of an Ensemble Differential Evolution Algorithm",
+         "conference": "PReMI",
+         "year": "2023",
+         "cosine": 0.336
+        }
+       ],
+       "members": [
+        "CEC'17 benchmark optimization problems",
+        "CEC 2017 benchmark test suite",
+        "CEC2017 F23 (Composition Function 3)",
+        "CEC'17",
+        "CEC2017 F1 (Shifted and Rotated Bent Cigar Function)"
+       ],
+       "single_paper": false,
+       "paper_categories": {
+        "CEC|2020|improvingcuckoosearchincorporatingchangesforcec2017andcec2020benchmarkproblems": "Pure Math",
+        "CEC|2021|anewstepsizeadaptationruleforcmaesbasedonthepopulationmidpointfitness": "Pure Math",
+        "CEC|2021|anovelsurrogateguidedjayaalgorithmforthecontinuousnumericaloptimizationproblems": "Pure Math",
+        "CEC|2021|anenhanceddifferentialevolutionalgorithmusinganovelclusteringbasedmutationoperator": "Pure Math",
+        "CEC|2021|anenhancedlevybasedwhaleoptimizationalgorithmforglobaloptimization": "Pure Math",
+        "CEC|2021|efficientfeatureselectionmethodforhistopathologicalimagesusingmodifiedgoldeneagleoptimizationalgorithm": "Pure Math",
+        "CEC|2021|geneticalgorithmassistedhidmspsoanewhybridalgorithmforglobaloptimisation": "Pure Math",
+        "CEC|2021|hidmspsowithbioinspiredfissionfusionbehaviourandaquorumdecisionmechanism": "Pure Math",
+        "CEC|2021|hybridizingcuckoosearchwithnakedmoleratalgorithmadaptingforcec2017andcec2021testsuites": "Pure Math",
+        "CEC|2021|memeticdifferentialevolutionusingcoordinatedescent": "Pure Math",
+        "CEC|2022|enhancingdifferentialevolutionalgorithmadaptationforcec2017andcec2021testsuites": "Pure Math",
+        "CEC|2022|acovariancematrixadaptationevolutionstrategybasedmantarayforagingoptimization": "Pure Math",
+        "CEC|2022|anoveldifferentialevolutionsparrowsearchalgorithm": "Pure Math",
+        "CEC|2022|apopulationresourceallocationbasedadaptivesphericalsearchalgorithm": "Pure Math",
+        "CEC|2022|anadaptiveversionofdifferentialevolutionforsolvingcec2014cec2017andcec2022testsuites": "Pure Math",
+        "CEC|2022|animprovedimperialistcompetitivealgorithminspiredbydemocraticrevolution": "Pure Math",
+        "CEC|2022|anoptimalparentcrossoverbaseddifferentialevolution": "Pure Math",
+        "CEC|2022|chameleonswarmalgorithmenhancedbydifferentialevolution": "Pure Math",
+        "CEC|2022|clusteringcenterbaseddifferentialevolution": "Pure Math",
+        "CEC|2022|improvingtheoptimizationperformancebyanadaptabledesignadynamicselectionofoperatorsviacriteriabasedmatrixforevolutionaryalgorithms": "Pure Math",
+        "CEC|2022|randomlearningparticleswarmoptimizationwithquasinewtonexploitationmechanism": "Pure Math",
+        "CEC|2023|ahistoricalinformationbaseddifferentialevolution": "Pure Math",
+        "CEC|2023|bipopulationcooperativemothflameoptimizationalgorithmforthenetworkingmodeoptimization": "Pure Math",
+        "CEC|2023|chaoticmappinggeneticalgorithmwithmultiplestrategies": "Pure Math",
+        "CEC|2023|cwdeanovellshadevariantwithcauchydistributionbasedweightselection": "Pure Math",
+        "CEC|2023|gamebasedpigeoninspiredoptimizationwithrepositoryassistanceforstochasticoptimizationswithuncertaininfeasiblesearchregions": "Pure Math",
+        "CEC|2024|performanceofbetamutationoncec2017andcec2022benchmarks": "Pure Math",
+        "CEC|2024|successratebasedadaptivedifferentialevolutionlsrtdeforcec2024competition": "Pure Math",
+        "CEC|2024|ahybridestimationofdistributionalgorithmwithmonarchbutterflyoptimization": "Pure Math",
+        "CEC|2024|amodifiedeacopimplementationforrealparametersingleobjectiveoptimizationproblems": "Pure Math",
+        "CEC|2024|amodifiedmarinepredatorsalgorithmfornumericalfunctionoptimization": "Pure Math",
+        "CEC|2024|acceleratingvegetationevolutionwithgradientdescentandmartingalestrategies": "Pure Math",
+        "CEC|2024|animprovedgoldenjackaloptimizationbasedonnewlocalsearchoperatorforglobaloptimizationinvitedpaper": "Pure Math",
+        "CEC|2024|differentialevolutionwithsuccessratebasedadaptationclsrdeforconstrainedoptimization": "Pure Math",
+        "CEC|2024|guerrillawarfarestrategyamelioratebesiegeandconqueralgorithmforcomplexoptimizationproblems": "Pure Math",
+        "GECCO|2020|adaptivelypreservingsolutionsinbothfeasibleandinfeasibleregionsongeneralizedmultipleconstraintranking": "Pure Math",
+        "GECCO|2022|selectorselectingarepresentativebenchmarksuiteforreproduciblestatisticalcomparison": "Pure Math",
+        "GECCO|2024|designingblackboxoptimizerswithpushgp": "Pure Math",
+        "GECCO|2025|covariancematrixadaptationevolutionstrategywithoutamatrix": "Pure Math",
+        "GECCO|2025|exploringheterogeneityinconstrainedoptimizationanadaptivetwostagesurrogateassistedevolutionaryalgorithm": "Pure Math",
+        "GECCO|2025|aninvestigationofinherentstructuralbiasinestablishedbenchmarksets": "Pure Math",
+        "PPSN|2024|parallelproblemsolvingfromnatureppsnxviii": "Pure Math",
+        "PReMI|2021|grammaticalevolutionbasedparameterconfigurationofensembledifferentialevolution": "Pure Math",
+        "PReMI|2023|agrammaticalevolutionbasedautomatedconfigurationofanensembledifferentialevolutionalgorithm": "Pure Math"
+       }
+      }
+     }
+    ],
+    "tier": "high",
+    "top1_score": 0.1808,
+    "lambda": 1.0,
+    "applied_share": 0.0,
+    "system_hash": "27fcc517a4ff6f27b1cf49064afa12258ef4bad7312c9e05f9bef5528c457abb",
+    "timestamp": "2026-11-11T10:53:26+00:00",
+    "mode": "live"
+   },
+   "gold_ids": [
+    "F00032",
+    "F00033"
+   ],
+   "hit": false,
+   "gold_ranks": {
+    "F00032": null,
+    "F00033": null
+   }
+  },
+  {
+   "query_id": "Q11",
+   "query_text": "my constraint handling for MOEAs needs problems where infeasible barriers sit right in front of the true front. two objectives, maybe 15 vars",
+   "gold_families": "F00293;F01489;F01396",
+   "gold_family_names": "DASCMOP; lir cmop; MW",
+   "notes": "multi-objective (constrained)",
+   "result": {
+    "query": "my constraint handling for MOEAs needs problems where infeasible barriers sit right in front of the true front. two objectives, maybe 15 vars",
+    "families": [
+     {
+      "family_id": "F00033",
+      "family_name": "DTLZ",
+      "family_kind": "suite_series",
+      "ranker_score": 0.3622,
+      "note": {
+       "family_id": "F00033",
+       "family_name": "DTLZ",
+       "n_papers": 45,
+       "n_records": 548,
+       "years": [
+        2016,
+        2026
+       ],
+       "pure_math_share": 1.0,
+       "applied_share": 0.0,
+       "common": {
+        "Problem_Context": [
+         "Evaluating mathematical landscapes",
+         "Evaluating mathematical landscapes and multi-objective sorting"
+        ],
+        "Landscape_Characteristics": [
+         "degenerate Pareto front",
+         "Quadrant-shaped Pareto front"
+        ],
+        "Dimensionality": [
+         "10D",
+         "Variable"
+        ],
+        "Modality": [
+         "Multimodal",
+         "Unimodal"
+        ],
+        "Separability": [
+         "Non-separable",
+         "Separable"
+        ]
+       },
+       "evidence_papers": [
+        {
+         "title": "Multi-Point Acquisition Function for Constraint Parallel Efficient Multi-Objective Optimization",
+         "conference": "GECCO",
+         "year": "2022",
+         "cosine": 0.51
+        },
+        {
+         "title": "Hypervolume Subset Selection for Triangular and Inverted Triangular Pareto Fronts of Three-Objective Problems",
+         "conference": "FOGA",
+         "year": "2017",
+         "cosine": 0.48
+        }
+       ],
+       "members": [
+        "DTLZ1 with a Constraint on f3",
+        "Inverted DTLZ1 with a Constraint on f3",
+        "DTLZ1 with Constraints on f1 and f2",
+        "DTLZ1",
+        "DTLZ2"
+       ],
+       "single_paper": false,
+       "paper_categories": {
+        "CEC|2020|asurrogateassistedoffspringgenerationmethodforexpensivemultiobjectiveoptimizationproblems": "Pure Math",
+        "CEC|2020|handlingconstrainedmultiobjectiveoptimizationwithobjectivespacemappingtodecisionspacebasedonextremelearningmachine": "Pure Math",
+        "CEC|2020|moeadwithrandompartialupdatestrategy": "Pure Math",
+        "CEC|2020|multimanyobjectiveoptimizationviaanewpreferenceindicator": "Pure Math",
+        "CEC|2020|rieszsenergybasedreferencesetsformultiobjectiveoptimization": "Pure Math",
+        "CEC|2021|weightvectorarrangementusingvirtualobjectivevectorsindecompositionbasedmoea": "Pure Math",
+        "CEC|2022|stepsizeindividualizationacasestudyforthefishschoolsearchfamily": "Pure Math",
+        "CEC|2023|thecombinationofmoeadandwofforsolvinghighdimensionalexpensivemultiobjectiveoptimizationproblems": "Pure Math",
+        "FOGA|2017|hypervolumesubsetselectionfortriangularandinvertedtriangularparetofrontsofthreeobjectiveproblems": "Pure Math",
+        "GECCO|2020|computationoftheimprovementdirectionsoftheparetofrontanditsapplicationtomoeas": "Pure Math",
+        "GECCO|2020|datastructuresfornondominatedsetsimplementationsandempiricalassessmentoftwodecadesofadvances": "Pure Math",
+        "GECCO|2020|anotherdifficultyofinvertedtriangularparetofrontsfordecompositionbasedmultiobjectivealgorithms": "Pure Math",
+        "GECCO|2020|effectsofdominanceresistantsolutionsontheperformanceofevolutionarymultiobjectiveandmanyobjectivealgorithms": "Pure Math",
+        "GECCO|2020|multiobjectivetreestructuredparzenestimatorforcomputationallyexpensiveoptimizationproblems": "Pure Math",
+        "GECCO|2020|gapfindingandvalidationinevolutionarymultiandmanyobjectiveoptimization": "Pure Math",
+        "GECCO|2020|surrogateassistedevolutionaryalgorithmformediumscalemultiobjectiveoptimisationproblems": "Pure Math",
+        "GECCO|2020|transferlearningforgaussianprocessassistedevolutionarybiobjectiveoptimizationforobjectiveswithdifferentevaluationtimes": "Pure Math",
+        "GECCO|2021|metricforevaluatingnormalizationmethodsinmultiobjectiveoptimization": "Pure Math",
+        "GECCO|2021|hypervolumeinbiobjectiveoptimizationcannotconvergefasterthan1p": "Pure Math",
+        "GECCO|2021|bayesianpreferencelearningforinteractivemultiobjectiveoptimisation": "Pure Math",
+        "GECCO|2022|anenhancedadaptivegeometryevolutionaryalgorithmusingstochasticdiversitymechanism": "Pure Math",
+        "GECCO|2022|mboremultiobjectivebayesianoptimisationbydensityratioestimation": "Pure Math",
+        "GECCO|2022|aclassificationassistedlevelbasedlearningevolutionaryalgorithmforexpensivemultiobjectiveoptimizationproblems": "Pure Math",
+        "GECCO|2022|regionofinterestbasednondominatedsortinggeneticalgorithmiianinviteandconquerapproach": "Pure Math",
+        "GECCO|2022|sociallearningparticleswarmoptimizationwithtwosurrogatecollaborationforofflinedatadrivenmultiobjectiveoptimization": "Pure Math",
+        "GECCO|2022|multipointacquisitionfunctionforconstraintparallelefficientmultiobjectiveoptimization": "Pure Math",
+        "GECCO|2024|manyobjectiveevolutionaryoptimizationusingdensitypeaksscoringselectionstrategy": "Pure Math",
+        "GECCO|2024|lowerconfidenceboundforpreferenceselectionininteractivemultiobjectiveoptimization": "Pure Math",
+        "GECCO|2024|compositequalityindicatorstoevaluatetheperformanceofpopulationbasedmultiobjectiveoptimizationalgorithms": "Pure Math",
+        "GECCO|2024|acceleratedbayesianpreferencelearningforefficientevolutionarymultiobjectiveoptimisation": "Pure Math",
+        "GECCO|2024|acompetitiveswarmalgorithmbasedontricompetitivecriterionforconstrainedmultiobjectiveoptimization": "Pure Math",
+        "GECCO|2025|multiobjectivelshapedtestfunctions": "Pure Math",
+        "GECCO|2025|cotleacopulabasedtransferlearningevolutionaryalgorithmformultiobjectiveoptimizationproblems": "Pure Math",
+        "GECCO|2025|targetingevaluationcomputationandinteractioncostsinexpensiveblackboxmultiobjectiveoptimization": "Pure Math",
+        "GECCO|2025|efficientcontextualpreferentialbayesianoptimizationwithhistoricalexamples": "Pure Math",
+        "GECCO|2025|modeladaptivereferencepointsgenerationbasedongaussianprocessformanyobjectiveoptimization": "Pure Math",
+        "GECCO|2026|quivercostawareadaptivepreferencequeryinginsurrogateassistedevolutionarymultiobjectiveoptimization": "Pure Math",
+        "GECCO|2026|benchmarkingstoppingcriteriaforevolutionarymultiobjectiveoptimization": "Pure Math",
+        "GECCO|2026|dominanceboundarybasedreferencepointgenerationforindicatorbasedmultiobjectiveoptimization": "Pure Math",
+        "GECCO|2026|abicriteriaselectionframeworkforincorporatingpreferenceinformationintoevolutionarymultiobjectiveoptimization": "Pure Math",
+        "GECCO|2026|stablenormalizationforpreferencebasedsubsetselectionwithanunboundedexternalarchive": "Pure Math",
+        "GECCO|2026|weightvectorspecificationinmoeadtofindbalancedandpromisingsolutionsformulticriteriadecisionmaking": "Pure Math",
+        "GECCO|2026|deepreinforcementlearningbasedenvironmentalandmatingselectionforevolutionarymultiobjectiveoptimization": "Pure Math",
+        "PPSN|2016|onlinemodelselectionforrestrictedcovariancematrixadaptation": "Pure Math",
+        "PReMI|2023|multiobjectivenonoverlappingfrontgenerationapivotbaseddeterministicnondominatedsortingapproach": "Pure Math"
+       }
+      }
+     },
+     {
+      "family_id": "F00445",
+      "family_name": "OneMax",
+      "family_kind": "suite_series",
+      "ranker_score": 0.1255,
+      "note": {
+       "family_id": "F00445",
+       "family_name": "OneMax",
+       "n_papers": 32,
+       "n_records": 88,
+       "years": [
+        2015,
+        2026
+       ],
+       "pure_math_share": 1.0,
+       "applied_share": 0.0,
+       "common": {
+        "Problem_Context": [
+         "Evaluating mathematical landscapes"
+        ],
+        "Landscape_Characteristics": [
+         "noisy",
+         "linear"
+        ],
+        "Dimensionality": [
+         "Variable",
+         "200"
+        ],
+        "Modality": [
+         "Unimodal",
+         "Multimodal"
+        ],
+        "Separability": [
+         "Separable",
+         "Non-separable"
+        ]
+       },
+       "evidence_papers": [
+        {
+         "title": "Analysis of the (1+1) EA on Subclasses of Linear Functions under Uniform and Linear Constraints",
+         "conference": "FOGA",
+         "year": "2017",
+         "cosine": 0.493
+        },
+        {
+         "title": "A Generic Framework for Optimisation under Uncertainty with Recourse: Theory and Examples",
+         "conference": "GECCO",
+         "year": "2026",
+         "cosine": 0.328
+        }
+       ],
+       "members": [
+        "OneMax under linear constraint",
+        "OneMax under uniform constraint",
+        "OneMax (MoBB) with recourse",
+        "Onemax",
+        "Generalized Dynamic OneMax"
+       ],
+       "single_paper": false,
+       "paper_categories": {
+        "FOGA|2015|11eaongeneralizeddynamiconemax": "Pure Math",
+        "FOGA|2015|efficientoptimisationofnoisyfitnessfunctionswithpopulationbasedevolutionaryalgorithms": "Pure Math",
+        "FOGA|2015|fixedbudgetperformanceofthe11eaonlinearfunctions": "Pure Math",
+        "FOGA|2015|runtimeanalysisofpopulationbasedevolutionaryalgorithminnoisyenvironments": "Pure Math",
+        "FOGA|2017|anapplicationofstochasticdifferentialequationstoevolutionaryalgorithms": "Pure Math",
+        "FOGA|2017|analysisofthe11eaonsubclassesoflinearfunctionsunderuniformandlinearconstraints": "Pure Math",
+        "FOGA|2017|lowerboundsontheruntimeoftheunivariatemarginaldistributionalgorithmononemax": "Pure Math",
+        "FOGA|2017|resamplingvsrecombinationastatisticalruntimeestimation": "Pure Math",
+        "FOGA|2017|runtimeanalysisofadiscreteparticleswarmoptimizationalgorithmonsortingandonemax": "Pure Math",
+        "FOGA|2019|sharpboundsontheruntimeofthe11eaviadriftanalysisandanalyticcombinatorialtools": "Pure Math",
+        "FOGA|2019|thebenefitsandlimitationsofvotingmechanismsinevolutionaryoptimisation": "Pure Math",
+        "FOGA|2021|automaticadaptationofhypermutationratesformultimodaloptimisation": "Pure Math",
+        "FOGA|2021|doadditionaloptimaspeedupevolutionaryalgorithms": "Pure Math",
+        "FOGA|2023|curingillconditionalityviarepresentationagnosticdistancedrivenperturbations": "Pure Math",
+        "FOGA|2023|selfadaptationcanimprovethenoisetoleranceofevolutionaryalgorithms": "Pure Math",
+        "FOGA|2023|usingautomatedalgorithmconfigurationforparametercontrol": "Pure Math",
+        "GECCO|2020|fastmutationincrossoverbasedalgorithms": "Pure Math",
+        "GECCO|2020|fixedtargetruntimeanalysis": "Pure Math",
+        "GECCO|2020|fromunderstandinggeneticdrifttoasmartrestartparameterlesscompactgeneticalgorithm": "Pure Math",
+        "GECCO|2020|atightlowerboundontheexpectedruntimeofstandardsteadystategeneticalgorithms": "Pure Math",
+        "GECCO|2020|selfadjustingevolutionaryalgorithmsformultimodaloptimization": "Pure Math",
+        "GECCO|2020|onthechoiceoftheparametercontrolmechanisminthe1geneticalgorithm": "Pure Math",
+        "GECCO|2021|optimalstaticmutationstrengthdistributionsforthe1evolutionaryalgorithmononemax": "Pure Math",
+        "GECCO|2021|whennonelitismmeetstimelinkageproblems": "Pure Math",
+        "GECCO|2022|theinfluenceofnoiseonmultiparentcrossoverforanislandmodelga": "Pure Math",
+        "GECCO|2022|lucieanevaluationandselectionmethodforstochasticproblems": "Pure Math",
+        "GECCO|2024|algorithmperformancecomparisonforintegervaluedonemax": "Pure Math",
+        "GECCO|2025|analyzingpercomponentenergyconsumptionofevolutionaryalgorithmsimplementedinlowlevellanguagescomparisonofcandziginkeyevolutionaryalgorithmfunctions": "Pure Math",
+        "GECCO|2026|whenswitchingalgorithmshelpsatheoreticalstudyofonlinealgorithmselection": "Pure Math",
+        "GECCO|2026|agenericframeworkforoptimisationunderuncertaintywithrecoursetheoryandexamples": "Pure Math",
+        "GECCO|2026|addressingcombinatorialoptimizationwithestimationofdistributionalgorithmsbasedondiffusionmodels": "Pure Math",
+        "GECCO|2026|adaptivestochasticnaturalgradientmethodforsafeoptimizationonbinaryspace": "Pure Math"
+       }
+      }
+     },
+     {
+      "family_id": "F00090",
+      "family_name": "CEC 2017 suite",
+      "family_kind": "suite_series",
+      "ranker_score": 0.1008,
+      "note": {
+       "family_id": "F00090",
+       "family_name": "CEC 2017 suite",
+       "n_papers": 44,
+       "n_records": 357,
+       "years": [
+        2020,
+        2025
+       ],
+       "pure_math_share": 1.0,
+       "applied_share": 0.0,
+       "common": {
+        "Problem_Context": [
+         "Evaluating mathematical landscapes"
+        ],
+        "Landscape_Characteristics": [
+         "unimodal",
+         "hybrid"
+        ],
+        "Dimensionality": [
+         "30D",
+         "50D"
+        ],
+        "Modality": [
+         "Multimodal",
+         "Unimodal"
+        ],
+        "Separability": [
+         "Non-separable"
+        ]
+       },
+       "evidence_papers": [
+        {
+         "title": "Differential Evolution with Success Rate-based adaptation CL-SRDE for Constrained Optimization",
+         "conference": "CEC",
+         "year": "2024",
+         "cosine": 0.427
+        },
+        {
+         "title": "Exploring Heterogeneity in Constrained Optimization: An Adaptive Two-Stage Surrogate-Assisted Evolutionary Algorithm",
+         "conference": "GECCO",
+         "year": "2025",
+         "cosine": 0.389
+        }
+       ],
+       "members": [
+        "CEC'17 benchmark optimization problems",
+        "CEC 2017 benchmark test suite",
+        "CEC2017 F11 (Hybrid Function 1)",
+        "CEC'17",
+        "CEC2017 F1 (Shifted and Rotated Bent Cigar Function)"
+       ],
+       "single_paper": false,
+       "paper_categories": {
+        "CEC|2020|improvingcuckoosearchincorporatingchangesforcec2017andcec2020benchmarkproblems": "Pure Math",
+        "CEC|2021|anewstepsizeadaptationruleforcmaesbasedonthepopulationmidpointfitness": "Pure Math",
+        "CEC|2021|anovelsurrogateguidedjayaalgorithmforthecontinuousnumericaloptimizationproblems": "Pure Math",
+        "CEC|2021|anenhanceddifferentialevolutionalgorithmusinganovelclusteringbasedmutationoperator": "Pure Math",
+        "CEC|2021|anenhancedlevybasedwhaleoptimizationalgorithmforglobaloptimization": "Pure Math",
+        "CEC|2021|efficientfeatureselectionmethodforhistopathologicalimagesusingmodifiedgoldeneagleoptimizationalgorithm": "Pure Math",
+        "CEC|2021|geneticalgorithmassistedhidmspsoanewhybridalgorithmforglobaloptimisation": "Pure Math",
+        "CEC|2021|hidmspsowithbioinspiredfissionfusionbehaviourandaquorumdecisionmechanism": "Pure Math",
+        "CEC|2021|hybridizingcuckoosearchwithnakedmoleratalgorithmadaptingforcec2017andcec2021testsuites": "Pure Math",
+        "CEC|2021|memeticdifferentialevolutionusingcoordinatedescent": "Pure Math",
+        "CEC|2022|enhancingdifferentialevolutionalgorithmadaptationforcec2017andcec2021testsuites": "Pure Math",
+        "CEC|2022|acovariancematrixadaptationevolutionstrategybasedmantarayforagingoptimization": "Pure Math",
+        "CEC|2022|anoveldifferentialevolutionsparrowsearchalgorithm": "Pure Math",
+        "CEC|2022|apopulationresourceallocationbasedadaptivesphericalsearchalgorithm": "Pure Math",
+        "CEC|2022|anadaptiveversionofdifferentialevolutionforsolvingcec2014cec2017andcec2022testsuites": "Pure Math",
+        "CEC|2022|animprovedimperialistcompetitivealgorithminspiredbydemocraticrevolution": "Pure Math",
+        "CEC|2022|anoptimalparentcrossoverbaseddifferentialevolution": "Pure Math",
+        "CEC|2022|chameleonswarmalgorithmenhancedbydifferentialevolution": "Pure Math",
+        "CEC|2022|clusteringcenterbaseddifferentialevolution": "Pure Math",
+        "CEC|2022|improvingtheoptimizationperformancebyanadaptabledesignadynamicselectionofoperatorsviacriteriabasedmatrixforevolutionaryalgorithms": "Pure Math",
+        "CEC|2022|randomlearningparticleswarmoptimizationwithquasinewtonexploitationmechanism": "Pure Math",
+        "CEC|2023|ahistoricalinformationbaseddifferentialevolution": "Pure Math",
+        "CEC|2023|bipopulationcooperativemothflameoptimizationalgorithmforthenetworkingmodeoptimization": "Pure Math",
+        "CEC|2023|chaoticmappinggeneticalgorithmwithmultiplestrategies": "Pure Math",
+        "CEC|2023|cwdeanovellshadevariantwithcauchydistributionbasedweightselection": "Pure Math",
+        "CEC|2023|gamebasedpigeoninspiredoptimizationwithrepositoryassistanceforstochasticoptimizationswithuncertaininfeasiblesearchregions": "Pure Math",
+        "CEC|2024|performanceofbetamutationoncec2017andcec2022benchmarks": "Pure Math",
+        "CEC|2024|successratebasedadaptivedifferentialevolutionlsrtdeforcec2024competition": "Pure Math",
+        "CEC|2024|ahybridestimationofdistributionalgorithmwithmonarchbutterflyoptimization": "Pure Math",
+        "CEC|2024|amodifiedeacopimplementationforrealparametersingleobjectiveoptimizationproblems": "Pure Math",
+        "CEC|2024|amodifiedmarinepredatorsalgorithmfornumericalfunctionoptimization": "Pure Math",
+        "CEC|2024|acceleratingvegetationevolutionwithgradientdescentandmartingalestrategies": "Pure Math",
+        "CEC|2024|animprovedgoldenjackaloptimizationbasedonnewlocalsearchoperatorforglobaloptimizationinvitedpaper": "Pure Math",
+        "CEC|2024|differentialevolutionwithsuccessratebasedadaptationclsrdeforconstrainedoptimization": "Pure Math",
+        "CEC|2024|guerrillawarfarestrategyamelioratebesiegeandconqueralgorithmforcomplexoptimizationproblems": "Pure Math",
+        "GECCO|2020|adaptivelypreservingsolutionsinbothfeasibleandinfeasibleregionsongeneralizedmultipleconstraintranking": "Pure Math",
+        "GECCO|2022|selectorselectingarepresentativebenchmarksuiteforreproduciblestatisticalcomparison": "Pure Math",
+        "GECCO|2024|designingblackboxoptimizerswithpushgp": "Pure Math",
+        "GECCO|2025|covariancematrixadaptationevolutionstrategywithoutamatrix": "Pure Math",
+        "GECCO|2025|exploringheterogeneityinconstrainedoptimizationanadaptivetwostagesurrogateassistedevolutionaryalgorithm": "Pure Math",
+        "GECCO|2025|aninvestigationofinherentstructuralbiasinestablishedbenchmarksets": "Pure Math",
+        "PPSN|2024|parallelproblemsolvingfromnatureppsnxviii": "Pure Math",
+        "PReMI|2021|grammaticalevolutionbasedparameterconfigurationofensembledifferentialevolution": "Pure Math",
+        "PReMI|2023|agrammaticalevolutionbasedautomatedconfigurationofanensembledifferentialevolutionalgorithm": "Pure Math"
+       }
+      }
+     },
+     {
+      "family_id": "F00455",
+      "family_name": "LeadingOnes",
+      "family_kind": "suite_series",
+      "ranker_score": 0.0681,
+      "note": {
+       "family_id": "F00455",
+       "family_name": "LeadingOnes",
+       "n_papers": 18,
+       "n_records": 35,
+       "years": [
+        2015,
+        2026
+       ],
+       "pure_math_share": 1.0,
+       "applied_share": 0.0,
+       "common": {
+        "Problem_Context": [
+         "Evaluating mathematical landscapes",
+         "Tuning mutation rate of (1+1) EA on LeadingOnes"
+        ],
+        "Landscape_Characteristics": [
+         "noisy",
+         "symmetric noise"
+        ],
+        "Dimensionality": [
+         "Variable",
+         "n-D"
+        ],
+        "Modality": [
+         "Unimodal",
+         "Multimodal"
+        ],
+        "Separability": [
+         "Non-separable"
+        ]
+       },
+       "evidence_papers": [
+        {
+         "title": "Understanding Transforms of Pseudo-Boolean Functions",
+         "conference": "GECCO",
+         "year": "2020",
+         "cosine": 0.386
+        },
+        {
+         "title": "Analysis of the (1+1) EA on Subclasses of Linear Functions under Uniform and Linear Constraints",
+         "conference": "FOGA",
+         "year": "2017",
+         "cosine": 0.355
+        }
+       ],
+       "members": [
+        "LeadingOnes under uniform constraint",
+        "Sequential Quadratic Leading Ones (SQLO)",
+        "LeadingOnes",
+        "LEADINGONES (Additive Normal Noise)",
+        "LEADINGONES (Additive Uniform Noise)"
+       ],
+       "single_paper": false,
+       "paper_categories": {
+        "FOGA|2015|efficientoptimisationofnoisyfitnessfunctionswithpopulationbasedevolutionaryalgorithms": "Pure Math",
+        "FOGA|2017|anapplicationofstochasticdifferentialequationstoevolutionaryalgorithms": "Pure Math",
+        "FOGA|2017|analysisofthe11eaonsubclassesoflinearfunctionsunderuniformandlinearconstraints": "Pure Math",
+        "FOGA|2019|atightruntimeanalysisforthe1gaonleadingones": "Pure Math",
+        "FOGA|2019|thebenefitsandlimitationsofvotingmechanismsinevolutionaryoptimisation": "Pure Math",
+        "FOGA|2021|automaticadaptationofhypermutationratesformultimodaloptimisation": "Pure Math",
+        "FOGA|2021|doadditionaloptimaspeedupevolutionaryalgorithms": "Pure Math",
+        "FOGA|2023|selfadaptationcanimprovethenoisetoleranceofevolutionaryalgorithms": "Pure Math",
+        "GECCO|2020|fixedtargetruntimeanalysis": "Pure Math",
+        "GECCO|2020|fromunderstandinggeneticdrifttoasmartrestartparameterlesscompactgeneticalgorithm": "Pure Math",
+        "GECCO|2020|selfadjustingevolutionaryalgorithmsformultimodaloptimization": "Pure Math",
+        "GECCO|2020|understandingtransformsofpseudobooleanfunctions": "Pure Math",
+        "GECCO|2020|analysisoftheperformanceofalgorithmconfiguratorsforsearchheuristicswithglobalmutationoperators": "Pure Math",
+        "GECCO|2020|onthechoiceoftheparametercontrolmechanisminthe1geneticalgorithm": "Pure Math",
+        "GECCO|2022|theoryinspiredparametercontrolbenchmarksfordynamicalgorithmconfiguration": "Pure Math",
+        "GECCO|2022|hardproblemsareeasierforsuccessbasedparametercontrol": "Pure Math",
+        "GECCO|2022|lucieanevaluationandselectionmethodforstochasticproblems": "Pure Math",
+        "GECCO|2026|adaptivestochasticnaturalgradientmethodforsafeoptimizationonbinaryspace": "Pure Math"
+       }
+      }
+     },
+     {
+      "family_id": "F00093",
+      "family_name": "WFG",
+      "family_kind": "suite_series",
+      "ranker_score": 0.065,
+      "note": {
+       "family_id": "F00093",
+       "family_name": "WFG",
+       "n_papers": 15,
+       "n_records": 174,
+       "years": [
+        2017,
+        2026
+       ],
+       "pure_math_share": 1.0,
+       "applied_share": 0.0,
+       "common": {
+        "Problem_Context": [
+         "Evaluating mathematical landscapes"
+        ],
+        "Landscape_Characteristics": [
+         "disconnected Pareto front",
+         "concave Pareto front"
+        ],
+        "Dimensionality": [
+         "Variable (2-10 objectives)",
+         "Variable (2-6 objectives)"
+        ],
+        "Modality": [
+         "Multimodal",
+         "Unimodal"
+        ],
+        "Separability": [
+         "Non-separable",
+         "Separable"
+        ]
+       },
+       "evidence_papers": [
+        {
+         "title": "Model-Adaptive Reference Points Generation based on Gaussian Process for Many-Objective Optimization",
+         "conference": "GECCO",
+         "year": "2025",
+         "cosine": 0.391
+        },
+        {
+         "title": "Riesz s-energy-based Reference Sets for Multi-Objective Optimization",
+         "conference": "CEC",
+         "year": "2020",
+         "cosine": 0.389
+        }
+       ],
+       "members": [
+        "WFG9",
+        "WFG Suite",
+        "WFG2",
+        "WFG1",
+        "WFG3"
+       ],
+       "single_paper": false,
+       "paper_categories": {
+        "CEC|2020|multimanyobjectiveoptimizationviaanewpreferenceindicator": "Pure Math",
+        "CEC|2020|rieszsenergybasedreferencesetsformultiobjectiveoptimization": "Pure Math",
+        "FOGA|2017|hypervolumesubsetselectionfortriangularandinvertedtriangularparetofrontsofthreeobjectiveproblems": "Pure Math",
+        "GECCO|2020|multiobjectivetreestructuredparzenestimatorforcomputationallyexpensiveoptimizationproblems": "Pure Math",
+        "GECCO|2020|ontheelicitationofindirectpreferencesininteractiveevolutionarymultipleobjectiveoptimization": "Pure Math",
+        "GECCO|2021|interactiveevolutionarymultipleobjectiveoptimizationalgorithmusingafastcalculationofholisticacceptabilities": "Pure Math",
+        "GECCO|2022|mboremultiobjectivebayesianoptimisationbydensityratioestimation": "Pure Math",
+        "GECCO|2022|guidingsurrogateassistedmultiobjectiveoptimisationwithdecisionmakerpreferences": "Pure Math",
+        "GECCO|2022|animprovedparetofrontmodelingalgorithmforlargescalemanyobjectiveoptimization": "Pure Math",
+        "GECCO|2025|improvingtheconvergenceanddiversityofevolutionaryalgorithmsinbiobjectiveoptimizationproblems": "Pure Math",
+        "GECCO|2025|modeladaptivereferencepointsgenerationbasedongaussianprocessformanyobjectiveoptimization": "Pure Math",
+        "GECCO|2026|quivercostawareadaptivepreferencequeryinginsurrogateassistedevolutionarymultiobjectiveoptimization": "Pure Math",
+        "GECCO|2026|dominanceboundarybasedreferencepointgenerationforindicatorbasedmultiobjectiveoptimization": "Pure Math",
+        "GECCO|2026|stablenormalizationforpreferencebasedsubsetselectionwithanunboundedexternalarchive": "Pure Math",
+        "GECCO|2026|deepreinforcementlearningbasedenvironmentalandmatingselectionforevolutionarymultiobjectiveoptimization": "Pure Math"
+       }
+      }
+     }
+    ],
+    "tier": "high",
+    "top1_score": 0.3622,
+    "lambda": 1.0,
+    "applied_share": 0.0,
+    "system_hash": "27fcc517a4ff6f27b1cf49064afa12258ef4bad7312c9e05f9bef5528c457abb",
+    "timestamp": "2026-11-11T10:53:27+00:00",
+    "mode": "live"
+   },
+   "gold_ids": [
+    "F00293",
+    "F01489",
+    "F01396"
+   ],
+   "hit": false,
+   "gold_ranks": {
+    "F00293": null,
+    "F01489": null,
+    "F01396": null
+   }
+  },
+  {
+   "query_id": "Q21",
+   "query_text": "uni course timetabling: rooms, periods, curricula, soft constraints for student clashes. what instance sets are used in papers?",
+   "gold_families": "F00102",
+   "gold_family_names": "curriculum based course timetabling",
+   "notes": "combinatorial (timetabling)",
+   "result": {
+    "query": "uni course timetabling: rooms, periods, curricula, soft constraints for student clashes. what instance sets are used in papers?",
+    "families": [
+     {
+      "family_id": "F00102",
+      "family_name": "curriculum based course timetabling",
+      "family_kind": "stem_group",
+      "ranker_score": 0.1718,
+      "note": {
+       "family_id": "F00102",
+       "family_name": "curriculum based course timetabling",
+       "n_papers": 2,
+       "n_records": 3,
+       "years": [
+        2020,
+        2021
+       ],
+       "pure_math_share": 0.0,
+       "applied_share": 1.0,
+       "common": {
+        "Problem_Context": [
+         "University Course Timetabling",
+         "Curriculum-Based Course Timetabling Problem"
+        ],
+        "Landscape_Characteristics": [
+         "combinatorial",
+         "constrained"
+        ],
+        "Dimensionality": [
+         "Variable"
+        ],
+        "Modality": [
+         "Multimodal"
+        ],
+        "Separability": []
+       },
+       "evidence_papers": [
+        {
+         "title": "Search Space Sampling by Simulated Annealing for Identifying Robust Solutions in Course Timetabling",
+         "conference": "CEC",
+         "year": "2020",
+         "cosine": 0.617
+        },
+        {
+         "title": "Learning Assignment Order in an Ant Colony Optimiser for the University Course Timetabling Problem",
+         "conference": "GECCO",
+         "year": "2021",
+         "cosine": 0.605
+        }
+       ],
+       "members": [
+        "Curriculum-based Course Timetabling (ITC 2007 Track 3)",
+        "Curriculum-Based Course Timetabling Problem (CB-CTP)"
+       ],
+       "single_paper": false,
+       "paper_categories": {
+        "CEC|2020|searchspacesamplingbysimulatedannealingforidentifyingrobustsolutionsincoursetimetabling": "Applied",
+        "GECCO|2021|learningassignmentorderinanantcolonyoptimiserfortheuniversitycoursetimetablingproblem": "Applied"
+       }
+      }
+     },
+     {
+      "family_id": "F00445",
+      "family_name": "OneMax",
+      "family_kind": "suite_series",
+      "ranker_score": 0.0338,
+      "note": {
+       "family_id": "F00445",
+       "family_name": "OneMax",
+       "n_papers": 32,
+       "n_records": 88,
+       "years": [
+        2015,
+        2026
+       ],
+       "pure_math_share": 1.0,
+       "applied_share": 0.0,
+       "common": {
+        "Problem_Context": [
+         "Evaluating mathematical landscapes"
+        ],
+        "Landscape_Characteristics": [
+         "noisy",
+         "linear"
+        ],
+        "Dimensionality": [
+         "Variable",
+         "200"
+        ],
+        "Modality": [
+         "Unimodal",
+         "Multimodal"
+        ],
+        "Separability": [
+         "Separable",
+         "Non-separable"
+        ]
+       },
+       "evidence_papers": [
+        {
+         "title": "Analysis of the (1+1) EA on Subclasses of Linear Functions under Uniform and Linear Constraints",
+         "conference": "FOGA",
+         "year": "2017",
+         "cosine": 0.256
+        },
+        {
+         "title": "When Non-Elitism Meets Time-Linkage Problems",
+         "conference": "GECCO",
+         "year": "2021",
+         "cosine": 0.202
+        }
+       ],
+       "members": [
+        "OneMax under uniform constraint",
+        "Integer-valued OneMax",
+        "OneMax under linear constraint",
+        "Onemax",
+        "Generalized Dynamic OneMax"
+       ],
+       "single_paper": false,
+       "paper_categories": {
+        "FOGA|2015|11eaongeneralizeddynamiconemax": "Pure Math",
+        "FOGA|2015|efficientoptimisationofnoisyfitnessfunctionswithpopulationbasedevolutionaryalgorithms": "Pure Math",
+        "FOGA|2015|fixedbudgetperformanceofthe11eaonlinearfunctions": "Pure Math",
+        "FOGA|2015|runtimeanalysisofpopulationbasedevolutionaryalgorithminnoisyenvironments": "Pure Math",
+        "FOGA|2017|anapplicationofstochasticdifferentialequationstoevolutionaryalgorithms": "Pure Math",
+        "FOGA|2017|analysisofthe11eaonsubclassesoflinearfunctionsunderuniformandlinearconstraints": "Pure Math",
+        "FOGA|2017|lowerboundsontheruntimeoftheunivariatemarginaldistributionalgorithmononemax": "Pure Math",
+        "FOGA|2017|resamplingvsrecombinationastatisticalruntimeestimation": "Pure Math",
+        "FOGA|2017|runtimeanalysisofadiscreteparticleswarmoptimizationalgorithmonsortingandonemax": "Pure Math",
+        "FOGA|2019|sharpboundsontheruntimeofthe11eaviadriftanalysisandanalyticcombinatorialtools": "Pure Math",
+        "FOGA|2019|thebenefitsandlimitationsofvotingmechanismsinevolutionaryoptimisation": "Pure Math",
+        "FOGA|2021|automaticadaptationofhypermutationratesformultimodaloptimisation": "Pure Math",
+        "FOGA|2021|doadditionaloptimaspeedupevolutionaryalgorithms": "Pure Math",
+        "FOGA|2023|curingillconditionalityviarepresentationagnosticdistancedrivenperturbations": "Pure Math",
+        "FOGA|2023|selfadaptationcanimprovethenoisetoleranceofevolutionaryalgorithms": "Pure Math",
+        "FOGA|2023|usingautomatedalgorithmconfigurationforparametercontrol": "Pure Math",
+        "GECCO|2020|fastmutationincrossoverbasedalgorithms": "Pure Math",
+        "GECCO|2020|fixedtargetruntimeanalysis": "Pure Math",
+        "GECCO|2020|fromunderstandinggeneticdrifttoasmartrestartparameterlesscompactgeneticalgorithm": "Pure Math",
+        "GECCO|2020|atightlowerboundontheexpectedruntimeofstandardsteadystategeneticalgorithms": "Pure Math",
+        "GECCO|2020|selfadjustingevolutionaryalgorithmsformultimodaloptimization": "Pure Math",
+        "GECCO|2020|onthechoiceoftheparametercontrolmechanisminthe1geneticalgorithm": "Pure Math",
+        "GECCO|2021|optimalstaticmutationstrengthdistributionsforthe1evolutionaryalgorithmononemax": "Pure Math",
+        "GECCO|2021|whennonelitismmeetstimelinkageproblems": "Pure Math",
+        "GECCO|2022|theinfluenceofnoiseonmultiparentcrossoverforanislandmodelga": "Pure Math",
+        "GECCO|2022|lucieanevaluationandselectionmethodforstochasticproblems": "Pure Math",
+        "GECCO|2024|algorithmperformancecomparisonforintegervaluedonemax": "Pure Math",
+        "GECCO|2025|analyzingpercomponentenergyconsumptionofevolutionaryalgorithmsimplementedinlowlevellanguagescomparisonofcandziginkeyevolutionaryalgorithmfunctions": "Pure Math",
+        "GECCO|2026|whenswitchingalgorithmshelpsatheoreticalstudyofonlinealgorithmselection": "Pure Math",
+        "GECCO|2026|agenericframeworkforoptimisationunderuncertaintywithrecoursetheoryandexamples": "Pure Math",
+        "GECCO|2026|addressingcombinatorialoptimizationwithestimationofdistributionalgorithmsbasedondiffusionmodels": "Pure Math",
+        "GECCO|2026|adaptivestochasticnaturalgradientmethodforsafeoptimizationonbinaryspace": "Pure Math"
+       }
+      }
+     },
+     {
+      "family_id": "F00033",
+      "family_name": "DTLZ",
+      "family_kind": "suite_series",
+      "ranker_score": 0.0296,
+      "note": {
+       "family_id": "F00033",
+       "family_name": "DTLZ",
+       "n_papers": 45,
+       "n_records": 548,
+       "years": [
+        2016,
+        2026
+       ],
+       "pure_math_share": 1.0,
+       "applied_share": 0.0,
+       "common": {
+        "Problem_Context": [
+         "Evaluating mathematical landscapes",
+         "Evaluating mathematical landscapes and multi-objective sorting"
+        ],
+        "Landscape_Characteristics": [
+         "degenerate Pareto front",
+         "Quadrant-shaped Pareto front"
+        ],
+        "Dimensionality": [
+         "10D",
+         "Variable"
+        ],
+        "Modality": [
+         "Multimodal",
+         "Unimodal"
+        ],
+        "Separability": [
+         "Non-separable",
+         "Separable"
+        ]
+       },
+       "evidence_papers": [
+        {
+         "title": "Many-Objective Evolutionary Optimization using Density Peaks Scoring Selection Strategy",
+         "conference": "GECCO",
+         "year": "2024",
+         "cosine": 0.215
+        },
+        {
+         "title": "Stable Normalization for Preference-based Subset Selection with an Unbounded External Archive",
+         "conference": "GECCO",
+         "year": "2026",
+         "cosine": 0.185
+        }
+       ],
+       "members": [
+        "C3-DTLZ4",
+        "constrained DTLZ",
+        "DTLZ7",
+        "DTLZ1",
+        "DTLZ2"
+       ],
+       "single_paper": false,
+       "paper_categories": {
+        "CEC|2020|asurrogateassistedoffspringgenerationmethodforexpensivemultiobjectiveoptimizationproblems": "Pure Math",
+        "CEC|2020|handlingconstrainedmultiobjectiveoptimizationwithobjectivespacemappingtodecisionspacebasedonextremelearningmachine": "Pure Math",
+        "CEC|2020|moeadwithrandompartialupdatestrategy": "Pure Math",
+        "CEC|2020|multimanyobjectiveoptimizationviaanewpreferenceindicator": "Pure Math",
+        "CEC|2020|rieszsenergybasedreferencesetsformultiobjectiveoptimization": "Pure Math",
+        "CEC|2021|weightvectorarrangementusingvirtualobjectivevectorsindecompositionbasedmoea": "Pure Math",
+        "CEC|2022|stepsizeindividualizationacasestudyforthefishschoolsearchfamily": "Pure Math",
+        "CEC|2023|thecombinationofmoeadandwofforsolvinghighdimensionalexpensivemultiobjectiveoptimizationproblems": "Pure Math",
+        "FOGA|2017|hypervolumesubsetselectionfortriangularandinvertedtriangularparetofrontsofthreeobjectiveproblems": "Pure Math",
+        "GECCO|2020|computationoftheimprovementdirectionsoftheparetofrontanditsapplicationtomoeas": "Pure Math",
+        "GECCO|2020|datastructuresfornondominatedsetsimplementationsandempiricalassessmentoftwodecadesofadvances": "Pure Math",
+        "GECCO|2020|anotherdifficultyofinvertedtriangularparetofrontsfordecompositionbasedmultiobjectivealgorithms": "Pure Math",
+        "GECCO|2020|effectsofdominanceresistantsolutionsontheperformanceofevolutionarymultiobjectiveandmanyobjectivealgorithms": "Pure Math",
+        "GECCO|2020|multiobjectivetreestructuredparzenestimatorforcomputationallyexpensiveoptimizationproblems": "Pure Math",
+        "GECCO|2020|gapfindingandvalidationinevolutionarymultiandmanyobjectiveoptimization": "Pure Math",
+        "GECCO|2020|surrogateassistedevolutionaryalgorithmformediumscalemultiobjectiveoptimisationproblems": "Pure Math",
+        "GECCO|2020|transferlearningforgaussianprocessassistedevolutionarybiobjectiveoptimizationforobjectiveswithdifferentevaluationtimes": "Pure Math",
+        "GECCO|2021|metricforevaluatingnormalizationmethodsinmultiobjectiveoptimization": "Pure Math",
+        "GECCO|2021|hypervolumeinbiobjectiveoptimizationcannotconvergefasterthan1p": "Pure Math",
+        "GECCO|2021|bayesianpreferencelearningforinteractivemultiobjectiveoptimisation": "Pure Math",
+        "GECCO|2022|anenhancedadaptivegeometryevolutionaryalgorithmusingstochasticdiversitymechanism": "Pure Math",
+        "GECCO|2022|mboremultiobjectivebayesianoptimisationbydensityratioestimation": "Pure Math",
+        "GECCO|2022|aclassificationassistedlevelbasedlearningevolutionaryalgorithmforexpensivemultiobjectiveoptimizationproblems": "Pure Math",
+        "GECCO|2022|regionofinterestbasednondominatedsortinggeneticalgorithmiianinviteandconquerapproach": "Pure Math",
+        "GECCO|2022|sociallearningparticleswarmoptimizationwithtwosurrogatecollaborationforofflinedatadrivenmultiobjectiveoptimization": "Pure Math",
+        "GECCO|2022|multipointacquisitionfunctionforconstraintparallelefficientmultiobjectiveoptimization": "Pure Math",
+        "GECCO|2024|manyobjectiveevolutionaryoptimizationusingdensitypeaksscoringselectionstrategy": "Pure Math",
+        "GECCO|2024|lowerconfidenceboundforpreferenceselectionininteractivemultiobjectiveoptimization": "Pure Math",
+        "GECCO|2024|compositequalityindicatorstoevaluatetheperformanceofpopulationbasedmultiobjectiveoptimizationalgorithms": "Pure Math",
+        "GECCO|2024|acceleratedbayesianpreferencelearningforefficientevolutionarymultiobjectiveoptimisation": "Pure Math",
+        "GECCO|2024|acompetitiveswarmalgorithmbasedontricompetitivecriterionforconstrainedmultiobjectiveoptimization": "Pure Math",
+        "GECCO|2025|multiobjectivelshapedtestfunctions": "Pure Math",
+        "GECCO|2025|cotleacopulabasedtransferlearningevolutionaryalgorithmformultiobjectiveoptimizationproblems": "Pure Math",
+        "GECCO|2025|targetingevaluationcomputationandinteractioncostsinexpensiveblackboxmultiobjectiveoptimization": "Pure Math",
+        "GECCO|2025|efficientcontextualpreferentialbayesianoptimizationwithhistoricalexamples": "Pure Math",
+        "GECCO|2025|modeladaptivereferencepointsgenerationbasedongaussianprocessformanyobjectiveoptimization": "Pure Math",
+        "GECCO|2026|quivercostawareadaptivepreferencequeryinginsurrogateassistedevolutionarymultiobjectiveoptimization": "Pure Math",
+        "GECCO|2026|benchmarkingstoppingcriteriaforevolutionarymultiobjectiveoptimization": "Pure Math",
+        "GECCO|2026|dominanceboundarybasedreferencepointgenerationforindicatorbasedmultiobjectiveoptimization": "Pure Math",
+        "GECCO|2026|abicriteriaselectionframeworkforincorporatingpreferenceinformationintoevolutionarymultiobjectiveoptimization": "Pure Math",
+        "GECCO|2026|stablenormalizationforpreferencebasedsubsetselectionwithanunboundedexternalarchive": "Pure Math",
+        "GECCO|2026|weightvectorspecificationinmoeadtofindbalancedandpromisingsolutionsformulticriteriadecisionmaking": "Pure Math",
+        "GECCO|2026|deepreinforcementlearningbasedenvironmentalandmatingselectionforevolutionarymultiobjectiveoptimization": "Pure Math",
+        "PPSN|2016|onlinemodelselectionforrestrictedcovariancematrixadaptation": "Pure Math",
+        "PReMI|2023|multiobjectivenonoverlappingfrontgenerationapivotbaseddeterministicnondominatedsortingapproach": "Pure Math"
+       }
+      }
+     },
+     {
+      "family_id": "F00090",
+      "family_name": "CEC 2017 suite",
+      "family_kind": "suite_series",
+      "ranker_score": 0.0261,
+      "note": {
+       "family_id": "F00090",
+       "family_name": "CEC 2017 suite",
+       "n_papers": 44,
+       "n_records": 357,
+       "years": [
+        2020,
+        2025
+       ],
+       "pure_math_share": 1.0,
+       "applied_share": 0.0,
+       "common": {
+        "Problem_Context": [
+         "Evaluating mathematical landscapes"
+        ],
+        "Landscape_Characteristics": [
+         "unimodal",
+         "hybrid"
+        ],
+        "Dimensionality": [
+         "30D",
+         "50D"
+        ],
+        "Modality": [
+         "Multimodal",
+         "Unimodal"
+        ],
+        "Separability": [
+         "Non-separable"
+        ]
+       },
+       "evidence_papers": [
+        {
+         "title": "A modified EACOP implementation for Real-Parameter Single Objective Optimization Problems",
+         "conference": "CEC",
+         "year": "2024",
+         "cosine": 0.241
+        },
+        {
+         "title": "A Modified Marine Predators Algorithm for Numerical Function Optimization",
+         "conference": "CEC",
+         "year": "2024",
+         "cosine": 0.232
+        }
+       ],
+       "members": [
+        "CEC'17 benchmark optimization problems",
+        "CEC 2017 Suite (f1, f4, f5, f10, f15, f18, f23)",
+        "CEC'2017 benchmark function suit",
+        "CEC 2017 benchmark test suite",
+        "CEC'17"
+       ],
+       "single_paper": false,
+       "paper_categories": {
+        "CEC|2020|improvingcuckoosearchincorporatingchangesforcec2017andcec2020benchmarkproblems": "Pure Math",
+        "CEC|2021|anewstepsizeadaptationruleforcmaesbasedonthepopulationmidpointfitness": "Pure Math",
+        "CEC|2021|anovelsurrogateguidedjayaalgorithmforthecontinuousnumericaloptimizationproblems": "Pure Math",
+        "CEC|2021|anenhanceddifferentialevolutionalgorithmusinganovelclusteringbasedmutationoperator": "Pure Math",
+        "CEC|2021|anenhancedlevybasedwhaleoptimizationalgorithmforglobaloptimization": "Pure Math",
+        "CEC|2021|efficientfeatureselectionmethodforhistopathologicalimagesusingmodifiedgoldeneagleoptimizationalgorithm": "Pure Math",
+        "CEC|2021|geneticalgorithmassistedhidmspsoanewhybridalgorithmforglobaloptimisation": "Pure Math",
+        "CEC|2021|hidmspsowithbioinspiredfissionfusionbehaviourandaquorumdecisionmechanism": "Pure Math",
+        "CEC|2021|hybridizingcuckoosearchwithnakedmoleratalgorithmadaptingforcec2017andcec2021testsuites": "Pure Math",
+        "CEC|2021|memeticdifferentialevolutionusingcoordinatedescent": "Pure Math",
+        "CEC|2022|enhancingdifferentialevolutionalgorithmadaptationforcec2017andcec2021testsuites": "Pure Math",
+        "CEC|2022|acovariancematrixadaptationevolutionstrategybasedmantarayforagingoptimization": "Pure Math",
+        "CEC|2022|anoveldifferentialevolutionsparrowsearchalgorithm": "Pure Math",
+        "CEC|2022|apopulationresourceallocationbasedadaptivesphericalsearchalgorithm": "Pure Math",
+        "CEC|2022|anadaptiveversionofdifferentialevolutionforsolvingcec2014cec2017andcec2022testsuites": "Pure Math",
+        "CEC|2022|animprovedimperialistcompetitivealgorithminspiredbydemocraticrevolution": "Pure Math",
+        "CEC|2022|anoptimalparentcrossoverbaseddifferentialevolution": "Pure Math",
+        "CEC|2022|chameleonswarmalgorithmenhancedbydifferentialevolution": "Pure Math",
+        "CEC|2022|clusteringcenterbaseddifferentialevolution": "Pure Math",
+        "CEC|2022|improvingtheoptimizationperformancebyanadaptabledesignadynamicselectionofoperatorsviacriteriabasedmatrixforevolutionaryalgorithms": "Pure Math",
+        "CEC|2022|randomlearningparticleswarmoptimizationwithquasinewtonexploitationmechanism": "Pure Math",
+        "CEC|2023|ahistoricalinformationbaseddifferentialevolution": "Pure Math",
+        "CEC|2023|bipopulationcooperativemothflameoptimizationalgorithmforthenetworkingmodeoptimization": "Pure Math",
+        "CEC|2023|chaoticmappinggeneticalgorithmwithmultiplestrategies": "Pure Math",
+        "CEC|2023|cwdeanovellshadevariantwithcauchydistributionbasedweightselection": "Pure Math",
+        "CEC|2023|gamebasedpigeoninspiredoptimizationwithrepositoryassistanceforstochasticoptimizationswithuncertaininfeasiblesearchregions": "Pure Math",
+        "CEC|2024|performanceofbetamutationoncec2017andcec2022benchmarks": "Pure Math",
+        "CEC|2024|successratebasedadaptivedifferentialevolutionlsrtdeforcec2024competition": "Pure Math",
+        "CEC|2024|ahybridestimationofdistributionalgorithmwithmonarchbutterflyoptimization": "Pure Math",
+        "CEC|2024|amodifiedeacopimplementationforrealparametersingleobjectiveoptimizationproblems": "Pure Math",
+        "CEC|2024|amodifiedmarinepredatorsalgorithmfornumericalfunctionoptimization": "Pure Math",
+        "CEC|2024|acceleratingvegetationevolutionwithgradientdescentandmartingalestrategies": "Pure Math",
+        "CEC|2024|animprovedgoldenjackaloptimizationbasedonnewlocalsearchoperatorforglobaloptimizationinvitedpaper": "Pure Math",
+        "CEC|2024|differentialevolutionwithsuccessratebasedadaptationclsrdeforconstrainedoptimization": "Pure Math",
+        "CEC|2024|guerrillawarfarestrategyamelioratebesiegeandconqueralgorithmforcomplexoptimizationproblems": "Pure Math",
+        "GECCO|2020|adaptivelypreservingsolutionsinbothfeasibleandinfeasibleregionsongeneralizedmultipleconstraintranking": "Pure Math",
+        "GECCO|2022|selectorselectingarepresentativebenchmarksuiteforreproduciblestatisticalcomparison": "Pure Math",
+        "GECCO|2024|designingblackboxoptimizerswithpushgp": "Pure Math",
+        "GECCO|2025|covariancematrixadaptationevolutionstrategywithoutamatrix": "Pure Math",
+        "GECCO|2025|exploringheterogeneityinconstrainedoptimizationanadaptivetwostagesurrogateassistedevolutionaryalgorithm": "Pure Math",
+        "GECCO|2025|aninvestigationofinherentstructuralbiasinestablishedbenchmarksets": "Pure Math",
+        "PPSN|2024|parallelproblemsolvingfromnatureppsnxviii": "Pure Math",
+        "PReMI|2021|grammaticalevolutionbasedparameterconfigurationofensembledifferentialevolution": "Pure Math",
+        "PReMI|2023|agrammaticalevolutionbasedautomatedconfigurationofanensembledifferentialevolutionalgorithm": "Pure Math"
+       }
+      }
+     },
+     {
+      "family_id": "F00455",
+      "family_name": "LeadingOnes",
+      "family_kind": "suite_series",
+      "ranker_score": 0.0175,
+      "note": {
+       "family_id": "F00455",
+       "family_name": "LeadingOnes",
+       "n_papers": 18,
+       "n_records": 35,
+       "years": [
+        2015,
+        2026
+       ],
+       "pure_math_share": 1.0,
+       "applied_share": 0.0,
+       "common": {
+        "Problem_Context": [
+         "Evaluating mathematical landscapes",
+         "Tuning mutation rate of (1+1) EA on LeadingOnes"
+        ],
+        "Landscape_Characteristics": [
+         "noisy",
+         "symmetric noise"
+        ],
+        "Dimensionality": [
+         "Variable",
+         "n-D"
+        ],
+        "Modality": [
+         "Unimodal",
+         "Multimodal"
+        ],
+        "Separability": [
+         "Non-separable"
+        ]
+       },
+       "evidence_papers": [
+        {
+         "title": "Analysis of the (1+1) EA on Subclasses of Linear Functions under Uniform and Linear Constraints",
+         "conference": "FOGA",
+         "year": "2017",
+         "cosine": 0.228
+        },
+        {
+         "title": "Hard Problems are Easier for Success-based Parameter Control",
+         "conference": "GECCO",
+         "year": "2022",
+         "cosine": 0.195
+        }
+       ],
+       "members": [
+        "LeadingOnes under uniform constraint",
+        "LEADINGONES (Additive Uniform Noise)",
+        "Sequential Quadratic Leading Ones (SQLO)",
+        "LeadingOnes",
+        "LEADINGONES (Additive Normal Noise)"
+       ],
+       "single_paper": false,
+       "paper_categories": {
+        "FOGA|2015|efficientoptimisationofnoisyfitnessfunctionswithpopulationbasedevolutionaryalgorithms": "Pure Math",
+        "FOGA|2017|anapplicationofstochasticdifferentialequationstoevolutionaryalgorithms": "Pure Math",
+        "FOGA|2017|analysisofthe11eaonsubclassesoflinearfunctionsunderuniformandlinearconstraints": "Pure Math",
+        "FOGA|2019|atightruntimeanalysisforthe1gaonleadingones": "Pure Math",
+        "FOGA|2019|thebenefitsandlimitationsofvotingmechanismsinevolutionaryoptimisation": "Pure Math",
+        "FOGA|2021|automaticadaptationofhypermutationratesformultimodaloptimisation": "Pure Math",
+        "FOGA|2021|doadditionaloptimaspeedupevolutionaryalgorithms": "Pure Math",
+        "FOGA|2023|selfadaptationcanimprovethenoisetoleranceofevolutionaryalgorithms": "Pure Math",
+        "GECCO|2020|fixedtargetruntimeanalysis": "Pure Math",
+        "GECCO|2020|fromunderstandinggeneticdrifttoasmartrestartparameterlesscompactgeneticalgorithm": "Pure Math",
+        "GECCO|2020|selfadjustingevolutionaryalgorithmsformultimodaloptimization": "Pure Math",
+        "GECCO|2020|understandingtransformsofpseudobooleanfunctions": "Pure Math",
+        "GECCO|2020|analysisoftheperformanceofalgorithmconfiguratorsforsearchheuristicswithglobalmutationoperators": "Pure Math",
+        "GECCO|2020|onthechoiceoftheparametercontrolmechanisminthe1geneticalgorithm": "Pure Math",
+        "GECCO|2022|theoryinspiredparametercontrolbenchmarksfordynamicalgorithmconfiguration": "Pure Math",
+        "GECCO|2022|hardproblemsareeasierforsuccessbasedparametercontrol": "Pure Math",
+        "GECCO|2022|lucieanevaluationandselectionmethodforstochasticproblems": "Pure Math",
+        "GECCO|2026|adaptivestochasticnaturalgradientmethodforsafeoptimizationonbinaryspace": "Pure Math"
+       }
+      }
+     }
+    ],
+    "tier": "high",
+    "top1_score": 0.1718,
+    "lambda": 1.0,
+    "applied_share": 0.015625,
+    "system_hash": "27fcc517a4ff6f27b1cf49064afa12258ef4bad7312c9e05f9bef5528c457abb",
+    "timestamp": "2026-11-11T10:53:27+00:00",
+    "mode": "live"
+   },
+   "gold_ids": [
+    "F00102"
+   ],
+   "hit": true,
+   "gold_ranks": {
+    "F00102": 1
+   }
+  },
+  {
+   "query_id": "Q31",
+   "query_text": "Need multimodal functions with lots of local optima but basically no global structure (no overall funnel), so restarts actually matter. 10-50 dims",
+   "gold_families": "F00090;F00434;F00660",
+   "gold_family_names": "CEC 2017 suite; BBOB (COCO); schwefel",
+   "notes": "continuous single-objective",
+   "result": {
+    "query": "Need multimodal functions with lots of local optima but basically no global structure (no overall funnel), so restarts actually matter. 10-50 dims",
+    "families": [
+     {
+      "family_id": "F00434",
+      "family_name": "BBOB (COCO)",
+      "family_kind": "suite_series",
+      "ranker_score": 0.5014,
+      "note": {
+       "family_id": "F00434",
+       "family_name": "BBOB (COCO)",
+       "n_papers": 35,
+       "n_records": 176,
+       "years": [
+        2018,
+        2026
+       ],
+       "pure_math_share": 1.0,
+       "applied_share": 0.0,
+       "common": {
+        "Problem_Context": [
+         "Evaluating mathematical landscapes"
+        ],
+        "Landscape_Characteristics": [
+         "noiseless",
+         "single-objective"
+        ],
+        "Dimensionality": [
+         "5D",
+         "2D, 5D, 10D"
+        ],
+        "Modality": [
+         "Multimodal",
+         "Unimodal"
+        ],
+        "Separability": [
+         "Non-separable",
+         "Separable"
+        ]
+       },
+       "evidence_papers": [
+        {
+         "title": "Designing Landscape-Aware Benchmarks with Explicit Local Optima for Single- and Multi-Objective Optimization",
+         "conference": "GECCO",
+         "year": "2026",
+         "cosine": 0.446
+        },
+        {
+         "title": "A Collection of Deep Learning-based Feature-Free Approaches for Characterizing Single-Objective Continuous Fitness Landscapes",
+         "conference": "GECCO",
+         "year": "2022",
+         "cosine": 0.425
+        }
+       ],
+       "members": [
+        "BBOB f22 (Gallagher's Gaussian 21 peaks function)",
+        "BBOB benchmark suite (24 single-objective, noiseless, continuous black-box problems)",
+        "BBOB Suite",
+        "MA-BBOB",
+        "BBOB f1 (Sphere function)"
+       ],
+       "single_paper": false,
+       "paper_categories": {
+        "CEC|2024|generalizationabilityoffeaturebasedperformancepredictionmodelsastatisticalanalysisacrossbenchmarks": "Pure Math",
+        "FOGA|2019|newfeaturesforcontinuousexploratorylandscapeanalysisbasedonthesootree": "Pure Math",
+        "FOGA|2023|curingillconditionalityviarepresentationagnosticdistancedrivenperturbations": "Pure Math",
+        "FOGA|2023|neuralnetworksasblackboxbenchmarkfunctionsoptimizedforexploratorylandscapefeatures": "Pure Math",
+        "GECCO|2020|expectedimprovementversuspredictedvalueinsurrogatebasedoptimization": "Pure Math",
+        "GECCO|2020|analyzingadaptiveparameterlandscapesinparameteradaptationmethodsfordifferentialevolution": "Pure Math",
+        "GECCO|2020|integratedvssequentialapproachesforselectingandtuningcmaesvariants": "Pure Math",
+        "GECCO|2020|towardsdynamicalgorithmselectionfornumericalblackboxoptimizationinvestigatingbbobasausecase": "Pure Math",
+        "GECCO|2020|designingparallelisminsurrogateassistedmultiobjectiveoptimizationbasedondecomposition": "Pure Math",
+        "GECCO|2020|initialdesignstrategiesandtheireffectsonsequentialmodelbasedoptimizationanexploratorycasestudybasedonbbob": "Pure Math",
+        "GECCO|2020|landscapeawarefixedbudgetperformanceregressionandalgorithmselectionformodularcmaesvariants": "Pure Math",
+        "GECCO|2021|personalizingperformanceregressionmodelstoblackboxoptimizationproblems": "Pure Math",
+        "GECCO|2021|theimpactofhyperparametertuningforlandscapeawareperformanceregressionandalgorithmselection": "Pure Math",
+        "GECCO|2022|selectorselectingarepresentativebenchmarksuiteforreproduciblestatisticalcomparison": "Pure Math",
+        "GECCO|2022|dibbdistributingblackboxoptimization": "Pure Math",
+        "GECCO|2022|theimportanceoflandscapefeaturesforperformancepredictionofmodularcmaesvariants": "Pure Math",
+        "GECCO|2022|molediggingtunnelsthroughmultimodalmultiobjectivelandscapes": "Pure Math",
+        "GECCO|2022|acollectionofdeeplearningbasedfeaturefreeapproachesforcharacterizingsingleobjectivecontinuousfitnesslandscapes": "Pure Math",
+        "GECCO|2022|atwophaseframeworkwithabziersimplexbasedinterpolationmethodforcomputationallyexpensivemultiobjectiveoptimization": "Pure Math",
+        "GECCO|2023|algorithminstancefootprintseparatingeasilysolvableandchallengingprobleminstances": "Pure Math",
+        "GECCO|2024|ongeneralizationofelafeaturegroups": "Pure Math",
+        "GECCO|2025|comparingoptimizationalgorithmsthroughthelensofsearchbehavioranalysis": "Pure Math",
+        "GECCO|2025|aninvestigationofinherentstructuralbiasinestablishedbenchmarksets": "Pure Math",
+        "GECCO|2025|geometriclearninginblackboxoptimizationagnnframeworkforalgorithmperformanceprediction": "Pure Math",
+        "GECCO|2025|acomparisonofdimensionalityreductiontechniquesforvisualisingsearchbehaviour": "Pure Math",
+        "GECCO|2025|acontinuationmethodbasedoncmaes": "Pure Math",
+        "GECCO|2025|neighborhoodadaptivedifferentialevolution": "Pure Math",
+        "GECCO|2026|constructingstreamsofoptimizationinstancesforbenchmarkingalgorithmselectionandconfigurationapproachesinstreamingscenarios": "Pure Math",
+        "GECCO|2026|similaritybasedportfolioconstructionforblackboxoptimization": "Pure Math",
+        "GECCO|2026|llameaboalargelanguagemodelevolutionaryalgorithmforautomaticallygeneratingbayesianoptimizationalgorithms": "Pure Math",
+        "GECCO|2026|evaluationofelementwiseeffectivenessestimationforaugmentedlagrangiancmaes": "Pure Math",
+        "GECCO|2026|designinglandscapeawarebenchmarkswithexplicitlocaloptimaforsingleandmultiobjectiveoptimization": "Pure Math",
+        "GECCO|2026|automaticallydesigningnovelevolutionaryarchitectures": "Pure Math",
+        "PPSN|2018|acomparativestudyoflargescalevariantsofcmaes": "Pure Math",
+        "PPSN|2020|parallelproblemsolvingfromnatureppsnxvi": "Pure Math"
+       }
+      }
+     },
+     {
+      "family_id": "F00499",
+      "family_name": "TSPLIB",
+      "family_kind": "suite_series",
+      "ranker_score": 0.1788,
+      "note": {
+       "family_id": "F00499",
+       "family_name": "TSPLIB",
+       "n_papers": 9,
+       "n_records": 57,
+       "years": [
+        2020,
+        2026
+       ],
+       "pure_math_share": 0.667,
+       "applied_share": 0.333,
+       "common": {
+        "Problem_Context": [
+         "Traveling Salesman Problem",
+         "Evaluating mathematical landscapes"
+        ],
+        "Landscape_Characteristics": [
+         "combinatorial",
+         "NP-hard"
+        ],
+        "Dimensionality": [
+         "Variable",
+         "Variable (29 to 1000 customers)"
+        ],
+        "Modality": [
+         "Multimodal"
+        ],
+        "Separability": [
+         "Non-separable"
+        ]
+       },
+       "evidence_papers": [
+        {
+         "title": "Why Many Travelling Salesman Problem Instances Are Easier Than You Think",
+         "conference": "GECCO",
+         "year": "2020",
+         "cosine": 0.5
+        },
+        {
+         "title": "A new Ant Colony Optimization metaheuristic based on Pheromone guided Local Search instead of Constructive approach",
+         "conference": "GECCO",
+         "year": "2022",
+         "cosine": 0.452
+        }
+       ],
+       "members": [
+        "att532",
+        "u2319",
+        "TSPlib (eil51, eil76, eil101)",
+        "Traveling Salesperson Problem (TSPlib)",
+        "lin318"
+       ],
+       "single_paper": false,
+       "paper_categories": {
+        "FOGA|2021|computingdiversesetsofhighqualitytsptoursbyeaxbasedevolutionarydiversityoptimisation": "Pure Math",
+        "GECCO|2020|evolvingdiversesetsoftoursforthetravellingsalespersonproblem": "Pure Math",
+        "GECCO|2020|whymanytravellingsalesmanprobleminstancesareeasierthanyouthink": "Pure Math",
+        "GECCO|2021|partialacoasagamutationoperatorappliedtotspinstances": "Applied",
+        "GECCO|2021|anefficientimplementationofiterativepartialtranscriptionforthetravelingsalesmanproblem": "Pure Math",
+        "GECCO|2022|nichingbasedevolutionarydiversityoptimizationforthetravelingsalespersonproblem": "Pure Math",
+        "GECCO|2022|anewantcolonyoptimizationmetaheuristicbasedonpheromoneguidedlocalsearchinsteadofconstructiveapproach": "Pure Math",
+        "GECCO|2023|diversityoptimizationforthedetectionandconcealmentofspatiallydefinedcommunicationnetworks": "Applied",
+        "GECCO|2026|vehicleroutingproblemwithresourceconstrainedpickupanddeliveryaheuristicinformedbrkgawithpatternbasedanalysis": "Applied"
+       }
+      }
+     },
+     {
+      "family_id": "F00033",
+      "family_name": "DTLZ",
+      "family_kind": "suite_series",
+      "ranker_score": 0.078,
+      "note": {
+       "family_id": "F00033",
+       "family_name": "DTLZ",
+       "n_papers": 45,
+       "n_records": 548,
+       "years": [
+        2016,
+        2026
+       ],
+       "pure_math_share": 1.0,
+       "applied_share": 0.0,
+       "common": {
+        "Problem_Context": [
+         "Evaluating mathematical landscapes",
+         "Evaluating mathematical landscapes and multi-objective sorting"
+        ],
+        "Landscape_Characteristics": [
+         "degenerate Pareto front",
+         "Quadrant-shaped Pareto front"
+        ],
+        "Dimensionality": [
+         "10D",
+         "Variable"
+        ],
+        "Modality": [
+         "Multimodal",
+         "Unimodal"
+        ],
+        "Separability": [
+         "Non-separable",
+         "Separable"
+        ]
+       },
+       "evidence_papers": [
+        {
+         "title": "Surrogate Assisted Evolutionary Algorithm for Medium Scale Multi-Objective Optimisation Problems",
+         "conference": "GECCO",
+         "year": "2020",
+         "cosine": 0.593
+        },
+        {
+         "title": "Computation of the improvement directions of the Pareto front and its application to MOEAs",
+         "conference": "GECCO",
+         "year": "2020",
+         "cosine": 0.508
+        }
+       ],
+       "members": [
+        "DTLZ Suite",
+        "DTLZ Suite (DTLZ1-DTLZ3)",
+        "DTLZ2 (5-Objective)",
+        "DTLZ1",
+        "DTLZ2"
+       ],
+       "single_paper": false,
+       "paper_categories": {
+        "CEC|2020|asurrogateassistedoffspringgenerationmethodforexpensivemultiobjectiveoptimizationproblems": "Pure Math",
+        "CEC|2020|handlingconstrainedmultiobjectiveoptimizationwithobjectivespacemappingtodecisionspacebasedonextremelearningmachine": "Pure Math",
+        "CEC|2020|moeadwithrandompartialupdatestrategy": "Pure Math",
+        "CEC|2020|multimanyobjectiveoptimizationviaanewpreferenceindicator": "Pure Math",
+        "CEC|2020|rieszsenergybasedreferencesetsformultiobjectiveoptimization": "Pure Math",
+        "CEC|2021|weightvectorarrangementusingvirtualobjectivevectorsindecompositionbasedmoea": "Pure Math",
+        "CEC|2022|stepsizeindividualizationacasestudyforthefishschoolsearchfamily": "Pure Math",
+        "CEC|2023|thecombinationofmoeadandwofforsolvinghighdimensionalexpensivemultiobjectiveoptimizationproblems": "Pure Math",
+        "FOGA|2017|hypervolumesubsetselectionfortriangularandinvertedtriangularparetofrontsofthreeobjectiveproblems": "Pure Math",
+        "GECCO|2020|computationoftheimprovementdirectionsoftheparetofrontanditsapplicationtomoeas": "Pure Math",
+        "GECCO|2020|datastructuresfornondominatedsetsimplementationsandempiricalassessmentoftwodecadesofadvances": "Pure Math",
+        "GECCO|2020|anotherdifficultyofinvertedtriangularparetofrontsfordecompositionbasedmultiobjectivealgorithms": "Pure Math",
+        "GECCO|2020|effectsofdominanceresistantsolutionsontheperformanceofevolutionarymultiobjectiveandmanyobjectivealgorithms": "Pure Math",
+        "GECCO|2020|multiobjectivetreestructuredparzenestimatorforcomputationallyexpensiveoptimizationproblems": "Pure Math",
+        "GECCO|2020|gapfindingandvalidationinevolutionarymultiandmanyobjectiveoptimization": "Pure Math",
+        "GECCO|2020|surrogateassistedevolutionaryalgorithmformediumscalemultiobjectiveoptimisationproblems": "Pure Math",
+        "GECCO|2020|transferlearningforgaussianprocessassistedevolutionarybiobjectiveoptimizationforobjectiveswithdifferentevaluationtimes": "Pure Math",
+        "GECCO|2021|metricforevaluatingnormalizationmethodsinmultiobjectiveoptimization": "Pure Math",
+        "GECCO|2021|hypervolumeinbiobjectiveoptimizationcannotconvergefasterthan1p": "Pure Math",
+        "GECCO|2021|bayesianpreferencelearningforinteractivemultiobjectiveoptimisation": "Pure Math",
+        "GECCO|2022|anenhancedadaptivegeometryevolutionaryalgorithmusingstochasticdiversitymechanism": "Pure Math",
+        "GECCO|2022|mboremultiobjectivebayesianoptimisationbydensityratioestimation": "Pure Math",
+        "GECCO|2022|aclassificationassistedlevelbasedlearningevolutionaryalgorithmforexpensivemultiobjectiveoptimizationproblems": "Pure Math",
+        "GECCO|2022|regionofinterestbasednondominatedsortinggeneticalgorithmiianinviteandconquerapproach": "Pure Math",
+        "GECCO|2022|sociallearningparticleswarmoptimizationwithtwosurrogatecollaborationforofflinedatadrivenmultiobjectiveoptimization": "Pure Math",
+        "GECCO|2022|multipointacquisitionfunctionforconstraintparallelefficientmultiobjectiveoptimization": "Pure Math",
+        "GECCO|2024|manyobjectiveevolutionaryoptimizationusingdensitypeaksscoringselectionstrategy": "Pure Math",
+        "GECCO|2024|lowerconfidenceboundforpreferenceselectionininteractivemultiobjectiveoptimization": "Pure Math",
+        "GECCO|2024|compositequalityindicatorstoevaluatetheperformanceofpopulationbasedmultiobjectiveoptimizationalgorithms": "Pure Math",
+        "GECCO|2024|acceleratedbayesianpreferencelearningforefficientevolutionarymultiobjectiveoptimisation": "Pure Math",
+        "GECCO|2024|acompetitiveswarmalgorithmbasedontricompetitivecriterionforconstrainedmultiobjectiveoptimization": "Pure Math",
+        "GECCO|2025|multiobjectivelshapedtestfunctions": "Pure Math",
+        "GECCO|2025|cotleacopulabasedtransferlearningevolutionaryalgorithmformultiobjectiveoptimizationproblems": "Pure Math",
+        "GECCO|2025|targetingevaluationcomputationandinteractioncostsinexpensiveblackboxmultiobjectiveoptimization": "Pure Math",
+        "GECCO|2025|efficientcontextualpreferentialbayesianoptimizationwithhistoricalexamples": "Pure Math",
+        "GECCO|2025|modeladaptivereferencepointsgenerationbasedongaussianprocessformanyobjectiveoptimization": "Pure Math",
+        "GECCO|2026|quivercostawareadaptivepreferencequeryinginsurrogateassistedevolutionarymultiobjectiveoptimization": "Pure Math",
+        "GECCO|2026|benchmarkingstoppingcriteriaforevolutionarymultiobjectiveoptimization": "Pure Math",
+        "GECCO|2026|dominanceboundarybasedreferencepointgenerationforindicatorbasedmultiobjectiveoptimization": "Pure Math",
+        "GECCO|2026|abicriteriaselectionframeworkforincorporatingpreferenceinformationintoevolutionarymultiobjectiveoptimization": "Pure Math",
+        "GECCO|2026|stablenormalizationforpreferencebasedsubsetselectionwithanunboundedexternalarchive": "Pure Math",
+        "GECCO|2026|weightvectorspecificationinmoeadtofindbalancedandpromisingsolutionsformulticriteriadecisionmaking": "Pure Math",
+        "GECCO|2026|deepreinforcementlearningbasedenvironmentalandmatingselectionforevolutionarymultiobjectiveoptimization": "Pure Math",
+        "PPSN|2016|onlinemodelselectionforrestrictedcovariancematrixadaptation": "Pure Math",
+        "PReMI|2023|multiobjectivenonoverlappingfrontgenerationapivotbaseddeterministicnondominatedsortingapproach": "Pure Math"
+       }
+      }
+     },
+     {
+      "family_id": "F00042",
+      "family_name": "CEC 2014 suite",
+      "family_kind": "suite_series",
+      "ranker_score": 0.061,
+      "note": {
+       "family_id": "F00042",
+       "family_name": "CEC 2014 suite",
+       "n_papers": 16,
+       "n_records": 59,
+       "years": [
+        2015,
+        2025
+       ],
+       "pure_math_share": 1.0,
+       "applied_share": 0.0,
+       "common": {
+        "Problem_Context": [
+         "Evaluating mathematical landscapes"
+        ],
+        "Landscape_Characteristics": [
+         "hybrid",
+         "composition"
+        ],
+        "Dimensionality": [
+         "50D",
+         "10D"
+        ],
+        "Modality": [
+         "Multimodal",
+         "Unimodal"
+        ],
+        "Separability": [
+         "Non-separable"
+        ]
+       },
+       "evidence_papers": [
+        {
+         "title": "Balancing the Influence of Evolutionary Operators for Global Optimization",
+         "conference": "CEC",
+         "year": "2020",
+         "cosine": 0.481
+        },
+        {
+         "title": "Adaptive Grey Wolf Optimizer for Global Numerical Optimization",
+         "conference": "CEC",
+         "year": "2022",
+         "cosine": 0.468
+        }
+       ],
+       "members": [
+        "CEC2014 benchmark functions",
+        "CEC'14 benchmark suite"
+       ],
+       "single_paper": false,
+       "paper_categories": {
+        "CEC|2020|balancingtheinfluenceofevolutionaryoperatorsforglobaloptimization": "Pure Math",
+        "CEC|2021|theeffectofsamplingmethodsontheinvariancetofunctiontransformationswhenusingexploratorylandscapeanalysis": "Pure Math",
+        "CEC|2022|adaptivegreywolfoptimizerforglobalnumericaloptimization": "Pure Math",
+        "CEC|2022|anadaptivedifferentialevolutionwithmutationstrategypoolsforglobaloptimization": "Pure Math",
+        "CEC|2022|anadaptiveversionofdifferentialevolutionforsolvingcec2014cec2017andcec2022testsuites": "Pure Math",
+        "CEC|2022|mmesimprovedmayflyalgorithmbasedonelectrostaticoptimizationalgorithm": "Pure Math",
+        "CEC|2023|performanceevaluationofantipredatorynatureinspiredalgorithmonthecec14testsuites": "Pure Math",
+        "CEC|2023|sensitivityanalysisofrfclustforleaveoneproblemoutperformanceprediction": "Pure Math",
+        "CEC|2024|adaptiveneuralnetworkalgorithmwithreinforcementlearning": "Pure Math",
+        "CEC|2024|generalizationabilityoffeaturebasedperformancepredictionmodelsastatisticalanalysisacrossbenchmarks": "Pure Math",
+        "GECCO|2022|selectorselectingarepresentativebenchmarksuiteforreproduciblestatisticalcomparison": "Pure Math",
+        "GECCO|2025|aninvestigationofinherentstructuralbiasinestablishedbenchmarksets": "Pure Math",
+        "PReMI|2015|699_paper.pdf|untitled": "Pure Math",
+        "PReMI|2021|grammaticalevolutionbasedparameterconfigurationofensembledifferentialevolution": "Pure Math",
+        "PReMI|2023|agrammaticalevolutionbasedautomatedconfigurationofanensembledifferentialevolutionalgorithm": "Pure Math",
+        "PReMI|2023|elephantswarmwatersearchalgorithmleswsaforsolvingconstrainedoptimizationproblemsalistbasedrandomizedapproach": "Pure Math"
+       }
+      }
+     },
+     {
+      "family_id": "F00237",
+      "family_name": "CEC 2022 suite",
+      "family_kind": "suite_series",
+      "ranker_score": 0.0592,
+      "note": {
+       "family_id": "F00237",
+       "family_name": "CEC 2022 suite",
+       "n_papers": 11,
+       "n_records": 32,
+       "years": [
+        2022,
+        2024
+       ],
+       "pure_math_share": 1.0,
+       "applied_share": 0.0,
+       "common": {
+        "Problem_Context": [
+         "Evaluating mathematical landscapes"
+        ],
+        "Landscape_Characteristics": [
+         "rotated",
+         "shifted"
+        ],
+        "Dimensionality": [
+         "20D",
+         "10D, 20D"
+        ],
+        "Modality": [
+         "Multimodal"
+        ],
+        "Separability": [
+         "Non-separable"
+        ]
+       },
+       "evidence_papers": [
+        {
+         "title": "Success Rate-based Adaptive Differential Evolution L-SRTDE for CEC 2024 Competition",
+         "conference": "CEC",
+         "year": "2024",
+         "cosine": 0.469
+        },
+        {
+         "title": "Benchmark Problems on GPU: Accelerating Experiments on Metaheuristics",
+         "conference": "CEC",
+         "year": "2023",
+         "cosine": 0.454
+        }
+       ],
+       "members": [
+        "CEC 2022 Benchmark Suite",
+        "CEC'22 Suite (F1-F12)"
+       ],
+       "single_paper": false,
+       "paper_categories": {
+        "CEC|2022|aversionofnlshaderspalgorithmwithmidpointforcec2022singleobjectiveboundconstrainedproblems": "Pure Math",
+        "CEC|2022|anadaptivevariantofjsowithmultiplecrossoverstrategiesemployingeigentransformation": "Pure Math",
+        "CEC|2022|anadaptiveversionofdifferentialevolutionforsolvingcec2014cec2017andcec2022testsuites": "Pure Math",
+        "CEC|2022|eigencrossoverincooperativemodelofevolutionaryalgorithmsappliedtocec2022singleobjectivenumericaloptimisation": "Pure Math",
+        "CEC|2022|nlshadelbcalgorithmwithlinearparameteradaptationbiaschangeforcec2022numericaloptimization": "Pure Math",
+        "CEC|2022|performanceofcompositeppsoonsingleobjectiveboundconstrainednumericaloptimizationproblemsofcec2022": "Pure Math",
+        "CEC|2023|benchmarkproblemsongpuacceleratingexperimentsonmetaheuristics": "Pure Math",
+        "CEC|2024|performanceofbetamutationoncec2017andcec2022benchmarks": "Pure Math",
+        "CEC|2024|successratebasedadaptivedifferentialevolutionlsrtdeforcec2024competition": "Pure Math",
+        "CEC|2024|acomprehensivecomparativeanalysisofmetaheuristicalgorithmsrootedinmathematicalprinciples": "Pure Math",
+        "CEC|2024|enhancingpopulationdiversitybaseddandelionoptimizerforsolvingglobaloptimizationproblems": "Pure Math"
+       }
+      }
+     }
+    ],
+    "tier": "high",
+    "top1_score": 0.5014,
+    "lambda": 1.0,
+    "applied_share": 0.026785714285714284,
+    "system_hash": "27fcc517a4ff6f27b1cf49064afa12258ef4bad7312c9e05f9bef5528c457abb",
+    "timestamp": "2026-11-11T10:53:28+00:00",
+    "mode": "live"
+   },
+   "gold_ids": [
+    "F00090",
+    "F00434",
+    "F00660"
+   ],
+   "hit": true,
+   "gold_ranks": {
+    "F00090": null,
+    "F00434": 1,
+    "F00660": null
+   }
+  },
+  {
+   "query_id": "Q41",
+   "query_text": "which function sets have 'hybrid' functions, where the variables get split into groups and each group goes through a different basic function? 10 and 20 dimensions mostly",
+   "gold_families": "F00138;F00043;F00090",
+   "gold_family_names": "CEC 2021 suite; CEC 2020 suite; CEC 2017 suite",
+   "notes": "continuous single-objective",
+   "result": {
+    "query": "which function sets have 'hybrid' functions, where the variables get split into groups and each group goes through a different basic function? 10 and 20 dimensions mostly",
+    "families": [
+     {
+      "family_id": "F00090",
+      "family_name": "CEC 2017 suite",
+      "family_kind": "suite_series",
+      "ranker_score": 0.694,
+      "note": {
+       "family_id": "F00090",
+       "family_name": "CEC 2017 suite",
+       "n_papers": 44,
+       "n_records": 357,
+       "years": [
+        2020,
+        2025
+       ],
+       "pure_math_share": 1.0,
+       "applied_share": 0.0,
+       "common": {
+        "Problem_Context": [
+         "Evaluating mathematical landscapes"
+        ],
+        "Landscape_Characteristics": [
+         "unimodal",
+         "hybrid"
+        ],
+        "Dimensionality": [
+         "30D",
+         "50D"
+        ],
+        "Modality": [
+         "Multimodal",
+         "Unimodal"
+        ],
+        "Separability": [
+         "Non-separable"
+        ]
+       },
+       "evidence_papers": [
+        {
+         "title": "An Enhanced Differential Evolution Algorithm Using a Novel Clustering-based Mutation Operator",
+         "conference": "CEC",
+         "year": "2021",
+         "cosine": 0.425
+        },
+        {
+         "title": "Improving Cuckoo Search: Incorporating Changes for CEC 2017 and CEC 2020 Benchmark Problems",
+         "conference": "CEC",
+         "year": "2020",
+         "cosine": 0.362
+        }
+       ],
+       "members": [
+        "CEC2017 F20 (Hybrid Function 10)",
+        "CEC2017 F11 (Hybrid Function 1)",
+        "CEC2017 F12 (Hybrid Function 2)",
+        "CEC 2017 benchmark test suite",
+        "CEC'17"
+       ],
+       "single_paper": false,
+       "paper_categories": {
+        "CEC|2020|improvingcuckoosearchincorporatingchangesforcec2017andcec2020benchmarkproblems": "Pure Math",
+        "CEC|2021|anewstepsizeadaptationruleforcmaesbasedonthepopulationmidpointfitness": "Pure Math",
+        "CEC|2021|anovelsurrogateguidedjayaalgorithmforthecontinuousnumericaloptimizationproblems": "Pure Math",
+        "CEC|2021|anenhanceddifferentialevolutionalgorithmusinganovelclusteringbasedmutationoperator": "Pure Math",
+        "CEC|2021|anenhancedlevybasedwhaleoptimizationalgorithmforglobaloptimization": "Pure Math",
+        "CEC|2021|efficientfeatureselectionmethodforhistopathologicalimagesusingmodifiedgoldeneagleoptimizationalgorithm": "Pure Math",
+        "CEC|2021|geneticalgorithmassistedhidmspsoanewhybridalgorithmforglobaloptimisation": "Pure Math",
+        "CEC|2021|hidmspsowithbioinspiredfissionfusionbehaviourandaquorumdecisionmechanism": "Pure Math",
+        "CEC|2021|hybridizingcuckoosearchwithnakedmoleratalgorithmadaptingforcec2017andcec2021testsuites": "Pure Math",
+        "CEC|2021|memeticdifferentialevolutionusingcoordinatedescent": "Pure Math",
+        "CEC|2022|enhancingdifferentialevolutionalgorithmadaptationforcec2017andcec2021testsuites": "Pure Math",
+        "CEC|2022|acovariancematrixadaptationevolutionstrategybasedmantarayforagingoptimization": "Pure Math",
+        "CEC|2022|anoveldifferentialevolutionsparrowsearchalgorithm": "Pure Math",
+        "CEC|2022|apopulationresourceallocationbasedadaptivesphericalsearchalgorithm": "Pure Math",
+        "CEC|2022|anadaptiveversionofdifferentialevolutionforsolvingcec2014cec2017andcec2022testsuites": "Pure Math",
+        "CEC|2022|animprovedimperialistcompetitivealgorithminspiredbydemocraticrevolution": "Pure Math",
+        "CEC|2022|anoptimalparentcrossoverbaseddifferentialevolution": "Pure Math",
+        "CEC|2022|chameleonswarmalgorithmenhancedbydifferentialevolution": "Pure Math",
+        "CEC|2022|clusteringcenterbaseddifferentialevolution": "Pure Math",
+        "CEC|2022|improvingtheoptimizationperformancebyanadaptabledesignadynamicselectionofoperatorsviacriteriabasedmatrixforevolutionaryalgorithms": "Pure Math",
+        "CEC|2022|randomlearningparticleswarmoptimizationwithquasinewtonexploitationmechanism": "Pure Math",
+        "CEC|2023|ahistoricalinformationbaseddifferentialevolution": "Pure Math",
+        "CEC|2023|bipopulationcooperativemothflameoptimizationalgorithmforthenetworkingmodeoptimization": "Pure Math",
+        "CEC|2023|chaoticmappinggeneticalgorithmwithmultiplestrategies": "Pure Math",
+        "CEC|2023|cwdeanovellshadevariantwithcauchydistributionbasedweightselection": "Pure Math",
+        "CEC|2023|gamebasedpigeoninspiredoptimizationwithrepositoryassistanceforstochasticoptimizationswithuncertaininfeasiblesearchregions": "Pure Math",
+        "CEC|2024|performanceofbetamutationoncec2017andcec2022benchmarks": "Pure Math",
+        "CEC|2024|successratebasedadaptivedifferentialevolutionlsrtdeforcec2024competition": "Pure Math",
+        "CEC|2024|ahybridestimationofdistributionalgorithmwithmonarchbutterflyoptimization": "Pure Math",
+        "CEC|2024|amodifiedeacopimplementationforrealparametersingleobjectiveoptimizationproblems": "Pure Math",
+        "CEC|2024|amodifiedmarinepredatorsalgorithmfornumericalfunctionoptimization": "Pure Math",
+        "CEC|2024|acceleratingvegetationevolutionwithgradientdescentandmartingalestrategies": "Pure Math",
+        "CEC|2024|animprovedgoldenjackaloptimizationbasedonnewlocalsearchoperatorforglobaloptimizationinvitedpaper": "Pure Math",
+        "CEC|2024|differentialevolutionwithsuccessratebasedadaptationclsrdeforconstrainedoptimization": "Pure Math",
+        "CEC|2024|guerrillawarfarestrategyamelioratebesiegeandconqueralgorithmforcomplexoptimizationproblems": "Pure Math",
+        "GECCO|2020|adaptivelypreservingsolutionsinbothfeasibleandinfeasibleregionsongeneralizedmultipleconstraintranking": "Pure Math",
+        "GECCO|2022|selectorselectingarepresentativebenchmarksuiteforreproduciblestatisticalcomparison": "Pure Math",
+        "GECCO|2024|designingblackboxoptimizerswithpushgp": "Pure Math",
+        "GECCO|2025|covariancematrixadaptationevolutionstrategywithoutamatrix": "Pure Math",
+        "GECCO|2025|exploringheterogeneityinconstrainedoptimizationanadaptivetwostagesurrogateassistedevolutionaryalgorithm": "Pure Math",
+        "GECCO|2025|aninvestigationofinherentstructuralbiasinestablishedbenchmarksets": "Pure Math",
+        "PPSN|2024|parallelproblemsolvingfromnatureppsnxviii": "Pure Math",
+        "PReMI|2021|grammaticalevolutionbasedparameterconfigurationofensembledifferentialevolution": "Pure Math",
+        "PReMI|2023|agrammaticalevolutionbasedautomatedconfigurationofanensembledifferentialevolutionalgorithm": "Pure Math"
+       }
+      }
+     },
+     {
+      "family_id": "F00434",
+      "family_name": "BBOB (COCO)",
+      "family_kind": "suite_series",
+      "ranker_score": 0.0991,
+      "note": {
+       "family_id": "F00434",
+       "family_name": "BBOB (COCO)",
+       "n_papers": 35,
+       "n_records": 176,
+       "years": [
+        2018,
+        2026
+       ],
+       "pure_math_share": 1.0,
+       "applied_share": 0.0,
+       "common": {
+        "Problem_Context": [
+         "Evaluating mathematical landscapes"
+        ],
+        "Landscape_Characteristics": [
+         "noiseless",
+         "single-objective"
+        ],
+        "Dimensionality": [
+         "5D",
+         "2D, 5D, 10D"
+        ],
+        "Modality": [
+         "Multimodal",
+         "Unimodal"
+        ],
+        "Separability": [
+         "Non-separable",
+         "Separable"
+        ]
+       },
+       "evidence_papers": [
+        {
+         "title": "Analyzing Adaptive Parameter Landscapes in Parameter Adaptation Methods for Differential Evolution",
+         "conference": "GECCO",
+         "year": "2020",
+         "cosine": 0.376
+        },
+        {
+         "title": "Neural Networks as Black-Box Benchmark Functions Optimized for Exploratory Landscape Features",
+         "conference": "FOGA",
+         "year": "2023",
+         "cosine": 0.371
+        }
+       ],
+       "members": [
+        "BBOB f1 (Sphere function)",
+        "BBOB F2 (Ellipsoid Separable)",
+        "BBOB-constrained test suite (Unimodal Functions, IDs 1-42)",
+        "BBOB Suite",
+        "MA-BBOB"
+       ],
+       "single_paper": false,
+       "paper_categories": {
+        "CEC|2024|generalizationabilityoffeaturebasedperformancepredictionmodelsastatisticalanalysisacrossbenchmarks": "Pure Math",
+        "FOGA|2019|newfeaturesforcontinuousexploratorylandscapeanalysisbasedonthesootree": "Pure Math",
+        "FOGA|2023|curingillconditionalityviarepresentationagnosticdistancedrivenperturbations": "Pure Math",
+        "FOGA|2023|neuralnetworksasblackboxbenchmarkfunctionsoptimizedforexploratorylandscapefeatures": "Pure Math",
+        "GECCO|2020|expectedimprovementversuspredictedvalueinsurrogatebasedoptimization": "Pure Math",
+        "GECCO|2020|analyzingadaptiveparameterlandscapesinparameteradaptationmethodsfordifferentialevolution": "Pure Math",
+        "GECCO|2020|integratedvssequentialapproachesforselectingandtuningcmaesvariants": "Pure Math",
+        "GECCO|2020|towardsdynamicalgorithmselectionfornumericalblackboxoptimizationinvestigatingbbobasausecase": "Pure Math",
+        "GECCO|2020|designingparallelisminsurrogateassistedmultiobjectiveoptimizationbasedondecomposition": "Pure Math",
+        "GECCO|2020|initialdesignstrategiesandtheireffectsonsequentialmodelbasedoptimizationanexploratorycasestudybasedonbbob": "Pure Math",
+        "GECCO|2020|landscapeawarefixedbudgetperformanceregressionandalgorithmselectionformodularcmaesvariants": "Pure Math",
+        "GECCO|2021|personalizingperformanceregressionmodelstoblackboxoptimizationproblems": "Pure Math",
+        "GECCO|2021|theimpactofhyperparametertuningforlandscapeawareperformanceregressionandalgorithmselection": "Pure Math",
+        "GECCO|2022|selectorselectingarepresentativebenchmarksuiteforreproduciblestatisticalcomparison": "Pure Math",
+        "GECCO|2022|dibbdistributingblackboxoptimization": "Pure Math",
+        "GECCO|2022|theimportanceoflandscapefeaturesforperformancepredictionofmodularcmaesvariants": "Pure Math",
+        "GECCO|2022|molediggingtunnelsthroughmultimodalmultiobjectivelandscapes": "Pure Math",
+        "GECCO|2022|acollectionofdeeplearningbasedfeaturefreeapproachesforcharacterizingsingleobjectivecontinuousfitnesslandscapes": "Pure Math",
+        "GECCO|2022|atwophaseframeworkwithabziersimplexbasedinterpolationmethodforcomputationallyexpensivemultiobjectiveoptimization": "Pure Math",
+        "GECCO|2023|algorithminstancefootprintseparatingeasilysolvableandchallengingprobleminstances": "Pure Math",
+        "GECCO|2024|ongeneralizationofelafeaturegroups": "Pure Math",
+        "GECCO|2025|comparingoptimizationalgorithmsthroughthelensofsearchbehavioranalysis": "Pure Math",
+        "GECCO|2025|aninvestigationofinherentstructuralbiasinestablishedbenchmarksets": "Pure Math",
+        "GECCO|2025|geometriclearninginblackboxoptimizationagnnframeworkforalgorithmperformanceprediction": "Pure Math",
+        "GECCO|2025|acomparisonofdimensionalityreductiontechniquesforvisualisingsearchbehaviour": "Pure Math",
+        "GECCO|2025|acontinuationmethodbasedoncmaes": "Pure Math",
+        "GECCO|2025|neighborhoodadaptivedifferentialevolution": "Pure Math",
+        "GECCO|2026|constructingstreamsofoptimizationinstancesforbenchmarkingalgorithmselectionandconfigurationapproachesinstreamingscenarios": "Pure Math",
+        "GECCO|2026|similaritybasedportfolioconstructionforblackboxoptimization": "Pure Math",
+        "GECCO|2026|llameaboalargelanguagemodelevolutionaryalgorithmforautomaticallygeneratingbayesianoptimizationalgorithms": "Pure Math",
+        "GECCO|2026|evaluationofelementwiseeffectivenessestimationforaugmentedlagrangiancmaes": "Pure Math",
+        "GECCO|2026|designinglandscapeawarebenchmarkswithexplicitlocaloptimaforsingleandmultiobjectiveoptimization": "Pure Math",
+        "GECCO|2026|automaticallydesigningnovelevolutionaryarchitectures": "Pure Math",
+        "PPSN|2018|acomparativestudyoflargescalevariantsofcmaes": "Pure Math",
+        "PPSN|2020|parallelproblemsolvingfromnatureppsnxvi": "Pure Math"
+       }
+      }
+     },
+     {
+      "family_id": "F00266",
+      "family_name": "sphere",
+      "family_kind": "stem_group",
+      "ranker_score": 0.0876,
+      "note": {
+       "family_id": "F00266",
+       "family_name": "sphere",
+       "n_papers": 32,
+       "n_records": 88,
+       "years": [
+        2015,
+        2026
+       ],
+       "pure_math_share": 1.0,
+       "applied_share": 0.0,
+       "common": {
+        "Problem_Context": [
+         "Evaluating mathematical landscapes"
+        ],
+        "Landscape_Characteristics": [
+         "smooth",
+         "convex"
+        ],
+        "Dimensionality": [
+         "Variable",
+         "30D"
+        ],
+        "Modality": [
+         "Unimodal"
+        ],
+        "Separability": [
+         "Separable"
+        ]
+       },
+       "evidence_papers": [
+        {
+         "title": "Learning Rate Adaptation by Line Search in Evolution Strategies with Recombination",
+         "conference": "GECCO",
+         "year": "2022",
+         "cosine": 0.34
+        },
+        {
+         "title": "CMA-ES with Individual Adaptive Reevaluation for black-box Value-At-Risk Optimization",
+         "conference": "GECCO",
+         "year": "2025",
+         "cosine": 0.284
+        }
+       ],
+       "members": [
+        "Sphere function (fsphere)",
+        "Sphere (F1)",
+        "Sphere function",
+        "3D-sphere (3D-ball-Viablab-81ppa)"
+       ],
+       "single_paper": false,
+       "paper_categories": {
+        "CEC|2022|methodstodetectandaddressstallinparticleswarmoptimization": "Pure Math",
+        "CEC|2022|segregatingsatelliteimagerybasedonsoilmoisturelevelusingadvanceddifferentialevolutionarymultilevelsegmentation": "Pure Math",
+        "CEC|2023|bsoalbrainstormoptimizationalgorithmwithadaptivelearningstrategy": "Pure Math",
+        "FOGA|2015|evolutionstrategieswithadditivenoiseaconvergenceratelowerbound": "Pure Math",
+        "FOGA|2015|parallelevolutionaryalgorithmsperformingpairwisecomparisons": "Pure Math",
+        "FOGA|2015|understandingsimpleasynchronousevolutionaryalgorithms": "Pure Math",
+        "FOGA|2017|convergenceoffactoredevolutionaryalgorithms": "Pure Math",
+        "FOGA|2017|qualitativeandquantitativeassessmentofstepsizeadaptationrules": "Pure Math",
+        "FOGA|2017|qualitygainanalysisoftheweightedrecombinationevolutionstrategyongeneralconvexquadraticfunctions": "Pure Math",
+        "FOGA|2019|generalizeddriftanalysisincontinuousdomainlinearconvergenceof11esonstronglyconvexfunctionswithlipschitzcontinuousgradients": "Pure Math",
+        "FOGA|2021|asymptoticconvergenceratesforaveragingstrategies": "Pure Math",
+        "GECCO|2020|covariancematrixadaptationfortherapidilluminationofbehaviorspace": "Pure Math",
+        "GECCO|2020|anapproachtoassessswarmintelligencealgorithmsbasedoncomplexnetworks": "Pure Math",
+        "GECCO|2020|modellingparameterconfigurationspaceswithlocaloptimanetworks": "Pure Math",
+        "GECCO|2021|psafaprobabilisticsurrogateassistedframeworkforsingleobjectiveoptimization": "Pure Math",
+        "GECCO|2021|multiemittermapelitesimprovingqualitydiversityanddataefficiencywithheterogeneoussetsofemitters": "Pure Math",
+        "GECCO|2021|directingevolutiontheautomateddesignofevolutionarypathwaysusingdirectedgraphs": "Pure Math",
+        "GECCO|2022|learningrateadaptationbylinesearchinevolutionstrategieswithrecombination": "Pure Math",
+        "GECCO|2022|effectivemutationrateadaptationthroughgroupeliteselection": "Pure Math",
+        "GECCO|2022|progressivesamplingsurrogateassistedparticleswarmoptimizationforlargescaleexpensiveoptimization": "Pure Math",
+        "GECCO|2023|towardsevolutionarycontrollawsforviabilityproblems": "Pure Math",
+        "GECCO|2025|usingvariableinteractiongraphstoimproveparticleswarmoptimization": "Pure Math",
+        "GECCO|2025|cmaeswithindividualadaptivereevaluationforblackboxvalueatriskoptimization": "Pure Math",
+        "GECCO|2025|efficientqualitydiversityoptimizationwithmontecarlobayesiansampling": "Pure Math",
+        "GECCO|2025|searchspaceselectionusingconstrainedmixedintegeroptimizationmethod": "Pure Math",
+        "GECCO|2026|effectofmirroredorthogonalsamplingforcmaesonmultimodalproblems": "Pure Math",
+        "GECCO|2026|doesdimensionalityreductionviarandomprojectionspreservelandscapefeatures": "Pure Math",
+        "PPSN|2016|onlinemodelselectionforrestrictedcovariancematrixadaptation": "Pure Math",
+        "PPSN|2020|parallelproblemsolvingfromnatureppsnxvi": "Pure Math",
+        "PPSN|2022|adaptivefunctionvaluewarpingforsurrogatemodelassistedevolutionaryoptimization": "Pure Math",
+        "PReMI|2015|performanceofproposedpsoonbenchmarkfunctions": "Pure Math",
+        "PReMI|2023|394_paper.pdf|untitled": "Pure Math"
+       }
+      }
+     },
+     {
+      "family_id": "F00053",
+      "family_name": "rosenbrock",
+      "family_kind": "stem_group",
+      "ranker_score": 0.0798,
+      "note": {
+       "family_id": "F00053",
+       "family_name": "rosenbrock",
+       "n_papers": 21,
+       "n_records": 52,
+       "years": [
+        2015,
+        2026
+       ],
+       "pure_math_share": 1.0,
+       "applied_share": 0.0,
+       "common": {
+        "Problem_Context": [
+         "Evaluating mathematical landscapes"
+        ],
+        "Landscape_Characteristics": [
+         "valley",
+         "rotated"
+        ],
+        "Dimensionality": [
+         "100D",
+         "2D"
+        ],
+        "Modality": [
+         "Unimodal",
+         "Multimodal"
+        ],
+        "Separability": [
+         "Non-separable"
+        ]
+       },
+       "evidence_papers": [
+        {
+         "title": "Online Model Selection for Restricted Covariance Matrix Adaptation",
+         "conference": "PPSN",
+         "year": "2016",
+         "cosine": 0.29
+        },
+        {
+         "title": "Progressive Sampling Surrogate-Assisted Particle Swarm Optimization for Large-Scale Expensive Optimization",
+         "conference": "GECCO",
+         "year": "2022",
+         "cosine": 0.264
+        }
+       ],
+       "members": [
+        "Rosenbrock function (frosen)",
+        "Rosenbrock",
+        "Rosenbrock (F3)",
+        "Rosenbrock (f8)",
+        "Rosenbrock (unrotated)"
+       ],
+       "single_paper": false,
+       "paper_categories": {
+        "CEC|2020|eosaparallelselfadaptivemultipopulationevolutionaryalgorithmforconstrainedglobaloptimization": "Pure Math",
+        "CEC|2021|psowithcoupledmaplatticeandworkerantslaw": "Pure Math",
+        "CEC|2023|bsoalbrainstormoptimizationalgorithmwithadaptivelearningstrategy": "Pure Math",
+        "CEC|2023|ananisotropicexpectedimprovementcriterionforkrigingassistedevolutionarycomputation": "Pure Math",
+        "CEC|2023|evoaladomainspecificlanguagebasedapproachtooptimisation": "Pure Math",
+        "FOGA|2015|amoreefficientrankonecovariancematrixupdateforevolutionstrategies": "Pure Math",
+        "FOGA|2017|convergenceoffactoredevolutionaryalgorithms": "Pure Math",
+        "GECCO|2020|leveragingconditionallinkagemodelsingrayboxoptimizationwiththerealvaluedgenepooloptimalmixingevolutionaryalgorithm": "Pure Math",
+        "GECCO|2020|modellingparameterconfigurationspaceswithlocaloptimanetworks": "Pure Math",
+        "GECCO|2021|psafaprobabilisticsurrogateassistedframeworkforsingleobjectiveoptimization": "Pure Math",
+        "GECCO|2021|directingevolutiontheautomateddesignofevolutionarypathwaysusingdirectedgraphs": "Pure Math",
+        "GECCO|2022|effectivemutationrateadaptationthroughgroupeliteselection": "Pure Math",
+        "GECCO|2022|progressivesamplingsurrogateassistedparticleswarmoptimizationforlargescaleexpensiveoptimization": "Pure Math",
+        "GECCO|2025|usingvariableinteractiongraphstoimproveparticleswarmoptimization": "Pure Math",
+        "GECCO|2025|searchspaceselectionusingconstrainedmixedintegeroptimizationmethod": "Pure Math",
+        "GECCO|2026|dropoutinspiredstrategiesforenhancedexplorationinevolutionaryalgorithms": "Pure Math",
+        "GECCO|2026|anisotropicrandomfeaturesurrogateassistedevolutionaryalgorithmforhighdimensionalriskbasedenergymanagementoptimization": "Pure Math",
+        "GECCO|2026|effectofmirroredorthogonalsamplingforcmaesonmultimodalproblems": "Pure Math",
+        "GECCO|2026|doesdimensionalityreductionviarandomprojectionspreservelandscapefeatures": "Pure Math",
+        "PPSN|2016|onlinemodelselectionforrestrictedcovariancematrixadaptation": "Pure Math",
+        "PPSN|2020|parallelproblemsolvingfromnatureppsnxvi": "Pure Math"
+       }
+      }
+     },
+     {
+      "family_id": "F00042",
+      "family_name": "CEC 2014 suite",
+      "family_kind": "suite_series",
+      "ranker_score": 0.0581,
+      "note": {
+       "family_id": "F00042",
+       "family_name": "CEC 2014 suite",
+       "n_papers": 16,
+       "n_records": 59,
+       "years": [
+        2015,
+        2025
+       ],
+       "pure_math_share": 1.0,
+       "applied_share": 0.0,
+       "common": {
+        "Problem_Context": [
+         "Evaluating mathematical landscapes"
+        ],
+        "Landscape_Characteristics": [
+         "hybrid",
+         "composition"
+        ],
+        "Dimensionality": [
+         "50D",
+         "10D"
+        ],
+        "Modality": [
+         "Multimodal",
+         "Unimodal"
+        ],
+        "Separability": [
+         "Non-separable"
+        ]
+       },
+       "evidence_papers": [
+        {
+         "title": "An Adaptive Version of Differential Evolution for Solving CEC2014, CEC 2017 and CEC 2022 Test Suites",
+         "conference": "CEC",
+         "year": "2022",
+         "cosine": 0.337
+        },
+        {
+         "title": "Balancing the Influence of Evolutionary Operators for Global Optimization",
+         "conference": "CEC",
+         "year": "2020",
+         "cosine": 0.323
+        }
+       ],
+       "members": [
+        "CEC2014 benchmark functions",
+        "CEC'14 benchmark suite"
+       ],
+       "single_paper": false,
+       "paper_categories": {
+        "CEC|2020|balancingtheinfluenceofevolutionaryoperatorsforglobaloptimization": "Pure Math",
+        "CEC|2021|theeffectofsamplingmethodsontheinvariancetofunctiontransformationswhenusingexploratorylandscapeanalysis": "Pure Math",
+        "CEC|2022|adaptivegreywolfoptimizerforglobalnumericaloptimization": "Pure Math",
+        "CEC|2022|anadaptivedifferentialevolutionwithmutationstrategypoolsforglobaloptimization": "Pure Math",
+        "CEC|2022|anadaptiveversionofdifferentialevolutionforsolvingcec2014cec2017andcec2022testsuites": "Pure Math",
+        "CEC|2022|mmesimprovedmayflyalgorithmbasedonelectrostaticoptimizationalgorithm": "Pure Math",
+        "CEC|2023|performanceevaluationofantipredatorynatureinspiredalgorithmonthecec14testsuites": "Pure Math",
+        "CEC|2023|sensitivityanalysisofrfclustforleaveoneproblemoutperformanceprediction": "Pure Math",
+        "CEC|2024|adaptiveneuralnetworkalgorithmwithreinforcementlearning": "Pure Math",
+        "CEC|2024|generalizationabilityoffeaturebasedperformancepredictionmodelsastatisticalanalysisacrossbenchmarks": "Pure Math",
+        "GECCO|2022|selectorselectingarepresentativebenchmarksuiteforreproduciblestatisticalcomparison": "Pure Math",
+        "GECCO|2025|aninvestigationofinherentstructuralbiasinestablishedbenchmarksets": "Pure Math",
+        "PReMI|2015|699_paper.pdf|untitled": "Pure Math",
+        "PReMI|2021|grammaticalevolutionbasedparameterconfigurationofensembledifferentialevolution": "Pure Math",
+        "PReMI|2023|agrammaticalevolutionbasedautomatedconfigurationofanensembledifferentialevolutionalgorithm": "Pure Math",
+        "PReMI|2023|elephantswarmwatersearchalgorithmleswsaforsolvingconstrainedoptimizationproblemsalistbasedrandomizedapproach": "Pure Math"
+       }
+      }
+     }
+    ],
+    "tier": "high",
+    "top1_score": 0.694,
+    "lambda": 1.0,
+    "applied_share": 0.0,
+    "system_hash": "27fcc517a4ff6f27b1cf49064afa12258ef4bad7312c9e05f9bef5528c457abb",
+    "timestamp": "2026-11-11T10:53:28+00:00",
+    "mode": "live"
+   },
+   "gold_ids": [
+    "F00138",
+    "F00043",
+    "F00090"
+   ],
+   "hit": true,
+   "gold_ranks": {
+    "F00138": null,
+    "F00043": null,
+    "F00090": 1
+   }
+  },
+  {
+   "query_id": "Q51",
+   "query_text": "my problem is half binary variables and half real ones. is there a simple test function that mixes a bit counting part with a smooth continuous part?",
+   "gold_families": "F01075;F01073;F01074",
+   "gold_family_names": "EllipsoidOneMax; SphereOneMax; SphereLeadingOnes",
+   "notes": "continuous single-objective (mixed binary/real); unsure: thin evidence",
+   "result": {
+    "query": "my problem is half binary variables and half real ones. is there a simple test function that mixes a bit counting part with a smooth continuous part?",
+    "families": [
+     {
+      "family_id": "F00266",
+      "family_name": "sphere",
+      "family_kind": "stem_group",
+      "ranker_score": 0.0397,
+      "note": {
+       "family_id": "F00266",
+       "family_name": "sphere",
+       "n_papers": 32,
+       "n_records": 88,
+       "years": [
+        2015,
+        2026
+       ],
+       "pure_math_share": 1.0,
+       "applied_share": 0.0,
+       "common": {
+        "Problem_Context": [
+         "Evaluating mathematical landscapes"
+        ],
+        "Landscape_Characteristics": [
+         "smooth",
+         "convex"
+        ],
+        "Dimensionality": [
+         "Variable",
+         "30D"
+        ],
+        "Modality": [
+         "Unimodal"
+        ],
+        "Separability": [
+         "Separable"
+        ]
+       },
+       "evidence_papers": [
+        {
+         "title": "Parallel Evolutionary Algorithms Performing Pairwise Comparisons",
+         "conference": "FOGA",
+         "year": "2015",
+         "cosine": 0.252
+        },
+        {
+         "title": "Adaptive Function Value Warping for Surrogate Model Assisted Evolutionary Optimization",
+         "conference": "PPSN",
+         "year": "2022",
+         "cosine": 0.24
+        }
+       ],
+       "members": [
+        "Sphere function (fsphere)",
+        "Sphere function",
+        "Sphere (F1)",
+        "3D-sphere (3D-ball-Viablab-81ppa)"
+       ],
+       "single_paper": false,
+       "paper_categories": {
+        "CEC|2022|methodstodetectandaddressstallinparticleswarmoptimization": "Pure Math",
+        "CEC|2022|segregatingsatelliteimagerybasedonsoilmoisturelevelusingadvanceddifferentialevolutionarymultilevelsegmentation": "Pure Math",
+        "CEC|2023|bsoalbrainstormoptimizationalgorithmwithadaptivelearningstrategy": "Pure Math",
+        "FOGA|2015|evolutionstrategieswithadditivenoiseaconvergenceratelowerbound": "Pure Math",
+        "FOGA|2015|parallelevolutionaryalgorithmsperformingpairwisecomparisons": "Pure Math",
+        "FOGA|2015|understandingsimpleasynchronousevolutionaryalgorithms": "Pure Math",
+        "FOGA|2017|convergenceoffactoredevolutionaryalgorithms": "Pure Math",
+        "FOGA|2017|qualitativeandquantitativeassessmentofstepsizeadaptationrules": "Pure Math",
+        "FOGA|2017|qualitygainanalysisoftheweightedrecombinationevolutionstrategyongeneralconvexquadraticfunctions": "Pure Math",
+        "FOGA|2019|generalizeddriftanalysisincontinuousdomainlinearconvergenceof11esonstronglyconvexfunctionswithlipschitzcontinuousgradients": "Pure Math",
+        "FOGA|2021|asymptoticconvergenceratesforaveragingstrategies": "Pure Math",
+        "GECCO|2020|covariancematrixadaptationfortherapidilluminationofbehaviorspace": "Pure Math",
+        "GECCO|2020|anapproachtoassessswarmintelligencealgorithmsbasedoncomplexnetworks": "Pure Math",
+        "GECCO|2020|modellingparameterconfigurationspaceswithlocaloptimanetworks": "Pure Math",
+        "GECCO|2021|psafaprobabilisticsurrogateassistedframeworkforsingleobjectiveoptimization": "Pure Math",
+        "GECCO|2021|multiemittermapelitesimprovingqualitydiversityanddataefficiencywithheterogeneoussetsofemitters": "Pure Math",
+        "GECCO|2021|directingevolutiontheautomateddesignofevolutionarypathwaysusingdirectedgraphs": "Pure Math",
+        "GECCO|2022|learningrateadaptationbylinesearchinevolutionstrategieswithrecombination": "Pure Math",
+        "GECCO|2022|effectivemutationrateadaptationthroughgroupeliteselection": "Pure Math",
+        "GECCO|2022|progressivesamplingsurrogateassistedparticleswarmoptimizationforlargescaleexpensiveoptimization": "Pure Math",
+        "GECCO|2023|towardsevolutionarycontrollawsforviabilityproblems": "Pure Math",
+        "GECCO|2025|usingvariableinteractiongraphstoimproveparticleswarmoptimization": "Pure Math",
+        "GECCO|2025|cmaeswithindividualadaptivereevaluationforblackboxvalueatriskoptimization": "Pure Math",
+        "GECCO|2025|efficientqualitydiversityoptimizationwithmontecarlobayesiansampling": "Pure Math",
+        "GECCO|2025|searchspaceselectionusingconstrainedmixedintegeroptimizationmethod": "Pure Math",
+        "GECCO|2026|effectofmirroredorthogonalsamplingforcmaesonmultimodalproblems": "Pure Math",
+        "GECCO|2026|doesdimensionalityreductionviarandomprojectionspreservelandscapefeatures": "Pure Math",
+        "PPSN|2016|onlinemodelselectionforrestrictedcovariancematrixadaptation": "Pure Math",
+        "PPSN|2020|parallelproblemsolvingfromnatureppsnxvi": "Pure Math",
+        "PPSN|2022|adaptivefunctionvaluewarpingforsurrogatemodelassistedevolutionaryoptimization": "Pure Math",
+        "PReMI|2015|performanceofproposedpsoonbenchmarkfunctions": "Pure Math",
+        "PReMI|2023|394_paper.pdf|untitled": "Pure Math"
+       }
+      }
+     },
+     {
+      "family_id": "F00434",
+      "family_name": "BBOB (COCO)",
+      "family_kind": "suite_series",
+      "ranker_score": 0.0341,
+      "note": {
+       "family_id": "F00434",
+       "family_name": "BBOB (COCO)",
+       "n_papers": 35,
+       "n_records": 176,
+       "years": [
+        2018,
+        2026
+       ],
+       "pure_math_share": 1.0,
+       "applied_share": 0.0,
+       "common": {
+        "Problem_Context": [
+         "Evaluating mathematical landscapes"
+        ],
+        "Landscape_Characteristics": [
+         "noiseless",
+         "single-objective"
+        ],
+        "Dimensionality": [
+         "5D",
+         "2D, 5D, 10D"
+        ],
+        "Modality": [
+         "Multimodal",
+         "Unimodal"
+        ],
+        "Separability": [
+         "Non-separable",
+         "Separable"
+        ]
+       },
+       "evidence_papers": [
+        {
+         "title": "Evaluation of Element-wise Effectiveness Estimation for Augmented Lagrangian CMA-ES",
+         "conference": "GECCO",
+         "year": "2026",
+         "cosine": 0.333
+        },
+        {
+         "title": "LLaMEA-BO: A Large Language Model Evolutionary Algorithm for Automatically Generating Bayesian Optimization Algorithms",
+         "conference": "GECCO",
+         "year": "2026",
+         "cosine": 0.329
+        }
+       ],
+       "members": [
+        "BBOB-constrained test suite (Unimodal Functions, IDs 1-42)",
+        "BBOB noiseless test suite (Functions 1-14)",
+        "BBOB F14 (Sum of Different Powers)",
+        "BBOB Suite",
+        "MA-BBOB"
+       ],
+       "single_paper": false,
+       "paper_categories": {
+        "CEC|2024|generalizationabilityoffeaturebasedperformancepredictionmodelsastatisticalanalysisacrossbenchmarks": "Pure Math",
+        "FOGA|2019|newfeaturesforcontinuousexploratorylandscapeanalysisbasedonthesootree": "Pure Math",
+        "FOGA|2023|curingillconditionalityviarepresentationagnosticdistancedrivenperturbations": "Pure Math",
+        "FOGA|2023|neuralnetworksasblackboxbenchmarkfunctionsoptimizedforexploratorylandscapefeatures": "Pure Math",
+        "GECCO|2020|expectedimprovementversuspredictedvalueinsurrogatebasedoptimization": "Pure Math",
+        "GECCO|2020|analyzingadaptiveparameterlandscapesinparameteradaptationmethodsfordifferentialevolution": "Pure Math",
+        "GECCO|2020|integratedvssequentialapproachesforselectingandtuningcmaesvariants": "Pure Math",
+        "GECCO|2020|towardsdynamicalgorithmselectionfornumericalblackboxoptimizationinvestigatingbbobasausecase": "Pure Math",
+        "GECCO|2020|designingparallelisminsurrogateassistedmultiobjectiveoptimizationbasedondecomposition": "Pure Math",
+        "GECCO|2020|initialdesignstrategiesandtheireffectsonsequentialmodelbasedoptimizationanexploratorycasestudybasedonbbob": "Pure Math",
+        "GECCO|2020|landscapeawarefixedbudgetperformanceregressionandalgorithmselectionformodularcmaesvariants": "Pure Math",
+        "GECCO|2021|personalizingperformanceregressionmodelstoblackboxoptimizationproblems": "Pure Math",
+        "GECCO|2021|theimpactofhyperparametertuningforlandscapeawareperformanceregressionandalgorithmselection": "Pure Math",
+        "GECCO|2022|selectorselectingarepresentativebenchmarksuiteforreproduciblestatisticalcomparison": "Pure Math",
+        "GECCO|2022|dibbdistributingblackboxoptimization": "Pure Math",
+        "GECCO|2022|theimportanceoflandscapefeaturesforperformancepredictionofmodularcmaesvariants": "Pure Math",
+        "GECCO|2022|molediggingtunnelsthroughmultimodalmultiobjectivelandscapes": "Pure Math",
+        "GECCO|2022|acollectionofdeeplearningbasedfeaturefreeapproachesforcharacterizingsingleobjectivecontinuousfitnesslandscapes": "Pure Math",
+        "GECCO|2022|atwophaseframeworkwithabziersimplexbasedinterpolationmethodforcomputationallyexpensivemultiobjectiveoptimization": "Pure Math",
+        "GECCO|2023|algorithminstancefootprintseparatingeasilysolvableandchallengingprobleminstances": "Pure Math",
+        "GECCO|2024|ongeneralizationofelafeaturegroups": "Pure Math",
+        "GECCO|2025|comparingoptimizationalgorithmsthroughthelensofsearchbehavioranalysis": "Pure Math",
+        "GECCO|2025|aninvestigationofinherentstructuralbiasinestablishedbenchmarksets": "Pure Math",
+        "GECCO|2025|geometriclearninginblackboxoptimizationagnnframeworkforalgorithmperformanceprediction": "Pure Math",
+        "GECCO|2025|acomparisonofdimensionalityreductiontechniquesforvisualisingsearchbehaviour": "Pure Math",
+        "GECCO|2025|acontinuationmethodbasedoncmaes": "Pure Math",
+        "GECCO|2025|neighborhoodadaptivedifferentialevolution": "Pure Math",
+        "GECCO|2026|constructingstreamsofoptimizationinstancesforbenchmarkingalgorithmselectionandconfigurationapproachesinstreamingscenarios": "Pure Math",
+        "GECCO|2026|similaritybasedportfolioconstructionforblackboxoptimization": "Pure Math",
+        "GECCO|2026|llameaboalargelanguagemodelevolutionaryalgorithmforautomaticallygeneratingbayesianoptimizationalgorithms": "Pure Math",
+        "GECCO|2026|evaluationofelementwiseeffectivenessestimationforaugmentedlagrangiancmaes": "Pure Math",
+        "GECCO|2026|designinglandscapeawarebenchmarkswithexplicitlocaloptimaforsingleandmultiobjectiveoptimization": "Pure Math",
+        "GECCO|2026|automaticallydesigningnovelevolutionaryarchitectures": "Pure Math",
+        "PPSN|2018|acomparativestudyoflargescalevariantsofcmaes": "Pure Math",
+        "PPSN|2020|parallelproblemsolvingfromnatureppsnxvi": "Pure Math"
+       }
+      }
+     },
+     {
+      "family_id": "F00033",
+      "family_name": "DTLZ",
+      "family_kind": "suite_series",
+      "ranker_score": 0.0265,
+      "note": {
+       "family_id": "F00033",
+       "family_name": "DTLZ",
+       "n_papers": 45,
+       "n_records": 548,
+       "years": [
+        2016,
+        2026
+       ],
+       "pure_math_share": 1.0,
+       "applied_share": 0.0,
+       "common": {
+        "Problem_Context": [
+         "Evaluating mathematical landscapes",
+         "Evaluating mathematical landscapes and multi-objective sorting"
+        ],
+        "Landscape_Characteristics": [
+         "degenerate Pareto front",
+         "Quadrant-shaped Pareto front"
+        ],
+        "Dimensionality": [
+         "10D",
+         "Variable"
+        ],
+        "Modality": [
+         "Multimodal",
+         "Unimodal"
+        ],
+        "Separability": [
+         "Non-separable",
+         "Separable"
+        ]
+       },
+       "evidence_papers": [
+        {
+         "title": "Step-Size Individualization: a case study for the Fish School Search Family",
+         "conference": "CEC",
+         "year": "2022",
+         "cosine": 0.205
+        },
+        {
+         "title": "Accelerated Bayesian Preference Learning for Efficient Evolutionary Multi-objective Optimisation",
+         "conference": "GECCO",
+         "year": "2024",
+         "cosine": 0.188
+        }
+       ],
+       "members": [
+        "constrained DTLZ",
+        "DTLZ2µH",
+        "DTLZ1 with Constraints on f1 and f2",
+        "DTLZ1",
+        "DTLZ2"
+       ],
+       "single_paper": false,
+       "paper_categories": {
+        "CEC|2020|asurrogateassistedoffspringgenerationmethodforexpensivemultiobjectiveoptimizationproblems": "Pure Math",
+        "CEC|2020|handlingconstrainedmultiobjectiveoptimizationwithobjectivespacemappingtodecisionspacebasedonextremelearningmachine": "Pure Math",
+        "CEC|2020|moeadwithrandompartialupdatestrategy": "Pure Math",
+        "CEC|2020|multimanyobjectiveoptimizationviaanewpreferenceindicator": "Pure Math",
+        "CEC|2020|rieszsenergybasedreferencesetsformultiobjectiveoptimization": "Pure Math",
+        "CEC|2021|weightvectorarrangementusingvirtualobjectivevectorsindecompositionbasedmoea": "Pure Math",
+        "CEC|2022|stepsizeindividualizationacasestudyforthefishschoolsearchfamily": "Pure Math",
+        "CEC|2023|thecombinationofmoeadandwofforsolvinghighdimensionalexpensivemultiobjectiveoptimizationproblems": "Pure Math",
+        "FOGA|2017|hypervolumesubsetselectionfortriangularandinvertedtriangularparetofrontsofthreeobjectiveproblems": "Pure Math",
+        "GECCO|2020|computationoftheimprovementdirectionsoftheparetofrontanditsapplicationtomoeas": "Pure Math",
+        "GECCO|2020|datastructuresfornondominatedsetsimplementationsandempiricalassessmentoftwodecadesofadvances": "Pure Math",
+        "GECCO|2020|anotherdifficultyofinvertedtriangularparetofrontsfordecompositionbasedmultiobjectivealgorithms": "Pure Math",
+        "GECCO|2020|effectsofdominanceresistantsolutionsontheperformanceofevolutionarymultiobjectiveandmanyobjectivealgorithms": "Pure Math",
+        "GECCO|2020|multiobjectivetreestructuredparzenestimatorforcomputationallyexpensiveoptimizationproblems": "Pure Math",
+        "GECCO|2020|gapfindingandvalidationinevolutionarymultiandmanyobjectiveoptimization": "Pure Math",
+        "GECCO|2020|surrogateassistedevolutionaryalgorithmformediumscalemultiobjectiveoptimisationproblems": "Pure Math",
+        "GECCO|2020|transferlearningforgaussianprocessassistedevolutionarybiobjectiveoptimizationforobjectiveswithdifferentevaluationtimes": "Pure Math",
+        "GECCO|2021|metricforevaluatingnormalizationmethodsinmultiobjectiveoptimization": "Pure Math",
+        "GECCO|2021|hypervolumeinbiobjectiveoptimizationcannotconvergefasterthan1p": "Pure Math",
+        "GECCO|2021|bayesianpreferencelearningforinteractivemultiobjectiveoptimisation": "Pure Math",
+        "GECCO|2022|anenhancedadaptivegeometryevolutionaryalgorithmusingstochasticdiversitymechanism": "Pure Math",
+        "GECCO|2022|mboremultiobjectivebayesianoptimisationbydensityratioestimation": "Pure Math",
+        "GECCO|2022|aclassificationassistedlevelbasedlearningevolutionaryalgorithmforexpensivemultiobjectiveoptimizationproblems": "Pure Math",
+        "GECCO|2022|regionofinterestbasednondominatedsortinggeneticalgorithmiianinviteandconquerapproach": "Pure Math",
+        "GECCO|2022|sociallearningparticleswarmoptimizationwithtwosurrogatecollaborationforofflinedatadrivenmultiobjectiveoptimization": "Pure Math",
+        "GECCO|2022|multipointacquisitionfunctionforconstraintparallelefficientmultiobjectiveoptimization": "Pure Math",
+        "GECCO|2024|manyobjectiveevolutionaryoptimizationusingdensitypeaksscoringselectionstrategy": "Pure Math",
+        "GECCO|2024|lowerconfidenceboundforpreferenceselectionininteractivemultiobjectiveoptimization": "Pure Math",
+        "GECCO|2024|compositequalityindicatorstoevaluatetheperformanceofpopulationbasedmultiobjectiveoptimizationalgorithms": "Pure Math",
+        "GECCO|2024|acceleratedbayesianpreferencelearningforefficientevolutionarymultiobjectiveoptimisation": "Pure Math",
+        "GECCO|2024|acompetitiveswarmalgorithmbasedontricompetitivecriterionforconstrainedmultiobjectiveoptimization": "Pure Math",
+        "GECCO|2025|multiobjectivelshapedtestfunctions": "Pure Math",
+        "GECCO|2025|cotleacopulabasedtransferlearningevolutionaryalgorithmformultiobjectiveoptimizationproblems": "Pure Math",
+        "GECCO|2025|targetingevaluationcomputationandinteractioncostsinexpensiveblackboxmultiobjectiveoptimization": "Pure Math",
+        "GECCO|2025|efficientcontextualpreferentialbayesianoptimizationwithhistoricalexamples": "Pure Math",
+        "GECCO|2025|modeladaptivereferencepointsgenerationbasedongaussianprocessformanyobjectiveoptimization": "Pure Math",
+        "GECCO|2026|quivercostawareadaptivepreferencequeryinginsurrogateassistedevolutionarymultiobjectiveoptimization": "Pure Math",
+        "GECCO|2026|benchmarkingstoppingcriteriaforevolutionarymultiobjectiveoptimization": "Pure Math",
+        "GECCO|2026|dominanceboundarybasedreferencepointgenerationforindicatorbasedmultiobjectiveoptimization": "Pure Math",
+        "GECCO|2026|abicriteriaselectionframeworkforincorporatingpreferenceinformationintoevolutionarymultiobjectiveoptimization": "Pure Math",
+        "GECCO|2026|stablenormalizationforpreferencebasedsubsetselectionwithanunboundedexternalarchive": "Pure Math",
+        "GECCO|2026|weightvectorspecificationinmoeadtofindbalancedandpromisingsolutionsformulticriteriadecisionmaking": "Pure Math",
+        "GECCO|2026|deepreinforcementlearningbasedenvironmentalandmatingselectionforevolutionarymultiobjectiveoptimization": "Pure Math",
+        "PPSN|2016|onlinemodelselectionforrestrictedcovariancematrixadaptation": "Pure Math",
+        "PReMI|2023|multiobjectivenonoverlappingfrontgenerationapivotbaseddeterministicnondominatedsortingapproach": "Pure Math"
+       }
+      }
+     },
+     {
+      "family_id": "F00445",
+      "family_name": "OneMax",
+      "family_kind": "suite_series",
+      "ranker_score": 0.0221,
+      "note": {
+       "family_id": "F00445",
+       "family_name": "OneMax",
+       "n_papers": 32,
+       "n_records": 88,
+       "years": [
+        2015,
+        2026
+       ],
+       "pure_math_share": 1.0,
+       "applied_share": 0.0,
+       "common": {
+        "Problem_Context": [
+         "Evaluating mathematical landscapes"
+        ],
+        "Landscape_Characteristics": [
+         "noisy",
+         "linear"
+        ],
+        "Dimensionality": [
+         "Variable",
+         "200"
+        ],
+        "Modality": [
+         "Unimodal",
+         "Multimodal"
+        ],
+        "Separability": [
+         "Separable",
+         "Non-separable"
+        ]
+       },
+       "evidence_papers": [
+        {
+         "title": "Optimal Static Mutation Strength Distributions for the (1 + λ) Evolutionary Algorithm on OneMax",
+         "conference": "GECCO",
+         "year": "2021",
+         "cosine": 0.326
+        },
+        {
+         "title": "Adaptive Stochastic Natural Gradient Method for Safe Optimization on Binary Space",
+         "conference": "GECCO",
+         "year": "2026",
+         "cosine": 0.283
+        }
+       ],
+       "members": [
+        "Generalized Dynamic OneMax",
+        "Onemax",
+        "OneMax under uniform constraint",
+        "ONEMAX (Prior Noise Model)",
+        "ONEMAX (Additive Normal Noise)"
+       ],
+       "single_paper": false,
+       "paper_categories": {
+        "FOGA|2015|11eaongeneralizeddynamiconemax": "Pure Math",
+        "FOGA|2015|efficientoptimisationofnoisyfitnessfunctionswithpopulationbasedevolutionaryalgorithms": "Pure Math",
+        "FOGA|2015|fixedbudgetperformanceofthe11eaonlinearfunctions": "Pure Math",
+        "FOGA|2015|runtimeanalysisofpopulationbasedevolutionaryalgorithminnoisyenvironments": "Pure Math",
+        "FOGA|2017|anapplicationofstochasticdifferentialequationstoevolutionaryalgorithms": "Pure Math",
+        "FOGA|2017|analysisofthe11eaonsubclassesoflinearfunctionsunderuniformandlinearconstraints": "Pure Math",
+        "FOGA|2017|lowerboundsontheruntimeoftheunivariatemarginaldistributionalgorithmononemax": "Pure Math",
+        "FOGA|2017|resamplingvsrecombinationastatisticalruntimeestimation": "Pure Math",
+        "FOGA|2017|runtimeanalysisofadiscreteparticleswarmoptimizationalgorithmonsortingandonemax": "Pure Math",
+        "FOGA|2019|sharpboundsontheruntimeofthe11eaviadriftanalysisandanalyticcombinatorialtools": "Pure Math",
+        "FOGA|2019|thebenefitsandlimitationsofvotingmechanismsinevolutionaryoptimisation": "Pure Math",
+        "FOGA|2021|automaticadaptationofhypermutationratesformultimodaloptimisation": "Pure Math",
+        "FOGA|2021|doadditionaloptimaspeedupevolutionaryalgorithms": "Pure Math",
+        "FOGA|2023|curingillconditionalityviarepresentationagnosticdistancedrivenperturbations": "Pure Math",
+        "FOGA|2023|selfadaptationcanimprovethenoisetoleranceofevolutionaryalgorithms": "Pure Math",
+        "FOGA|2023|usingautomatedalgorithmconfigurationforparametercontrol": "Pure Math",
+        "GECCO|2020|fastmutationincrossoverbasedalgorithms": "Pure Math",
+        "GECCO|2020|fixedtargetruntimeanalysis": "Pure Math",
+        "GECCO|2020|fromunderstandinggeneticdrifttoasmartrestartparameterlesscompactgeneticalgorithm": "Pure Math",
+        "GECCO|2020|atightlowerboundontheexpectedruntimeofstandardsteadystategeneticalgorithms": "Pure Math",
+        "GECCO|2020|selfadjustingevolutionaryalgorithmsformultimodaloptimization": "Pure Math",
+        "GECCO|2020|onthechoiceoftheparametercontrolmechanisminthe1geneticalgorithm": "Pure Math",
+        "GECCO|2021|optimalstaticmutationstrengthdistributionsforthe1evolutionaryalgorithmononemax": "Pure Math",
+        "GECCO|2021|whennonelitismmeetstimelinkageproblems": "Pure Math",
+        "GECCO|2022|theinfluenceofnoiseonmultiparentcrossoverforanislandmodelga": "Pure Math",
+        "GECCO|2022|lucieanevaluationandselectionmethodforstochasticproblems": "Pure Math",
+        "GECCO|2024|algorithmperformancecomparisonforintegervaluedonemax": "Pure Math",
+        "GECCO|2025|analyzingpercomponentenergyconsumptionofevolutionaryalgorithmsimplementedinlowlevellanguagescomparisonofcandziginkeyevolutionaryalgorithmfunctions": "Pure Math",
+        "GECCO|2026|whenswitchingalgorithmshelpsatheoreticalstudyofonlinealgorithmselection": "Pure Math",
+        "GECCO|2026|agenericframeworkforoptimisationunderuncertaintywithrecoursetheoryandexamples": "Pure Math",
+        "GECCO|2026|addressingcombinatorialoptimizationwithestimationofdistributionalgorithmsbasedondiffusionmodels": "Pure Math",
+        "GECCO|2026|adaptivestochasticnaturalgradientmethodforsafeoptimizationonbinaryspace": "Pure Math"
+       }
+      }
+     },
+     {
+      "family_id": "F00053",
+      "family_name": "rosenbrock",
+      "family_kind": "stem_group",
+      "ranker_score": 0.0176,
+      "note": {
+       "family_id": "F00053",
+       "family_name": "rosenbrock",
+       "n_papers": 21,
+       "n_records": 52,
+       "years": [
+        2015,
+        2026
+       ],
+       "pure_math_share": 1.0,
+       "applied_share": 0.0,
+       "common": {
+        "Problem_Context": [
+         "Evaluating mathematical landscapes"
+        ],
+        "Landscape_Characteristics": [
+         "valley",
+         "rotated"
+        ],
+        "Dimensionality": [
+         "100D",
+         "2D"
+        ],
+        "Modality": [
+         "Unimodal",
+         "Multimodal"
+        ],
+        "Separability": [
+         "Non-separable"
+        ]
+       },
+       "evidence_papers": [
+        {
+         "title": "EOS: a Parallel, Self-Adaptive, Multi-Population Evolutionary Algorithm for Constrained Global Optimization",
+         "conference": "CEC",
+         "year": "2020",
+         "cosine": 0.157
+        },
+        {
+         "title": "PSO with Coupled Map Lattice and Worker Ant’s Law",
+         "conference": "CEC",
+         "year": "2021",
+         "cosine": 0.157
+        }
+       ],
+       "members": [
+        "Rosenbrock function (frosen)",
+        "Rosenbrock",
+        "Rosenbrock (unrotated)",
+        "Rosenbrock (f8)",
+        "Rosenbrock (rotated)"
+       ],
+       "single_paper": false,
+       "paper_categories": {
+        "CEC|2020|eosaparallelselfadaptivemultipopulationevolutionaryalgorithmforconstrainedglobaloptimization": "Pure Math",
+        "CEC|2021|psowithcoupledmaplatticeandworkerantslaw": "Pure Math",
+        "CEC|2023|bsoalbrainstormoptimizationalgorithmwithadaptivelearningstrategy": "Pure Math",
+        "CEC|2023|ananisotropicexpectedimprovementcriterionforkrigingassistedevolutionarycomputation": "Pure Math",
+        "CEC|2023|evoaladomainspecificlanguagebasedapproachtooptimisation": "Pure Math",
+        "FOGA|2015|amoreefficientrankonecovariancematrixupdateforevolutionstrategies": "Pure Math",
+        "FOGA|2017|convergenceoffactoredevolutionaryalgorithms": "Pure Math",
+        "GECCO|2020|leveragingconditionallinkagemodelsingrayboxoptimizationwiththerealvaluedgenepooloptimalmixingevolutionaryalgorithm": "Pure Math",
+        "GECCO|2020|modellingparameterconfigurationspaceswithlocaloptimanetworks": "Pure Math",
+        "GECCO|2021|psafaprobabilisticsurrogateassistedframeworkforsingleobjectiveoptimization": "Pure Math",
+        "GECCO|2021|directingevolutiontheautomateddesignofevolutionarypathwaysusingdirectedgraphs": "Pure Math",
+        "GECCO|2022|effectivemutationrateadaptationthroughgroupeliteselection": "Pure Math",
+        "GECCO|2022|progressivesamplingsurrogateassistedparticleswarmoptimizationforlargescaleexpensiveoptimization": "Pure Math",
+        "GECCO|2025|usingvariableinteractiongraphstoimproveparticleswarmoptimization": "Pure Math",
+        "GECCO|2025|searchspaceselectionusingconstrainedmixedintegeroptimizationmethod": "Pure Math",
+        "GECCO|2026|dropoutinspiredstrategiesforenhancedexplorationinevolutionaryalgorithms": "Pure Math",
+        "GECCO|2026|anisotropicrandomfeaturesurrogateassistedevolutionaryalgorithmforhighdimensionalriskbasedenergymanagementoptimization": "Pure Math",
+        "GECCO|2026|effectofmirroredorthogonalsamplingforcmaesonmultimodalproblems": "Pure Math",
+        "GECCO|2026|doesdimensionalityreductionviarandomprojectionspreservelandscapefeatures": "Pure Math",
+        "PPSN|2016|onlinemodelselectionforrestrictedcovariancematrixadaptation": "Pure Math",
+        "PPSN|2020|parallelproblemsolvingfromnatureppsnxvi": "Pure Math"
+       }
+      }
+     }
+    ],
+    "tier": "low",
+    "top1_score": 0.0397,
+    "lambda": 1.0,
+    "applied_share": 0.0,
+    "system_hash": "27fcc517a4ff6f27b1cf49064afa12258ef4bad7312c9e05f9bef5528c457abb",
+    "timestamp": "2026-11-11T10:53:29+00:00",
+    "mode": "live"
+   },
+   "gold_ids": [
+    "F01075",
+    "F01073",
+    "F01074"
+   ],
+   "hit": false,
+   "gold_ranks": {
+    "F01075": null,
+    "F01073": null,
+    "F01074": null
+   }
+  }
+ ]
+}
