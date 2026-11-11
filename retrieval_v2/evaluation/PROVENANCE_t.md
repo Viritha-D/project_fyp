@@ -19,12 +19,12 @@ verbatim.
 | sheet / table | sheet `queries` | sheet `Sheet1` | sheet `queries` | one Word table, 5 columns |
 | rows (excluding header) | 20 | 20 | 20 | 20 |
 | form | ids + names | ids + names | names-only | ids + names |
-| writer | not provided | not provided | not provided | Sanjesh Nandha K |
+| writer | "Sanjesh Nandha" (given by the user on 2026-11-11) | not provided | "Adarsh Prakash" (given by the user on 2026-11-11) | Sanjesh Nandha K |
 | start time | not provided | not provided | not provided | not provided |
 | finish time | not provided | not provided | not provided | "3:37 pm" as printed in the document ("Finished:  November 11, 2026 , 3:37 pm "). Writer's own answer on the finish time: not yet answered. Recorded without conclusion: the file's last-saved stamp (docProps modified) is 2026-11-11T15:12:40Z as stored, and the user states the file was sent to them before 3:37 pm. |
 | drafting | not provided | not provided | not provided | "Drafted questions using google and research papers", with the two links given in the document: https://link.springer.com/article/10.1007/s00521-020-04832-8#Sec12 and https://link.springer.com/chapter/10.1007/978-0-387-36797-2_7 |
 | tools used (including any AI tool) | not provided | not provided | not provided | "Copilot for creating word document" |
-| AI statement: did any AI tool write or suggest queries, ids or family names | not provided | not provided | not provided | not yet answered |
+| AI statement: did any AI tool write or suggest queries, ids or family names | not provided | not provided | not provided | relayed by the user, not the writer's own words (2026-11-11, verbatim): "sanjesh todl that copilot was only used for formatting the content and it dod not modify or edit anything" |
 | t2 writer's answer: where the ids came from | - | not yet answered | - | - |
 | commit adding the original | d6f57a0 | d6f57a0 | 32e0be6 | 32e0be6 |
 | status | delivered | delivered; rejected, 100% invalid (amendment 1) | delivered | delivered |
@@ -54,6 +54,13 @@ such an inference; it was removed on 2026-11-09 at the user's request.)
   still not provided. The t4 AI statement and the writer's own answer on the finish time are not yet answered. The
   printed "3:37 pm", the stored last-saved stamp and the user's statement about when the file was sent are recorded
   above without any conclusion.
+
+- 2026-11-11 (after amendment 4): the user gave the writer of t1 as "Sanjesh Nandha" and of t3 as "Adarsh Prakash",
+  and relayed Sanjesh's statement on Copilot, quoted verbatim above (t4 column). The statement is second-hand: it is
+  the user's report of what the writer said, not the writer's own wording. It mentions Copilot and formatting only;
+  it does not say whether any other AI tool wrote or suggested queries, ids or family names. It was given in the
+  context of t4 (the Word document) and is recorded for t4 only. No AI statement was given for t1 (also by Sanjesh)
+  or for t3. t3's start/finish and tools: not provided.
 
 Under amendment 3, a set with no AI statement by the scoring date stays in the primary analysis, flagged
 "provenance not stated".
