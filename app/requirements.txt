@@ -1,0 +1,4 @@
+# Hosted demo (precomputed mode): no models are loaded.
+streamlit==1.67.0
+pandas==3.1.1
+numpy==2.5.4
