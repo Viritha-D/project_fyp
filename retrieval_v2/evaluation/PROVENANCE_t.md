@@ -21,7 +21,7 @@ verbatim.
 | form | ids + names | ids + names | names-only | ids + names |
 | writer | not provided | not provided | not provided | Sanjesh Nandha K |
 | start time | not provided | not provided | not provided | not provided |
-| finish time | not provided | not provided | not provided | "November 11, 2026 , 3:37 pm" (as written in the document: "Finished:  November 11, 2026 , 3:37 pm ") |
+| finish time | not provided | not provided | not provided | "3:37 pm" as printed in the document ("Finished:  November 11, 2026 , 3:37 pm "). Writer's own answer on the finish time: not yet answered. Recorded without conclusion: the file's last-saved stamp (docProps modified) is 2026-11-11T15:12:40Z as stored, and the user states the file was sent to them before 3:37 pm. |
 | drafting | not provided | not provided | not provided | "Drafted questions using google and research papers", with the two links given in the document: https://link.springer.com/article/10.1007/s00521-020-04832-8#Sec12 and https://link.springer.com/chapter/10.1007/978-0-387-36797-2_7 |
 | tools used (including any AI tool) | not provided | not provided | not provided | "Copilot for creating word document" |
 | AI statement: did any AI tool write or suggest queries, ids or family names | not provided | not provided | not provided | not yet answered |
@@ -50,6 +50,10 @@ such an inference; it was removed on 2026-11-09 at the user's request.)
 - 2026-11-11: the t1 AI statement and t3's writer, times, tools and AI statement were not provided. For t4, the
   writer, finish time, drafting note with links, and tools were given as quoted above. The t4 AI statement is not
   yet answered.
+- 2026-11-11 (amendment 4 request): the t1 AI statement and t3's writer, start/finish, tools and AI statement are
+  still not provided. The t4 AI statement and the writer's own answer on the finish time are not yet answered. The
+  printed "3:37 pm", the stored last-saved stamp and the user's statement about when the file was sent are recorded
+  above without any conclusion.
 
 Under amendment 3, a set with no AI statement by the scoring date stays in the primary analysis, flagged
 "provenance not stated".
