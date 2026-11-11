@@ -1,0 +1,49 @@
+{
+ "_about": "Every text the demo shows as an example. The gallery queries are fixed by rule (queries_v2 Q01, Q11, Q21, Q31, Q41, Q51; development set, not the independent test) and copied verbatim. Checked by app/tools/check_demo_inputs.py against every held-out test query.",
+ "gallery_rule": "queries_v2 Q01, Q11, Q21, Q31, Q41, Q51 (every tenth query from Q01), fixed before any output was seen",
+ "gallery": [
+  {
+   "query_id": "Q01",
+   "query_text": "what are the 'standard' test problems for multi objective stuff",
+   "gold_families": "F00032;F00033",
+   "gold_family_names": "ZDT; DTLZ",
+   "notes": "vague; guess"
+  },
+  {
+   "query_id": "Q11",
+   "query_text": "my constraint handling for MOEAs needs problems where infeasible barriers sit right in front of the true front. two objectives, maybe 15 vars",
+   "gold_families": "F00293;F01489;F01396",
+   "gold_family_names": "DASCMOP; lir cmop; MW",
+   "notes": "multi-objective (constrained)"
+  },
+  {
+   "query_id": "Q21",
+   "query_text": "uni course timetabling: rooms, periods, curricula, soft constraints for student clashes. what instance sets are used in papers?",
+   "gold_families": "F00102",
+   "gold_family_names": "curriculum based course timetabling",
+   "notes": "combinatorial (timetabling)"
+  },
+  {
+   "query_id": "Q31",
+   "query_text": "Need multimodal functions with lots of local optima but basically no global structure (no overall funnel), so restarts actually matter. 10-50 dims",
+   "gold_families": "F00090;F00434;F00660",
+   "gold_family_names": "CEC 2017 suite; BBOB (COCO); schwefel",
+   "notes": "continuous single-objective"
+  },
+  {
+   "query_id": "Q41",
+   "query_text": "which function sets have 'hybrid' functions, where the variables get split into groups and each group goes through a different basic function? 10 and 20 dimensions mostly",
+   "gold_families": "F00138;F00043;F00090",
+   "gold_family_names": "CEC 2021 suite; CEC 2020 suite; CEC 2017 suite",
+   "notes": "continuous single-objective"
+  },
+  {
+   "query_id": "Q51",
+   "query_text": "my problem is half binary variables and half real ones. is there a simple test function that mixes a bit counting part with a smooth continuous part?",
+   "gold_families": "F01075;F01073;F01074",
+   "gold_family_names": "EllipsoidOneMax; SphereOneMax; SphereLeadingOnes",
+   "notes": "continuous single-objective (mixed binary/real); unsure: thin evidence"
+  }
+ ],
+ "placeholder": "Describe the problem type, the representation and the objective of your algorithm."
+}
