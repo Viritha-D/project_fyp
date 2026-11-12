@@ -64,3 +64,16 @@ such an inference; it was removed on 2026-11-09 at the user's request.)
 
 Under amendment 3, a set with no AI statement by the scoring date stays in the primary analysis, flagged
 "provenance not stated".
+
+## Statements received after scoring (12 November 2026)
+
+Recorded on 12 November 2026, after the final test was scored (run started 15:21 IST; cut-off 10:00 IST, amendment 6).
+The label "self-reported, verified" is the one the user chose for these statements. Under amendment 3,
+formatting-only AI use does not exclude a set, and the primary pool and its registered results are unchanged.
+Sensitivity analysis (d) is not re-run; its registered result stands.
+
+| set | writer | statement received after scoring | label |
+|---|---|---|---|
+| t1 | Sanjesh Nandha K | not provided: the user chose to paste a statement, but no text was received | - |
+| t3 | Adarsh Prakash | not received yet | - |
+| t4 | Sanjesh Nandha K | any update: "no change" (as confirmed by the user) | self-reported, verified |
