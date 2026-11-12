@@ -1,8 +1,9 @@
 """
-Live mode: calls the frozen recommender unchanged and adds data-only notes. Used by the local app (run_demo.sh) and by
-tools/build_gallery.py, so the gallery and the live app share one code path.
+Live mode: calls the product system v2.3 (blend 0.5, retrieval_v2/recommend_v23.py) unchanged and adds data-only
+notes. Used by the local app (run_demo.sh) and by tools/build_gallery.py, so the gallery and the live app share one code
+path.
 
-The ranking is exactly recommend_v21.recommend_v21(query, k=5) with its defaults (lambda 1.0, the v2.2 selection).
+The ranking is exactly recommend_v23.recommend_v23(query, k=5) (recommend_v21 with lambda 0.5, single-query path).
 Nothing here changes it: notes, evidence papers and members are display-only and computed after the ranking.
 """
 
@@ -25,12 +26,13 @@ def load():
     if not _S:
         actual, expected, ok = core.frozen_hash_status()
         if not ok:
-            raise RuntimeError(f'recommend_v21.py sha256 {actual} does not match FROZEN_HASHES.txt ({expected}); '
+            raise RuntimeError(f'recommend_v23.py sha256 {actual} does not match FROZEN_HASHES_v23.txt ({expected}); '
                                'live mode refuses to run.')
         import hybrid
         import recommend_v21
+        import recommend_v23
         recommend_v21._load()
-        _S.update(rec=recommend_v21, hybrid=hybrid, hash=actual, notes=core.FamilyNotes(),
+        _S.update(rec=recommend_v23, hybrid=hybrid, hash=actual, notes=core.FamilyNotes(),
                   paper_emb=np.load(ROOT / 'paper_embeddings.npy'))
         _S['guard'] = core.TestQueryGuard(hybrid.encode_queries)
     return _S
@@ -43,7 +45,7 @@ def recommend(query):
     if blocked:
         raise ValueError('This text matches a held-out test query, so it is not run until the independent test has '
                          'been scored and reported.')
-    out = s['rec'].recommend_v21(query, k=5)
+    out = s['rec'].recommend_v23(query, k=5)
     qv = s['hybrid'].encode_queries([query])[0]
     fams = []
     for f in out['families']:

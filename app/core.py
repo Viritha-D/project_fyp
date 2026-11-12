@@ -1,10 +1,10 @@
 """
-Shared logic of the benchmark-recommender demo. The frozen retrieval system (retrieval_v2, tag retrieval-v2.2) is
-only imported and called, never changed; every ranking shown comes from recommend_v21.recommend_v21 with its default
-settings (lambda 1.0).
+Shared logic of the benchmark-recommender demo. The product system is v2.3 = blend 0.5 (retrieval_v2/recommend_v23.py,
+local tag retrieval-v2.3-blend), a thin wrapper over the frozen v2.1/v2.2 code; it is only imported and called, never
+changed. Every ranking shown comes from recommend_v23.recommend_v23(query, k=5).
 
 - validate_query: input rules.
-- frozen_hash_status: sha256 of retrieval_v2/recommend_v21.py against FROZEN_HASHES.txt (shown in the footer).
+- frozen_hash_status: sha256 of retrieval_v2/recommend_v23.py against FROZEN_HASHES_v23.txt (shown in the footer).
 - FamilyNotes / build_note: data-only notes from the repository files; no generated text.
 - run_with_timeout: live calls with a 20-second limit and a friendly error.
 - TestQueryGuard: refuses live queries that match a held-out test query (exact or dense cosine >= 0.8) until the
@@ -25,7 +25,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 APP = Path(__file__).resolve().parent
-FROZEN_FILE = 'retrieval_v2/recommend_v21.py'
+FROZEN_FILE = 'retrieval_v2/recommend_v23.py'
+HASHES_FILE = 'retrieval_v2/evaluation/FROZEN_HASHES_v23.txt'
 MIN_WORDS = 6
 MAX_CHARS = 2000
 TIMEOUT_S = 20
@@ -58,9 +59,9 @@ def sha256_file(p):
 
 
 def frozen_hash_status():
-    """(hash of retrieval_v2/recommend_v21.py, expected hash from FROZEN_HASHES.txt, ok)."""
+    """(hash of retrieval_v2/recommend_v23.py, expected hash from FROZEN_HASHES_v23.txt, ok)."""
     expected = None
-    for line in (ROOT / 'retrieval_v2/evaluation/FROZEN_HASHES.txt').read_text(encoding='utf-8').splitlines():
+    for line in (ROOT / HASHES_FILE).read_text(encoding='utf-8').splitlines():
         if not line.startswith('#') and line.strip().endswith('  ' + FROZEN_FILE):
             expected = line.split()[0]
     actual = sha256_file(ROOT / FROZEN_FILE)
@@ -251,7 +252,7 @@ def to_csv(result):
 
 def to_markdown(result):
     L = [f"# Benchmark recommendation", '', f"**Query:** {result['query']}", '',
-         f"**Evidence tier:** {result['tier']} · **Generated:** {result['timestamp']} · **System:** recommend_v21.py "
+         f"**Evidence tier (experimental, not validated on the independent test):** {result['tier']} · **Generated:** {result['timestamp']} · **System:** v2.3 recommend_v23.py "
          f"sha256 `{result['system_hash']}`", '', '| rank | family | papers | evidence papers |', '|---|---|---|---|']
     for r in to_rows(result):
         L.append(f"| {r['rank']} | {r['family']} | {r['n_papers']} | {r['evidence_papers'] or '-'} |")
