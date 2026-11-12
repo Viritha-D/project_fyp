@@ -113,6 +113,46 @@ def independent_test_section():
     return '\n'.join(L) + '\n'
 
 
+def product_decision_section():
+    """'## Product decision' (v2.3 = blend 0.5). Numbers are read from results_final.json, report_final.md,
+    v22/report_v22.md and report_posthoc_v23.md. Empty until v2.3 exists."""
+    if not (HERE.parent / 'recommend_v23.py').exists() or not (HERE / 'results_final.json').exists():
+        return ''
+    j = json.loads((HERE / 'results_final.json').read_text(encoding='utf-8'))
+    r = (HERE / 'report_final.md').read_text(encoding='utf-8')
+    v22 = (HERE.parent / 'v22' / 'report_v22.md').read_text(encoding='utf-8')
+    post = (HERE / 'report_posthoc_v23.md').read_text(encoding='utf-8')
+    cell = lambda sysname, data: float(re.search(r'^\| ' + re.escape(data) + r'[^|]*\| ' + re.escape(sysname)
+                                                 + r' \| \d+ \| [^|]+\| [^|]+\| ([\d.]+) \[', v22, re.M).group(1))
+    auto_b, auto_p = cell('blend lambda=0.5', 'auto seed 42'), cell('popularity (reference)', 'auto seed 42')
+    test_b, test_p = j['metrics']['blend_0.5']['hit@5'][0], j['metrics']['popularity']['hit@5'][0]
+    single = re.search(r'with fewer than 2 papers in the index: \d+ \((\d+%)\)', r).group(1)
+    tiers = {t: float(re.search(r'^\| ' + t + r' \| \d+ \| [\d.]+ \| ([\d.]+) \[', r, re.M).group(1)) for t in ('low', 'medium', 'high')}
+    bd = j['blend_decision']['d_mrr_blend_minus_stacked']
+    post_body = post.split('\n', 3)[-1].strip().replace('\n## ', '\n#### ')
+    L = ['', '## Product decision', '',
+         f'**v2.3 = blend 0.5.** By the pre-registered decision rule of the final test, the blend replaces the stacked ranker '
+         f'as the product system: its paired MRR advantage over the primary was {bd[0]:+.3f} [{bd[1]:+.3f}, {bd[2]:+.3f}], '
+         'entirely above 0. The decision was made after seeing the test. v2.3 is a thin wrapper, `retrieval_v2/recommend_v23.py` '
+         '(λ = 0.5, same config and model files; hashes in `evaluation/FROZEN_HASHES_v23.txt`; local tag '
+         '`retrieval-v2.3-blend`). The frozen system, `FROZEN_HASHES.txt` and the final-test files are unchanged.', '',
+         "- **Selection numbers.** The blend's independent-test numbers are now selection numbers, because the blend was chosen on them.",
+         f'- **Two evaluations disagree.** Automatic evaluation (seed 42): blend hit@5 {auto_b:.3f} vs popularity {auto_p:.3f}. '
+         f'Independent written test: blend hit@5 {test_b:.3f} vs popularity {test_p:.3f}. They differ because the query '
+         'distributions differ. The automatic queries are masked fields of corpus papers, mostly Pure Math, where a few '
+         'popular suites dominate the gold. The written test asks about named problems, and '
+         f'{single} of its gold families have a single paper, which popularity cannot reach.',
+         f"- **Tiers not validated for v2.3.** The confidence tiers were calibrated for the stacked ranker. On the independent "
+         f"test they did not rise in order (hit@1 low {tiers['low']:.3f} / medium {tiers['medium']:.3f} / high "
+         f"{tiers['high']:.3f}), so they are not validated for v2.3.",
+         '- **Provenance after scoring.** t4 carries a formatting-only statement (relayed before scoring; "no change" '
+         'confirmed after scoring). The t1 and t3 statements had not been received when this section was written '
+         '(`evaluation/PROVENANCE_t.md`). Formatting-only use would not change the primary pool (amendment 3), and '
+         'sensitivity (d) is not re-run.', '',
+         '### Post-hoc descriptive analysis of the blend (decides nothing)', '', post_body, '']
+    return '\n'.join(L) + '\n'
+
+
 def main():
     r21 = (HERE / 'report_v21.md').read_text(encoding='utf-8')
     rq = (HERE / 'report_queries_v2.md').read_text(encoding='utf-8')
@@ -221,6 +261,7 @@ def main():
         text = text.replace(a, b)
     text = text + '\n' + DECISIONS_AFTER_QUERIES_V2
     text = text + independent_test_section()
+    text = text + product_decision_section()
     (HERE.parent / 'RESULTS.md').write_text(text, encoding='utf-8')
     print(text)
 

@@ -422,3 +422,44 @@ Components for (c): 38; largest sizes [6, 5, 4, 3, 3]; singletons 29.
 - **Size.** n = 60; the primary hit@5 interval width is 0.267.
 - **Pre-check note.** Before scoring, pre-check (c) found additions since amendment 4 beyond PROVENANCE_t.md: amendments 5 and 6 (pre-registration documents; amendment 6 sets the scoring time used) and the demo app under app/. None changes a frozen file (FROZEN_HASHES.txt verified immediately before the run), so the run went ahead with these documented exceptions.
 
+
+## Product decision
+
+**v2.3 = blend 0.5.** By the pre-registered decision rule of the final test, the blend replaces the stacked ranker as the product system: its paired MRR advantage over the primary was +0.132 [+0.067, +0.202], entirely above 0. The decision was made after seeing the test. v2.3 is a thin wrapper, `retrieval_v2/recommend_v23.py` (λ = 0.5, same config and model files; hashes in `evaluation/FROZEN_HASHES_v23.txt`; local tag `retrieval-v2.3-blend`). The frozen system, `FROZEN_HASHES.txt` and the final-test files are unchanged.
+
+- **Selection numbers.** The blend's independent-test numbers are now selection numbers, because the blend was chosen on them.
+- **Two evaluations disagree.** Automatic evaluation (seed 42): blend hit@5 0.190 vs popularity 0.328. Independent written test: blend hit@5 0.500 vs popularity 0.083. They differ because the query distributions differ. The automatic queries are masked fields of corpus papers, mostly Pure Math, where a few popular suites dominate the gold. The written test asks about named problems, and 70% of its gold families have a single paper, which popularity cannot reach.
+- **Tiers not validated for v2.3.** The confidence tiers were calibrated for the stacked ranker. On the independent test they did not rise in order (hit@1 low 0.111 / medium 0.059 / high 0.188), so they are not validated for v2.3.
+- **Provenance after scoring.** t4 carries a formatting-only statement (relayed before scoring; "no change" confirmed after scoring). The t1 and t3 statements had not been received when this section was written (`evaluation/PROVENANCE_t.md`). Formatting-only use would not change the primary pool (amendment 3), and sensitivity (d) is not re-run.
+
+### Post-hoc descriptive analysis of the blend (decides nothing)
+
+## Blend 0.5 minus stacked ranker (paired bootstrap, 10,000 resamples, seed 42)
+
+| subset | n | d hit@5 | d MRR |
+|---|---|---|---|
+| pooled | 60 | +0.067 [-0.033, +0.167] | +0.132 [+0.067, +0.202] |
+| t1 only | 20 | +0.100 [+0.000, +0.250] | +0.245 [+0.137, +0.363] |
+| t3 only | 20 | -0.050 [-0.250, +0.150] | +0.054 [-0.072, +0.193] |
+| t4 only | 20 | +0.150 [+0.000, +0.300] | +0.097 [+0.026, +0.185] |
+| without t1 | 40 | +0.050 [-0.075, +0.176] | +0.075 [+0.001, +0.156] |
+| without t3 | 40 | +0.125 [+0.025, +0.225] | +0.171 [+0.100, +0.246] |
+| without t4 | 40 | +0.025 [-0.100, +0.150] | +0.149 [+0.056, +0.244] |
+
+#### Blend 0.5 by group (1,000 resamples)
+
+| group | n | hit@5 | MRR |
+|---|---|---|---|
+| applied / real-world | 21 | 0.714 [0.524, 0.905] | 0.556 [0.390, 0.738] |
+| theory / algorithm analysis | 21 | 0.381 [0.190, 0.571] | 0.293 [0.121, 0.471] |
+| unusual / niche | 18 | 0.389 [0.167, 0.611] | 0.294 [0.127, 0.461] |
+
+#### Blend 0.5 error causes by set (queries with no gold family in the top 5)
+
+| set | n | misses | (a) no gold among candidates | (b) gold among candidates, below rank 5 | (c) every gold family < 2 papers |
+|---|---|---|---|---|---|
+| t1 | 20 | 3 | 1 | 2 | 1 |
+| t3 | 20 | 15 | 7 | 8 | 6 |
+| t4 | 20 | 12 | 6 | 6 | 6 |
+| all | 60 | 30 | 14 | 16 | 13 |
+
