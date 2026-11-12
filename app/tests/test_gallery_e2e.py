@@ -1,5 +1,6 @@
-"""End to end: live mode on the six gallery queries reproduces the recorded top 5 (results_queries_v2.csv, stacked)
-and the precomputed gallery. Needs the live environment (FROZEN_ENV.txt)."""
+"""End to end: live mode (v2.3 = blend 0.5) on the six gallery queries reproduces the recorded blend 0.5 top 5 on
+queries_v2 (v22/results_v22_queries_v2.csv, 'blend lambda=0.5') and the precomputed gallery. Needs the live
+environment (FROZEN_ENV.txt)."""
 import csv
 import json
 
@@ -12,8 +13,8 @@ pytest.importorskip('sentence_transformers')
 
 @pytest.fixture(scope='module')
 def recorded():
-    rows = csv.DictReader(open(core.ROOT / 'retrieval_v2/evaluation/results_queries_v2.csv', encoding='utf-8'))
-    return {r['query_id']: r['top5'].split(';') for r in rows if r['system'] == 'stacked'}
+    rows = csv.DictReader(open(core.ROOT / 'retrieval_v2/v22/results_v22_queries_v2.csv', encoding='utf-8'))
+    return {r['key']: r['top5'].split(';') for r in rows if r['system'] == 'blend lambda=0.5'}
 
 
 @pytest.fixture(scope='module')
@@ -23,6 +24,9 @@ def gallery():
 
 def test_gallery_rule_is_fixed(gallery):
     assert [i['query_id'] for i in gallery['items']] == ['Q01', 'Q11', 'Q21', 'Q31', 'Q41', 'Q51']
+    assert gallery['label'] == 'development set; lambda was selected on it'
+    assert gallery['system'] == 'v2.3 = blend 0.5'
+    assert gallery['system_hash'] == core.frozen_hash_status()[0]
 
 
 @pytest.mark.parametrize('qid', ['Q01', 'Q11', 'Q21', 'Q31', 'Q41', 'Q51'])

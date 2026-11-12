@@ -47,3 +47,29 @@ def test_reliability_numbers_come_from_site_data(monkeypatch):
     for t in ('low', 'medium', 'high'):
         assert f"{site['tiers_seed42'][t]['hit@1']}" not in src           # no hand-typed tier numbers in the UI
     assert '0.127' not in src and '0.475' not in src
+
+
+def test_tier_badges_have_no_hit1_and_are_labelled(monkeypatch):
+    at = _run(monkeypatch=monkeypatch)
+    caps = [c.value for c in at.caption if c.value.startswith('Evidence tier for this list')]
+    assert caps and all('experimental, not validated on the independent test' in c for c in caps)
+    assert not any('hit@1' in c for c in caps)
+
+
+def test_banner_shows_both_evaluations():
+    import importlib.util
+    site = json.loads((core.APP / 'site_data.json').read_text())
+    src = (core.APP / 'streamlit_app.py').read_text()
+    assert 'Results depend on whether the problem has a named benchmark' in src
+    g = site['independent_test']['stacked_hit@5_by_group']
+    assert {round(v['stacked_hit@5'], 3) for v in g.values()} == {0.619, 0.429, 0.222}
+    assert site['by_category_seed42']['Applied']['hit@5']['mean'] == 0.127
+    assert site['by_category_seed42']['Pure Math']['hit@5']['mean'] == 0.475
+
+
+def test_panel_reports_independent_test(monkeypatch):
+    at = _run(monkeypatch=monkeypatch)
+    text = ' '.join(m.value for m in at.markdown)
+    assert 'The blend was chosen after seeing the test' in text
+    assert 'SUPPORTED' in text
+    assert any('recommend_v23.py' in c.value and 'matches FROZEN_HASHES_v23.txt' in c.value for c in at.caption)

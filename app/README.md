@@ -1,14 +1,19 @@
 # Benchmark recommender demo
 
-A Streamlit front end for the **frozen** benchmark recommender: the stacked ranker v2.1/v2.2,
-`retrieval_v2/recommend_v21.py`, tag `retrieval-v2.2`. It suggests benchmark families that published papers used
-for similar problems. It recommends benchmarks only, not algorithms.
+A Streamlit front end for the benchmark recommender. The product system is **v2.3 = blend 0.5**,
+`retrieval_v2/recommend_v23.py` (local tag `retrieval-v2.3-blend`): a thin wrapper that calls the frozen v2.1/v2.2 code
+with λ = 0.5.
+
+- **Why the blend.** It replaced the stacked ranker by the pre-registered decision rule of the final independent test,
+  and that decision was made after seeing the test.
+- **What it does.** It suggests benchmark families that published papers used for similar problems. It recommends
+  benchmarks only, not algorithms.
 
 ## Two modes
 
 | mode | where | what it does |
 |---|---|---|
-| **live** | local, `app/run_demo.sh` | runs the frozen recommender on your own description (all-mpnet-base-v2 + cross-encoder + torch) |
+| **live** | local, `app/run_demo.sh` | runs v2.3 on your own description (all-mpnet-base-v2 + cross-encoder + torch) |
 | **precomputed** | Streamlit Community Cloud (default) | shows the gallery of real, unedited outputs from `gallery.json`; the text box validates input but does not run retrieval |
 
 **Why the hosted app is precomputed.**
@@ -25,7 +30,7 @@ for similar problems. It recommends benchmarks only, not algorithms.
 python3.13 -m venv .venv
 .venv/bin/pip install --index-url https://download.pytorch.org/whl/cpu torch==2.15.0+cpu
 .venv/bin/pip install -r app/requirements-live.txt
-source .venv/bin/activate && app/run_demo.sh          # verifies FROZEN_HASHES.txt, then starts in live mode
+source .venv/bin/activate && app/run_demo.sh          # verifies FROZEN_HASHES.txt and FROZEN_HASHES_v23.txt, then starts live
 ```
 
 The first query downloads the two models from Hugging Face. Precomputed mode: `streamlit run app/streamlit_app.py`.
@@ -39,18 +44,29 @@ in this folder pushes or deploys by itself.
 ## What is frozen (do not change until the final test is scored)
 
 - `retrieval_v2/` and every model, ranking, family file, tier threshold, config and result.
-  - The app only imports `recommend_v21.recommend_v21(query, k=5)` with its defaults (λ = 1.0).
-  - It checks the sha256 of `retrieval_v2/recommend_v21.py` against `retrieval_v2/evaluation/FROZEN_HASHES.txt`, shows
-    the hash in the footer, and live mode refuses to run on a mismatch.
+  - The app only imports `recommend_v23.recommend_v23(query, k=5)` (recommend_v21 with λ = 0.5).
+  - It checks the sha256 of `retrieval_v2/recommend_v23.py` against `retrieval_v2/evaluation/FROZEN_HASHES_v23.txt`,
+    shows the hash in the footer, and live mode refuses to run on a mismatch.
 - Held-out test queries (`queries_t1` … `t5`, `t2b`):
   - no demo text may match them: `app/tools/check_demo_inputs.py` fails on an exact match or a dense cosine ≥ 0.8;
   - live mode refuses such a query until RESULTS.md has an "Independent test" section.
 
-## What is pending
+## Independent test (done)
 
-The **independent test** is scored once on the pre-registered date (amendment 6: 12 November 2026, 10:00 IST). The
-"How reliable is this?" panel shows it as *pending* until `retrieval_v2/RESULTS.md` has an "Independent test" section.
-Then run `python app/tools/site_stats.py` to refresh `app/site_data.json`.
+The test was scored once on 12 November 2026 (see `retrieval_v2/RESULTS.md`, "Independent test" and "Product
+decision"). The "How reliable is this?" panel shows:
+
+- the primary claim for the stacked ranker;
+- the blend (v2.3) results, marked "the blend was chosen after seeing the test".
+
+**Evidence tiers.** They come from the stacked ranker's confidence, so the badges are labelled "experimental, not
+validated on the independent test" and show no hit@1 numbers.
+
+**Applied banner.** It shows the automatic evaluation and the independent-test group results side by side, all read from
+`site_data.json`.
+
+**Gallery.** It was regenerated with v2.3 for the same six queries and is labelled "development set; lambda was
+selected on it".
 
 ## Where the numbers come from
 
@@ -82,6 +98,7 @@ before any output was seen.
 
 ```
 grep -v "^#" retrieval_v2/evaluation/FROZEN_HASHES.txt | sha256sum -c --strict
+grep -v "^#" retrieval_v2/evaluation/FROZEN_HASHES_v23.txt | sha256sum -c --strict
 python app/tools/check_demo_inputs.py
 python -m pytest app/tests -q
 ```
