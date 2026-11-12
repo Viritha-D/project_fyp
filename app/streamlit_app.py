@@ -2,8 +2,9 @@
 Benchmark recommender demo (Streamlit).
 
 Modes
-- live (local, run_demo.sh sets DEMO_MODE=live): runs the frozen recommender (retrieval_v2/recommend_v21.py, tag
-  retrieval-v2.2, unchanged) on the typed description.
+- live (local, run_demo.sh sets DEMO_MODE=live): runs the product system v2.3 = blend 0.5
+  (retrieval_v2/recommend_v23.py, local tag retrieval-v2.3-blend; a thin wrapper over the frozen code) on the typed
+  description.
 - precomputed (default; Streamlit Community Cloud): shows the gallery of real, unedited outputs from app/gallery.json.
   Live retrieval (all-mpnet-base-v2 + cross-encoder + torch) does not reliably fit the cloud resource limits, and a
   lighter model would be a different system, so the cloud app does not run it.
@@ -34,25 +35,37 @@ st.set_page_config(page_title='Benchmark recommender', page_icon='📊', layout=
 
 
 # ---------------------------------------------------------------- rendering
+TIER_LABEL = 'experimental, not validated on the independent test'
+
+
 def tier_line(tier):
-    h = TIERS[tier]['hit@1']
-    return (f"**Evidence tier: {tier}** (applies to the whole list). In the automatic evaluation, queries in this tier "
-            f"had the top family among those their paper actually used {h:.1%} of the time (about 1 in "
-            f"{round(1 / h) if h else '–'}).")
+    return (f"**Evidence tier: {tier}** ({TIER_LABEL}). The tier comes from the stacked ranker's confidence and applies "
+            "to the whole list. It was calibrated for the stacked ranker, not for v2.3, and on the independent test it "
+            "did not rise in order from low to high.")
+
+
+def applied_banner_text():
+    it = SITE['independent_test']
+    text = (f"Applied problems rarely have a standard benchmark; these are related problems from published papers. "
+            f"Results depend on whether the problem has a named benchmark. Automatic evaluation (stacked ranker): a "
+            f"family the paper used was in the top 5 for {CAT['Applied']['hit@5']['mean']:.3f} of Applied papers vs "
+            f"{CAT['Pure Math']['hit@5']['mean']:.3f} of Pure Math papers.")
+    if it['status'] == 'reported':
+        g = it['stacked_hit@5_by_group']
+        text += (' Independent test (stacked ranker, hit@5): ' + ', '.join(
+            f"{k.split(' /')[0]} {v['stacked_hit@5']:.3f}" for k, v in g.items()) + '.')
+    return text
 
 
 def render_result(res, key):
     if res['applied_share'] > APPLIED_LIMIT:
-        st.warning(f"Applied problems rarely have a standard benchmark; these are related problems from published "
-                   f"papers. In the automatic evaluation, a family the paper used was in the top 5 for "
-                   f"{CAT['Applied']['hit@5']['mean']:.1%} of Applied papers vs {CAT['Pure Math']['hit@5']['mean']:.1%} "
-                   f"of Pure Math papers.")
+        st.warning(applied_banner_text())
     st.markdown(tier_line(res['tier']))
     for i, f in enumerate(res['families'], 1):
         n = f['note']
         with st.container(border=True):
             st.markdown(f"#### {i}. {f['family_name']}")
-            st.caption(f"Evidence tier for this list: {res['tier']} (measured hit@1 {TIERS[res['tier']]['hit@1']:.3f})")
+            st.caption(f"Evidence tier for this list: {res['tier']} ({TIER_LABEL})")
             if n['single_paper']:
                 st.info('Single paper only: this family is supported by one paper in the data.')
             for line in core.note_lines(n):
@@ -83,8 +96,8 @@ def reliability_panel():
                 rows.append({'run': seed, 'system': label, 'n': m['n'], 'hit@1': fmt(m['hit@1']), 'hit@5': fmt(m['hit@5']),
                              'MRR': fmt(m['mrr'])})
         st.table(pd.DataFrame(rows))
-        st.markdown('**Evidence tiers (seed 42):** ' + ', '.join(
-            f"{t} hit@1 {TIERS[t]['hit@1']:.3f}" for t in ('low', 'medium', 'high')))
+        st.markdown('**Evidence tiers** (measured for the stacked ranker in the automatic evaluation, seed 42; '
+                    f'{TIER_LABEL}): ' + ', '.join(f"{t} hit@1 {TIERS[t]['hit@1']:.3f}" for t in ('low', 'medium', 'high')))
         d = SITE['dev_written_queries']
         st.markdown(f"**Written development queries.** {d['description']}")
         st.table(pd.DataFrame([{'system': s if s != SITE['system_name'] else 'this system', 'n': d[s]['n'],
@@ -95,14 +108,25 @@ def reliability_panel():
             st.markdown('**Independent test:** pending. It is scored once on the pre-registered date and reported '
                         'whatever the result.')
         else:
-            st.markdown('**Independent test:**')
-            st.markdown(it['markdown'])
+            pc, bd = it['primary_claim'], it['blend_decision']
+            d = pc['d_hit@5_vs_popularity']
+            st.markdown(f"**Independent test** ({it['n']} new written queries, scored once). Primary claim, "
+                        f"{pc['system']} vs popularity: hit@5 difference {d[0]:+.3f} [{d[1]:+.3f}, {d[2]:+.3f}], "
+                        f"**{pc['verdict']}**.")
+            st.table(pd.DataFrame([{'system': lab, 'hit@5': fmt(it[k]['hit@5']), 'MRR': fmt(it[k]['mrr'])}
+                                   for k, lab in (('stacked', 'stacked ranker (primary claim)'),
+                                                  ('blend_0.5', 'blend 0.5 = v2.3 (product)'),
+                                                  ('popularity', 'popularity baseline'))]))
+            m = bd['d_mrr_blend_minus_stacked']
+            st.markdown(f"Blend decision: MRR difference blend minus stacked {m[0]:+.3f} [{m[1]:+.3f}, {m[2]:+.3f}]: "
+                        f"{bd['outcome']}. The blend was chosen after seeing the test, so its test numbers are "
+                        "selection numbers.")
 
 
 # ---------------------------------------------------------------- page
 st.title('Benchmark recommender for evolutionary algorithms')
-st.caption('Suggests benchmark families that published papers used for similar problems. Benchmarks only; no '
-           'algorithm recommendation. Treat the list as suggestions to check.')
+st.caption('Suggests benchmark families that published papers used for similar problems (product system v2.3, '
+           'blend 0.5). Benchmarks only; no algorithm recommendation. Treat the list as suggestions to check.')
 if MODE == 'precomputed':
     st.info('This hosted demo shows **precomputed** outputs of the frozen system (below). Live retrieval runs locally '
             'with run_demo.sh.')
@@ -127,7 +151,7 @@ if st.button('Recommend', type='primary'):
 reliability_panel()
 
 st.subheader('Gallery: precomputed outputs')
-st.caption(f"Label: **{GALLERY['label']}**. Queries chosen by a fixed rule ({GALLERY['rule']}), unedited system output, "
+st.caption(f"Label: **{GALLERY['label']}**. System: {GALLERY.get('system', '')}. Queries chosen by a fixed rule ({GALLERY['rule']}), unedited system output, "
            f"with the gold families from queries_v2. Precomputed on {GALLERY['built']}.")
 for k, item in enumerate(GALLERY['items']):
     tag = 'HIT' if item['hit'] else 'MISS'
@@ -139,6 +163,6 @@ for k, item in enumerate(GALLERY['items']):
 
 actual, expected, ok = core.frozen_hash_status()
 st.divider()
-st.caption(f"Mode: {MODE}. Frozen system: retrieval_v2/recommend_v21.py sha256 `{actual}` "
-           f"({'matches FROZEN_HASHES.txt' if ok else 'DOES NOT MATCH FROZEN_HASHES.txt'}). Gallery built with "
+st.caption(f"Mode: {MODE}. Product system v2.3 (blend 0.5): retrieval_v2/recommend_v23.py sha256 `{actual}` "
+           f"({'matches FROZEN_HASHES_v23.txt' if ok else 'DOES NOT MATCH FROZEN_HASHES_v23.txt'}). Gallery built with "
            f"`{GALLERY['system_hash']}`.")
