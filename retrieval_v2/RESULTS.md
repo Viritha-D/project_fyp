@@ -329,3 +329,96 @@ Every decision taken after the queries_v2 results were seen:
 Not decided after queries_v2: index hygiene, paper-kNN K, the stacker features and weights, the tier cut-offs, the
 dropped margin gate, the two-slate output and the gold of queries_v2. All of these predate it (Part C,
 pre-registered in `evaluation/PREREGISTRATION.md`). The gold of queries_v2 and its 55 queries were never edited.
+
+## Independent test
+
+Scoring run started 2026-11-12 15:21:09 IST (cut-off 12 November 2026, 10:00 IST, amendment 6). Single scoring run on t1, t3, t4. Frozen system tag retrieval-v2.2; environment FROZEN_ENV.txt; batched path; ties by family id ascending. Pre-registered in `evaluation/PREREGISTRATION_final.md` and amendments 1-6; scorer `evaluation/score_final.py`; full report `evaluation/report_final.md`; per-query top 5 of every system in `evaluation/scored_queries_final.csv`.
+
+**Sets.** Accepted: t1 (20 valid queries), t3 (20), t4 (20). **t2 was rejected** (100% invalid: every gold id's stored family name differs from the name written next to it; amendment 1) and is excluded from every analysis. No t2b or t5 file was received. No duplicates (maximum cross-set cosine below 0.95).
+
+### Pooled results
+
+| system | role | n | hit@1 | hit@3 | hit@5 | recall@5 | mrr |
+|---|---|---|---|---|---|---|---|
+| stacked | PRIMARY | 60 | 0.117 [0.050, 0.200] | 0.350 [0.233, 0.467] | 0.433 [0.317, 0.567] | 0.264 [0.181, 0.361] | 0.253 [0.177, 0.341] |
+| popularity | secondary | 60 | 0.000 [0.000, 0.000] | 0.050 [0.000, 0.117] | 0.083 [0.017, 0.167] | 0.058 [0.017, 0.125] | 0.034 [0.011, 0.066] |
+| full_v2_lambda0 | secondary | 60 | 0.300 [0.183, 0.417] | 0.483 [0.367, 0.617] | 0.517 [0.400, 0.650] | 0.353 [0.253, 0.461] | 0.397 [0.295, 0.513] |
+| blend_0.5 | secondary | 60 | 0.283 [0.183, 0.400] | 0.450 [0.333, 0.583] | 0.500 [0.383, 0.633] | 0.336 [0.242, 0.444] | 0.385 [0.285, 0.500] |
+| bm25_only | exploratory | 60 | 0.267 [0.150, 0.383] | 0.317 [0.200, 0.433] | 0.350 [0.233, 0.467] | 0.217 [0.131, 0.311] | 0.310 [0.205, 0.426] |
+| dense_only | exploratory | 60 | 0.250 [0.150, 0.367] | 0.367 [0.250, 0.483] | 0.417 [0.300, 0.550] | 0.319 [0.219, 0.436] | 0.327 [0.224, 0.440] |
+| paper_knn | exploratory | 60 | 0.083 [0.017, 0.167] | 0.100 [0.033, 0.183] | 0.183 [0.083, 0.283] | 0.100 [0.044, 0.169] | 0.130 [0.061, 0.211] |
+
+### Paired comparisons
+
+| comparison | d hit@5 | d MRR |
+|---|---|---|
+| stacked - popularity | +0.350 [+0.217, +0.483] | +0.219 [+0.140, +0.303] |
+| stacked - full_v2_lambda0 | -0.083 [-0.183, +0.017] | -0.144 [-0.223, -0.069] |
+| stacked - blend_0.5 | -0.067 [-0.167, +0.033] | -0.132 [-0.202, -0.067] |
+
+### Primary claim
+
+Paired difference in hit@5, stacked ranker v2.2 minus popularity, pooled valid queries: **+0.350 [+0.217, +0.483]**, n = 60, interval width 0.267 (paired bootstrap, 10,000 resamples, seed 42). Lower bound above 0: **SUPPORTED**. The cluster bootstrap over 38 groups of queries sharing a gold family (sensitivity (c)) gives +0.350 [+0.176, +0.530], which agrees with this conclusion.
+
+### Blend decision
+
+Paired MRR advantage of blend 0.5 over the primary: +0.132 [+0.067, +0.202] (10,000 resamples, seed 42). The interval is entirely above 0: **blend 0.5 replaces the primary**. This choice was made after seeing the test. The decision rule was applied after the test results were seen, as pre-registered. The frozen system (tag retrieval-v2.2) and the demo app are not changed by this report.
+
+### Error causes
+
+| system | misses | (a) no gold among candidates | (b) gold among candidates, below rank 5 | (c) every gold family < 2 papers | at least one gold family < 2 papers |
+|---|---|---|---|---|---|
+| stacked | 34 | 14 | 20 | 18 | 29 |
+| popularity | 55 | 0 | 55 | 30 | 46 |
+| full_v2_lambda0 | 29 | 26 | 3 | 13 | 22 |
+| blend_0.5 | 30 | 14 | 16 | 13 | 23 |
+| bm25_only | 39 | 24 | 15 | 18 | 30 |
+| dense_only | 35 | 18 | 17 | 14 | 24 |
+| paper_knn | 49 | 4 | 45 | 30 | 42 |
+
+For popularity the candidates are all families, so (a) cannot occur.
+
+### By group
+
+| group | n | stacked hit@5 | popularity hit@5 | full_v2_lambda0 hit@5 | blend_0.5 hit@5 | stacked MRR |
+|---|---|---|---|---|---|---|
+| applied / real-world | 21 | 0.619 [0.429, 0.810] | 0.000 [0.000, 0.000] | 0.714 [0.524, 0.905] | 0.714 [0.524, 0.905] | 0.337 [0.212, 0.487] |
+| theory / algorithm analysis | 21 | 0.429 [0.238, 0.619] | 0.238 [0.048, 0.429] | 0.381 [0.190, 0.571] | 0.381 [0.190, 0.571] | 0.246 [0.129, 0.374] |
+| unusual / niche | 18 | 0.222 [0.056, 0.444] | 0.000 [0.000, 0.000] | 0.444 [0.222, 0.667] | 0.389 [0.167, 0.611] | 0.164 [0.043, 0.336] |
+
+### Confidence tiers
+
+| tier | n | mean top-1 probability | hit@1 |
+|---|---|---|---|
+| low | 27 | 0.053 | 0.111 [0.000, 0.259] |
+| medium | 17 | 0.094 | 0.059 [0.000, 0.176] |
+| high | 16 | 0.225 | 0.188 [0.000, 0.375] |
+
+### Sensitivity analyses (descriptive)
+
+| analysis | n | vs popularity d hit@5 | d MRR | vs full v2 d hit@5 | d MRR | vs blend 0.5 d hit@5 | d MRR |
+|---|---|---|---|---|---|---|---|
+| primary (pooled) | 60 | +0.350 [+0.217, +0.483] | +0.219 [+0.140, +0.303] | -0.083 [-0.183, +0.017] | -0.144 [-0.223, -0.069] | -0.067 [-0.167, +0.033] | -0.132 [-0.202, -0.067] |
+| (a) t1 only | 20 | +0.700 [+0.450, +0.900] | +0.402 [+0.262, +0.551] | -0.100 [-0.250, +0.000] | -0.228 [-0.374, -0.086] | -0.100 [-0.250, +0.000] | -0.245 [-0.363, -0.137] |
+| (a) t3 only | 20 | +0.150 [-0.050, +0.350] | +0.111 [-0.003, +0.240] | +0.050 [-0.150, +0.250] | -0.056 [-0.196, +0.070] | +0.050 [-0.150, +0.250] | -0.054 [-0.193, +0.072] |
+| (a) t4 only | 20 | +0.200 [+0.050, +0.400] | +0.144 [+0.041, +0.269] | -0.200 [-0.400, -0.050] | -0.147 [-0.258, -0.050] | -0.150 [-0.300, +0.000] | -0.097 [-0.185, -0.026] |
+| (b) without t1 | 40 | +0.175 [+0.050, +0.325] | +0.128 [+0.048, +0.216] | -0.075 [-0.225, +0.075] | -0.101 [-0.189, -0.018] | -0.050 [-0.176, +0.075] | -0.075 [-0.156, -0.001] |
+| (b) without t3 | 40 | +0.450 [+0.275, +0.625] | +0.273 [+0.177, +0.377] | -0.150 [-0.275, -0.050] | -0.188 [-0.280, -0.099] | -0.125 [-0.225, -0.025] | -0.171 [-0.246, -0.100] |
+| (b) without t4 | 40 | +0.425 [+0.250, +0.600] | +0.257 [+0.156, +0.366] | -0.025 [-0.150, +0.100] | -0.142 [-0.246, -0.041] | -0.025 [-0.150, +0.100] | -0.149 [-0.244, -0.056] |
+| (c) cluster bootstrap, 38 components | 60 | +0.350 [+0.176, +0.530] | +0.219 [+0.134, +0.310] | -0.083 [-0.186, +0.031] | -0.144 [-0.221, -0.066] | -0.067 [-0.170, +0.040] | -0.132 [-0.209, -0.056] |
+| (d) only sets with a qualifying statement (t4) | 20 | +0.200 [+0.050, +0.400] | +0.144 [+0.041, +0.269] | -0.200 [-0.400, -0.050] | -0.147 [-0.258, -0.050] | -0.150 [-0.300, +0.000] | -0.097 [-0.185, -0.026] |
+| leave out writer Sanjesh Nandha (t1, t4) (amendment 5) | 20 | +0.150 [-0.050, +0.350] | +0.111 [-0.003, +0.240] | +0.050 [-0.150, +0.250] | -0.056 [-0.196, +0.070] | +0.050 [-0.150, +0.250] | -0.054 [-0.193, +0.072] |
+| leave out writer Adarsh Prakash (t3) (amendment 5) | 40 | +0.450 [+0.275, +0.625] | +0.273 [+0.177, +0.377] | -0.150 [-0.275, -0.050] | -0.188 [-0.280, -0.099] | -0.125 [-0.225, -0.025] | -0.171 [-0.246, -0.100] |
+
+Components for (c): 38; largest sizes [6, 5, 4, 3, 3]; singletons 29.
+
+### Limitations of the independent test
+
+- **Topic overlap between sets.** Gold families shared between sets: {'t1&t3': 9, 't1&t4': 5, 't3&t4': 11}. The same water-network, traffic-signal and UAV path-planning families appear in several sets, and t1 and t4 have the same writer. The cluster bootstrap over 38 groups of queries sharing a gold family gives +0.350 [+0.176, +0.530] for the primary claim.
+- **Dependence on one set.** The advantage over popularity is largest on t1; on t3 alone (the only set by the second writer) the interval for hit@5 includes 0 (see sensitivity (a) and leave-one-writer-out).
+- **Single-paper gold families.** 73 of the 104 distinct gold families (70%) have fewer than 2 papers in the index, so popularity can rarely find them and every system misses many of them.
+- **Provenance gaps.** t1 and t3 have no AI-use statement ("provenance not stated", amendment 3); the t4 statement was relayed by the user, mentions only Copilot (formatting only), and is not in the writer's own words. Sensitivity (d) (only t4) is reported above.
+- **Tiers.** On the test, hit@1 by tier is not monotone (low / medium / high), with wide intervals at these sizes.
+- **Size.** n = 60; the primary hit@5 interval width is 0.267.
+- **Pre-check note.** Before scoring, pre-check (c) found additions since amendment 4 beyond PROVENANCE_t.md: amendments 5 and 6 (pre-registration documents; amendment 6 sets the scoring time used) and the demo app under app/. None changes a frozen file (FROZEN_HASHES.txt verified immediately before the run), so the run went ahead with these documented exceptions.
+

@@ -1,6 +1,7 @@
 """Build retrieval_v2/RESULTS.md (project-report summary) from the saved result files. No model is run."""
 
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -58,6 +59,58 @@ MAIN = ['popularity', 'bm25_only', 'dense_only', 'full_v2', 'paper_knn', 'stacke
 def section(md, start, end):
     t = md[md.index(start) + len(start):]
     return t[:t.index(end)].strip() if end else t.strip()
+
+
+def independent_test_section():
+    """'## Independent test' from report_final.md and results_final.json (written by score_final.py). Empty until the
+    final test has been scored."""
+    rep, res = HERE / 'report_final.md', HERE / 'results_final.json'
+    if not rep.exists():
+        return ''
+    r = rep.read_text(encoding='utf-8')
+    j = json.loads(res.read_text(encoding='utf-8'))
+    sec = lambda a, b: section(r, a, b)
+    shared = re.search(r"Gold families shared between sets: (\{[^}]*\})", r).group(1)
+    single = re.search(r'with fewer than 2 papers in the index: (\d+) \((\d+%)\)', r)
+    nfam = re.search(r'Distinct gold families in the pooled set: (\d+)', r).group(1)
+    p, cl, bd = j['primary'], j['cluster_c'], j['blend_decision']
+    L = ['', '## Independent test', '',
+         j['run'] + ' Pre-registered in `evaluation/PREREGISTRATION_final.md` and amendments 1-6; scorer '
+         '`evaluation/score_final.py`; full report `evaluation/report_final.md`; per-query top 5 of every system in '
+         '`evaluation/scored_queries_final.csv`.', '',
+         '**Sets.** Accepted: t1 (20 valid queries), t3 (20), t4 (20). **t2 was rejected** (100% invalid: every gold '
+         "id's stored family name differs from the name written next to it; amendment 1) and is excluded from every "
+         'analysis. No t2b or t5 file was received. No duplicates (maximum cross-set cosine below 0.95).', '',
+         '### Pooled results', '', sec('## Results (pooled)', '## Paired comparisons').split('\n', 2)[-1].strip(), '',
+         '### Paired comparisons', '', sec('## Paired comparisons', '## Primary confirmatory claim').split('\n', 1)[-1].strip(), '',
+         '### Primary claim', '', sec('## Primary confirmatory claim', '## Blend decision').strip(), '',
+         '### Blend decision', '',
+         sec('## Blend decision (MRR)', '## Error causes').strip() + ' The decision rule was applied after the test '
+         'results were seen, as pre-registered. The frozen system (tag retrieval-v2.2) and the demo app are not '
+         'changed by this report.', '',
+         '### Error causes', '', sec('## Error causes for every system (queries with no gold family in the top 5)', '## By group').strip(), '',
+         '### By group', '', sec('## By group (hit@5 and MRR, 1,000 resamples)', '## Stacked confidence').strip(), '',
+         '### Confidence tiers', '', sec('## Stacked confidence tiers (frozen cut-offs 0.0723 / 0.1372)', '## Sensitivity').strip(), '',
+         '### Sensitivity analyses (descriptive)', '', sec('## Sensitivity analyses (amendment 4; descriptive, not decisive; paired bootstrap, 10,000 resamples)', '## Gold families').strip(), '',
+         '### Limitations of the independent test', '',
+         f'- **Topic overlap between sets.** Gold families shared between sets: {shared}. The same water-network, '
+         'traffic-signal and UAV path-planning families appear in several sets, and t1 and t4 have the same writer. The '
+         f'cluster bootstrap over {cl["components"]} groups of queries sharing a gold family gives '
+         f'{cl["d_hit5"][0]:+.3f} [{cl["d_hit5"][1]:+.3f}, {cl["d_hit5"][2]:+.3f}] for the primary claim.',
+         '- **Dependence on one set.** The advantage over popularity is largest on t1; on t3 alone (the only set by '
+         'the second writer) the interval for hit@5 includes 0 (see sensitivity (a) and leave-one-writer-out).',
+         f'- **Single-paper gold families.** {single.group(1)} of the {nfam} distinct gold families ({single.group(2)}) '
+         'have fewer than 2 papers in the index, so popularity can rarely find them and every system misses many of them.',
+         '- **Provenance gaps.** t1 and t3 have no AI-use statement ("provenance not stated", amendment 3); the t4 '
+         'statement was relayed by the user, mentions only Copilot (formatting only), and is not in the writer\'s own '
+         'words. Sensitivity (d) (only t4) is reported above.',
+         '- **Tiers.** On the test, hit@1 by tier is not monotone (low / medium / high), with wide intervals at these sizes.',
+         f'- **Size.** n = {j["n"]}; the primary hit@5 interval width is {p["width"]:.3f}.',
+         '- **Pre-check note.** Before scoring, pre-check (c) found additions since amendment 4 beyond PROVENANCE_t.md: '
+         'amendments 5 and 6 (pre-registration documents; amendment 6 sets the scoring time used) and the demo app '
+         'under app/. None changes a frozen file (FROZEN_HASHES.txt verified immediately before the run), so the run '
+         'went ahead with these documented exceptions.', '']
+    return '\n'.join(L) + '\n'
 
 
 def main():
@@ -167,6 +220,7 @@ def main():
     for a, b in (('| stacked |', '| stacked ranker (v2.1/v2.2) |'), ('| stacked - ', '| stacked ranker (v2.1/v2.2) - ')):
         text = text.replace(a, b)
     text = text + '\n' + DECISIONS_AFTER_QUERIES_V2
+    text = text + independent_test_section()
     (HERE.parent / 'RESULTS.md').write_text(text, encoding='utf-8')
     print(text)
 
