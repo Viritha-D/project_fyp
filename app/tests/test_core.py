@@ -131,9 +131,11 @@ def _result():
 
 def test_downloads_have_required_fields():
     c = core.to_csv(_result())
-    assert c.splitlines()[0] == 'query,rank,family,n_papers,tier,evidence_papers,timestamp,system_hash'
+    assert c.splitlines()[0] == 'query,rank,family,n_papers,score_band,evidence_papers,timestamp,system_hash'
+    assert c.splitlines()[1].split(',')[4] == '2'                                  # medium -> band 2
     m = core.to_markdown(_result())
-    assert 'DTLZ' in m and 'medium' in m and 'abc' in m and 'T (GECCO 2020)' in m
+    assert 'DTLZ' in m and 'Score band' in m and '2 of 3' in m and 'abc' in m and 'T (GECCO 2020)' in m
+    assert 'medium' not in m
 
 
 def test_frozen_hash_matches():

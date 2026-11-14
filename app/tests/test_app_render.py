@@ -1,5 +1,6 @@
 """The page renders without errors in precomputed mode, validates input and does not run retrieval there."""
 import json
+import re
 
 from streamlit.testing.v1 import AppTest
 
@@ -49,11 +50,14 @@ def test_reliability_numbers_come_from_site_data(monkeypatch):
     assert '0.127' not in src and '0.475' not in src
 
 
-def test_tier_badges_have_no_hit1_and_are_labelled(monkeypatch):
+def test_score_band_line_replaces_tier_words(monkeypatch):
     at = _run(monkeypatch=monkeypatch)
-    caps = [c.value for c in at.caption if c.value.startswith('Evidence tier for this list')]
-    assert caps and all('experimental, not validated on the independent test' in c for c in caps)
-    assert not any('hit@1' in c for c in caps)
+    lines = [m.value for m in at.markdown if m.value.startswith('**Score band (experimental, not validated on the independent test): ')]
+    assert len(lines) == len(json.loads((core.APP / 'gallery.json').read_text())['items'])   # one line per answer
+    assert all(re.search(r': [123]\*\* of 3 \(1 = top\)$', l) for l in lines)
+    assert not any(c.value.startswith('Evidence tier') for c in at.caption)                # no per-card tier text
+    assert not any(re.search(r'\b(high|medium|low)\b', l) for l in lines)
+    assert not any('hit@1' in l for l in lines)
 
 
 def test_banner_shows_both_evaluations():

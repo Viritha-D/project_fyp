@@ -35,13 +35,9 @@ st.set_page_config(page_title='Benchmark recommender', page_icon='📊', layout=
 
 
 # ---------------------------------------------------------------- rendering
-TIER_LABEL = 'experimental, not validated on the independent test'
+def band_line(tier):
+    return f"**{core.BAND_LABEL}: {core.BAND[tier]}** of 3 (1 = top)"
 
-
-def tier_line(tier):
-    return (f"**Evidence tier: {tier}** ({TIER_LABEL}). The tier comes from the stacked ranker's confidence and applies "
-            "to the whole list. It was calibrated for the stacked ranker, not for v2.3, and on the independent test it "
-            "did not rise in order from low to high.")
 
 
 def applied_banner_text():
@@ -65,12 +61,11 @@ def render_result(res, key):
     st.caption(version_line(res))
     if res['applied_share'] > APPLIED_LIMIT:
         st.warning(applied_banner_text())
-    st.markdown(tier_line(res['tier']))
+    st.markdown(band_line(res['tier']))
     for i, f in enumerate(res['families'], 1):
         n = f['note']
         with st.container(border=True):
             st.markdown(f"#### {i}. {f['family_name']}")
-            st.caption(f"Evidence tier for this list: {res['tier']} ({TIER_LABEL})")
             if n['single_paper']:
                 st.info('Single paper only: this family is supported by one paper in the data.')
             for line in core.note_lines(n):
@@ -101,8 +96,10 @@ def reliability_panel():
                 rows.append({'run': seed, 'system': label, 'n': m['n'], 'hit@1': fmt(m['hit@1']), 'hit@5': fmt(m['hit@5']),
                              'MRR': fmt(m['mrr'])})
         st.table(pd.DataFrame(rows))
-        st.markdown('**Evidence tiers** (measured for the stacked ranker in the automatic evaluation, seed 42; '
-                    f'{TIER_LABEL}): ' + ', '.join(f"{t} hit@1 {TIERS[t]['hit@1']:.3f}" for t in ('low', 'medium', 'high')))
+        st.markdown(f'**{core.BAND_LABEL}.** Measured for the stacked ranker in the automatic evaluation (seed 42): ' +
+                    ', '.join(f"band {core.BAND[t]} hit@1 {TIERS[t]['hit@1']:.3f}" for t in ('high', 'medium', 'low')) +
+                    '. The bands come from the stacked ranker\'s confidence, not from v2.3, and on the independent test '
+                    'they did not rise in order.')
         d = SITE['dev_written_queries']
         st.markdown(f"**Written development queries.** {d['description']}")
         st.table(pd.DataFrame([{'system': s if s != SITE['system_name'] else 'this system', 'n': d[s]['n'],

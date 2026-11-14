@@ -32,6 +32,9 @@ MAX_CHARS = 2000
 TIMEOUT_S = 20
 SIM_LIMIT = 0.8
 MISSING = {'', 'not reported', 'n/a', 'na', 'none', 'unknown', 'n/a (pure math problem)', 'none / pure synthetic', 'nan'}
+# Score bands shown instead of the tier words (the underlying tier values are unchanged): 1 = top.
+BAND = {'high': 1, 'medium': 2, 'low': 3}
+BAND_LABEL = 'Score band (experimental, not validated on the independent test)'
 NOTE_FIELDS = ['Problem_Context', 'Landscape_Characteristics', 'Dimensionality', 'Modality', 'Separability']
 
 
@@ -237,7 +240,7 @@ def to_rows(result):
     for i, f in enumerate(result['families'], 1):
         ev = '; '.join(f"{p['title']} ({p['conference']} {p['year']})" for p in f['note']['evidence_papers'])
         out.append({'query': result['query'], 'rank': i, 'family': f['family_name'], 'n_papers': f['note']['n_papers'],
-                    'tier': result['tier'], 'evidence_papers': ev, 'timestamp': ts, 'system_hash': result['system_hash']})
+                    'score_band': BAND[result['tier']], 'evidence_papers': ev, 'timestamp': ts, 'system_hash': result['system_hash']})
     return out
 
 
@@ -252,7 +255,7 @@ def to_csv(result):
 
 def to_markdown(result):
     L = [f"# Benchmark recommendation", '', f"**Query:** {result['query']}", '',
-         f"**Evidence tier (experimental, not validated on the independent test):** {result['tier']} · **Generated:** {result['timestamp']} · **System:** v2.3 recommend_v23.py "
+         f"**{BAND_LABEL}:** {BAND[result['tier']]} of 3 (1 = top) · **Generated:** {result['timestamp']} · **System:** v2.3 recommend_v23.py "
          f"sha256 `{result['system_hash']}`", '', '| rank | family | papers | evidence papers |', '|---|---|---|---|']
     for r in to_rows(result):
         L.append(f"| {r['rank']} | {r['family']} | {r['n_papers']} | {r['evidence_papers'] or '-'} |")
