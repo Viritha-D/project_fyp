@@ -18,8 +18,11 @@ with λ = 0.5.
 
 **Why the hosted app is precomputed.**
 
-- Measured live mode: about 1.27 GB peak RSS for the process, plus Streamlit's own memory. Cold start is 19 s with a
-  cold disk cache and about 5.5 s with a warm one; a query then takes about 0.45 s.
+- Measured live mode, in a clean virtualenv (`docs/audit_demo.md`, 2026-11-14):
+  - **memory:** peak 1.4 to 1.5 GB at the first answer;
+  - **install:** about 1.8 GB;
+  - **first answer:** 7 to 16 seconds, depending on the cache. A fresh start downloads about 0.5 GB of model weights,
+    and the later answers take under a second.
 - Community Cloud documents roughly 690 MB to 2.7 GB of RAM and 0.078 to 2 CPU cores, "approximately" and subject to
   change. So live retrieval may not get the memory, and on a fraction of a core it would exceed the 20-second limit.
 - Swapping in a lighter model would make it a different system, so the hosted app shows precomputed examples.
