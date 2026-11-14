@@ -28,7 +28,7 @@ def main():
     d = json.loads((ROOT / 'app/demo_inputs.json').read_text(encoding='utf-8'))
     items = []
     for g in d['gallery']:
-        res = live.recommend(g['query_text'])
+        res = live.recommend(g['query_text'], write=False)          # the gallery never writes to the store
         gold = [x.strip() for x in g['gold_families'].split(';') if x.strip()]
         top5 = [f['family_id'] for f in res['families']]
         items.append({**g, 'result': res, 'gold_ids': gold, 'hit': any(x in top5 for x in gold),

@@ -4,7 +4,7 @@
  "system": "v2.3 = blend 0.5",
  "rule": "queries_v2 Q01, Q11, Q21, Q31, Q41, Q51 (every tenth query from Q01), fixed before any output was seen",
  "system_hash": "48a52c2966e3c30fa6f5c11bea094f380329f8d4b331f0ea7023bbdde414a3fe",
- "built": "2026-11-12T10:10:12+00:00",
+ "built": "2026-11-14T15:35:27+00:00",
  "items": [
   {
    "query_id": "Q01",
@@ -256,8 +256,33 @@
     "lambda": 0.5,
     "applied_share": 0.2,
     "system_hash": "48a52c2966e3c30fa6f5c11bea094f380329f8d4b331f0ea7023bbdde414a3fe",
-    "timestamp": "2026-11-12T10:10:09+00:00",
-    "mode": "live"
+    "timestamp": "2026-11-14T15:35:24+00:00",
+    "mode": "live",
+    "status": "confident",
+    "selflearn": {
+     "status": "confident",
+     "profile": {
+      "category": "unknown",
+      "variable_type": "unknown",
+      "objectives": "multi",
+      "n_objectives": "unknown",
+      "dimensionality": "unknown",
+      "separability": "unknown",
+      "modality": "unknown",
+      "landscape": [],
+      "constraints": "unknown"
+     },
+     "decision": {
+      "triggered": false,
+      "low_confidence": false,
+      "feature_conflict": false,
+      "p1": 0.1808,
+      "margin": 0.05009999999999998,
+      "threshold": 0.0134
+     },
+     "shortlist": [],
+     "stored": null
+    }
    },
    "gold_ids": [
     "F00032",
@@ -600,8 +625,33 @@
     "lambda": 0.5,
     "applied_share": 0.0,
     "system_hash": "48a52c2966e3c30fa6f5c11bea094f380329f8d4b331f0ea7023bbdde414a3fe",
-    "timestamp": "2026-11-12T10:10:10+00:00",
-    "mode": "live"
+    "timestamp": "2026-11-14T15:35:24+00:00",
+    "mode": "live",
+    "status": "confident",
+    "selflearn": {
+     "status": "confident",
+     "profile": {
+      "category": "unknown",
+      "variable_type": "unknown",
+      "objectives": "multi",
+      "n_objectives": 2,
+      "dimensionality": "unknown",
+      "separability": "unknown",
+      "modality": "unknown",
+      "landscape": [],
+      "constraints": "constrained"
+     },
+     "decision": {
+      "triggered": false,
+      "low_confidence": false,
+      "feature_conflict": false,
+      "p1": 0.3622,
+      "margin": 0.3376,
+      "threshold": 0.0134
+     },
+     "shortlist": [],
+     "stored": null
+    }
    },
    "gold_ids": [
     "F00293",
@@ -879,8 +929,33 @@
     "lambda": 0.5,
     "applied_share": 1.0,
     "system_hash": "48a52c2966e3c30fa6f5c11bea094f380329f8d4b331f0ea7023bbdde414a3fe",
-    "timestamp": "2026-11-12T10:10:10+00:00",
-    "mode": "live"
+    "timestamp": "2026-11-14T15:35:25+00:00",
+    "mode": "live",
+    "status": "confident",
+    "selflearn": {
+     "status": "confident",
+     "profile": {
+      "category": "applied",
+      "variable_type": "unknown",
+      "objectives": "unknown",
+      "n_objectives": "unknown",
+      "dimensionality": "unknown",
+      "separability": "unknown",
+      "modality": "unknown",
+      "landscape": [],
+      "constraints": "constrained"
+     },
+     "decision": {
+      "triggered": false,
+      "low_confidence": false,
+      "feature_conflict": false,
+      "p1": 0.1718,
+      "margin": 0.1696,
+      "threshold": 0.0134
+     },
+     "shortlist": [],
+     "stored": null
+    }
    },
    "gold_ids": [
     "F00102"
@@ -1219,8 +1294,33 @@
     "lambda": 0.5,
     "applied_share": 0.0851063829787234,
     "system_hash": "48a52c2966e3c30fa6f5c11bea094f380329f8d4b331f0ea7023bbdde414a3fe",
-    "timestamp": "2026-11-12T10:10:11+00:00",
-    "mode": "live"
+    "timestamp": "2026-11-14T15:35:26+00:00",
+    "mode": "live",
+    "status": "confident",
+    "selflearn": {
+     "status": "confident",
+     "profile": {
+      "category": "unknown",
+      "variable_type": "unknown",
+      "objectives": "unknown",
+      "n_objectives": "unknown",
+      "dimensionality": 50,
+      "separability": "unknown",
+      "modality": "multimodal",
+      "landscape": [],
+      "constraints": "unknown"
+     },
+     "decision": {
+      "triggered": false,
+      "low_confidence": false,
+      "feature_conflict": false,
+      "p1": 0.5014,
+      "margin": 0.3226,
+      "threshold": 0.0134
+     },
+     "shortlist": [],
+     "stored": null
+    }
    },
    "gold_ids": [
     "F00090",
@@ -1703,8 +1803,33 @@
     "lambda": 0.5,
     "applied_share": 0.0,
     "system_hash": "48a52c2966e3c30fa6f5c11bea094f380329f8d4b331f0ea7023bbdde414a3fe",
-    "timestamp": "2026-11-12T10:10:12+00:00",
-    "mode": "live"
+    "timestamp": "2026-11-14T15:35:26+00:00",
+    "mode": "live",
+    "status": "confident",
+    "selflearn": {
+     "status": "confident",
+     "profile": {
+      "category": "unknown",
+      "variable_type": "unknown",
+      "objectives": "unknown",
+      "n_objectives": "unknown",
+      "dimensionality": 20,
+      "separability": "unknown",
+      "modality": "unknown",
+      "landscape": [],
+      "constraints": "unknown"
+     },
+     "decision": {
+      "triggered": false,
+      "low_confidence": false,
+      "feature_conflict": false,
+      "p1": 0.694,
+      "margin": 0.5949,
+      "threshold": 0.0134
+     },
+     "shortlist": [],
+     "stored": null
+    }
    },
    "gold_ids": [
     "F00138",
@@ -1997,8 +2122,127 @@
     "lambda": 0.5,
     "applied_share": 0.0,
     "system_hash": "48a52c2966e3c30fa6f5c11bea094f380329f8d4b331f0ea7023bbdde414a3fe",
-    "timestamp": "2026-11-12T10:10:12+00:00",
-    "mode": "live"
+    "timestamp": "2026-11-14T15:35:27+00:00",
+    "mode": "live",
+    "status": "fallback",
+    "selflearn": {
+     "status": "fallback",
+     "profile": {
+      "category": "pure_math",
+      "variable_type": "mixed",
+      "objectives": "unknown",
+      "n_objectives": "unknown",
+      "dimensionality": "unknown",
+      "separability": "unknown",
+      "modality": "unknown",
+      "landscape": [],
+      "constraints": "unknown"
+     },
+     "decision": {
+      "triggered": true,
+      "low_confidence": true,
+      "feature_conflict": false,
+      "p1": 0.0128,
+      "margin": 0.0036000000000000008,
+      "threshold": 0.0134
+     },
+     "shortlist": [
+      {
+       "family_id": "F01716",
+       "family_name": "Boolean Satisfiability (SAT)",
+       "score": 1.1932,
+       "n_papers": 1,
+       "matched": [
+        "category",
+        "variable_type"
+       ],
+       "conflicting": [],
+       "unknown": [],
+       "source": {
+        "title": "On the Sufficiency of SAT Features for Genetic Algorithm Parameter Selection",
+        "conference": "GECCO",
+        "year": "2026"
+       },
+       "label": "closest available, not a confirmed match"
+      },
+      {
+       "family_id": "F01077",
+       "family_name": "SphereInt",
+       "score": 1.1118,
+       "n_papers": 3,
+       "matched": [
+        "category",
+        "variable_type"
+       ],
+       "conflicting": [],
+       "unknown": [],
+       "source": {
+        "title": "Convergence Analysis of Evolution Strategies for Mixed-Integer Optimization",
+        "conference": "GECCO",
+        "year": "2026"
+       },
+       "label": ""
+      },
+      {
+       "family_id": "F00795",
+       "family_name": "MIPLIB 2017 - bab6",
+       "score": 1.0889,
+       "n_papers": 1,
+       "matched": [
+        "category",
+        "variable_type"
+       ],
+       "conflicting": [],
+       "unknown": [],
+       "source": {
+        "title": "Automatic Decomposition of Mixed Integer Programs for Lagrangian Relaxation Using a Multiobjective Approach",
+        "conference": "GECCO",
+        "year": "2020"
+       },
+       "label": ""
+      },
+      {
+       "family_id": "F00791",
+       "family_name": "MIPLIB 2017 - s100",
+       "score": 1.0748,
+       "n_papers": 1,
+       "matched": [
+        "category",
+        "variable_type"
+       ],
+       "conflicting": [],
+       "unknown": [],
+       "source": {
+        "title": "Automatic Decomposition of Mixed Integer Programs for Lagrangian Relaxation Using a Multiobjective Approach",
+        "conference": "GECCO",
+        "year": "2020"
+       },
+       "label": ""
+      },
+      {
+       "family_id": "F00793",
+       "family_name": "MIPLIB 2017 - rail02",
+       "score": 1.0705,
+       "n_papers": 1,
+       "matched": [
+        "category",
+        "variable_type"
+       ],
+       "conflicting": [],
+       "unknown": [],
+       "source": {
+        "title": "Automatic Decomposition of Mixed Integer Programs for Lagrangian Relaxation Using a Multiobjective Approach",
+        "conference": "GECCO",
+        "year": "2020"
+       },
+       "label": ""
+      }
+     ],
+     "earlier_suggestions": [],
+     "stored": null,
+     "store_note": "not written",
+     "store_read_only": false
+    }
    },
    "gold_ids": [
     "F01075",

@@ -83,7 +83,7 @@ def test_answer_shows_version_and_short_hash(monkeypatch):
     at = _run(monkeypatch=monkeypatch)
     h = core.frozen_hash_status()[0][:12]
     lines = [c.value for c in at.caption if c.value.startswith('Produced by v2.3 (blend 0.5)')]
-    assert len(lines) == len(json.loads((core.APP / 'gallery.json').read_text())['items'])   # one per rendered answer
+    assert len(lines) >= len(json.loads((core.APP / 'gallery.json').read_text())['items'])   # at least one per answer
     assert all(h in l for l in lines)
 
 
@@ -92,3 +92,21 @@ def test_precomputed_mode_says_precomputed_examples(monkeypatch):
     assert any('**precomputed examples**' in i.value for i in at.info)
     assert [h.value for h in at.subheader] == ['Gallery: precomputed examples']
     assert 'precomputed outputs' not in (core.APP / 'streamlit_app.py').read_text().lower()
+
+
+def test_fallback_view_in_gallery(monkeypatch):
+    """Q51 is below the threshold: banner, features, matched / conflicting / unknown per item, best labelled."""
+    at = _run(monkeypatch=monkeypatch)
+    g = json.loads((core.APP / 'gallery.json').read_text())
+    n_fallback = sum(i['result'].get('status') == 'fallback' for i in g['items'])
+    assert n_fallback >= 1
+    assert sum(e.value.startswith('**Low confidence.**') for e in at.error) == n_fallback
+    md = ' '.join(m.value for m in at.markdown)
+    assert '**Matched:**' in md and '**Conflicting:**' in md and '**Unknown:**' in md
+    assert 'closest available, not a confirmed match' in md
+    assert any(t.value is not None for t in at.table)                            # extracted features table
+
+
+def test_hosted_mode_says_store_is_read_only(monkeypatch):
+    at = _run(monkeypatch=monkeypatch)
+    assert any('read-only in the hosted demo' in c.value for c in at.caption)

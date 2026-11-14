@@ -81,6 +81,92 @@ def render_result(res, key):
                        mime='text/markdown', key=f'md{key}')
 
 
+FEATURE_LABELS = {'category': 'problem category', 'variable_type': 'variable type', 'objectives': 'objectives',
+                  'n_objectives': 'number of objectives', 'dimensionality': 'dimensionality',
+                  'separability': 'separability', 'modality': 'modality', 'landscape': 'landscape',
+                  'constraints': 'constraints'}
+FEATURE_CHOICES = {'category': ['pure_math', 'applied'],
+                   'variable_type': ['continuous', 'binary', 'integer', 'permutation', 'mixed', 'program'],
+                   'objectives': ['single', 'multi'], 'separability': ['separable', 'non-separable'],
+                   'modality': ['unimodal', 'multimodal'], 'constraints': ['constrained', 'unconstrained']}
+STORE_NOTE_HOSTED = ('Learned store: read-only in the hosted demo, because its file system is not durable. Suggestions '
+                     'are stored (as unverified) only when the demo runs locally.')
+
+
+def fmt_value(v):
+    return ', '.join(v) if isinstance(v, list) else str(v)
+
+
+def render_features(sl, key, editable):
+    """Show the extracted features; in live mode let the user correct them (the matching is re-run)."""
+    prof = sl['profile']
+    st.markdown('**Extracted features** (rule-based; "unknown" = not stated, never guessed):')
+    st.table(pd.DataFrame([{'feature': FEATURE_LABELS[k], 'value': fmt_value(v) or 'unknown'} for k, v in prof.items()]))
+    if editable:
+        with st.form(f'correct{key}'):
+            new = dict(prof)
+            for k, opts in FEATURE_CHOICES.items():
+                choices = ['unknown'] + opts
+                new[k] = st.selectbox(f"Correct {FEATURE_LABELS[k]}", choices, index=choices.index(prof[k]), key=f'{key}{k}')
+            if st.form_submit_button('Re-run matching with these features'):
+                if new['n_objectives'] != 'unknown' and new['objectives'] != ('single' if new['n_objectives'] == 1 else 'multi'):
+                    new['n_objectives'] = 'unknown'
+                st.session_state['profile_override'] = new
+                st.rerun()
+
+
+def render_selflearn(res, key, editable):
+    """Fallback view: low-confidence banner, features, shortlist with matched / conflicting / unknown, sources,
+    earlier suggestions tagged with their status, and the frozen ranking kept for reference."""
+    sl = res['selflearn']
+    d = sl['decision']
+    why = []
+    if d['low_confidence']:
+        why.append(f"the ranking's confidence (p1 = {d['p1']:.4f}) is below the threshold {d['threshold']:.4f}, chosen on "
+                   'the development queries')
+    if d['feature_conflict']:
+        why.append('the features you stated conflict with every one of the top five families')
+    st.error('**Low confidence.** ' + '; and '.join(why).capitalize() + '. Below are the closest available benchmark '
+             'families by the features you stated. None is a confirmed match.')
+    st.caption(version_line(res))
+    render_features(sl, key, editable)
+    for i, it in enumerate(sl['shortlist'], 1):
+        with st.container(border=True):
+            st.markdown(f"#### {i}. {it['family_name']}" + (f"  — *{it['label']}*" if it['label'] else ''))
+            st.markdown(f"- **Matched:** {', '.join(it['matched']) or 'none'}\n"
+                        f"- **Conflicting:** {', '.join(it['conflicting']) or 'none'}\n"
+                        f"- **Unknown:** {', '.join(it['unknown']) or 'none'}\n"
+                        f"- {it['n_papers']} paper{'s' if it['n_papers'] != 1 else ''} in the data")
+            if it['source']:
+                s = it['source']
+                st.markdown(f"**Source:** {s['title']} ({s['conference']} {s['year']})")
+    if sl.get('earlier_suggestions'):
+        st.markdown('**Earlier suggestions for similar features** (from the learned store):')
+        for c in sl['earlier_suggestions']:
+            st.markdown(f"- {c['family_name']} `{c['status']}`" + (' (not confirmed by anyone)' if c['status'] == 'unverified' else ''))
+    if sl.get('store_read_only') or not editable:
+        st.caption(STORE_NOTE_HOSTED)
+    elif sl.get('stored'):
+        st.caption(f"Stored as unverified record {sl['stored']}. Verify with: python -m selflearn.verify")
+    elif sl.get('store_note'):
+        st.caption(f"Not stored: {sl['store_note']}.")
+    with st.expander('v2.3 ranking for this question (low confidence)'):
+        render_result(res, f'{key}r')
+
+
+def render_answer(res, key, editable):
+    status = res.get('status', 'confident')
+    if status == 'out_of_scope':
+        st.warning(res['message'].capitalize() + '. No shortlist is shown, and nothing is stored.')
+    elif status == 'fallback':
+        render_selflearn(res, key, editable)
+    else:
+        render_result(res, key)
+        if res.get('selflearn'):
+            with st.expander('Extracted features'):
+                render_features(res['selflearn'], key, editable)
+
+
 def fmt(m):
     return f"{m['mean']:.3f} [{m['ci'][0]:.3f}, {m['ci'][1]:.3f}]"
 
@@ -134,6 +220,7 @@ if MODE == 'precomputed':
             'with run_demo.sh.')
 
 text = st.text_area('Describe your algorithm or problem', placeholder=DEMO['placeholder'], height=110)
+consent = st.checkbox('Keep my question text with the suggestion in the learned store (local mode only)', value=False)
 if st.button('Recommend', type='primary'):
     ok, msg = core.validate_query(text)
     if not ok:
@@ -142,16 +229,22 @@ if st.button('Recommend', type='primary'):
         st.warning('Live retrieval is not available in the hosted demo (it needs more memory and CPU than the free '
                    'tier guarantees). Run it locally with run_demo.sh, or see the precomputed examples below.')
     else:
-        import live
-        with st.spinner('Ranking with the frozen system...'):
-            res, err = core.run_with_timeout(live.recommend, text.strip())
-        if err:
-            st.error(err)
-        else:
-            render_result(res, 'live')
+        st.session_state['last_query'] = text.strip()
+        st.session_state['profile_override'] = None
+if MODE == 'live' and st.session_state.get('last_query'):
+    import live
+    with st.spinner('Ranking with the frozen system...'):
+        res, err = core.run_with_timeout(live.recommend, st.session_state['last_query'], consent,
+                                         st.session_state.get('profile_override'))
+    if err:
+        st.error(err)
+    else:
+        render_answer(res, 'live', editable=True)
 
 reliability_panel()
 
+if MODE != 'live':
+    st.caption(STORE_NOTE_HOSTED)
 st.subheader('Gallery: precomputed examples')
 st.caption(f"Label: **{GALLERY['label']}**. System: {GALLERY.get('system', '')}. Queries chosen by a fixed rule ({GALLERY['rule']}), unedited system output, "
            f"with the gold families from queries_v2. Precomputed on {GALLERY['built']}.")
@@ -161,7 +254,7 @@ for k, item in enumerate(GALLERY['items']):
         st.markdown(f"**Query:** {item['query_text']}")
         st.markdown(f"**Gold (queries_v2):** {item['gold_family_names']}: **{tag}** "
                     f"({'a gold family is in the top 5' if item['hit'] else 'no gold family in the top 5'})")
-        render_result(item['result'], f'g{k}')
+        render_answer(item['result'], f'g{k}', editable=False)
 
 actual, expected, ok = core.frozen_hash_status()
 st.divider()

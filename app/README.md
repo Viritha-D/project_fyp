@@ -117,3 +117,19 @@ The tests cover:
 - the frozen hash and the test-query guard;
 - page rendering;
 - an end-to-end run of the six gallery queries, whose top 5 must equal the recorded outputs.
+
+## Low-confidence fallback (selflearn)
+
+Live mode wraps every answer in the fallback module `selflearn/`. The frozen ranking itself is unchanged.
+
+- **Out of scope.** Text with no optimisation vocabulary and no stated problem feature gets "this does not look like
+  an optimisation problem". It gets no shortlist and nothing is stored.
+- **Confident.** The v2.3 answer is shown unchanged. The extracted features are in an expander.
+- **Low confidence.** This happens when p1 of the blend's rank-1 family is below `selflearn/threshold.json` (chosen on
+  queries_v2 only), or when the stated features conflict with all top five. The app then shows:
+  - a banner;
+  - the extracted features, which can be corrected in live mode;
+  - 3 to 5 families matched on those features, each with its matched / conflicting / unknown features and a source;
+  - earlier similar suggestions tagged "unverified" or "verified".
+  - The suggestion is stored as unverified. Review it with `python -m selflearn.verify`.
+- **Hosted mode.** The store is read-only there, because that file system is not durable.
