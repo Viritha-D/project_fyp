@@ -145,10 +145,14 @@ def product_decision_section():
          f"- **Tiers not validated for v2.3.** The confidence tiers were calibrated for the stacked ranker. On the independent "
          f"test they did not rise in order (hit@1 low {tiers['low']:.3f} / medium {tiers['medium']:.3f} / high "
          f"{tiers['high']:.3f}), so they are not validated for v2.3.",
-         '- **Provenance after scoring.** t4 carries a formatting-only statement (relayed before scoring; "no change" '
-         'confirmed after scoring). The t1 and t3 statements had not been received when this section was written '
-         '(`evaluation/PROVENANCE_t.md`). Formatting-only use would not change the primary pool (amendment 3), and '
-         'sensitivity (d) is not re-run.', '',
+         '- **Provenance after scoring** (self-reported, not verified; `evaluation/PROVENANCE_t.md`).',
+         '  - **Formatting-only statements: t1 and t4.** t1\'s was received after scoring; t4\'s was relayed before '
+         'scoring, with "no change" confirmed after scoring.',
+         '  - **t3 has a statement that is not formatting-only.** Received after scoring, it says the queries were '
+         'drafted manually and that ChatGPT was used "only for understanding the requirements and examples".',
+         '  - **No set is missing a statement.**',
+         '  - **Effect.** The t1 and t3 statements arrived after the cut-off (amendment 6), so they change nothing: the '
+         'primary pool is unchanged and sensitivity (d) is not re-run.', '',
          '### Post-hoc descriptive analysis of the blend (decides nothing)', '', post_body, '']
     return '\n'.join(L) + '\n'
 
