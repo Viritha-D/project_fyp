@@ -68,12 +68,25 @@ Under amendment 3, a set with no AI statement by the scoring date stays in the p
 ## Statements received after scoring (12 November 2026)
 
 Recorded on 12 November 2026, after the final test was scored (run started 15:21 IST; cut-off 10:00 IST, amendment 6).
-The label "self-reported, verified" is the one the user chose for these statements. Under amendment 3,
-formatting-only AI use does not exclude a set, and the primary pool and its registered results are unchanged.
-Sensitivity analysis (d) is not re-run; its registered result stands.
+The statements are quoted verbatim, as supplied by the user, with the writers' spelling and spacing. Every line is
+labelled "self-reported, not verified". This replaces the earlier label, which wrongly said "verified".
+
+**These statements arrived after the cut-off.** Amendment 6 made statements due by 12 November 2026, 10:00 IST, so they
+do not change the registered analysis:
+
+- the primary pool is unchanged;
+- sensitivity analysis (d) is not re-run, and its registered result stands.
 
 | set | writer | statement received after scoring | label |
 |---|---|---|---|
-| t1 | Sanjesh Nandha K | not provided: the user chose to paste a statement, but no text was received | - |
-| t3 | Adarsh Prakash | not received yet | - |
-| t4 | Sanjesh Nandha K | any update: "no change" (as confirmed by the user) | self-reported, verified |
+| t1 | Sanjesh Nandha K | "Ihave used copilot only for formatting the file using tables and textures.The content is not created or updated by any AI  tool here" | self-reported, not verified |
+| t3 | Adarsh Prakash | "The query file i created was drafeted manually.I used chatGPT only for understanding the requirements and examples." | self-reported, not verified |
+| t4 | Sanjesh Nandha K | any update: "no change" | self-reported, not verified |
+
+**How each statement reads (descriptive only).**
+
+- **t1** describes formatting-only AI use (Copilot).
+- **t4** keeps its formatting-only statement (Copilot; relayed before scoring, "no change" after scoring).
+- **t3** is not a formatting-only statement. It says the queries were drafted manually and that ChatGPT was used "only
+  for understanding the requirements and examples". It does not say whether ChatGPT suggested any query, id or family
+  name. Because it arrived after the cut-off, it is recorded here and not classified under amendment 3.
