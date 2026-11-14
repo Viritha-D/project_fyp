@@ -57,7 +57,12 @@ def applied_banner_text():
     return text
 
 
+def version_line(res):
+    return (f"Produced by v2.3 (blend 0.5) · recommend_v23.py sha256 `{res['system_hash'][:12]}`")
+
+
 def render_result(res, key):
+    st.caption(version_line(res))
     if res['applied_share'] > APPLIED_LIMIT:
         st.warning(applied_banner_text())
     st.markdown(tier_line(res['tier']))

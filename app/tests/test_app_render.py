@@ -73,3 +73,11 @@ def test_panel_reports_independent_test(monkeypatch):
     assert 'The blend was chosen after seeing the test' in text
     assert 'SUPPORTED' in text
     assert any('recommend_v23.py' in c.value and 'matches FROZEN_HASHES_v23.txt' in c.value for c in at.caption)
+
+
+def test_answer_shows_version_and_short_hash(monkeypatch):
+    at = _run(monkeypatch=monkeypatch)
+    h = core.frozen_hash_status()[0][:12]
+    lines = [c.value for c in at.caption if c.value.startswith('Produced by v2.3 (blend 0.5)')]
+    assert len(lines) == len(json.loads((core.APP / 'gallery.json').read_text())['items'])   # one per rendered answer
+    assert all(h in l for l in lines)
