@@ -22,7 +22,7 @@ with λ = 0.5.
   cold disk cache and about 5.5 s with a warm one; a query then takes about 0.45 s.
 - Community Cloud documents roughly 690 MB to 2.7 GB of RAM and 0.078 to 2 CPU cores, "approximately" and subject to
   change. So live retrieval may not get the memory, and on a fraction of a core it would exceed the 20-second limit.
-- Swapping in a lighter model would make it a different system, so the hosted app shows precomputed outputs.
+- Swapping in a lighter model would make it a different system, so the hosted app shows precomputed examples.
 
 ## Run locally (live)
 

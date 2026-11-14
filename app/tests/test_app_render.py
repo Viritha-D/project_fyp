@@ -85,3 +85,10 @@ def test_answer_shows_version_and_short_hash(monkeypatch):
     lines = [c.value for c in at.caption if c.value.startswith('Produced by v2.3 (blend 0.5)')]
     assert len(lines) == len(json.loads((core.APP / 'gallery.json').read_text())['items'])   # one per rendered answer
     assert all(h in l for l in lines)
+
+
+def test_precomputed_mode_says_precomputed_examples(monkeypatch):
+    at = _run(monkeypatch=monkeypatch)
+    assert any('**precomputed examples**' in i.value for i in at.info)
+    assert [h.value for h in at.subheader] == ['Gallery: precomputed examples']
+    assert 'precomputed outputs' not in (core.APP / 'streamlit_app.py').read_text().lower()

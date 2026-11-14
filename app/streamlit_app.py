@@ -130,7 +130,7 @@ st.title('Benchmark recommender for evolutionary algorithms')
 st.caption('Suggests benchmark families that published papers used for similar problems (product system v2.3, '
            'blend 0.5). Benchmarks only; no algorithm recommendation. Treat the list as suggestions to check.')
 if MODE == 'precomputed':
-    st.info('This hosted demo shows **precomputed** outputs of the frozen system (below). Live retrieval runs locally '
+    st.info('This hosted demo shows **precomputed examples** of the product system v2.3 (below). Live retrieval runs locally '
             'with run_demo.sh.')
 
 text = st.text_area('Describe your algorithm or problem', placeholder=DEMO['placeholder'], height=110)
@@ -152,7 +152,7 @@ if st.button('Recommend', type='primary'):
 
 reliability_panel()
 
-st.subheader('Gallery: precomputed outputs')
+st.subheader('Gallery: precomputed examples')
 st.caption(f"Label: **{GALLERY['label']}**. System: {GALLERY.get('system', '')}. Queries chosen by a fixed rule ({GALLERY['rule']}), unedited system output, "
            f"with the gold families from queries_v2. Precomputed on {GALLERY['built']}.")
 for k, item in enumerate(GALLERY['items']):
