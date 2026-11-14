@@ -430,7 +430,11 @@ Components for (c): 38; largest sizes [6, 5, 4, 3, 3]; singletons 29.
 - **Selection numbers.** The blend's independent-test numbers are now selection numbers, because the blend was chosen on them.
 - **Two evaluations disagree.** Automatic evaluation (seed 42): blend hit@5 0.190 vs popularity 0.328. Independent written test: blend hit@5 0.500 vs popularity 0.083. They differ because the query distributions differ. The automatic queries are masked fields of corpus papers, mostly Pure Math, where a few popular suites dominate the gold. The written test asks about named problems, and 70% of its gold families have a single paper, which popularity cannot reach.
 - **Tiers not validated for v2.3.** The confidence tiers were calibrated for the stacked ranker. On the independent test they did not rise in order (hit@1 low 0.111 / medium 0.059 / high 0.188), so they are not validated for v2.3.
-- **Provenance after scoring.** t4 carries a formatting-only statement (relayed before scoring; "no change" confirmed after scoring). The t1 and t3 statements had not been received when this section was written (`evaluation/PROVENANCE_t.md`). Formatting-only use would not change the primary pool (amendment 3), and sensitivity (d) is not re-run.
+- **Provenance after scoring** (self-reported, not verified; `evaluation/PROVENANCE_t.md`).
+  - **Formatting-only statements: t1 and t4.** t1's was received after scoring; t4's was relayed before scoring, with "no change" confirmed after scoring.
+  - **t3 has a statement that is not formatting-only.** Received after scoring, it says the queries were drafted manually and that ChatGPT was used "only for understanding the requirements and examples".
+  - **No set is missing a statement.**
+  - **Effect.** The t1 and t3 statements arrived after the cut-off (amendment 6), so they change nothing: the primary pool is unchanged and sensitivity (d) is not re-run.
 
 ### Post-hoc descriptive analysis of the blend (decides nothing)
 
