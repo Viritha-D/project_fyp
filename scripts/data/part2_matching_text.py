@@ -12,8 +12,8 @@ Recipes (reproduce the existing master exactly - see --check):
                  master never needs this; it is reported when used).
 
 Usage:
-    python part2_matching_text.py --check   # read-only: rebuild the existing rows and compare
-    python part2_matching_text.py           # fill rows whose matching_text is empty
+    python scripts/data/part2_matching_text.py --check   # read-only: rebuild the existing rows and compare
+    python scripts/data/part2_matching_text.py           # fill rows whose matching_text is empty
 
 Filling sets matching_text and matching_text_original only. Language detection and
 translation (language, translated) are a separate step and are left untouched.

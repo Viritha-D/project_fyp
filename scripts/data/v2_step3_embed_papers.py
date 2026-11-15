@@ -10,7 +10,7 @@ row order of the input. Outputs (the old versions are in backup_v2/):
                                           row-aligned reference read by part4a/5/6
     embedding_metadata.json               same keys as part3 plus the input file, the model
                                           revision and the Paper_ID order file
-Usage: python v2_step3_embed_papers.py   (needs sentence-transformers and network access
+Usage: python scripts/data/v2_step3_embed_papers.py   (needs sentence-transformers and network access
 to huggingface.co on the first run)
 """
 

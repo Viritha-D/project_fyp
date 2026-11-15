@@ -2,7 +2,7 @@
 Ingest new extraction CSVs into papers_master_with_matching_text.csv.
 
 Usage:
-    python ingest.py --input <csv file or folder of CSVs> --source <venue label> [--dry-run]
+    python scripts/data/ingest.py --input <csv file or folder of CSVs> --source <venue label> [--dry-run]
 
 Venue-agnostic and contributor-agnostic: no venue-specific logic and no content
 filtering. Every paper is kept unless one of the duplicate rules below fires.

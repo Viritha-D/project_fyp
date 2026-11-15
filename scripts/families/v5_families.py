@@ -9,7 +9,7 @@ embeddings, paper_index.csv and all v3 / v4 files are read, never written.
 
 Outputs: families_v5.json, entity_to_family_v5.csv, family_notes_v5.json,
 labeling/family_review_sample_v5_delta_blind.csv, labeling/family_review_key_v5_delta.csv
-Usage: python v5_families.py
+Usage: python scripts/families/v5_families.py
 """
 
 import json

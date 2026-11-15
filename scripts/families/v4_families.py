@@ -8,7 +8,7 @@ files are read, never written.
 Outputs: families_v4.json, entity_to_family_v4.csv, family_notes_v4.json,
 labeling/family_review_sample_v4_blind.csv, labeling/family_review_key_v4.csv,
 labeling/labeling_instructions_v4.md
-Usage: python v4_families.py
+Usage: python scripts/families/v4_families.py
 """
 
 import json

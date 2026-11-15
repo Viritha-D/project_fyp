@@ -8,7 +8,7 @@ notes, embeddings and paper_index.csv are read, never written.
 
 Outputs: families_v2.json, entity_to_family_v2.csv, family_notes_v2.json,
 family_candidates_v2.csv, possible_duplicate_entities_v2.csv, family_review_sample.csv
-Usage: python v2_families.py
+Usage: python scripts/families/v2_families.py
 """
 
 import json

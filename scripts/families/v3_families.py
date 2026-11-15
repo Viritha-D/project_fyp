@@ -8,7 +8,7 @@ embeddings and paper_index.csv are read, never written. Embedding similarity nev
 
 Outputs: families_v3.json, entity_to_family_v3.csv, family_notes_v3.json,
 family_candidates_v3.csv, family_review_sample_v3.csv
-Usage: python v3_families.py
+Usage: python scripts/families/v3_families.py
 """
 
 import json

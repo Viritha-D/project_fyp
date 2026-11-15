@@ -19,7 +19,7 @@ translated rows). Remaining non-English rows are
 translated from TRANSLATIONS below; any without one stay translated=False and are listed
 in needs_translation.csv.
 
-Usage:  PYTHONPATH=<dir containing langdetect> python v2_step2_matching_text.py
+Usage:  PYTHONPATH=<dir containing langdetect> python scripts/data/v2_step2_matching_text.py
 """
 
 import re

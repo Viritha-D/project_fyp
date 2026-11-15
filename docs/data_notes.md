@@ -1,5 +1,7 @@
 # Data notes: master v2
 
+File paths below follow the repository layout of 2026-11-15 (`docs/REPO_PLAN.md`).
+
 Source: `master_dataset_clean.csv` (11,342 rows x 29 columns), frozen unchanged as
 `papers_master_v2.csv`. Derived data lives in `paper_index.csv`,
 `papers_master_with_matching_text_v2.csv` (29 columns + 4 Part 2 columns) and the review
@@ -11,7 +13,7 @@ files; no original master value is ever edited.
   letters and digits kept). There are **1,494 papers** (`paper_index.csv`).
 - An untitled paper (title "Not Reported") is keyed `Conference|Year|Source_File|untitled`,
   so untitled papers are never merged with each other. 101 untitled rows form 38 papers,
-  all PReMI; each key holds exactly one Paper_ID root (asserted in `v2_step1_validate.py`).
+  all PReMI; each key holds exactly one Paper_ID root (asserted in `scripts/data/v2_step1_validate.py`).
 - `Paper_ID` is the unique row identifier (`P<Year>_<Conference>_<NNN>_Ext_<NN>`).
 - `Original_Paper_ID` is a per-file extraction counter that restarts for every source
   (`Paper_001`, `Paper_002`, ...). It is **never a key**: 246 of its 388 roots occur under
@@ -36,13 +38,13 @@ files; no original master value is ever edited.
   below. The EEG pair (different authors and contexts) stays "unclear".
 - **Checked against the real proceedings.** `2023-fyp.pdf` (Git LFS, on `main`) is the
   PReMI 2023 proceedings, Springer LNCS 14301, 892 pages, 91 papers
-  (`premi2023_proceedings_toc.csv`, built by `v2_partD_premi2023_proceedings.py` from the
+  (`archive/data_review/premi2023_proceedings_toc.csv`, built by `scripts/data/v2_partD_premi2023_proceedings.py` from the
   PDF bookmarks, first-page author lines and running heads). Of the 107 titled
   "PReMI 2023" papers in the master only **22** are in it: 12 by exact title and 10 by the
   paper's running head (the short title printed on its pages). The other **85** titles do
   not occur anywhere in the volume's text. 56 of the 57 titles in `018_paper.pdf` are not
   2023 papers. So most rows labelled PReMI 2023 come from other PReMI volumes, and their
-  Year is not reliable. Per-paper results: `premi2023_proceedings_check.csv`.
+  Year is not reliable. Per-paper results: `archive/data_review/premi2023_proceedings_check.csv`.
 - 7 PReMI papers labelled 2020, 2021 or 2022 are in the 2023 proceedings with a shared
   author; 3 of them are short-title copies of a 2023 paper_key ("Identifying a Person in
   Mask", "Elephant Swarm Water Search Algorithm (LESWSA)", "A GE Based Automated
@@ -54,7 +56,7 @@ files; no original master value is ever edited.
 - Proposed merges (none applied): Fast Convergence pair, Document Similarity pair, Front
   Generation pair and the 3 other-year copies above, i.e. 6 merges: 1,494 papers would
   become **1,488**. **Approved and applied** (2026-10-28) to `paper_index.csv` only, by
-  `v2_apply_paper_decisions.py`: 1,488 papers; absorbed keys are listed in `merged_keys`.
+  `scripts/data/v2_apply_paper_decisions.py`: 1,488 papers; absorbed keys are listed in `merged_keys`.
 - `paper_index.csv` flags `year_unverified` on the 84 paper_keys (85 titles, one absorbed
   by a merge) of titled PReMI 2023 papers not found in the proceedings; no Year is changed.
 - The PReMI extraction scripts (said to be in a zip) are not in any branch or commit.
@@ -68,10 +70,10 @@ files; no original master value is ever edited.
   lists: flagged `whole_proceedings_suspect` in `paper_index.csv`.
 - The other three files mix several Problem_Contexts: flagged `mixed_context`.
 - ESTIMATE (distinct Problem_Context per file, a heuristic only): 22 underlying papers in
-  the 5 files (5 + 7 + 4 + 3 + 3). See `ppsn_review.csv`.
+  the 5 files (5 + 7 + 4 + 3 + 3). See `archive/data_review/ppsn_review.csv`.
 - Origin: the same 5 files were already in the first commit of the old master (90 rows;
   90 of the 92 v2 rows match them, PPSN_2018 grew from 13 to 15 rows). They were
-  extracted with the Gemini pipeline now in `extraction/gecco_pipeline/`. It returns one
+  extracted with the Gemini pipeline now in `scripts/extraction/gecco_pipeline/`. It returns one
   `metadata` block (title, authors, year) per PDF and, for PDFs over 200 pages, merges
   the extractions of all 200-page parts under the first part's metadata. So the title and
   authors on every PPSN row describe the whole PDF, not the paper the row came from. The
@@ -90,7 +92,7 @@ kept**.
 
 ## Matching text (Part 2)
 
-- Recipe (`part2_matching_text.py`, unchanged): Applied rows use
+- Recipe (`scripts/data/part2_matching_text.py`, unchanged): Applied rows use
   "Problem_Context. Paper_Title"; Pure Math rows use
   "Benchmark_Name. Target_Landscape. Landscape_Characteristics"; "Not Reported" parts are
   dropped.
@@ -110,11 +112,11 @@ Problem_Context are identical to the master on all 40 rows. The original
 ## Problem entities (v2)
 
 - Built by `python v2_entities_pipeline.py --stage all` (fidelity -> A -> B -> C); rules in
-  `part4_rules.json`, reconstructed from `part4_methodology.md`. Name-key blocking does all
+  `part4_rules.json`, reconstructed from `docs/part4_methodology.md`. Name-key blocking does all
   the grouping; embeddings only pick each entity's medoid.
 - Fidelity on the old 4,256-row master: name_key 100%, ARI/NMI 1.0 against the original
   Part 4 map (1,038 entities); Part 5 + enrichment + repairs reproduce the old
-  `problem_entities.json` except 3 medoid tie-breaks.
+  `archive/legacy_v1/data/problem_entities.json` except 3 medoid tie-breaks.
 - v2: 3,199 entities (3,187 single_function, 8 named_subset, 4 suite; Applied 1,765,
   Pure Math 1,434); 2,946 are supported by a single paper. Gold (38 labelled rows):
   ARI 1.0, NMI 1.0. `--series-split` splits CEC 2006 into a suite + 7 G functions; digit
@@ -126,10 +128,10 @@ Problem_Context are identical to the master on all 40 rows. The original
 
 ## Families (v2)
 
-- `python v2_families.py`, rules in `family_rules_v2.json`: entities in one Category are
+- `python v2_families.py`, rules in `scripts/families/family_rules_v2.json`: entities in one Category are
   grouped by equal name stem, equal library cue (rows' Dataset_Name / Source_Platform) or
   template names (>= 5 tokens, <= 2 token edits). Embedding similarity never merges
-  (`family_candidates_v2.csv` lists pairs for review). Entities are unchanged.
+  (`archive/family_layers/family_candidates_v2.csv` lists pairs for review). Entities are unchanged.
 - 2,136 families for 3,199 entities; records in families with >= 2 papers: 46.0% (26.3%
   at entity level). Known issues, reported not fixed: library cues chain unrelated
   functions (Sphere + Rastrigin via CEC 2013) and build very large families (UCI: 162
@@ -138,29 +140,29 @@ Problem_Context are identical to the master on all 40 rows. The original
 
 ## Families v3
 
-- `python v3_families.py`, rules in `family_rules_v3.json`: one family key per entity
+- `python v3_families.py`, rules in `scripts/families/family_rules_v3.json`: one family key per entity
   (standard suite > stem > template > library cue > single), no union across rules. Suite
   and stem families may mix Categories; template keys require digit tokens to match.
 - 2,027 families; records in families with >= 2 papers 46.7% (v2 46.0%). Suite families
   (ZDT, WFG, DTLZ, BBOB, CEC <year> ...) replace the chained v2 families; library cues are
-  kept per entity as suite_memberships. `family_review_sample_v3.csv` is the sample to label
+  kept per entity as suite_memberships. `archive/family_layers/family_review_sample_v3.csv` is the sample to label
   (blind); the v2 sample is superseded.
 
 ## Families v4
 
-- `python v4_families.py`, rules in `family_rules_v4.json`: standard suite > template (same
+- `python v4_families.py`, rules in `scripts/families/family_rules_v4.json`: standard suite > template (same
   primary Problem_Context, <= 3 token edits, digit tokens identical) > numbered series >
   single. Library cues are attribute-only (suite_memberships).
 - 2,391 families; records in families with >= 2 papers 37.3% (v3 46.7%). The drop comes
   from v3 stem groups without numbers (sphere, rastrigin, rosenbrock, ...): 144 of 239 are
   now singles, since only numbered series replace the stem rule. The bug-prediction grid is
-  one family (v3: 9). New blind pack: `labeling/family_review_sample_v4_blind.csv` (60 pairs).
+  one family (v3: 9). New blind pack: `archive/labeling/family_review_sample_v4_blind.csv` (60 pairs).
 
 ## Families v5
 
-- `python v5_families.py`, rules in `family_rules_v5.json`: standard suite > template > stem >
+- `python v5_families.py`, rules in `scripts/families/family_rules_v5.json`: standard suite > template > stem >
   single. Stem key = (a) plain v3 stem (>= 4 letters) or (b) the v4 numbered-series rule with
   numbers of >= 4 digits ignored. Template edits: 2 for 5-7 tokens, 3 for >= 8, at most 40%.
 - 2,173 families; records in families with >= 2 papers 42.0% (v3 46.7%, v4 37.3%). The
   "{...} problem" template family is gone; the bug-prediction grid stays one family. Delta
-  pack: `labeling/family_review_sample_v5_delta_blind.csv` (20 new-in-v5 pairs).
+  pack: `archive/labeling/family_review_sample_v5_delta_blind.csv` (20 new-in-v5 pairs).

@@ -17,7 +17,7 @@ Outputs:
     premi2023_proceedings_toc.csv     one row per paper in the proceedings
     premi2023_proceedings_check.csv   one row per PReMI paper_key in the master
 Usage:
-    python v2_partD_premi2023_proceedings.py --pdf <path to 2023-fyp.pdf>
+    python scripts/data/v2_partD_premi2023_proceedings.py --pdf <path to 2023-fyp.pdf>
 """
 
 import argparse

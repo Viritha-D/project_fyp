@@ -6,7 +6,7 @@ labeling/family_review_sample_v3_blind.csv  same 80 pairs, same row order: per e
     'same_family (y/n/unsure)' and 'notes'. No pair type, evidence, family or entity ids.
 labeling/family_review_key_v3.csv           pair_id + entity ids + pair_type, evidence, family columns.
 labeling/labeling_instructions.md
-Usage: python make_labeling_pack_v3.py
+Usage: python scripts/families/make_labeling_pack_v3.py
 """
 
 import json

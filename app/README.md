@@ -105,7 +105,7 @@ before any output was seen.
 grep -v "^#" retrieval_v2/evaluation/FROZEN_HASHES.txt | sha256sum -c --strict
 grep -v "^#" retrieval_v2/evaluation/FROZEN_HASHES_v23.txt | sha256sum -c --strict
 python app/tools/check_demo_inputs.py
-python -m pytest app/tests -q
+python -m pytest tests -q
 ```
 
 The tests cover:
