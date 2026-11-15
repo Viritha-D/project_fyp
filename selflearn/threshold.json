@@ -1,0 +1,19 @@
+{
+ "threshold": 0.0134,
+ "signal": "p1 = stacked probability of the blend 0.5 rank-1 family (recommend_v23)",
+ "rule": "maximise Youden's J (sensitivity + specificity - 1) for predicting a miss (no gold family in the top 5) by p1 < t; candidates are midpoints between consecutive distinct p1 values; ties -> smaller t",
+ "chosen_on": "development queries only: retrieval_v2/evaluation/queries_v2.csv (55 queries; the v2.2 lambda was also selected on this set). The independent test queries and gold were not read.",
+ "date": "2026-11-14",
+ "youden_j": 0.197,
+ "dev_counts": {
+  "queries": 55,
+  "misses": 22,
+  "hits": 33,
+  "below_threshold": 6,
+  "misses_below": 5,
+  "hits_at_or_above": 32,
+  "feature_conflict_trigger": 1,
+  "triggered_either": 7
+ },
+ "feature_conflict_rule": "fixed a priori: fires when the extracted features conflict with every one of the top five families; no tunable value, so nothing was chosen for it"
+}

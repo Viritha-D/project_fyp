@@ -1,0 +1,81 @@
+entity_id_a,name_a,category_a,n_papers_a,entity_id_b,name_b,category_b,n_papers_b,same_family (y/n),notes,pair_type,evidence,family_a,family_b
+E00174,Combined Benchmark Suite (various sources),Pure Math,1,E01392,MIRROR,Pure Math,1,,,negative_control,"random pair, different families",F00072,F00839
+E02785,f1,Pure Math,2,E02791,f7,Pure Math,1,,,candidate_not_merged,cosine 0.970,F01693,F01699
+E00774,RSA-CRT (Software Implementation),Applied,1,E00775,RSA-CRT (Hardware Accelerator),Applied,1,,,merged_by_stem,stem: rsa crt,F00441,F00441
+E02834,OpenML Tabular Benchmark,Applied,1,E01925,elevators,Applied,1,,,merged_by_library_cue,library_cue: OpenML,F00596,F00596
+E02440,Yeast Feature Selection,Applied,1,E02638,SST-2 Sentiment Analysis (BERT-Base),Applied,1,,,negative_control,"random pair, different families",F00021,F01582
+E00316,CEC 2013 F15,Pure Math,2,E00443,CEC2017 F8 (Shifted and Rotated Non-Continuous Rastrigin's Function),Pure Math,1,,,negative_control,"random pair, different families",F00126,F00092
+E00574,F11 (Globally Convex),Pure Math,1,E00575,F16 (Noisy),Pure Math,1,,,merged_by_library_cue,library_cue: CEC 2013,F00280,F00280
+E01209,EAX on TSP RUE 1000-3000,Pure Math,1,E01208,LKH on TSP RUE 1000-3000,Pure Math,1,,,merged_by_template,template: {...} on tsp rue 1000 3000,F00715,F00715
+E03177,Feature Selection for EEG Emotion Classification,Applied,1,E02975,Feature selection for emotion classification,Applied,1,,,merged_by_template,template: feature selection for emotion classification,F01829,F01829
+E01890,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Equinox,Applied,1,E01893,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse PDE UI,Applied,1,,,candidate_not_merged,cosine 1.000,F01153,F01152
+E01079,Cyclic trap,Pure Math,1,E02501,mo-halfcheetah-v4,Applied,1,,,negative_control,"random pair, different families",F00504,F01492
+E02209,"Triangle Function (n=16, m=1, s=8)",Pure Math,1,E02210,"2-range Asymmetric Triangle Function (n=16, m=(2,1), s=(2,4))",Pure Math,1,,,candidate_not_merged,cosine 0.914,F01337,F01338
+E02582,CVRPLIB,Applied,1,E01621,Capacitated Vehicle Routing Problem,Applied,2,,,merged_by_library_cue,library_cue: CVRPLIB,F00998,F00998
+E01892,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Mylyn,Applied,1,E01906,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Lucene,Applied,1,,,merged_by_template,template: hyper parameter optimization of {...} for software bug prediction on {...},F01153,F01153
+E01894,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse JDT Core,Applied,1,E01902,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Mylyn,Applied,1,,,candidate_not_merged,cosine 1.000,F01159,F01153
+E01212,CPLEX on Regions200,Pure Math,1,E01210,CaDiCaL on Circuit Fuzz,Pure Math,1,,,merged_by_library_cue,library_cue: ACLib,F00716,F00716
+E01875,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Equinox,Applied,1,E01895,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Equinox,Applied,1,,,candidate_not_merged,cosine 1.000,F01155,F01160
+E01896,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Lucene,Applied,1,E01903,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse PDE UI,Applied,1,,,candidate_not_merged,cosine 1.000,F01160,F01152
+E02212,"2-range Asymmetric Incomplete Triangle Function (n=14, m=(2,1), s=(2,4))",Pure Math,1,E02210,"2-range Asymmetric Triangle Function (n=16, m=(2,1), s=(2,4))",Pure Math,1,,,merged_by_template,template: 2 range asymmetric triangle function,F01338,F01338
+E03147,DC-DC buck converter design,Applied,1,E03010,DC-DC Buck Converter Design Problem,Applied,1,,,merged_by_stem,stem: dc dc buck converter design,F01861,F01861
+E01542,EvoAPT Cyber Attack and Mitigation - Large Network,Applied,1,E01541,EvoAPT Cyber Attack and Mitigation - Small Network,Applied,1,,,merged_by_template,template: evoapt cyber attack and mitigation {...} network,F00948,F00948
+E01767,Rastrigin (F6),Pure Math,1,E02599,Detection Instability,Pure Math,1,,,negative_control,"random pair, different families",F00052,F01559
+E01861,NCA Morphogenesis (Square Target Shape),Pure Math,1,E01862,NCA Morphogenesis (Up-scaled Square Target Shape),Pure Math,1,,,merged_by_stem,stem: nca morphogenesis,F01145,F01145
+E01876,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Lucene,Applied,1,E01891,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Lucene,Applied,1,,,candidate_not_merged,cosine 1.000,F01156,F01153
+E00421,ZZJ9,Pure Math,1,E02541,Minecart,Applied,1,,,negative_control,"random pair, different families",F00182,F01522
+E00388,MMF4,Pure Math,1,E00390,MMF6,Pure Math,1,,,candidate_not_merged,cosine 0.944,F00158,F00160
+E01706,Cyc-bim10,Pure Math,1,E01707,Cyc-bim10n,Pure Math,1,,,merged_by_stem,stem: cyc bim,F01046,F01046
+E02863,Schwefel12,Pure Math,1,E02709,Schwefel (f20),Pure Math,1,,,merged_by_stem,stem: schwefel,F00658,F00658
+E01880,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Equinox,Applied,1,E01891,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Lucene,Applied,1,,,candidate_not_merged,cosine 1.000,F01155,F01153
+E02877,Online Bin Packing (OBP),Pure Math,1,E01037,Multi-Dimensional Knapsack Problem,Pure Math,3,,,merged_by_library_cue,library_cue: OR-Library,F00613,F00613
+E01969,Polycomputational NAND gate design in granular metamaterial,Applied,1,E01968,Single NAND gate design in granular metamaterial,Applied,1,,,merged_by_template,template: {...} nand gate design in granular metamaterial,F01203,F01203
+E01895,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Equinox,Applied,1,E01904,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse JDT Core,Applied,1,,,candidate_not_merged,cosine 1.000,F01160,F01152
+E01804,Discrete LSI - 1,Pure Math,1,E01805,Discrete LSI - 2,Pure Math,1,,,merged_by_stem,stem: discrete lsi,F01100,F01100
+E01266,CarRacing-v0,Applied,2,E00999,Deceptive Humanoid,Applied,1,,,merged_by_library_cue,library_cue: OpenAI Gym,F00587,F00587
+E01873,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse PDE UI,Applied,1,E01876,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Lucene,Applied,1,,,candidate_not_merged,cosine 1.000,F01152,F01156
+E02194,Multiplier 3 x 3,Pure Math,1,E02457,Rastrigin with LED,Pure Math,1,,,negative_control,"random pair, different families",F01326,F01453
+E01876,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Lucene,Applied,1,E01903,Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse PDE UI,Applied,1,,,candidate_not_merged,cosine 1.000,F01156,F01152
+E02674,F5 (Layeb03),Pure Math,1,E02678,F9 (Layeb11),Pure Math,1,,,candidate_not_merged,cosine 0.957,F01612,F01616
+E01885,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Equinox,Applied,1,E01904,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse JDT Core,Applied,1,,,candidate_not_merged,cosine 1.000,F01153,F01152
+E00640,SMOP1-SMOP8,Pure Math,1,E02826,BBOB F21 (Gallagher 101 Peaks),Pure Math,1,,,negative_control,"random pair, different families",F00323,F00439
+E00157,MR-to-HU mapping for Bladder tissue,Applied,1,E00158,MR-to-HU mapping for Cancellous Bone tissue,Applied,1,,,merged_by_template,template: mr to hu mapping for {...} tissue,F00069,F00069
+E03045,ELD 6D,Applied,1,E03048,ELD 40D,Applied,1,,,merged_by_library_cue,library_cue: CEC 2011,F01891,F01891
+E00030,MSTSP3,Applied,1,E01269,REO-GEN,Applied,1,,,negative_control,"random pair, different families",F00024,F00756
+E01883,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse PDE UI,Applied,1,E01892,Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Mylyn,Applied,1,,,candidate_not_merged,cosine 1.000,F01158,F01153
+E00623,Direct Torque Control (DTC) with PI controllers,Applied,1,E00622,Direct Torque Control (DTC) with hysteresis modulation,Applied,1,,,merged_by_template,template: direct torque control with {...},F00314,F00314
+E01638,Spambase Classification,Applied,1,E03054,Binary Classification,Applied,2,,,merged_by_library_cue,library_cue: UCI,F00021,F00021
+E01112,Dsc2,Pure Math,1,E02077,Fluidic Pinball,Applied,1,,,negative_control,"random pair, different families",F00669,F01250
+E01946,Two-Sensor Robot Swarm Model,Applied,1,E01945,Single-Sensor Robot Swarm Model,Applied,1,,,merged_by_template,template: {...} sensor robot swarm model,F01188,F01188
+E00152,Cartpole-v0,Pure Math,2,E00153,LunarLander-v2,Pure Math,1,,,merged_by_library_cue,library_cue: OpenAI Gym,F00066,F00066
+E01356,Uncertain Capacitated Arc Routing Problem,Applied,2,E02257,Almost Squares in Almost Squares (Asqas),Applied,1,,,negative_control,"random pair, different families",F00014,F01368
+E00129,Continuous Decision Space (Hypercube),Pure Math,1,E00809,LEADINGONES (Additive Exponential Noise),Pure Math,1,,,negative_control,"random pair, different families",F00049,F00459
+E00352,UAV Route Planning - Environment E1,Applied,1,E00353,UAV Route Planning - Environment E2,Applied,1,,,merged_by_stem,stem: uav route planning environment e,F00128,F00128
+E01874,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse JDT Core,Applied,1,E01904,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse JDT Core,Applied,1,,,candidate_not_merged,cosine 1.000,F01154,F01152
+E01195,Orienteering Problem (OP),Pure Math,1,E01671,Terrain Generation (CPPN),Applied,1,,,negative_control,"random pair, different families",F00706,F01024
+E01871,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Lucene,Applied,1,E01875,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Equinox,Applied,1,,,candidate_not_merged,cosine 1.000,F01153,F01155
+E01872,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Mylyn,Applied,1,E01876,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Lucene,Applied,1,,,candidate_not_merged,cosine 1.000,F01153,F01156
+E01582,4-input 1-output digital circuit G-P map,Pure Math,1,E02131,Longitude Prediction (Feature Selection),Applied,1,,,negative_control,"random pair, different families",F00970,F01282
+E01883,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse PDE UI,Applied,1,E01904,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse JDT Core,Applied,1,,,candidate_not_merged,cosine 1.000,F01158,F01152
+E01544,Count Odds,Pure Math,2,E01886,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Lucene,Applied,1,,,negative_control,"random pair, different families",F00950,F01153
+E00148,IMPLY Logic Gate,Pure Math,1,E00967,Configurable Tree Graph (CT-graph) Environment (depth 2),Pure Math,1,,,negative_control,"random pair, different families",F00062,F00565
+E01881,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Lucene,Applied,1,E01885,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Equinox,Applied,1,,,candidate_not_merged,cosine 1.000,F01156,F01153
+E01286,MIPLIB 2017 - s100,Pure Math,1,E01476,Uniform Resource Availability Scenario,Pure Math,1,,,negative_control,"random pair, different families",F00766,F00909
+E02414,kroBC100,Applied,1,E02556,Traveling Salesman Problem with Drone Launch Station Location (TSP-DLSL),Applied,1,,,merged_by_library_cue,library_cue: TSPLIB,F00823,F00823
+E02786,f2,Pure Math,2,E02790,f6,Pure Math,1,,,candidate_not_merged,cosine 0.984,F01694,F01698
+E01871,Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Lucene,Applied,1,E01904,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse JDT Core,Applied,1,,,candidate_not_merged,cosine 1.000,F01153,F01152
+E01775,Permutation Flowshop Scheduling Problem,Applied,1,E01522,Permutation Flowshop Scheduling Problem (PFSSP),Applied,1,,,merged_by_stem,stem: permutation flowshop scheduling,F00878,F00878
+E01898,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse PDE UI,Applied,1,E01894,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse JDT Core,Applied,1,,,merged_by_template,template: hyper parameter optimization of linear discriminate analysis for software bug prediction on eclipse {...},F01159,F01159
+E01883,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse PDE UI,Applied,1,E01906,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Lucene,Applied,1,,,candidate_not_merged,cosine 1.000,F01158,F01153
+E01644,COVID-19 Chest X-Ray Image Generation (CNN64),Applied,1,E01642,COVID-19 Chest X-Ray Image Generation (4LP),Applied,1,,,merged_by_stem,stem: covid chest x ray image generation,F01003,F01003
+E00559,G1 (Randomly generated graph),Pure Math,1,E00560,G2 (Randomly generated graph),Pure Math,1,,,candidate_not_merged,cosine 0.978,F00266,F00267
+E01879,Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse JDT Core,Applied,1,E01907,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Mylyn,Applied,1,,,candidate_not_merged,cosine 1.000,F01154,F01153
+E01757,Uval10D,Applied,1,E01756,Uval10A,Applied,1,,,merged_by_stem,stem: uval,F01075,F01075
+E00378,MMF14,Pure Math,1,E00388,MMF4,Pure Math,1,,,candidate_not_merged,cosine 0.953,F00148,F00158
+E01144,Randomly permuted input for non-dominated sorting,Pure Math,1,E02071,Abalone Feature Selection,Applied,1,,,negative_control,"random pair, different families",F00693,F00021
+E02291,kroA200-3 MTSP,Pure Math,1,E02790,f6,Pure Math,1,,,negative_control,"random pair, different families",F01387,F01698
+E00567,S1210 airfoil with slat reproduction,Pure Math,1,E01548,RoboGen Locomotion Task,Applied,1,,,negative_control,"random pair, different families",F00274,F00954
+E02664,SYN-1,Pure Math,1,E02666,SYN-3,Pure Math,1,,,candidate_not_merged,cosine 0.974,F01602,F01604
+E01874,Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse JDT Core,Applied,1,E01906,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Lucene,Applied,1,,,candidate_not_merged,cosine 1.000,F01154,F01153
+E01894,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse JDT Core,Applied,1,E01895,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Equinox,Applied,1,,,candidate_not_merged,cosine 1.000,F01159,F01160
+E01884,Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse JDT Core,Applied,1,E01894,Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse JDT Core,Applied,1,,,candidate_not_merged,cosine 1.000,F01152,F01159

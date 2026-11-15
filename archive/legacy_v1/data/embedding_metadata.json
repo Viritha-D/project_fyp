@@ -1,0 +1,12 @@
+{
+  "model_name": "sentence-transformers/all-mpnet-base-v2",
+  "model_revision": "e8c3b32edf5434bc2275fc9bab85f82640a19130",
+  "embedding_dim": 768,
+  "n_papers_embedded": 11342,
+  "normalized": true,
+  "batch_size": 64,
+  "source_csv": "papers_master_with_matching_text_v2.csv",
+  "generated_at": "2026-10-28T02:33:31.277762Z",
+  "paper_id_order_file": "papers_master_with_embeddings_ref.csv",
+  "paper_ids_file": "paper_ids_order.txt"
+}

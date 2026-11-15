@@ -1,0 +1,21 @@
+pair_id,entity_id_a,entity_id_b,pair_type,evidence,family_v5,family_v4_a,family_v4_b
+D01,E03095,E03096,new_in_v5_stem_group,stem_group: image quality assessment live database,F02077,F02290,F02291
+D02,E03184,E03185,new_in_v5_stem_group,stem_group: fingerprint recognition,F02159,F02376,F02377
+D03,E00244,E00245,new_in_v5_stem_group,stem_group: shifted ackley s,F00106,F00147,F00148
+D04,E02061,E02063,new_in_v5_stem_group,stem_group: lightgbm hyperparameter optimization,F01332,F01477,F01479
+D05,E01316,E01353,new_in_v5_stem_group,stem_group: adder,F00815,F00907,F00936
+D06,E01102,E01913,new_in_v5_stem_group,stem_group: spherical,F00661,F00746,F01362
+D07,E02131,E02135,new_in_v5_stem_group,stem_group: longitude prediction,F01375,F01531,F01535
+D08,E01436,E01437,new_in_v5_stem_group,stem_group: boat image inpainting,F00913,F01010,F01011
+D09,E00486,E02352,new_in_v5_stem_group,stem_group: traveling salesman,F00196,F00243,F01681
+D10,E02050,E02051,new_in_v5_stem_group,stem_group: fashionmnist,F01324,F01466,F01467
+D11,E00895,E00896,new_in_v5_stem_group,stem_group: traveling salesperson,F00503,F00570,F00571
+D12,E00642,E00792,new_in_v5_stem_group,stem_group: ellipsoid,F00319,F00367,F00506
+D13,E01980,E02642,new_in_v5_stem_group,stem_group: ambulance allocation,F01286,F01424,F01905
+D14,E01149,E01150,new_in_v5_stem_group,stem_group: perth wave scenario,F00687,F00776,F00777
+D15,E01151,E01152,new_in_v5_stem_group,stem_group: sydney wave scenario,F00688,F00778,F00779
+D16,E00938,E02193,new_in_v5_stem_group,stem_group: parity,F00535,F00605,F01580
+D17,E01405,E02689,new_in_v5_stem_group,stem_group: sdtlz,F00883,F00979,F01940
+D18,E00671,E01357,new_in_v5_stem_group,stem_group: bar truss,F00347,F00395,F00939
+D19,E00017,E02096,new_in_v5_stem_group,stem_group: isolet,F00014,F00015,F01505
+D20,E01389,E01390,new_in_v5_stem_group,stem_group: uav based ad hoc wireless mesh network deployment,F00869,F00964,F00965

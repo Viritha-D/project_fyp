@@ -1,0 +1,22 @@
+entity_id,entity_type,category,name_key,name_a,name_b,rows_a,rows_b,rule
+E00080,single_function,Pure Math,cec_2006,G2 (CEC 2006),G4 (CEC 2006),1,4,name_key
+E00080,single_function,Pure Math,cec_2006,G2 (CEC 2006),G6 (CEC 2006),1,4,name_key
+E00080,single_function,Pure Math,cec_2006,G2 (CEC 2006),G7 (CEC 2006),1,4,name_key
+E00080,single_function,Pure Math,cec_2006,G2 (CEC 2006),G8 (CEC 2006),1,4,name_key
+E00080,single_function,Pure Math,cec_2006,G2 (CEC 2006),G24 (CEC 2006),1,1,name_key
+E00080,single_function,Pure Math,cec_2006,G2 (CEC 2006),CEC 2006 g11,1,5,name_key
+E00080,single_function,Pure Math,cec_2006,G4 (CEC 2006),G6 (CEC 2006),4,4,name_key
+E00080,single_function,Pure Math,cec_2006,G4 (CEC 2006),G7 (CEC 2006),4,4,name_key
+E00080,single_function,Pure Math,cec_2006,G4 (CEC 2006),G8 (CEC 2006),4,4,name_key
+E00080,single_function,Pure Math,cec_2006,G4 (CEC 2006),G24 (CEC 2006),4,1,name_key
+E00080,single_function,Pure Math,cec_2006,G4 (CEC 2006),CEC 2006 g11,4,5,name_key
+E00080,single_function,Pure Math,cec_2006,G6 (CEC 2006),G7 (CEC 2006),4,4,name_key
+E00080,single_function,Pure Math,cec_2006,G6 (CEC 2006),G8 (CEC 2006),4,4,name_key
+E00080,single_function,Pure Math,cec_2006,G6 (CEC 2006),G24 (CEC 2006),4,1,name_key
+E00080,single_function,Pure Math,cec_2006,G6 (CEC 2006),CEC 2006 g11,4,5,name_key
+E00080,single_function,Pure Math,cec_2006,G7 (CEC 2006),G8 (CEC 2006),4,4,name_key
+E00080,single_function,Pure Math,cec_2006,G7 (CEC 2006),G24 (CEC 2006),4,1,name_key
+E00080,single_function,Pure Math,cec_2006,G7 (CEC 2006),CEC 2006 g11,4,5,name_key
+E00080,single_function,Pure Math,cec_2006,G8 (CEC 2006),G24 (CEC 2006),4,1,name_key
+E00080,single_function,Pure Math,cec_2006,G8 (CEC 2006),CEC 2006 g11,4,5,name_key
+E00080,single_function,Pure Math,cec_2006,G24 (CEC 2006),CEC 2006 g11,1,5,name_key

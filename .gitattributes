@@ -1,3 +1,22 @@
 *.pdf filter=lfs diff=lfs merge=lfs -text
 *.zip filter=lfs diff=lfs merge=lfs -text
 *.csv filter=lfs diff=lfs merge=lfs -text
+
+# Files the app reads that main's LFS patterns (*.pdf, *.zip, *.csv filter=lfs) would turn into pointers stay plain
+# git blobs. Other files the app reads (.py, .json, .md, .npy, .txt, .jsonl) match no LFS pattern and need no rule.
+# Measured 2026-11-15 by running both modes with every file open logged (docs/data.md, "Files the app reads").
+# Later lines override earlier ones: if combined with main's LFS lines, keep these lines AFTER them.
+# !diff !merge leave diff and merge at git's defaults (normal text diffs); -filter keeps the content out of LFS.
+
+# frozen data (FROZEN_HASHES*.txt), read in live mode; listed in place, never copied
+entity_to_family_v5.csv -filter !diff !merge
+paper_to_entity_map_v2.csv -filter !diff !merge
+papers_master_with_matching_text_v2.csv -filter !diff !merge
+
+# held-out test files: read only by the test-query guard, which is inactive once RESULTS.md reports the test
+retrieval_v2/evaluation/queries_t*.csv -filter !diff !merge
+
+# pinned build-path inputs: v2_entities_pipeline.py (run by frozen evaluate.py) reads CSVs in backup_v1/ and backup_v2/;
+# they stay plain blobs so main's *.csv filter=lfs can never turn them into pointers
+backup_v1/*.csv -filter !diff !merge
+backup_v2/*.csv -filter !diff !merge

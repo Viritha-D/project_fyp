@@ -1,0 +1,2172 @@
+family_name,n_papers,category_mix,example_members,name_unique
+1.94 THz RTD-gHEMT-based oscillator,1,Applied 100%,1.94 THz RTD-gHEMT-based oscillator,yes
+10-bit Carry-one and 11-bit Even-parity,1,Pure Math 100%,10-bit Carry-one and 11-bit Even-parity,yes
+11-bit Class-Imbalanced Multiplexer (11-CIMUX),1,Pure Math 100%,11-bit Class-Imbalanced Multiplexer (11-CIMUX),yes
+"12-bit Hierarchical Carry-one, 9-bit Hierarchical Multiplexer, and 9-bit Hierarchical Majority-on",1,Pure Math 100%,"12-bit Hierarchical Carry-one, 9-bit Hierarchical Multiplexer, and 9-bit Hierarchical Majority-on",yes
+12-DoF Arm Repertoire,1,Pure Math 100%,12-DoF Arm Repertoire,yes
+16-4-bit Encode,1,Pure Math 100%,16-4-bit Encode,yes
+16-input Sorting Networks,1,Pure Math 100%,16-input Sorting Networks,yes
+16Chain,1,Pure Math 100%,16Chain,yes
+18-bit Hierarchical Carry-one and 18-bit Hierarchical Multiplexer,1,Pure Math 100%,18-bit Hierarchical Carry-one and 18-bit Hierarchical Multiplexer,yes
+19 dynamic multi-objective test problems,1,Pure Math 100%,19 dynamic multi-objective test problems,yes
+197_cpu_act (DM4),1,Applied 100%,197_cpu_act (DM4),yes
+2 range asymmetric triangle function,1,Pure Math 100%,"2-range Asymmetric Incomplete Triangle Function (n=14, m=(2,1), s=(2,4)); 2-range Asymmetric Triangle Function (n=16, m=(2,1), s=(2,4))",yes
+2-class classification problem,1,Pure Math 100%,2-class classification problem,yes
+2-D FFH-OCDMA Network Security Analysis,1,Applied 100%,2-D FFH-OCDMA Network Security Analysis,yes
+2023 Global Game Jam,1,Applied 100%,2023 Global Game Jam,yes
+"23 classical benchmark functions (unimodal, multimodal, fixed-dimension multimodal)",1,Pure Math 100%,"23 classical benchmark functions (unimodal, multimodal, fixed-dimension multimodal)",yes
+24 grid-world environments,1,Pure Math 100%,24 grid-world environments,yes
+28 benchmark functions (F1-F28),1,Pure Math 100%,28 benchmark functions (F1-F28),yes
+2D Air Flow Design,1,Applied 100%,2D Air Flow Design,yes
+2D Navigation Task,1,Applied 100%,2D Navigation Task,yes
+2D Spin Glass,1,Applied 100%,2D Spin Glass,yes
+"2DPackLib (beng, class, A instances)",1,Applied 100%,"2DPackLib (beng, class, A instances)",yes
+2ZK9 protein thermostability,1,Applied 100%,2ZK9 protein thermostability,yes
+3-bit Multiply,1,Pure Math 100%,3-bit Multiply,yes
+3-dimensional Rastrigin (f3),1,Pure Math 100%,3-dimensional Rastrigin (f3),yes
+3-dimensional Step Ellipsoidal (f7),1,Pure Math 100%,3-dimensional Step Ellipsoidal (f7),yes
+3-Set Cover problem,1,Pure Math 100%,3-Set Cover problem,yes
+3-uniform Caterpillar Trees,1,Pure Math 100%,3-uniform Caterpillar Trees,yes
+33-bus distribution test system,1,Applied 100%,33-bus distribution test system,yes
+37-bit Multiplexer and 11-bit Even-parity,1,Pure Math 100%,37-bit Multiplexer and 11-bit Even-parity,yes
+3COL (Graph Coloring Problem),1,Pure Math 100%,3COL (Graph Coloring Problem),yes
+3D Deformable Image Registration (DIR),1,Applied 100%,3D Deformable Image Registration (DIR),yes
+3D Multi-Objective Path Planning (MOPP),1,Applied 100%,3D Multi-Objective Path Planning (MOPP),yes
+3D Single Container Loading Problem (SCLP),1,Applied 100%,3D Single Container Loading Problem (SCLP),yes
+3DPyraNet-F Architecture Optimization,1,Applied 100%,3DPyraNet-F Architecture Optimization,yes
+3L-SDVRP,1,Applied 100%,3L-SDVRP,yes
+3rd De Jong’s function,1,Pure Math 100%,3rd De Jong’s function,yes
+3x3 concatenated multiplexer problem (3x3 CMUX),1,Pure Math 100%,3x3 concatenated multiplexer problem (3x3 CMUX),yes
+4-16-bit Decode,1,Pure Math 100%,4-16-bit Decode,yes
+5-dimensional Sphere (f1),1,Pure Math 100%,5-dimensional Sphere (f1),yes
+500W Transformerless Photovoltaic Inverter Simulation,1,Applied 100%,500W Transformerless Photovoltaic Inverter Simulation,yes
+5x5-bit Multiplier,1,Pure Math 100%,5x5-bit Multiplier,yes
+6-Real Multiplexer,1,Pure Math 100%,6-Real Multiplexer,yes
+7-Parity Function with Noisy Membership Queries,1,Pure Math 100%,7-Parity Function with Noisy Membership Queries,yes
+9-node power grid planning,1,Applied 100%,9-node power grid planning,yes
+abalone,2,Applied 100%,abalone,yes
+Abalone Feature Selection,1,Applied 100%,Abalone Feature Selection,yes
+Abductive Inference (Insurance),1,Applied 100%,Abductive Inference (Insurance),yes
+Abelian Sandpile Model,1,Pure Math 100%,Abelian Sandpile Model,yes
+Abnormal crowd behavior detection on UMN dataset,1,Applied 100%,Abnormal crowd behavior detection on UMN dataset,yes
+Absolute Difference Game,1,Pure Math 100%,Absolute Difference Game,yes
+abstract art generation,1,Applied 100%,Abstract 3D Art Generation (Angle between edges & faces); Abstract 3D Art Generation (Render Time); Abstract 3D Art Generation (Smoothness),yes
+Abusive Speech Detection,1,Applied 100%,Abusive Speech Detection,yes
+AC Engine,1,Applied 100%,AC Engine,yes
+ackley,8,Pure Math 100%,Ackley; Ackley (F4),yes
+Ackley's Function,1,Pure Math 100%,Ackley's Function,yes
+Acrobot,1,Applied 100%,Acrobot,yes
+Action Classification,1,Applied 100%,Action Classification,yes
+Action Recognition,1,Applied 100%,Action Recognition,yes
+Active Debris Removal (ADR) Mission (15-target),1,Applied 100%,Active Debris Removal (ADR) Mission (15-target),yes
+active directory attack graph,1,Applied 100%,Active Directory Attack Graph (r1000); Active Directory Attack Graph (r2000); Active Directory Attack Graph (r4000),yes
+Adaptive Sliding Mode Controller Tuning for DC-DC Buck-Boost Converter,1,Applied 100%,Adaptive Sliding Mode Controller Tuning for DC-DC Buck-Boost Converter,yes
+Add Squared (AS),1,Applied 100%,Add Squared (AS),yes
+add4 (Adder with carry),1,Pure Math 100%,add4 (Adder with carry),yes
+adder,2,Pure Math 100%,adder1; 10+10-bit Adder,yes
+ADHD Classification,1,Applied 100%,ADHD Classification,yes
+ADHD Detection,1,Applied 100%,ADHD Detection,yes
+Adjacent cell-to-cell (AC2C) charge equalization,1,Applied 100%,Adjacent cell-to-cell (AC2C) charge equalization,yes
+Adjacent MNK Landscapes,1,Pure Math 100%,Adjacent MNK Landscapes,yes
+Admissible Set,1,Pure Math 100%,Admissible Set,yes
+ads path planner collision avoidance,1,Applied 100%,ADS Path Planner Collision Avoidance (Two-Stage Approach); ADS Path Planner Collision Avoidance (Single-Stage Approach),yes
+Adult,4,Applied 100%,Adult,yes
+Adult dataset (D2),1,Applied 100%,Adult dataset (D2),yes
+Adversarial attack on CIFAR-10 VGG-16,1,Applied 100%,Adversarial attack on CIFAR-10 VGG-16,yes
+Adversarial Attack on Stable Diffusion 3 Medium,1,Applied 100%,Adversarial Attack on Stable Diffusion 3 Medium,yes
+adversarial attack on {...} cnn,1,Applied 100%,Adversarial attack on FMNIST CNN; Adversarial attack on MNIST CNN,yes
+Adversarial Fitness Function,1,Pure Math 100%,Adversarial Fitness Function,yes
+Adversarial text generation (BESAW),1,Applied 100%,Adversarial text generation (BESAW),yes
+Adverse Event Classification,1,Applied 100%,Adverse Event Classification,yes
+affordance detection locomotion,1,Applied 100%,Affordance Detection and Locomotion (Flatworm Morphology); Affordance Detection and Locomotion (Gecko Morphology); Affordance Detection and Locomotion (Starfish Morphology),yes
+AG's News,1,Applied 100%,AG's News,yes
+AG-News,1,Applied 100%,AG-News,yes
+agent based social simulation {...} mark scenario,1,Applied 100%,Agent-based Social Simulation (Decision Making) - Bad Mark Scenario; Agent-based Social Simulation (Decision Making) - Good Mark Imitation Scenario; Agent-based Social Simulation (Decision Making) - Good Mark Scenario,yes
+Aggregated Channel Features (ACF) parameter optimization,1,Applied 100%,Aggregated Channel Features (ACF) parameter optimization,yes
+AI Feynman Suite,1,Pure Math 100%,AI Feynman Suite,yes
+aircraft arrival sequencing scheduling,1,Applied 100%,Aircraft Arrival Sequencing and Scheduling (30 Aircraft); Aircraft Arrival Sequencing and Scheduling (60 Aircraft); Aircraft Arrival Sequencing and Scheduling (Case 1),yes
+airfoil,2,Applied 100%,airfoil,yes
+Airfoil Self Noise,1,Applied 100%,Airfoil Self Noise,yes
+Airfoil Self-Noise Prediction,1,Applied 100%,Airfoil Self-Noise Prediction,yes
+Airlines,1,Applied 100%,Airlines,yes
+Akiyo Video Watermarking,1,Applied 100%,Akiyo Video Watermarking,yes
+Almost Squares in Almost Squares (Asqas),1,Applied 100%,Almost Squares in Almost Squares (Asqas),yes
+ALOI,1,Applied 100%,ALOI,yes
+AlphaNet,1,Applied 100%,AlphaNet,yes
+Alpine,1,Pure Math 100%,Alpine,yes
+ALPS-treated water discussion,1,Applied 100%,ALPS-treated water discussion,yes
+alu4 (Arithmetic Logic Unit),1,Pure Math 100%,alu4 (Arithmetic Logic Unit),yes
+Alzheimer's Disease Classification,1,Applied 100%,Alzheimer's Disease Classification,yes
+amasf,1,Applied 100%,AMASF (DIMACS10); AMASF (Gnutella115),yes
+ambulance allocation,2,Applied 100%,Ambulance Allocation Problem (Oslo and Akershus); Ambulance Allocation Problem,yes
+American (US) 39-node network,1,Applied 100%,American (US) 39-node network,yes
+Analog Integrated Circuit (AIC),1,Applied 100%,Analog Integrated Circuit (AIC),yes
+Analytic Hierarchy Process (AHP) and Fuzzy Comprehensive Evaluation,1,Applied 100%,Analytic Hierarchy Process (AHP) and Fuzzy Comprehensive Evaluation,yes
+Android API usage task recommendation,1,Applied 100%,Android API usage task recommendation,yes
+Android App Testing,1,Applied 100%,Android App Testing,yes
+Android malware detection,1,Applied 100%,Android malware detection,yes
+ANN search,1,Applied 100%,ANN search,yes
+Anomaly Detection,1,Applied 100%,Anomaly Detection,yes
+Ant,2,Applied 100%,Ant,no
+Ant,1,Pure Math 100%,Ant,no
+Ant (Brax),1,Pure Math 100%,Ant (Brax),yes
+Ant Maze,2,Applied 100%,Ant Maze,yes
+Ant Omni-directional,1,Applied 100%,Ant Omni-directional,yes
+ant v,2,Pure Math 100%,Ant-v2; Ant-v3,yes
+Ant-Omni,2,Applied 100%,Ant-Omni,yes
+Ant-v2,1,Applied 100%,Ant-v2,yes
+AntBullet,1,Pure Math 100%,AntBullet,yes
+AntMuJoCo,1,Pure Math 100%,AntMuJoCo,yes
+AntTrap-Omni,1,Applied 100%,AntTrap-Omni,yes
+Approximate Display Rendering Pipeline,1,Applied 100%,Approximate Display Rendering Pipeline,yes
+Approximate Nearest Neighbour (ANN) search,1,Applied 100%,Approximate Nearest Neighbour (ANN) search,yes
+Arcade Game Maker (AGM) PLA Design,1,Applied 100%,Arcade Game Maker (AGM) PLA Design,yes
+ARCoating,1,Applied 100%,ARCoating,yes
+Arkanoid,1,Applied 100%,Arkanoid,yes
+Arm Repertoire,1,Pure Math 100%,Arm Repertoire,yes
+Armstrong-2002-v1,1,Applied 100%,Armstrong-2002-v1,yes
+array_search_n,1,Pure Math 100%,array_search_n,yes
+Arrhythmia Feature Selection,1,Applied 100%,Arrhythmia Feature Selection,yes
+Arrival Sequencing,1,Applied 100%,Arrival Sequencing,yes
+artificial full mesh network,1,Applied 100%,Artificial 20-node full-mesh network; Artificial 40-node full-mesh network,yes
+Asian Soybean Rust (ASR) Detection,1,Applied 100%,Asian Soybean Rust (ASR) Detection,yes
+ASN Regression,1,Applied 100%,ASN Regression,yes
+ASR Error Correction,1,Applied 100%,ASR Error Correction,yes
+Asteroids (Atari 2600),1,Applied 100%,Asteroids (Atari 2600),yes
+Asymmetric Rover Exploration,1,Pure Math 100%,Asymmetric Rover Exploration,yes
+Asymmetric Traveling Salesman Problem (ATSP),1,Applied 100%,Asymmetric Traveling Salesman Problem (ATSP),yes
+Atari Reinforcement Learning Benchmark,1,Applied 100%,Atari Reinforcement Learning Benchmark,yes
+atp d series,1,Applied 100%,ATP1D; ATP7D,yes
+Atrial Fibrillation Detection,1,Applied 100%,Atrial Fibrillation Detection,yes
+Attribute Prediction,1,Applied 100%,Attribute Prediction,yes
+Atypical element detection,2,Applied 100%,Atypical element detection,yes
+Atypical element identification via kernel density estimation,1,Applied 100%,Atypical element identification via kernel density estimation,yes
+Authentication Graph Partitioning,1,Applied 100%,Authentication Graph Partitioning,yes
+auto h lsgo type,1,Pure Math 100%,Auto-H-LSGO Type 2; Auto-H-LSGO Type 1,yes
+Auto Overlapping Benchmark (AOB),1,Pure Math 100%,Auto Overlapping Benchmark (AOB),yes
+Auto-encoder reconstruction loss minimization,1,Applied 100%,Auto-encoder reconstruction loss minimization,yes
+Auto-mpg,2,Applied 100%,Auto-mpg,yes
+AutoLR Optimizer Evolution,1,Applied 100%,AutoLR Optimizer Evolution,yes
+Automated domestic detergent synthesis,1,Applied 100%,Automated domestic detergent synthesis,yes
+Automated Proctoring,1,Applied 100%,Automated Proctoring,yes
+Automatic License Plate Recognition,1,Applied 100%,Automatic License Plate Recognition,yes
+AutoML pipeline configuration on wine-quality-red dataset,1,Applied 100%,AutoML pipeline configuration on wine-quality-red dataset,yes
+automl pipeline configuration on {...} dataset,1,Applied 100%,AutoML pipeline configuration on diabetes dataset; AutoML pipeline configuration on ml-prove dataset; AutoML pipeline configuration on statlog-segment dataset,yes
+AutoML Pipeline Optimization,1,Applied 100%,AutoML Pipeline Optimization,yes
+Autonomous Robot Scheduling Problem,1,Applied 100%,Autonomous Robot Scheduling Problem,yes
+Autonomous Vehicle Coordinated Driving on Simulated Roads,1,Applied 100%,Autonomous Vehicle Coordinated Driving on Simulated Roads,yes
+Average of the Weekly Minimum Night Flow (AWM) prediction,1,Applied 100%,Average of the Weekly Minimum Night Flow (AWM) prediction,yes
+Average Symbol Error Rate (SER) Minimization in RIS-assisted MIMO,1,Applied 100%,Average Symbol Error Rate (SER) Minimization in RIS-assisted MIMO,yes
+Avoiding obstacles scenario,1,Applied 100%,Avoiding obstacles scenario,yes
+BaBSim.Hospital simulation parameter tuning,1,Applied 100%,BaBSim.Hospital simulation parameter tuning,yes
+bal8 (Balanced cryptographic function),1,Pure Math 100%,bal8 (Balanced cryptographic function),yes
+Balanced Minimum Sum-of-Squares Clustering (BMSSC),1,Applied 100%,Balanced Minimum Sum-of-Squares Clustering (BMSSC),yes
+Balanced Task Planning Problem (BTPP),1,Applied 100%,Balanced Task Planning Problem (BTPP),yes
+Balerma Irrigation Network,1,Applied 100%,Balerma Irrigation Network,yes
+Ball,1,Pure Math 100%,Ball,yes
+Bank Marketing Feature Selection,1,Applied 100%,Bank Marketing Feature Selection,yes
+bar truss,2,Applied 100%,15-bar truss; 4-bar truss problem; 72-bar truss,yes
+Barcelona Bicing 460-station rebalancing problem,1,Applied 100%,Barcelona Bicing 460-station rebalancing problem,yes
+barrier tree,1,Pure Math 100%,Barrier Tree Function F1 (fbbfbb*); Barrier Tree Function F2 (fbbf*bb*); Barrier Tree Function F3 (b99b*),yes
+Basement,2,Pure Math 100%,Basement,yes
+Battery module grading and string configuration,1,Applied 100%,Battery module grading and string configuration,yes
+Bayesmark,1,Applied 100%,Bayesmark,yes
+BBOB (COCO),35,Pure Math 100%,BBOB Suite; MA-BBOB; BBOB f1 (Sphere function),yes
+bci subject,1,Applied 100%,BCI Subject 104; BCI Subject 107; BCI Subject 110,yes
+BCW Classification,1,Applied 100%,BCW Classification,yes
+Beale,1,Pure Math 100%,Beale,yes
+benchmark data sets,1,Pure Math 100%,benchmark data sets,yes
+benchmark functions,1,Pure Math 100%,benchmark functions,yes
+Benchmark I,1,Pure Math 100%,Benchmark I,yes
+Benchmark II,1,Pure Math 100%,Benchmark II,yes
+Benchmark III,1,Pure Math 100%,Benchmark III,yes
+Benchmark IV,1,Pure Math 100%,Benchmark IV,yes
+Benchmarking Based on Basin Connectivity (3BC),1,Pure Math 100%,Benchmarking Based on Basin Connectivity (3BC),yes
+Bent Boolean Functions,1,Pure Math 100%,Bent Boolean Functions,yes
+bent8 (Bent cryptographic function),1,Pure Math 100%,bent8 (Bent cryptographic function),yes
+Bernstein-Vazirani (BV),1,Applied 100%,Bernstein-Vazirani (BV),yes
+BERT Model,1,Pure Math 100%,BERT Model,yes
+Berth and Quay Crane Assignment (BQCA),1,Applied 100%,Berth and Quay Crane Assignment (BQCA),yes
+Best-of-Traps (BoT),1,Pure Math 100%,Best-of-Traps (BoT),yes
+BFSK-IM modulation performance optimization,1,Applied 100%,BFSK-IM modulation performance optimization,yes
+Bi-level generation planning problem,1,Applied 100%,Bi-level generation planning problem,yes
+Bi-level Mixed-Integer Non-Linear Optimization (MINLP) for Energy Community Sizing,1,Applied 100%,Bi-level Mixed-Integer Non-Linear Optimization (MINLP) for Energy Community Sizing,yes
+Bi-level optimization of bidding strategies in local energy markets (LEM),1,Applied 100%,Bi-level optimization of bidding strategies in local energy markets (LEM),yes
+Bi-objective Multi-constrained Team Orienteering Problem,1,Applied 100%,Bi-objective Multi-constrained Team Orienteering Problem,yes
+Bi-objective Permutation Flowshop Scheduling Problem (bPFSP),1,Applied 100%,Bi-objective Permutation Flowshop Scheduling Problem (bPFSP),yes
+Bibliometric analysis of scientific publications,1,Applied 100%,Bibliometric analysis of scientific publications,yes
+"Bicliques K_{2, n-2}",1,Pure Math 100%,"Bicliques K_{2, n-2}",yes
+Bidding Strategy Optimization Problem in Local Energy Markets,1,Applied 100%,Bidding Strategy Optimization Problem in Local Energy Markets,yes
+Bike Sharing (Daily),1,Applied 100%,Bike Sharing (Daily),yes
+Bilevel Multidimensional Knapsack Problem,1,Pure Math 100%,Bilevel Multidimensional Knapsack Problem,yes
+Bilinear*,1,Pure Math 100%,Bilinear*,yes
+Bim10,1,Pure Math 100%,Bim10,yes
+Bimodal deceptive function (Bimodal),1,Pure Math 100%,Bimodal deceptive function (Bimodal),yes
+Bimodal Isotropic Triangulation,1,Applied 100%,Bimodal Isotropic Triangulation,yes
+Bimodal noised deceptive function (Bim.nois),1,Pure Math 100%,Bimodal noised deceptive function (Bim.nois),yes
+bin packing,1,Applied 100%,1-d bin-packing (DS1); 1-d bin-packing (DS2),yes
+Binarized digits,1,Pure Math 100%,Binarized digits,yes
+Binary Classification,2,Applied 100%,Binary Classification,yes
+Binary classification of pen ink,1,Applied 100%,Binary classification of pen ink,yes
+Binary classification of pen ink pixels,1,Applied 100%,Binary classification of pen ink pixels,yes
+Binary classification of radiologist's confidence,1,Applied 100%,Binary classification of radiologist's confidence,yes
+Binary classification of radiologist's diagnostic error,1,Applied 100%,Binary classification of radiologist's diagnostic error,yes
+binval,3,Pure Math 100%,BinVal; BinVal (w_i = 2^i),yes
+BIO,1,Applied 100%,BIO,yes
+Biodeg,1,Applied 100%,Biodeg,yes
+Biodegradation Clustering,1,Applied 100%,Biodegradation Clustering,yes
+Biomarker Identification,1,Applied 100%,Biomarker Identification,yes
+Biomedical image segmentation,1,Applied 100%,Biomedical image segmentation,yes
+Biometric Authentication,1,Applied 100%,Biometric Authentication,yes
+Biometric Score Level Fusion,1,Applied 100%,Biometric Score Level Fusion,yes
+bipartite graph coloring,1,Pure Math 100%,Bipartite Graph Coloring (Any connectivity-preserving traversal); Bipartite Graph Coloring (BFS traversal); Bipartite Graph Coloring (Connectivity-preserving),yes
+Bipedal Walker,2,Pure Math 100%,Bipedal Walker,yes
+Bipedal walking (NAO),1,Applied 100%,Bipedal walking (NAO),yes
+BipedalWalker-v3,1,Pure Math 100%,BipedalWalker-v3,no
+BipedalWalker-v3,1,Applied 100%,BipedalWalker-v3,no
+BIRDS,1,Applied 100%,BIRDS,yes
+Block Collection Domain,1,Applied 100%,Block Collection Domain,yes
+Blood Glucose Prediction (120-minute prediction horizon),1,Applied 100%,Blood Glucose Prediction (120-minute prediction horizon),yes
+Bloodstain Classification,1,Applied 100%,Bloodstain Classification,yes
+BNS,1,Pure Math 100%,BNS,yes
+Board Game Design,1,Applied 100%,Board Game Design,yes
+boat image inpainting,1,Applied 100%,Boat Image Inpainting (Moore Neighborhood); Boat Image Inpainting (Von Neumann Neighborhood),yes
+Bohachevsky,4,Pure Math 100%,Bohachevsky,yes
+Bollinger Mean Reversion Trading Strategy Optimization,1,Applied 100%,Bollinger Mean Reversion Trading Strategy Optimization,yes
+Boolean functions,1,Pure Math 100%,Boolean functions,yes
+Boolean Satisfiability (SAT),1,Pure Math 100%,Boolean Satisfiability (SAT),yes
+Booth,2,Pure Math 100%,Booth,yes
+Boston housing,3,Applied 100%,Boston housing,yes
+Bouncing Balls,2,Pure Math 100%,Bouncing Balls,yes
+Bounded Strongly Correlated Chance-Constrained Knapsack Problem,1,Pure Math 100%,Bounded Strongly Correlated Chance-Constrained Knapsack Problem,yes
+Bounded Weight Maximization Problem (BWMP) on Random WFAs,1,Pure Math 100%,Bounded Weight Maximization Problem (BWMP) on Random WFAs,yes
+Bowling,1,Pure Math 100%,Bowling,yes
+brain tumor,2,Applied 100%,Brain-Tumor; Brain Tumor1; Brain Tumor2,yes
+Brain Tumor Classification,1,Applied 100%,Brain Tumor Classification,yes
+Brain tumor classification from MRI images,1,Applied 100%,Brain tumor classification from MRI images,yes
+branin,2,Pure Math 100%,Branin 1 function; Branin 2 function; Branin,yes
+brazilian_houses,1,Applied 100%,brazilian_houses,yes
+brd14051,1,Pure Math 100%,brd14051,yes
+Breast Cancer Classification,1,Applied 100%,Breast Cancer Classification,yes
+Breast Cancer Feature Selection,1,Applied 100%,Breast Cancer Feature Selection,yes
+Breast Cancer Wisconsin (BCW),1,Applied 100%,Breast Cancer Wisconsin (BCW),yes
+Breast Cancer Wisconsin Counterfactual Generation,1,Applied 100%,Breast Cancer Wisconsin Counterfactual Generation,yes
+Breast Invasive Carcinoma (BIC) multi-omics clustering,1,Applied 100%,Breast Invasive Carcinoma (BIC) multi-omics clustering,yes
+Breast-Cancer,2,Applied 100%,Breast-Cancer,yes
+Breast-Tissue,1,Applied 100%,Breast-Tissue,yes
+Brittle star robot locomotion,1,Applied 100%,Brittle star robot locomotion,yes
+BT Suite,1,Pure Math 100%,BT Suite,yes
+BuddyMove Clustering,1,Applied 100%,BuddyMove Clustering,yes
+Burrows Wheeler Transformation (BWT) based feature extraction and SVM classifier,1,Applied 100%,Burrows Wheeler Transformation (BWT) based feature extraction and SVM classifier,yes
+bus driver scheduling,1,Applied 100%,Bus Driver Scheduling Problem (Literature Benchmark); Bus Driver Scheduling Problem (New Large Benchmark),yes
+Bus stop spacing problem (single-line),1,Applied 100%,Bus stop spacing problem (single-line),yes
+Bézier curve fitting and fairing,1,Applied 100%,Bézier curve fitting and fairing,yes
+CACOC+ Mobility Model Parameterisation,1,Applied 100%,CACOC+ Mobility Model Parameterisation,yes
+CaDiCaL on Circuit Fuzz,1,Pure Math 100%,CaDiCaL on Circuit Fuzz,yes
+CAL500,1,Applied 100%,CAL500,yes
+California Housing,2,Applied 100%,California Housing,yes
+Caltech Pedestrian Detection Benchmark,1,Applied 100%,Caltech Pedestrian Detection Benchmark,yes
+CamelCase,2,Pure Math 100%,CamelCase,yes
+CAMUS competition cardiographic image segmentation,1,Applied 100%,CAMUS competition cardiographic image segmentation,yes
+Cancer,1,Applied 100%,Cancer,yes
+Cancer-Specific Key Gene Selection,1,Applied 100%,Cancer-Specific Key Gene Selection,yes
+Canny Edge Detection Application,1,Applied 100%,Canny Edge Detection Application,yes
+Cantilever beam,1,Applied 100%,Cantilever beam,yes
+Capacitated Vehicle Routing Problem,2,Applied 100%,Capacitated Vehicle Routing Problem,yes
+CAR,1,Applied 100%,CAR,yes
+Car evaluation classification,1,Applied 100%,Car evaluation classification,yes
+Car structure design problem,1,Applied 100%,Car structure design problem,yes
+Career Guidance Counsellor QA Dataset,1,Applied 100%,Career Guidance Counsellor QA Dataset,yes
+CARLA Town01 driving scenarios,1,Applied 100%,CARLA Town01 driving scenarios,yes
+CARLA Urban Driving,1,Applied 100%,CARLA Urban Driving,yes
+CarRacing-v0,2,Applied 100%,CarRacing-v0,yes
+carry,2,Pure Math 100%,14-bits Carry; 16-bit Carry Problem,yes
+CartPole,3,Pure Math 100%,CartPole,no
+CartPole,2,Applied 100%,CartPole,no
+Cartpole-v0,2,Pure Math 100%,Cartpole-v0,yes
+CartPoleSwingUp,1,Applied 100%,CartPoleSwingUp,yes
+Cat vs Dog Classification,1,Applied 100%,Cat vs Dog Classification,yes
+Cat-and-mouse,1,Pure Math 100%,Cat-and-mouse,yes
+Category-Wise Reliability-Aware Social Recommendation,1,Applied 100%,Category-Wise Reliability-Aware Social Recommendation,yes
+CC,1,Applied 100%,CC,yes
+CCI Trading Strategy Optimization,1,Applied 100%,CCI Trading Strategy Optimization,yes
+CCS Regression,1,Applied 100%,CCS Regression,yes
+cd cmop,1,Pure Math 100%,CD-CMOP1; CD-CMOP2; CD-CMOP3,yes
+CDTLZ2,2,Pure Math 100%,CDTLZ2,yes
+CEC 2005 suite,5,Pure Math 100%,CEC2005 benchmark functions; CEC'05,yes
+CEC 2006 suite,3,Pure Math 100%,CEC 2006 g11; G4 (CEC 2006); G6 (CEC 2006),yes
+CEC 2009 suite,3,Pure Math 100%,CEC 2009 CF Test Suite,yes
+CEC 2010 suite,2,Pure Math 100%,CEC2010 Constrained Real-Parameter Optimization Suite,yes
+CEC 2011 suite,2,Pure Math 50% / Applied 50%,CEC'11 suite ELD problem; IEEE CEC 2011 Suite,yes
+CEC 2013 suite,22,Pure Math 100%,CEC-2013 Real Parameter Optimization Test Suite; CEC 2013 F15; CEC 2013 F1,yes
+CEC 2014 suite,16,Pure Math 100%,CEC2014 benchmark functions; CEC'14 benchmark suite,yes
+CEC 2015 suite,5,Pure Math 100%,CEC 2015 Benchmark Suite; CEC'2015 test suite (F1-F15),yes
+CEC 2017 suite,44,Pure Math 100%,CEC 2017 benchmark test suite; CEC'17; CEC'2017 benchmark suite (F1-F30),yes
+CEC 2018 suite,2,Pure Math 100%,CEC 2018 Suite (F1-F30),yes
+CEC 2019 suite,3,Pure Math 100%,CEC 2019 MMO benchmark suite,yes
+CEC 2020 suite,5,Pure Math 82% / Applied 18%,CEC 2020; CEC 2020 Real-World Single-Objective Constrained Optimization Competition Test Suite (57 problems),yes
+CEC 2021 suite,13,Pure Math 100%,"CEC 2021 Single-Objective Bound-Constrained Numerical Optimization; CEC 2021 Bias (100); CEC 2021 Bias, Rotation (101)",yes
+CEC 2022 suite,11,Pure Math 100%,CEC 2022 Benchmark Suite; CEC'22 Suite (F1-F12),yes
+CEC 2023 suite,1,Pure Math 100%,CEC 2023 DCF Test Suite,yes
+CEC 2024 suite,2,Pure Math 100%,CEC 2024 Benchmark Suite,yes
+CEC benchmark functions (F1-F4),1,Pure Math 100%,CEC benchmark functions (F1-F4),yes
+CEC benchmark functions (F5-F8),1,Pure Math 100%,CEC benchmark functions (F5-F8),yes
+CEC C06 2019,1,Pure Math 100%,CEC C06 2019,yes
+CEC Competition Benchmarks,1,Pure Math 100%,CEC Competition Benchmarks,yes
+CelebA,1,Applied 100%,CelebA,yes
+CELLPOSE dataset,1,Applied 100%,CELLPOSE dataset,yes
+Ceramic Clustering,1,Applied 100%,Ceramic Clustering,yes
+Cervical Cancer Clustering,1,Applied 100%,Cervical Cancer Clustering,yes
+Cessna C172 Aircraft Time Series Forecasting,1,Applied 100%,Cessna C172 Aircraft Time Series Forecasting,yes
+CF1-CF10,1,Pure Math 100%,CF1-CF10,yes
+Chain Walk MDP,1,Pure Math 100%,Chain Walk MDP,yes
+chance constrained knapsack,1,Pure Math 100%,"Chance-Constrained Knapsack Problem (Instance 1: Uniform profit, i.i.d weights); Chance-Constrained Knapsack Problem (Instance 2: Uniform profits, two variance classes); Chance-Constrained Knapsack Problem (Instance 3: Dual profit and weight classes, pi in {1, 2})",yes
+Chaotic CA Generation,1,Pure Math 100%,Chaotic CA Generation,yes
+Character discernibility,1,Applied 100%,Character discernibility,yes
+Character eating ice cream + candy,1,Applied 100%,Character eating ice cream + candy,yes
+Character recognition,1,Applied 100%,Character recognition,yes
+Checkerboard Problem,2,Pure Math 100%,Checkerboard Problem,yes
+Chesapeake Bay Watershed Optimization,1,Applied 100%,Chesapeake Bay Watershed Optimization,yes
+Chess-krvk,1,Applied 100%,Chess-krvk,yes
+cifar image classification,7,Applied 100%,CIFAR10 Image Classification; CIFAR100 Image Classification; CIFAR10 Image Classification (ResNet18),yes
+cifar image classification wrn,1,Applied 100%,CIFAR-10 image classification with WRN-28-10; CIFAR-100 image classification with WRN-28-10,yes
+cifar loss optimization,1,Applied 100%,CIFAR-10 Loss Function Optimization; CIFAR-100 Loss Function Optimization,yes
+cifar wrn,1,Applied 100%,CIFAR-10 with WRN-10-12; CIFAR-10 with WRN-16-8; CIFAR-10 with WRN-22-6,yes
+CIFAR-10 classification with 3-hidden-layer FNN (100 neurons each),1,Applied 100%,CIFAR-10 classification with 3-hidden-layer FNN (100 neurons each),yes
+CIFAR-10 with ResNet-32,1,Applied 100%,CIFAR-10 with ResNet-32,yes
+CIFAR10,3,Applied 100%,CIFAR10,yes
+cigar,4,Pure Math 100%,Cigar; Cigar (rotated); Cigar (unrotated),yes
+CIGRE HVDC model parameter optimization,1,Applied 100%,CIGRE HVDC model parameter optimization,yes
+cihs task,1,Pure Math 100%,CIHS Task 1; CIHS Task 2,yes
+cils task,1,Pure Math 100%,CILS Task 1; CILS Task 2,yes
+cims task,1,Pure Math 100%,CIMS Task 1; CIMS Task 2,yes
+Circle Path Tracking,1,Applied 100%,Circle Path Tracking,yes
+Circulant Graph,1,Pure Math 100%,Circulant Graph,yes
+City Air Terminal Location Problem,1,Applied 100%,City Air Terminal Location Problem,yes
+CK+ Extended Cohn Kanade Dataset Classification,1,Applied 100%,CK+ Extended Cohn Kanade Dataset Classification,yes
+Clang Compiler Testing,1,Applied 100%,Clang Compiler Testing,yes
+Class Imbalance in Spatial Time Series Data,1,Pure Math 100%,Class Imbalance in Spatial Time Series Data,yes
+Class Incremental Learning (CIL) for Gesture Recognition,1,Applied 100%,Class Incremental Learning (CIL) for Gesture Recognition,yes
+Classification Datasets (kNN),1,Applied 100%,Classification Datasets (kNN),yes
+Cleveland,1,Applied 100%,Cleveland,yes
+clf5605 airfoil reproduction,1,Pure Math 100%,clf5605 airfoil reproduction,yes
+cliff,2,Pure Math 100%,Cliff; Cliff_d,yes
+Cliff Walking,1,Pure Math 100%,Cliff Walking,yes
+CliffWithBasin_a,1,Pure Math 100%,CliffWithBasin_a,yes
+Climate Feature Selection,1,Applied 100%,Climate Feature Selection,yes
+Clinical Heart Failure Clustering,1,Applied 100%,Clinical Heart Failure Clustering,yes
+Clinical ultrasound image despeckling,1,Applied 100%,Clinical ultrasound image despeckling,yes
+Clique Partitioning Problem,1,Pure Math 100%,Clique Partitioning Problem,yes
+Cloud Dataset,1,Pure Math 100%,Cloud Dataset,yes
+Cloud Task Scheduling,1,Applied 100%,Cloud Task Scheduling,yes
+clusAB100,1,Applied 100%,clusAB100,yes
+clustering,1,Pure Math 100%,Clustering Problem; Clustering Problem (Latent Space),yes
+Clustering of human genes using known thyroid cancer genes as seeds,1,Applied 100%,Clustering of human genes using known thyroid cancer genes as seeds,yes
+Clustering of thyroid cancer genes,1,Applied 100%,Clustering of thyroid cancer genes,yes
+Cm_avg,1,Applied 100%,Cm_avg,yes
+cmapss fd,1,Applied 100%,CMAPSS/FD001; CMAPSS/FD002; CMAPSS/FD003,yes
+CMMF and CMMOP Suites,2,Pure Math 100%,CMMF and CMMOP Suites,yes
+CMMOP_LS,1,Applied 100%,CMMOP_LS,yes
+cmp series,1,Pure Math 100%,Cmp6; Cmp8,yes
+cnv w memory packing,1,Applied 100%,CNV-W1A1 Memory Packing; CNV-W2A2 Memory Packing,yes
+Coal-Fired Power Plant Burner Time Series Forecasting,1,Applied 100%,Coal-Fired Power Plant Burner Time Series Forecasting,yes
+cobi,1,Pure Math 100%,COBI Problem 1; COBI Problem 2; COBI Problem 3,yes
+cod-rna,1,Applied 100%,cod-rna,yes
+Code2Vec method-name prediction,1,Applied 100%,Code2Vec method-name prediction,yes
+Codeflaws Benchmark Suite,1,Applied 100%,Codeflaws Benchmark Suite,yes
+Coevolved Maze Navigation,1,Pure Math 100%,Coevolved Maze Navigation,yes
+Cognitive Impairment Classification,1,Applied 100%,Cognitive Impairment Classification,yes
+Cohesin configuration energy minimization,1,Applied 100%,Cohesin configuration energy minimization,yes
+Coin Sums,1,Pure Math 100%,Coin Sums,yes
+Collective gathering task,1,Applied 100%,Collective gathering task,yes
+collective gradient sensing,1,Applied 100%,Collective Gradient Sensing (10x10 Arena); Collective Gradient Sensing (30x30 Arena); Collective Gradient Sensing (45x45 Arena),yes
+Collective Perception Task,1,Pure Math 100%,Collective Perception Task,yes
+Collective Tracking - Random Path,1,Pure Math 100%,Collective Tracking - Random Path,yes
+Collective Tracking - S-curve Path,1,Pure Math 100%,Collective Tracking - S-curve Path,yes
+Collective Tracking - Sharp Path,1,Pure Math 100%,Collective Tracking - Sharp Path,yes
+Collective Tracking - Straight Path,1,Pure Math 100%,Collective Tracking - Straight Path,yes
+Collective Tracking - Zigzag Path,1,Pure Math 100%,Collective Tracking - Zigzag Path,yes
+collision-detection,1,Applied 100%,collision-detection,yes
+Colon,2,Applied 100%,Colon,yes
+Colon Cancer Classification,1,Applied 100%,Colon Cancer Classification,yes
+Color homography estimation,1,Applied 100%,Color homography estimation,yes
+Combined Algorithm Selection and Hyperparameter Optimization (CASH) for Fairness,1,Applied 100%,Combined Algorithm Selection and Hyperparameter Optimization (CASH) for Fairness,yes
+Combined Benchmark Suite (various sources),1,Pure Math 100%,Combined Benchmark Suite (various sources),yes
+Combined Cycle Power Plant,1,Applied 100%,Combined Cycle Power Plant,yes
+Combined SVIs Reconstruction,1,Applied 100%,Combined SVIs Reconstruction,yes
+Combs (Cn),1,Pure Math 100%,Combs (Cn),yes
+comet 100K,1,Pure Math 100%,comet 100K,yes
+Communities,2,Applied 100%,Communities,yes
+Communities and Crime,2,Applied 100%,Communities and Crime,yes
+Community Detection Problem,1,Applied 100%,Community Detection Problem,yes
+comp,1,Pure Math 100%,"comp(0,1); comp(5,3)",yes
+Compare String Lengths,2,Pure Math 100%,Compare String Lengths,yes
+Competitive Traveling Salesmen Problem (CTSP),1,Applied 100%,Competitive Traveling Salesmen Problem (CTSP),yes
+Component concentration estimation in mixed FTIR spectra,1,Applied 100%,Component concentration estimation in mixed FTIR spectra,yes
+compression string design,1,Applied 100%,compression string design,yes
+Computation Offloading in UAV-assisted MEC (OLMEC),1,Applied 100%,Computation Offloading in UAV-assisted MEC (OLMEC),yes
+Computation Offloading Strategy Optimization,1,Applied 100%,Computation Offloading Strategy Optimization,yes
+Concatenation of bimTrap10,1,Pure Math 100%,Concatenation of bimTrap10,yes
+Concave (Ishibuchi),1,Pure Math 100%,Concave (Ishibuchi),yes
+concave-bil,1,Pure Math 100%,concave-bil,yes
+Concrete,4,Applied 100%,Concrete,yes
+Concrete Compressive Strength,3,Applied 100%,Concrete Compressive Strength,yes
+Concrete Compressive Strength Prediction,1,Applied 100%,Concrete Compressive Strength Prediction,yes
+"Concrete crack resistance, acid erosion resistance, and crack repair performance",1,Applied 100%,"Concrete crack resistance, acid erosion resistance, and crack repair performance",yes
+Concrete Slump Test,1,Applied 100%,Concrete Slump Test,yes
+Concrete Strength,2,Applied 100%,Concrete Strength,yes
+Conditional Execution (CE),1,Applied 100%,Conditional Execution (CE),yes
+Conference Scheduling Problem (CoSP),1,Applied 100%,Conference Scheduling Problem (CoSP),yes
+configurable tree graph environment,1,Pure Math 100%,Configurable Tree Graph (CT-graph) Environment (depth 2); Configurable Tree Graph (CT-graph) Environment (depth 3),yes
+Conflicting constraints example (x1*exp(-x1^2-x2^2) <= 0 and -0.1-x1*exp(-x1^2-x2^2) <= 0),1,Pure Math 100%,Conflicting constraints example (x1*exp(-x1^2-x2^2) <= 0 and -0.1-x1*exp(-x1^2-x2^2) <= 0),yes
+Congress Classification,1,Applied 100%,Congress Classification,yes
+Conically Constrained Problem,1,Pure Math 100%,Conically Constrained Problem,yes
+Connected and Autonomous Vehicles Route Optimization,1,Applied 100%,Connected and Autonomous Vehicles Route Optimization,yes
+Constant function,1,Pure Math 100%,Constant function,yes
+Constant Sphere,1,Pure Math 100%,Constant Sphere,yes
+constrained clustering,1,Applied 100%,Constrained Clustering (Breast Cancer); Constrained Clustering (Iris); Constrained Clustering (Pima),yes
+Constrained MACRA WDP,1,Applied 100%,Constrained MACRA WDP,yes
+Constrained Minimum Spanning Tree,1,Pure Math 100%,Constrained Minimum Spanning Tree,yes
+Constructed worst-case input for non-dominated sorting,1,Pure Math 100%,Constructed worst-case input for non-dominated sorting,yes
+Container Relocation Problem,1,Applied 100%,Container Relocation Problem,yes
+Continuous Decision Space (Hypercube),1,Pure Math 100%,Continuous Decision Space (Hypercube),yes
+Continuous Mountain Car,1,Pure Math 100%,Continuous Mountain Car,yes
+Contraceptive,1,Applied 100%,Contraceptive,yes
+CONV,1,Pure Math 100%,CONV,yes
+Convex (Ishibuchi),1,Pure Math 100%,Convex (Ishibuchi),yes
+Convex quadratic functions,1,Pure Math 100%,Convex quadratic functions,yes
+Convex Sets,1,Applied 100%,Convex Sets,yes
+"Convex, Linear, and Concave Pareto fronts",1,Pure Math 100%,"Convex, Linear, and Concave Pareto fronts",yes
+convex-bil,1,Pure Math 100%,convex-bil,yes
+Cooke Triplet (CT) lens system optimization,1,Applied 100%,Cooke Triplet (CT) lens system optimization,yes
+Cooperative predator-prey pursuit task,1,Applied 100%,Cooperative predator-prey pursuit task,yes
+Cooperative Sampling Task (Coalition Formation Problem),1,Applied 100%,Cooperative Sampling Task (Coalition Formation Problem),yes
+Core War,1,Pure Math 100%,Core War,yes
+corel,1,Applied 100%,Corel16k; Corel5k,yes
+Corel-5k Multi-label Classification,1,Applied 100%,Corel-5k Multi-label Classification,yes
+CORNN Suite,1,Pure Math 100%,CORNN Suite,yes
+Correlation Power Analysis (CPA),1,Applied 100%,Correlation Power Analysis (CPA),yes
+Count Odds,2,Pure Math 100%,Count Odds,yes
+count4 (Ones' counter circuit),1,Pure Math 100%,count4 (Ones' counter circuit),yes
+Coverage Hole Healing in WSN,1,Applied 100%,Coverage Hole Healing in WSN,yes
+covering array ca,1,Applied 100%,"Covering Array CA_10(N; 2, 10, 2); Covering Array CA_10(N; 2, 20, 2); Covering Array CA_5(N; 2, 10, 2)",yes
+CoverType Classification,1,Applied 100%,CoverType Classification,yes
+covid chest x ray image generation,1,Applied 100%,COVID-19 Chest X-Ray Image Generation (4LP); COVID-19 Chest X-Ray Image Generation (CNN28); COVID-19 Chest X-Ray Image Generation (CNN64),yes
+Covtype,1,Applied 100%,Covtype,yes
+CPLEX on Regions200,1,Pure Math 100%,CPLEX on Regions200,yes
+cplex rcw,2,Pure Math 100%,CPLEX on RCW2; CPLEX-RCW,yes
+CPLEX-BIGMIX,1,Pure Math 100%,CPLEX-BIGMIX,yes
+CPLEX-CATS_REG,1,Pure Math 100%,CPLEX-CATS_REG,yes
+CPLEX-CORLAT,1,Pure Math 100%,CPLEX-CORLAT,yes
+CPLEX-CORLAT-REG,1,Pure Math 100%,CPLEX-CORLAT-REG,yes
+CPLEX-CORLAT-REG-RCW,1,Pure Math 100%,CPLEX-CORLAT-REG-RCW,yes
+Credit Approval,1,Applied 100%,Credit Approval,yes
+Cricket Team Ranking,1,Applied 100%,Cricket Team Ranking,yes
+Crop mapping Classification,1,Applied 100%,Crop mapping Classification,yes
+Crop-type classification,1,Applied 100%,Crop-type classification,yes
+cryptographic boolean,1,Pure Math 100%,Cryptographic Boolean Functions (Fitness 1); Cryptographic Boolean Functions (Fitness 2),yes
+Cube,1,Pure Math 100%,Cube,yes
+Cube model,1,Applied 100%,Cube model,yes
+"Cube target objects (7mm, 10mm, 14mm)",1,Applied 100%,"Cube target objects (7mm, 10mm, 14mm)",yes
+Cue-based aggregation,1,Applied 100%,Cue-based aggregation,yes
+Curling,1,Applied 100%,Curling,yes
+curriculum based course timetabling,2,Applied 100%,Curriculum-based Course Timetabling (ITC 2007 Track 3); Curriculum-Based Course Timetabling Problem (CB-CTP),yes
+custom multi objective,1,Pure Math 100%,Custom Multi-objective Test Problem 1; Custom Multi-objective Test Problem 10; Custom Multi-objective Test Problem 2,yes
+Custom Sinusoidal Staircase Function (Equation 2),1,Pure Math 100%,Custom Sinusoidal Staircase Function (Equation 2),yes
+Cut Vector,1,Pure Math 100%,Cut Vector,yes
+CVRP,2,Applied 100%,CVRP,yes
+CVRPLIB,1,Applied 100%,CVRPLIB,yes
+CW,1,Applied 100%,CW,yes
+CyberShake workflow scheduling,1,Applied 100%,CyberShake workflow scheduling,yes
+cyc bim,1,Pure Math 100%,Cyc-bim10; Cyc-bim10n,yes
+Cyc-dec8,1,Pure Math 100%,Cyc-dec8,yes
+Cycle graphs C_n,1,Pure Math 100%,Cycle graphs C_n,yes
+Cylinder Bands,1,Applied 100%,Cylinder Bands,yes
+Damavandi,1,Pure Math 100%,Damavandi,yes
+Dangerous driving detection,1,Applied 100%,Dangerous driving detection,yes
+DARPA Cyber Grand Challenge (CGC) Dataset,1,Applied 100%,DARPA Cyber Grand Challenge (CGC) Dataset,yes
+DARTS search space,1,Applied 100%,DARTS search space,yes
+DASCMOP,5,Pure Math 100%,DASCMOP Suite; DASCMOP1; DASCMOP2,yes
+Data1,1,Pure Math 100%,Data1,yes
+Day-ahead economic dispatch of VPP,1,Applied 100%,Day-ahead economic dispatch of VPP,yes
+Day-ahead energy resource scheduling,1,Applied 100%,Day-ahead energy resource scheduling,yes
+Days Between,1,Pure Math 100%,Days Between,yes
+DBSCAN Parameter Tuning,1,Applied 100%,DBSCAN Parameter Tuning,yes
+dc dc buck converter design,2,Applied 100%,DC-DC Buck Converter Design Problem; DC-DC buck converter design,yes
+DC-DC Buck Converter Design Optimization,1,Applied 100%,DC-DC Buck Converter Design Optimization,yes
+DCGAN architecture design for CXR image synthesis,1,Applied 100%,DCGAN architecture design for CXR image synthesis,yes
+DE-preferred benchmark (DE-pref.),1,Pure Math 100%,DE-preferred benchmark (DE-pref.),yes
+DEB2DK,1,Pure Math 100%,DEB2DK,yes
+dec series,2,Pure Math 100%,Dec5; dec4 (One-hot decoder),yes
+Deceptive Humanoid,1,Applied 100%,Deceptive Humanoid,yes
+Deceptive Leading Blocks,2,Pure Math 100%,Deceptive Leading Blocks,yes
+Deceptive Maze,1,Applied 100%,Deceptive Maze,yes
+Deceptive3,1,Pure Math 100%,Deceptive3,yes
+Deep Sea Treasure,1,Pure Math 100%,Deep Sea Treasure,yes
+Default of Credit Card Client dataset (D4),1,Applied 100%,Default of Credit Card Client dataset (D4),yes
+Defect Detection,1,Applied 100%,Defect Detection,yes
+DefendIt-B,1,Applied 100%,DefendIt-B,yes
+DeJong F4 (Quartic Function with Noise),1,Pure Math 100%,DeJong F4 (Quartic Function with Noise),yes
+Delayed Match-to-Sample,1,Pure Math 100%,Delayed Match-to-Sample,yes
+Demand-Balanced Railway Route Design,1,Applied 100%,Demand-Balanced Railway Route Design,yes
+densenet bc pruning cifar,1,Applied 100%,DenseNet-BC (k=12) Pruning on CIFAR-10; DenseNet-BC (k=12) Pruning on CIFAR-100,yes
+Density Classification Problem,1,Pure Math 100%,Density Classification Problem,yes
+DENT,1,Pure Math 100%,DENT,yes
+"Depth Restricted (1,2)-Minimum Spanning Tree Problem (DR-(1,2)-MSTP)",1,Pure Math 100%,"Depth Restricted (1,2)-Minimum Spanning Tree Problem (DR-(1,2)-MSTP)",yes
+Dermatology,1,Applied 100%,Dermatology,yes
+Dermatology Counterfactual Generation,1,Applied 100%,Dermatology Counterfactual Generation,yes
+dermofit,1,Applied 100%,Dermofit (Binary); Dermofit (Multi-class),yes
+Detection Instability,1,Pure Math 100%,Detection Instability,yes
+Deterministic Flipping Challenge (DFC),1,Pure Math 100%,Deterministic Flipping Challenge (DFC),yes
+DF11,1,Pure Math 100%,DF11,yes
+DFIG Active and Reactive Power Control,1,Applied 100%,DFIG Active and Reactive Power Control,yes
+DFJSS (Mean-flowtime and Rule Size),1,Applied 100%,DFJSS (Mean-flowtime and Rule Size),yes
+DFO 'Negative to Positive' classification,1,Applied 100%,DFO 'Negative to Positive' classification,yes
+Diabetes,4,Applied 100%,Diabetes,yes
+Diabetic Retinopathy Classification,1,Applied 100%,Diabetic Retinopathy Classification,yes
+Diabetic Retinopathy Multi-class Classification,1,Applied 100%,Diabetic Retinopathy Multi-class Classification,yes
+Diamond Path Tracking,1,Applied 100%,Diamond Path Tracking,yes
+Dice Game,2,Pure Math 100%,Dice Game,yes
+different powers,2,Pure Math 100%,Different Powers Function (f5); Different powers function (fdiff_pow),yes
+diffpowers,1,Pure Math 100%,DiffPowers (rotated); DiffPowers (unrotated),yes
+DIMP2,1,Pure Math 100%,DIMP2,yes
+DIP (Alignment-free sequence analysis),1,Applied 100%,DIP (Alignment-free sequence analysis),yes
+direct torque control with {...},1,Applied 100%,Direct Torque Control (DTC) with PI controllers; Direct Torque Control (DTC) with hysteresis modulation,yes
+Direction Finding Array Design,1,Applied 100%,Direction Finding Array Design,yes
+directory products optimization ms,1,Applied 100%,Directory of Products Optimization with MS1 (Categorization-based Merging); Directory of Products Optimization with MS2 (Embedding-based Merging),yes
+discrete lsi,1,Pure Math 100%,Discrete LSI - 1; Discrete LSI - 2,yes
+discus,2,Pure Math 100%,Discus (rotated); Discus (unrotated); Discus,yes
+Disease-Symptom Classification,1,Applied 100%,Disease-Symptom Classification,yes
+Dixon-Price,1,Pure Math 100%,Dixon-Price,yes
+Dlbcl Cancer Classification,1,Applied 100%,Dlbcl Cancer Classification,yes
+DLBCL Feature Selection,1,Applied 100%,DLBCL Feature Selection,yes
+dmop,1,Pure Math 100%,dMOP1; dMOP2,yes
+DNN-based Speech Enhancement,1,Applied 100%,DNN-based Speech Enhancement,yes
+DOC Suite,2,Pure Math 100%,DOC Suite,yes
+Doodle Recognition,1,Applied 100%,Doodle Recognition,yes
+DoomTakeCover,1,Applied 100%,DoomTakeCover,yes
+DoReFaNet Memory Packing,1,Applied 100%,DoReFaNet Memory Packing,yes
+Double-Pole,1,Pure Math 100%,Double-Pole,yes
+doublesphere,2,Pure Math 100%,doublesphere,yes
+Doubly-Fed Induction Generator (DFIG) Power Control,1,Applied 100%,Doubly-Fed Induction Generator (DFIG) Power Control,yes
+Dow Chemical,1,Applied 100%,Dow Chemical,yes
+Drone Dynamics,1,Applied 100%,Drone Dynamics,yes
+Drone scheduling for ship emission monitoring,1,Applied 100%,Drone scheduling for ship emission monitoring,yes
+Drought stress classification,1,Applied 100%,Drought stress classification,yes
+Dry Bean Feature Selection,1,Applied 100%,Dry Bean Feature Selection,yes
+dsc series,1,Pure Math 100%,Dsc1; Dsc2; Dsc3,yes
+DTLZ,45,Pure Math 100%,DTLZ2; DTLZ1; DTLZ7,yes
+Dual Active Bridge (DAB) converter control,1,Applied 100%,Dual Active Bridge (DAB) converter control,yes
+DVFS control of a RISC core,1,Applied 100%,DVFS control of a RISC core,yes
+Dynamic Ackley,1,Pure Math 100%,Dynamic Ackley,yes
+Dynamic Bi-Objective Vehicle Routing Problem,1,Applied 100%,Dynamic Bi-Objective Vehicle Routing Problem,yes
+Dynamic Branin,1,Pure Math 100%,Dynamic Branin,yes
+Dynamic Camelback,1,Pure Math 100%,Dynamic Camelback,yes
+Dynamic Capacitated Arc Routing Problem (egl-E2-A),1,Applied 100%,Dynamic Capacitated Arc Routing Problem (egl-E2-A),yes
+Dynamic Exploratory Path Planning,1,Applied 100%,Dynamic Exploratory Path Planning,yes
+dynamic flexible job shop scheduling,3,Applied 100%,Dynamic Flexible Job Shop Scheduling; Dynamic Flexible Job Shop Scheduling Problem,yes
+Dynamic Goldstein-Price,1,Pure Math 100%,Dynamic Goldstein-Price,yes
+Dynamic Griewank,1,Pure Math 100%,Dynamic Griewank,yes
+Dynamic Multimodal Optimization Problems (DMMOPs),1,Pure Math 100%,Dynamic Multimodal Optimization Problems (DMMOPs),yes
+Dynamic Optimization Problems,1,Pure Math 100%,Dynamic Optimization Problems,yes
+Dynamic Ore-Flow Blending Problem,1,Applied 100%,Dynamic Ore-Flow Blending Problem,yes
+Dynamic Rastrigin,1,Pure Math 100%,Dynamic Rastrigin,yes
+Dynamic Scene Recognition,2,Applied 100%,Dynamic Scene Recognition,yes
+Dynamic Workflow Scheduling,1,Applied 100%,Dynamic Workflow Scheduling,yes
+Dynamic_Dataset (f1-f32),1,Pure Math 100%,Dynamic_Dataset (f1-f32),yes
+E1_CHT1,1,Applied 100%,E1_CHT1,yes
+Easom,1,Pure Math 100%,Easom,yes
+Economic Load Dispatch,1,Applied 100%,Economic Load Dispatch,yes
+ecu fingerprinting classification,2,Applied 100%,ECU fingerprinting classification; ECU Fingerprinting Classification (M1 - Step Response Features); ECU Fingerprinting Classification (M2 - Step Response + Spectral Analysis Features),yes
+edge coloring on {...},1,Pure Math 100%,"Edge Coloring on Complete Bipartite Graph (K_n/2,n/2); Edge Coloring on Even Cycle Graph (C_2n); Edge Coloring on Hypercube Graph",yes
+Edge Detection,1,Applied 100%,Edge Detection,yes
+EDM,1,Applied 100%,EDM,yes
+eeg feature selection,2,Applied 100%,EEG Feature Selection; EEG Feature Selection (SVM Classifier); EEG Feature Selection (k-NN Classifier),yes
+Efficiency evaluation of 2kW battery-assisted inverter,1,Applied 100%,Efficiency evaluation of 2kW battery-assisted inverter,yes
+Efficiency optimization of a two-stage microinverter,1,Applied 100%,Efficiency optimization of a two-stage microinverter,yes
+EggHolder,2,Pure Math 100%,EggHolder,yes
+eld d series,1,Applied 100%,ELD 13D; ELD 140D; ELD 15D,yes
+Electric Vehicle Charging Scheduling Problem (EVCSP),2,Applied 100%,Electric Vehicle Charging Scheduling Problem (EVCSP),yes
+Electric Vehicle Routing Problem with Time Windows (EVRPTW),1,Applied 100%,Electric Vehicle Routing Problem with Time Windows (EVRPTW),yes
+Electrical Grid Stability,1,Applied 100%,Electrical Grid Stability,yes
+Electricity,1,Applied 100%,Electricity,yes
+Electricity Load Forecasting,1,Applied 100%,Electricity Load Forecasting,yes
+Electricity Market (Elec2),1,Applied 100%,Electricity Market (Elec2),yes
+Electricity price prediction,1,Applied 100%,Electricity price prediction,yes
+elevators,1,Applied 100%,elevators,yes
+ellipsoid,9,Pure Math 100%,Ellipsoid; Ellipsoid (rotated); Ellipsoid (unrotated),yes
+ellipsoid alpha,1,Pure Math 100%,Ellipsoid function (felli) with alpha=10^2; Ellipsoid function (felli) with alpha=10^6,yes
+EllipsoidInt,2,Pure Math 100%,EllipsoidInt,yes
+EllipsoidLeadingOnes,2,Pure Math 100%,EllipsoidLeadingOnes,yes
+EllipsoidOneMax,2,Pure Math 100%,EllipsoidOneMax,yes
+EMB,1,Applied 100%,EMB,yes
+Embryonal,1,Applied 100%,Embryonal,yes
+emergency medical dispatch on {...} graph,1,Applied 100%,Emergency Medical Dispatch (EMD) on EGL Graph; Emergency Medical Dispatch (EMD) on EGL-G Graph; Emergency Medical Dispatch (EMD) on HFE Graph,yes
+Emotion classification,1,Applied 100%,Emotion classification,yes
+Emotion Recognition,1,Applied 100%,Emotion Recognition,yes
+Emotions,3,Applied 100%,Emotions,yes
+Emotions dataset,1,Applied 100%,Emotions dataset,yes
+ENB,1,Applied 100%,ENB,yes
+ENC Regression,1,Applied 100%,ENC Regression,yes
+enc8 (One-hot encoder),1,Pure Math 100%,enc8 (One-hot encoder),yes
+Enduro (Atari 2600),1,Applied 100%,Enduro (Atari 2600),yes
+Energy,1,Applied 100%,Energy,yes
+Energy consumption prediction and scheduling,1,Applied 100%,Energy consumption prediction and scheduling,yes
+Energy Efficiency Cooling,1,Applied 100%,Energy Efficiency Cooling,yes
+Energy Efficiency Heating,1,Applied 100%,Energy Efficiency Heating,yes
+energy efficiency prediction,1,Applied 100%,Energy Efficiency (Cooling Load) Prediction; Energy Efficiency (Heating Load) Prediction,yes
+Energy Efficient Virtual Machine Consolidation,1,Applied 100%,Energy Efficient Virtual Machine Consolidation,yes
+ENetB7 Image Classifier Repair,1,Applied 100%,ENetB7 Image Classifier Repair,yes
+ENH Regression,1,Applied 100%,ENH Regression,yes
+Enron,2,Applied 100%,Enron,yes
+Enron dataset,1,Applied 100%,Enron dataset,yes
+epar8 (Parity Even),1,Pure Math 100%,epar8 (Parity Even),yes
+Epilepsy classification via fuzzy rule mining,1,Applied 100%,Epilepsy classification via fuzzy rule mining,yes
+Epileptic signature identification and classification,1,Applied 100%,Epileptic signature identification and classification,yes
+Epsilon,2,Applied 100%,Epsilon,yes
+EqualBlocksOneMax (EBOM),1,Pure Math 100%,EqualBlocksOneMax (EBOM),yes
+Erdős-Rényi networks,1,Pure Math 100%,Erdős-Rényi networks,yes
+Error-Correcting Codes,1,Pure Math 100%,Error-Correcting Codes,yes
+eRWA,1,Applied 100%,eRWA,yes
+ESOL,2,Applied 100%,ESOL,yes
+ESP-Problem,1,Applied 100%,ESP-Problem,yes
+etth dataset forecasting,1,Applied 100%,ETTh1 Dataset Forecasting; ETTh2 Dataset Forecasting,yes
+ettm dataset forecasting,1,Applied 100%,ETTm1 Dataset Forecasting; ETTm2 Dataset Forecasting,yes
+euclAB100,1,Applied 100%,euclAB100,yes
+EUR/USD Spot Trading,1,Applied 100%,EUR/USD Spot Trading,yes
+EV Charging Resource Allocation,1,Applied 100%,EV Charging Resource Allocation,yes
+everywhere hard unimodal functions,1,Pure Math 100%,everywhere hard unimodal functions,yes
+evoapt cyber attack and mitigation {...} network,1,Applied 100%,EvoAPT Cyber Attack and Mitigation - Large Network; EvoAPT Cyber Attack and Mitigation - Small Network,yes
+evodrive overtaking safety prediction,1,Applied 100%,EvoDrive Overtaking Safety Prediction (Composite Prompt); EvoDrive Overtaking Safety Prediction (Monolithic Prompt),yes
+EvoGym Walker-v0,1,Applied 100%,EvoGym Walker-v0,yes
+Evolution Gym,1,Pure Math 100%,Evolution Gym,no
+Evolution Gym,1,Applied 100%,Evolution Gym,no
+evolving flying machines in minecraft,1,Applied 100%,Evolving Flying Machines in Minecraft (Observer Block Set); Evolving Flying Machines in Minecraft (Original Block Set),yes
+Exact-match text-to-image retrieval on MS COCO,1,Applied 100%,Exact-match text-to-image retrieval on MS COCO,yes
+Exon and Intron Classification,1,Applied 100%,Exon and Intron Classification,yes
+Explanation Generation,1,Applied 100%,Explanation Generation,yes
+Exponential,1,Pure Math 100%,Exponential,yes
+Extended Yale B,1,Applied 100%,Extended Yale B,yes
+Extractive Summarisation,1,Applied 100%,Extractive Summarisation,yes
+Extreme Hardship Resource Availability Scenario,1,Pure Math 100%,Extreme Hardship Resource Availability Scenario,yes
+Extreme Imbalance,1,Pure Math 100%,Extreme Imbalance,yes
+Eye Gaze Estimation,1,Applied 100%,Eye Gaze Estimation,yes
+f (layeb) series,1,Pure Math 100%,F5 (Layeb03); F6 (Layeb05); F7 (Layeb06),yes
+f in series,1,Pure Math 100%,F10 in [29] (F7); F15 in [29] (F8); F16 in [29] (F9),yes
+f0 (Flat function),1,Pure Math 100%,f0 (Flat function),yes
+f1,2,Pure Math 100%,f1,yes
+F1 (HappyCat),1,Pure Math 100%,F1 (HappyCat),yes
+f1 (Sphere/Sphere),1,Pure Math 100%,f1 (Sphere/Sphere),yes
+f1 (SphereIntCOM),1,Pure Math 100%,f1 (SphereIntCOM),yes
+F1(x),1,Pure Math 100%,F1(x),yes
+F11 (Globally Convex),1,Pure Math 100%,F11 (Globally Convex),yes
+F16 (Noisy),1,Pure Math 100%,F16 (Noisy),yes
+f2,2,Pure Math 100%,f2,yes
+f2 (EllipsoidIntCLO),1,Pure Math 100%,f2 (EllipsoidIntCLO),yes
+F2 (Michalewicz),1,Pure Math 100%,F2 (Michalewicz),yes
+F2(x),1,Pure Math 100%,F2(x),yes
+f28 (Rosenbrock/Rosenbrock),1,Pure Math 100%,f28 (Rosenbrock/Rosenbrock),yes
+f3,2,Pure Math 100%,f3,yes
+F3 (Schwefel),1,Pure Math 100%,F3 (Schwefel),yes
+f4,2,Pure Math 100%,f4,yes
+f4 (MVProximity),1,Pure Math 100%,f4 (MVProximity),yes
+F4 (Styblinski-Tang),1,Pure Math 100%,F4 (Styblinski-Tang),yes
+f46 (Rastrigin/Rastrigin),1,Pure Math 100%,f46 (Rastrigin/Rastrigin),yes
+f5,1,Pure Math 100%,f5,yes
+f6,1,Pure Math 100%,f6,yes
+f7,1,Pure Math 100%,f7,yes
+Face Anti-spoofing,1,Applied 100%,Face Anti-spoofing,yes
+Face detection,1,Applied 100%,Face detection,yes
+Face Recognition,2,Applied 100%,Face Recognition,yes
+Face Recognition and Optical Digit Recognition,1,Applied 100%,Face Recognition and Optical Digit Recognition,yes
+facial expression classification fei,1,Applied 100%,Facial Expression Classification on FEI_1; Facial Expression Classification on FEI_2,yes
+facial expression classification on {...},1,Applied 100%,Facial Expression Classification on GENKI; Facial Expression Classification on JAFFE,yes
+Facial Expression Recognition,1,Applied 100%,Facial Expression Recognition,yes
+Facility Layout Problem (FLP),1,Applied 100%,Facility Layout Problem (FLP),yes
+Family Day Test Problem (j22),1,Applied 100%,Family Day Test Problem (j22),yes
+Fashion-MNIST Clothing Item Recognition,1,Applied 100%,Fashion-MNIST Clothing Item Recognition,yes
+Fashion_MNIST,4,Applied 100%,Fashion_MNIST,yes
+fashionmnist,1,Applied 100%,FashionMNIST (Class-incremental); FashionMNIST (Non-incremental),yes
+FashionMNIST Image Classification,4,Applied 100%,FashionMNIST Image Classification,yes
+Fault location and isolation in 10kV distribution network,1,Applied 100%,Fault location and isolation in 10kV distribution network,yes
+Feature Selection,4,Applied 100%,Feature Selection,yes
+Feature selection for biopsy needle detection,1,Applied 100%,Feature selection for biopsy needle detection,yes
+Feature Selection for EEG Emotion Classification,1,Applied 100%,Feature Selection for EEG Emotion Classification,yes
+Feature selection for emotion classification,1,Applied 100%,Feature selection for emotion classification,yes
+Feature Selection for Network Attack Prediction,1,Applied 100%,Feature Selection for Network Attack Prediction,yes
+Feature selection from fNIRS signals for emotion recognition,1,Applied 100%,Feature selection from fNIRS signals for emotion recognition,yes
+FEI_1,1,Applied 100%,FEI_1,yes
+FEKO Method of Moments (MoM) simulation of dipole antennas,1,Applied 100%,FEKO Method of Moments (MoM) simulation of dipole antennas,yes
+fEllipsoidInt,1,Pure Math 100%,fEllipsoidInt,yes
+fEllipsoidLeadingOnes,1,Pure Math 100%,fEllipsoidLeadingOnes,yes
+fEllipsoidOneMax,1,Pure Math 100%,fEllipsoidOneMax,yes
+Fetch Pick and Place,1,Applied 100%,Fetch Pick and Place,yes
+Few-Shot Classification,1,Pure Math 100%,Few-Shot Classification,yes
+Few-shot sentiment classification,1,Applied 100%,Few-shot sentiment classification,yes
+Feynman physics equations,1,Pure Math 100%,Feynman physics equations,yes
+Field A,1,Applied 100%,Field A,yes
+Field B,1,Applied 100%,Field B,yes
+Field C,1,Applied 100%,Field C,yes
+FIFA,1,Applied 100%,FIFA,yes
+Fighting a dinosaur with cucumbers,1,Applied 100%,Fighting a dinosaur with cucumbers,yes
+Filter Bounds,1,Pure Math 100%,Filter Bounds,yes
+Financial forecasting (binary classification: buy/hold),1,Applied 100%,Financial forecasting (binary classification: buy/hold),yes
+Financial market trading,1,Applied 100%,Financial market trading,yes
+Financial time series forecasting,1,Applied 100%,Financial time series forecasting,yes
+Find Pair,1,Pure Math 100%,Find Pair,yes
+Fingerprint Presentation Attack Detection,1,Applied 100%,Fingerprint Presentation Attack Detection,yes
+fingerprint recognition,1,Applied 100%,Fingerprint Recognition (FVC2002 DB2); Fingerprint Recognition (SPD2010),yes
+Fingerprint Template Generation,1,Applied 100%,Fingerprint Template Generation,yes
+Fire and Smoke Detection,1,Applied 100%,Fire and Smoke Detection,yes
+Firefly Algorithm (FA) optimization,1,Pure Math 100%,Firefly Algorithm (FA) optimization,yes
+Fishwood,1,Applied 100%,Fishwood,yes
+Fixed-front Dataset,1,Pure Math 100%,Fixed-front Dataset,yes
+Fizz Buzz,4,Pure Math 100%,Fizz Buzz,yes
+fl1400,1,Applied 100%,fl1400,yes
+fl3975,1,Applied 100%,fl3975,yes
+Flags,1,Applied 100%,Flags,yes
+Flappy Bird,1,Pure Math 100%,Flappy Bird,yes
+Fleet Mix Problem,1,Applied 100%,Fleet Mix Problem,yes
+Flexibility management of home appliances to support DSO requests (MINLP),1,Applied 100%,Flexibility management of home appliances to support DSO requests (MINLP),yes
+flexible job shop scheduling,2,Applied 100%,Flexible Job Shop Scheduling Problem (Brandimarte Mk01-Mk10); Flexible Job Shop Scheduling Problem (FJSP),yes
+Flexible Job-Shop Scheduling Problem with Worker Flexibility (FJSSP-W),1,Applied 100%,Flexible Job-Shop Scheduling Problem with Worker Flexibility (FJSSP-W),yes
+Flexible Management Problem of Home Appliances,1,Applied 100%,Flexible Management Problem of Home Appliances,yes
+Flexible Organic Field-Effect Transistor (OFET) electrical characterization,1,Applied 100%,Flexible Organic Field-Effect Transistor (OFET) electrical characterization,yes
+flickr image captioning evaluation,1,Applied 100%,Flickr30k Image Captioning Evaluation; Flickr8k Image Captioning Evaluation,yes
+Floor Plan Image Recognition,1,Applied 100%,Floor Plan Image Recognition,yes
+Flow Shop Scheduling Problem (FSP),1,Applied 100%,Flow Shop Scheduling Problem (FSP),yes
+Flow Shop Scheduling Problem (tai20-5-0),1,Pure Math 100%,Flow Shop Scheduling Problem (tai20-5-0),yes
+Flower target,1,Applied 100%,Flower target,yes
+Fluidic Pinball,1,Applied 100%,Fluidic Pinball,yes
+fMRI Signal Classification,1,Applied 100%,fMRI Signal Classification,yes
+fnint-Tablet,1,Pure Math 100%,fnint-Tablet,yes
+For Loop Index,1,Pure Math 100%,For Loop Index,yes
+Forestfires,1,Applied 100%,Forestfires,yes
+Four meander type Fixed-Fixed beam RF MEMS switch,1,Applied 100%,Four meander type Fixed-Fixed beam RF MEMS switch,yes
+Four Room,1,Pure Math 100%,Four Room,no
+Four Room,1,Applied 100%,Four Room,no
+Free Spoken Digits Dataset (FSDD),1,Applied 100%,Free Spoken Digits Dataset (FSDD),yes
+FreeSolv,2,Applied 100%,FreeSolv,yes
+French Dataset,1,Applied 100%,French Dataset,yes
+Frequent Subgraph Mining,1,Applied 100%,Frequent Subgraph Mining,yes
+fReversedEllipsoidInt,1,Pure Math 100%,fReversedEllipsoidInt,yes
+Fri_c0_100_25,1,Applied 100%,Fri_c0_100_25,yes
+Friedman 1,2,Pure Math 100%,Friedman 1,yes
+friedman1 + outliers,1,Pure Math 100%,friedman1 + outliers,yes
+FrozenLake,3,Pure Math 100%,FrozenLake,yes
+fSphereInt,1,Pure Math 100%,fSphereInt,yes
+fSphereLeadingOnes,1,Pure Math 100%,fSphereLeadingOnes,yes
+fSphereOneMax,1,Pure Math 100%,fSphereOneMax,yes
+Fuel Cost,2,Pure Math 100%,Fuel Cost,yes
+Function Approximation Domain,1,Pure Math 100%,Function Approximation Domain,yes
+Functions of Unitation,1,Pure Math 100%,Functions of Unitation,yes
+Future Frame Prediction,1,Applied 100%,Future Frame Prediction,yes
+Fuzzy Divergence Optimization for Salient Object Detection,1,Applied 100%,Fuzzy Divergence Optimization for Salient Object Detection,yes
+Fuzzy Implications,1,Pure Math 100%,Fuzzy Implications,yes
+Fuzzy Online Order Dispatching Problem (FOODP),1,Applied 100%,Fuzzy Online Order Dispatching Problem (FOODP),yes
+Fuzzy-Rough Feature Selection,1,Applied 100%,Fuzzy-Rough Feature Selection,yes
+Fuzzy-Rough Set Reduct Computation,1,Pure Math 100%,Fuzzy-Rough Set Reduct Computation,yes
+g (randomly generated graph) series,1,Pure Math 100%,G1 (Randomly generated graph); G2 (Randomly generated graph),yes
+G1: Linearly separable well-separated clustering,1,Pure Math 100%,G1: Linearly separable well-separated clustering,yes
+G2: Linearly separable overlapped clustering,1,Pure Math 100%,G2: Linearly separable overlapped clustering,yes
+G3 (Karate Club),1,Applied 100%,G3 (Karate Club),yes
+G3: Non-linearly separable arbitrarily-shaped clustering,1,Pure Math 100%,G3: Non-linearly separable arbitrarily-shaped clustering,yes
+G4 (Dolphin),1,Applied 100%,G4 (Dolphin),yes
+G4: Real-life clustering problems,1,Applied 100%,G4: Real-life clustering problems,yes
+G5 (Le Miserable),1,Applied 100%,G5 (Le Miserable),yes
+GA(W)-1 airfoil with flap reproduction,1,Pure Math 100%,GA(W)-1 airfoil with flap reproduction,yes
+GA-preferred benchmark (GA-pref.),1,Pure Math 100%,GA-preferred benchmark (GA-pref.),yes
+Game Content Generation Problems,1,Applied 100%,Game Content Generation Problems,yes
+Game G_n (Non-zero-sum game decomposable into MaxMin-layers),1,Pure Math 100%,Game G_n (Non-zero-sum game decomposable into MaxMin-layers),yes
+game mechanic generation,1,Applied 100%,Game Mechanic Generation; Game Mechanic Generation (Sokoban),yes
+GAMETES (A-F),1,Pure Math 100%,GAMETES (A-F),yes
+GAN Training,1,Applied 100%,GAN Training,yes
+Gazelle Dataset Mining,1,Applied 100%,Gazelle Dataset Mining,yes
+GBP/USD Spot Trading,1,Applied 100%,GBP/USD Spot Trading,yes
+GCC Compiler Testing,1,Applied 100%,GCC Compiler Testing,yes
+GCD,2,Pure Math 100%,GCD,yes
+Gear train design problem,1,Applied 100%,Gear train design problem,yes
+GECCO Competition Testbed (Risk-based Energy Scheduling),1,Applied 100%,GECCO Competition Testbed (Risk-based Energy Scheduling),yes
+Genbase,1,Applied 100%,Genbase,yes
+Genbase dataset,1,Applied 100%,Genbase dataset,yes
+General Boolean Function Benchmark Suite (GBFS),1,Pure Math 100%,General Boolean Function Benchmark Suite (GBFS),yes
+General Trees (up to order 25),1,Pure Math 100%,General Trees (up to order 25),yes
+Generalised Dynamic Benchmark Generator,1,Pure Math 100%,Generalised Dynamic Benchmark Generator,yes
+Generalised Matching Pennies,1,Pure Math 100%,Generalised Matching Pennies,yes
+Generalization of the Royal Tree Problem,1,Pure Math 100%,Generalization of the Royal Tree Problem,yes
+Generalized Leading-Ones,1,Pure Math 100%,Generalized Leading-Ones,yes
+Generalized Rastrigin's Function,1,Pure Math 100%,Generalized Rastrigin's Function,yes
+Generalized Rosenbrock Function,1,Pure Math 100%,Generalized Rosenbrock Function,yes
+Generation of 100 million random numbers,1,Pure Math 100%,Generation of 100 million random numbers,yes
+German Credit,1,Applied 100%,German Credit,yes
+German Credit Classification with Fairness Constraints,1,Applied 100%,German Credit Classification with Fairness Constraints,yes
+Glass,2,Applied 100%,Glass,yes
+Glass Identification Clustering,1,Applied 100%,Glass Identification Clustering,yes
+Glioblastoma multiforme (GBM) multi-omics clustering,1,Applied 100%,Glioblastoma multiforme (GBM) multi-omics clustering,yes
+gmp,1,Applied 100%,gmp,yes
+Goal Reaching,1,Applied 100%,Goal Reaching,yes
+goldhill image inpainting,1,Applied 100%,Goldhill Image Inpainting (Moore Neighborhood); Goldhill Image Inpainting (Von Neumann Neighborhood),yes
+Goldstein Price,1,Pure Math 100%,Goldstein Price,yes
+Golub-1999-v1,1,Applied 100%,Golub-1999-v1,yes
+GoogleNet Image Classification Testing,1,Applied 100%,GoogleNet Image Classification Testing,yes
+gordon-2002,1,Applied 100%,gordon-2002,yes
+Grade,2,Pure Math 100%,Grade,yes
+Grammatical Inference of CFGs (L1-L4),1,Applied 100%,Grammatical Inference of CFGs (L1-L4),yes
+graph classification,2,Applied 100%,Graph Classification; Graph Classification Problem,yes
+Graph classification using Shortest Path (SP) kernel,1,Applied 100%,Graph classification using Shortest Path (SP) kernel,yes
+graph generation constrained properties,1,Pure Math 100%,Graph Generation with Constrained Properties (Set 1: Topological); Graph Generation with Constrained Properties (Set 2: Mixed); Graph Generation with Constrained Properties (Set 3: Edge-Weight),yes
+Graph Neural Networks,1,Pure Math 100%,Graph Neural Networks,yes
+Green Vehicle Routing Problem (GVRP),1,Applied 100%,Green Vehicle Routing Problem (GVRP),yes
+Grid Graph Segmentation Problem (GSP),1,Pure Math 100%,Grid Graph Segmentation Problem (GSP),yes
+grid world environment,1,Applied 100%,grid world environment,yes
+Grid-world CMDP,1,Pure Math 100%,Grid-world CMDP,yes
+Griewangk,1,Pure Math 100%,Griewangk,yes
+griewank,8,Pure Math 100%,Griewank; Griewank (F5),yes
+Gross Error Detection Ensemble Weight and Threshold Optimization,1,Applied 100%,Gross Error Detection Ensemble Weight and Threshold Optimization,yes
+Grounding system potential and resistance optimization,1,Applied 100%,Grounding system potential and resistance optimization,yes
+Guess the Number Game,1,Pure Math 100%,Guess the Number Game,yes
+GVGAI games,1,Pure Math 100%,GVGAI games,yes
+Gym Hopper,1,Applied 100%,Gym Hopper,yes
+Gymnasium environments,1,Applied 100%,Gymnasium environments,yes
+"Gymnasium Suite (CartPole-v1, MountainCar-v0, Acrobot-v1, LunarLander-v3, HalfCheetah-v5)",1,Pure Math 100%,"Gymnasium Suite (CartPole-v1, MountainCar-v0, Acrobot-v1, LunarLander-v3, HalfCheetah-v5)",yes
+gzip,1,Applied 100%,gzip,yes
+H-shaped model,1,Applied 100%,H-shaped model,yes
+H5 PV transformerless inverter efficiency optimization,1,Applied 100%,H5 PV transformerless inverter efficiency optimization,yes
+Half,1,Pure Math 100%,Half,yes
+Half Cheetah,2,Pure Math 100%,Half Cheetah,yes
+HalfCheetah,2,Applied 100%,HalfCheetah,yes
+HalfCheetah (Brax),1,Pure Math 100%,HalfCheetah (Brax),yes
+halfcheetah v,2,Pure Math 100%,HalfCheetah-v2; HalfCheetah-v3,yes
+Halfcheetah-Uni,1,Applied 100%,Halfcheetah-Uni,yes
+HalfcheetahBullet,1,Pure Math 100%,HalfcheetahBullet,yes
+HalfcheetahMuJoCo,1,Pure Math 100%,HalfcheetahMuJoCo,yes
+hamburg nh evac {...},1,Applied 100%,Hamburg-NH-Evac: Flood-Augmented; Hamburg-NH-Evac: Flood-Specialized; Hamburg-NH-Evac: Synthetic-MassTransit,yes
+Handwritten digit classification,1,Applied 100%,Handwritten digit classification,yes
+HappyCat,1,Pure Math 100%,HappyCat,yes
+Har,1,Applied 100%,Har,yes
+Hard Maze,1,Pure Math 100%,Hard Maze,yes
+Hardmaze,1,Applied 100%,Hardmaze,yes
+Harmonious constraints example (-x1 + x2 <= 0 and -x1 + x2 + 1 <= 0),1,Pure Math 100%,Harmonious constraints example (-x1 + x2 <= 0 and -x1 + x2 + 1 <= 0),yes
+Harmony Index calculation for team effectiveness,1,Applied 100%,Harmony Index calculation for team effectiveness,yes
+Harvard University campus urban layout,1,Applied 100%,Harvard University campus urban layout,yes
+Hayes-roth,1,Applied 100%,Hayes-roth,yes
+HDMI-WATCH Intrusion Detection,1,Applied 100%,HDMI-WATCH Intrusion Detection,yes
+HE1,1,Pure Math 100%,HE1,yes
+Headline estimation in handwritten words,1,Applied 100%,Headline estimation in handwritten words,yes
+Hearing Loss Detection,1,Applied 100%,Hearing Loss Detection,yes
+heart,1,Applied 100%,heart,yes
+Heart Classification,1,Applied 100%,Heart Classification,yes
+Heart Disease,1,Applied 100%,Heart Disease,yes
+Heart disease classification,1,Applied 100%,Heart disease classification,yes
+Heart-StatLog Classification,1,Applied 100%,Heart-StatLog Classification,yes
+Hearthstone,1,Applied 100%,Hearthstone,yes
+Hemodynamic simulation of blood flow in left atrium,1,Applied 100%,Hemodynamic simulation of blood flow in left atrium,yes
+Hepatitis,1,Applied 100%,Hepatitis,yes
+Herding Domain,1,Applied 100%,Herding Domain,yes
+hexacopter height control,1,Applied 100%,Hexacopter Height Control (Hexacopter Model); Hexacopter Height Control (Identified Heave Model),yes
+Hexapod Gait Adaptation (Leg Failure Scenarios S1-S4),1,Applied 100%,Hexapod Gait Adaptation (Leg Failure Scenarios S1-S4),yes
+Hexapod Gait Generation,1,Applied 100%,Hexapod Gait Generation,yes
+Hexapod gait recovery,1,Applied 100%,Hexapod gait recovery,yes
+Hexapod-Omni,2,Applied 100%,Hexapod-Omni,yes
+Hexapod-uni,1,Applied 100%,Hexapod-uni,yes
+Hidden variable (Example 2),1,Pure Math 100%,Hidden variable (Example 2),yes
+HIFF,2,Pure Math 100%,HIFF,yes
+High-dimensional feature selection,1,Applied 100%,High-dimensional feature selection,yes
+Highly Multimodal function,1,Pure Math 100%,Highly Multimodal function,yes
+Hill-valley,1,Applied 100%,Hill-valley,yes
+Hillvally Feature Selection,1,Applied 100%,Hillvally Feature Selection,yes
+hinton nowlan needle in haystack,1,Pure Math 100%,Hinton & Nowlan needle-in-a-haystack (fixed-length); Hinton & Nowlan needle-in-a-haystack (variable-length),yes
+Hopper,2,Applied 100%,Hopper,no
+Hopper,1,Pure Math 100%,Hopper,no
+hopper v,3,Pure Math 100%,Hopper-v2; Hopper-v3,yes
+HopperBullet,1,Pure Math 100%,HopperBullet,yes
+HopperMuJoCo,1,Pure Math 100%,HopperMuJoCo,yes
+Hot rolling production rescheduling problem,1,Applied 100%,Hot rolling production rescheduling problem,yes
+HotTopic,1,Pure Math 100%,HotTopic,yes
+house_16h,1,Applied 100%,house_16h,yes
+HouseVotes84,1,Applied 100%,HouseVotes84,yes
+Housing,1,Applied 100%,Housing,yes
+HTRU2 Feature Selection,1,Applied 100%,HTRU2 Feature Selection,yes
+Humanoid,1,Applied 100%,Humanoid,yes
+Humanoid (Brax),1,Pure Math 100%,Humanoid (Brax),yes
+HumanoidBullet,1,Pure Math 100%,HumanoidBullet,yes
+Hurdle Problem,1,Pure Math 100%,Hurdle Problem,yes
+HVAC compressor speed control,1,Applied 100%,HVAC compressor speed control,yes
+Hybrid decision tree method,1,Applied 100%,Hybrid decision tree method,yes
+Hybrid decision trees (regression tree and strategy tree),1,Applied 100%,Hybrid decision trees (regression tree and strategy tree),yes
+hybrid dielectric resonator antenna design,1,Applied 100%,Hybrid Dielectric Resonator Antenna Design (Problem 1); Hybrid Dielectric Resonator Antenna Design (Problem 2),yes
+hyper parameter optimization of {...} for software bug prediction on {...},1,Applied 100%,Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse JDT Core; Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse PDE UI; Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Equinox,yes
+Hyperparameter Optimization for Fuzzy C-Means,1,Applied 100%,Hyperparameter Optimization for Fuzzy C-Means,yes
+Hyperparameter optimization of multi-layer perceptron,1,Applied 100%,Hyperparameter optimization of multi-layer perceptron,yes
+Hyperparameter optimization of neural network,1,Applied 100%,Hyperparameter optimization of neural network,yes
+Hyperparameter tuning for SqueezeNet,1,Applied 100%,Hyperparameter tuning for SqueezeNet,yes
+Hyperspectral Recovery,1,Applied 100%,Hyperspectral Recovery,yes
+hypervolume subset selection on {...} pareto fronts,1,Pure Math 100%,Hypervolume Subset Selection on Concave Pareto Fronts; Hypervolume Subset Selection on Convex Pareto Fronts; Hypervolume Subset Selection on Linear Pareto Fronts,yes
+Hölder table,1,Pure Math 100%,Hölder table,yes
+IAM Dataset Classification,1,Applied 100%,IAM Dataset Classification,yes
+icomp5 (Identity Comparator),1,Pure Math 100%,icomp5 (Identity Comparator),yes
+ICU Length of Stay Prediction,1,Applied 100%,ICU Length of Stay Prediction,yes
+Idempotent Boolean Functions,1,Pure Math 100%,Idempotent Boolean Functions,yes
+IDMP_e Suite,1,Pure Math 100%,IDMP_e Suite,yes
+IDRBT Dataset Classification,1,Applied 100%,IDRBT Dataset Classification,yes
+IDTLZ1,1,Pure Math 100%,IDTLZ1,yes
+IEEE CEC/GECCO 2025 Energy Resource Management Competition Benchmark,1,Applied 100%,IEEE CEC/GECCO 2025 Energy Resource Management Competition Benchmark,yes
+IEEE Malware,1,Applied 100%,IEEE Malware,yes
+Illegal Pet Trading,1,Applied 100%,Illegal Pet Trading,yes
+im (classifying satellite images from the usgs) series,1,Applied 100%,im-10; im-3,yes
+Image Annotation,1,Applied 100%,Image Annotation,yes
+Image Binarization,1,Applied 100%,Image Binarization,yes
+image classification cifar,1,Pure Math 100%,Image Classification on CIFAR-10; Image Classification on CIFAR-100,yes
+Image Classification on ImageNet,1,Pure Math 100%,Image Classification on ImageNet,yes
+Image De-noising,1,Applied 100%,Image De-noising,yes
+Image Feature Optimization for Saliency Ranking,1,Applied 100%,Image Feature Optimization for Saliency Ranking,yes
+Image Forgery Detection on CASIA v2.0,1,Applied 100%,Image Forgery Detection on CASIA v2.0,yes
+Image Fusion,1,Applied 100%,Image Fusion,yes
+Image Fusion Quality Optimization,1,Applied 100%,Image Fusion Quality Optimization,yes
+Image Inpainting,2,Applied 100%,Image Inpainting,yes
+Image Multi-label Classification,1,Applied 100%,Image Multi-label Classification,yes
+Image Quality Assessment,1,Applied 100%,Image Quality Assessment,yes
+image quality assessment live database,1,Applied 100%,Image Quality Assessment on LIVE database (All distortion types); Image Quality Assessment on LIVE database (Blur distortion); Image Quality Assessment on LIVE database (Fast Fading distortion),yes
+Image Registration,1,Applied 100%,Image Registration,yes
+Image Scene Classification,1,Applied 100%,Image Scene Classification,yes
+Image Super-Resolution,1,Applied 100%,Image Super-Resolution,yes
+ImageNet Face Anonymization,1,Applied 100%,ImageNet Face Anonymization,yes
+ImageNet Image Classification,1,Applied 100%,ImageNet Image Classification,yes
+ImageNet subset selection,1,Applied 100%,ImageNet subset selection,yes
+imop,2,Pure Math 100%,IMOP1; IMOP2; IMOP3,yes
+IMPLY Logic Gate,1,Pure Math 100%,IMPLY Logic Gate,yes
+Imports,1,Applied 100%,Imports,yes
+"Incomplete Triangle Function (n=14, m=1, s=4)",1,Pure Math 100%,"Incomplete Triangle Function (n=14, m=1, s=4)",yes
+Independent constraints example (2*sin(x1) - 1 <= 0 and x2^2 - 1 <= 0),1,Pure Math 100%,Independent constraints example (2*sin(x1) - 1 <= 0 and x2^2 - 1 <= 0),yes
+Indices of Substring,1,Pure Math 100%,Indices of Substring,yes
+Indoor localization using TOA and RSS,1,Applied 100%,Indoor localization using TOA and RSS,yes
+Indoor Positioning System Constant Optimization,1,Applied 100%,Indoor Positioning System Constant Optimization,yes
+Induction Motor Current Control,1,Applied 100%,Induction Motor Current Control,yes
+Influence Maximisation Problem,1,Pure Math 100%,Influence Maximisation Problem,yes
+Influence Maximization,1,Applied 100%,Influence Maximization,yes
+Inhibition of Return,1,Pure Math 100%,Inhibition of Return,yes
+input output digital circuit p map,1,Pure Math 100%,4-input 1-output digital circuit G-P map; 3-input 1-output digital circuit G-P map,yes
+Interface traps density extraction,1,Applied 100%,Interface traps density extraction,yes
+Inventory Routing Problem (IRP),1,Applied 100%,Inventory Routing Problem (IRP),yes
+Inverse Reinforcement Learning,1,Applied 100%,Inverse Reinforcement Learning,yes
+Inverted concave (Ishibuchi),1,Pure Math 100%,Inverted concave (Ishibuchi),yes
+Inverted convex (Ishibuchi),1,Pure Math 100%,Inverted convex (Ishibuchi),yes
+Inverted linear (Ishibuchi),1,Pure Math 100%,Inverted linear (Ishibuchi),yes
+Inverted Simplex Pareto Front (Archiving Task),1,Pure Math 100%,Inverted Simplex Pareto Front (Archiving Task),yes
+invQFT (IQ),1,Applied 100%,invQFT (IQ),yes
+Iono Classification,1,Applied 100%,Iono Classification,yes
+Ionosphere,3,Applied 100%,Ionosphere,yes
+Ionosphere Classification,1,Applied 100%,Ionosphere Classification,yes
+Ionosphere Clustering,1,Applied 100%,Ionosphere Clustering,yes
+Ionosphere Counterfactual Generation,1,Applied 100%,Ionosphere Counterfactual Generation,yes
+Ionosphere Feature Selection,2,Applied 100%,Ionosphere Feature Selection,yes
+Iris,2,Applied 100%,Iris,yes
+Iris Clustering,1,Applied 100%,Iris Clustering,yes
+Iris Segmentation using EAI-Net,1,Applied 100%,Iris Segmentation using EAI-Net,yes
+ISG,2,Pure Math 100%,ISG,yes
+ISIC 2017 skin lesion segmentation,1,Applied 100%,ISIC 2017 skin lesion segmentation,yes
+Ising (SG_100),1,Pure Math 100%,Ising (SG_100),yes
+Ising spin glass,2,Pure Math 100%,Ising spin glass,yes
+Ising Spin Glasses,1,Pure Math 100%,Ising Spin Glasses,yes
+isolet,3,Applied 100%,Isolet; Isolet5,yes
+Isolet Feature Selection,1,Applied 100%,Isolet Feature Selection,yes
+Istanbul,1,Applied 100%,Istanbul,yes
+j (modified psplib) series,1,Pure Math 100%,j100 (Modified PSPLIB); j11 (Modified PSPLIB); j20 (Modified PSPLIB),yes
+JAFFE Facial Expression Dataset Classification,1,Applied 100%,JAFFE Facial Expression Dataset Classification,yes
+Jannis,1,Applied 100%,Jannis,yes
+"JFCS (Joint Flow-split distribution, Congestion control and Scheduling)",1,Applied 100%,"JFCS (Joint Flow-split distribution, Congestion control and Scheduling)",yes
+Jin-6,1,Pure Math 100%,Jin-6,yes
+job shop scheduling,4,Applied 100%,Job Shop Scheduling Problem (JSP); Job Shop Scheduling Problem (JSSP),yes
+joint hyperparameter tuning feature selection,1,Applied 100%,Joint Hyperparameter Tuning and Feature Selection (SVM); Joint Hyperparameter Tuning and Feature Selection (kknn); Joint Hyperparameter Tuning and Feature Selection (xgboost),yes
+Jordan's Game,1,Pure Math 100%,Jordan's Game,yes
+Jump,12,Pure Math 100%,Jump; Jump_k; JumpOffset,yes
+JUnit test generation (Branch coverage),1,Applied 100%,JUnit test generation (Branch coverage),yes
+JURA,1,Applied 100%,JURA,yes
+Just-in-Time Batch Scheduling (JITBS),1,Applied 100%,Just-in-Time Batch Scheduling (JITBS),yes
+JY1,1,Pure Math 100%,JY1,yes
+JY2,1,Pure Math 100%,JY2,yes
+JY5,1,Pure Math 100%,JY5,yes
+JY8,1,Pure Math 100%,JY8,yes
+k-FeedbackVertexSet in tournaments,1,Pure Math 100%,k-FeedbackVertexSet in tournaments,yes
+K-means clustering for load classification,1,Applied 100%,K-means clustering for load classification,yes
+K-means clustering for synonym identification,1,Applied 100%,K-means clustering for synonym identification,yes
+K-means clustering of power marketing service scenarios,1,Applied 100%,K-means clustering of power marketing service scenarios,yes
+K-means clustering of regenerative electric heating load,1,Applied 100%,K-means clustering of regenerative electric heating load,yes
+K-means image binarization,1,Applied 100%,K-means image binarization,yes
+k-means Parameter Tuning,1,Applied 100%,k-means Parameter Tuning,yes
+k-Tablet,2,Pure Math 100%,k-Tablet,yes
+k-VertexCover,1,Pure Math 100%,k-VertexCover,yes
+k1-Most Demanding Products Identification,1,Applied 100%,k1-Most Demanding Products Identification,yes
+k1-most demanding products problem,1,Applied 100%,k1-most demanding products problem,yes
+kc2,1,Applied 100%,kc2,yes
+kc2 Counterfactual Generation,1,Applied 100%,kc2 Counterfactual Generation,yes
+keijzer,2,Pure Math 100%,Keijzer5; Keijzer-5 (KJ5),yes
+Keyword Extraction,1,Applied 100%,Keyword Extraction,yes
+Kidney Renal Clear Cell Carcinoma (KRCCC) multi-omics clustering,1,Applied 100%,Kidney Renal Clear Cell Carcinoma (KRCCC) multi-omics clustering,yes
+knapsack,3,Pure Math 100%,Knapsack Problem (I100); Knapsack Problem (I200); Knapsack Problem (I500),yes
+Korns8,1,Pure Math 100%,Korns8,yes
+Koza-2 (KZ2),1,Pure Math 100%,Koza-2 (KZ2),yes
+kroab,1,Applied 100%,kroAB100; kroAB150; kroAB200,yes
+kroAC100,1,Applied 100%,kroAC100,yes
+kroAD100,1,Applied 100%,kroAD100,yes
+kroBC100,1,Applied 100%,kroBC100,yes
+kroBD100,1,Applied 100%,kroBD100,yes
+kroCD100,1,Applied 100%,kroCD100,yes
+L-track Racetrack,1,Pure Math 100%,L-track Racetrack,yes
+L_infinity star discrepancy,1,Pure Math 100%,L_infinity star discrepancy,yes
+Lake eutrophication (2D-lake-PSP-16384ppa),1,Pure Math 100%,Lake eutrophication (2D-lake-PSP-16384ppa),yes
+LAME,1,Pure Math 100%,LAME,yes
+Land Use Land Cover Classification,1,Applied 100%,Land Use Land Cover Classification,yes
+Landmine/IED Detection,1,Applied 100%,Landmine/IED Detection,yes
+Language Modeling,1,Applied 100%,Language Modeling,yes
+Large Block Assembly Problem (LBAP),1,Pure Math 100%,Large Block Assembly Problem (LBAP),yes
+Large Search Space,1,Applied 100%,Large Search Space,yes
+Laser,1,Applied 100%,Laser,yes
+Latent Space Illumination (StyleGAN2),1,Applied 100%,Latent Space Illumination (StyleGAN2),yes
+latitude correction,1,Applied 100%,Latitude Correction (Ensemble Weight Optimization); Latitude Correction (Feature Selection),yes
+latitude prediction,1,Applied 100%,Latitude Prediction (Ensemble Weight Optimization); Latitude Prediction (Feature Selection),yes
+Lawschool,2,Applied 100%,Lawschool,yes
+LD50,1,Applied 100%,LD50,yes
+Leaders,1,Pure Math 100%,Leaders,yes
+Leading Blocks Problem (LBP),1,Pure Math 100%,Leading Blocks Problem (LBP),yes
+LeadingOnes,18,Pure Math 100%,LeadingOnes; LEADINGONES (Additive Exponential Noise); LEADINGONES (Additive Normal Noise),yes
+Legal Case Retrieval,1,Applied 100%,Legal Case Retrieval,yes
+Legends of Code and Magic (LOCM) Arena Deckbuilding,1,Applied 100%,Legends of Code and Magic (LOCM) Arena Deckbuilding,yes
+LeNet-5 on MNIST and VGG-16 on CIFAR-10,1,Applied 100%,LeNet-5 on MNIST and VGG-16 on CIFAR-10,yes
+Lesion Segmentation,1,Applied 100%,Lesion Segmentation,yes
+Lethal Dose 50,1,Applied 100%,Lethal Dose 50,yes
+Letter,1,Applied 100%,Letter,yes
+leukemia,5,Applied 100%,Leukemia; Leukemia1; Leukemia2,yes
+Leukemia Cancer Classification,1,Applied 100%,Leukemia Cancer Classification,yes
+Leukemia Feature Selection,2,Applied 100%,Leukemia Feature Selection,yes
+Levy,1,Pure Math 100%,Levy,yes
+LexicoSphereInt,1,Pure Math 100%,LexicoSphereInt,yes
+LFO Parameter Estimation with DC Offset (2 modes LFO + DC offset),1,Applied 100%,LFO Parameter Estimation with DC Offset (2 modes LFO + DC offset),yes
+Libras Movement,1,Applied 100%,Libras Movement,yes
+libtiff,1,Applied 100%,libtiff,yes
+lightgbm hyperparameter optimization,1,Applied 100%,LightGBM Hyperparameter Optimization (Complete setup); LightGBM Hyperparameter Optimization (Grouped setup); LightGBM Hyperparameter Optimization (Partial setup),yes
+LightGBM Parameter Tuning and GLCM Feature Selection,1,Applied 100%,LightGBM Parameter Tuning and GLCM Feature Selection,yes
+lighttpd,1,Applied 100%,lighttpd,yes
+LIGO's Inspiral,1,Applied 100%,LIGO's Inspiral,yes
+LIN,1,Pure Math 100%,LIN,yes
+Linear Functions,1,Pure Math 100%,Linear Functions,yes
+linear ordering,3,Pure Math 100%,Linear Ordering Problem; Linear Ordering Problem (be75np),yes
+linear projection,1,Pure Math 100%,Linear Projection (sphere); Linear Projection (Rastrigin); Linear Projection (plateau),yes
+Linear Regression,1,Pure Math 100%,Linear Regression,yes
+Linear regression of microinverter energy yield (y = ax + b),1,Applied 100%,Linear regression of microinverter energy yield (y = ax + b),yes
+Link prediction in food web,1,Applied 100%,Link prediction in food web,yes
+Link type prediction in food web,1,Applied 100%,Link type prediction in food web,yes
+Link Weight Prediction,1,Applied 100%,Link Weight Prediction,yes
+linketal06dec,1,Pure Math 100%,linketal06dec,yes
+linketal06sin,1,Pure Math 100%,linketal06sin,yes
+Lipophilicity,2,Applied 100%,Lipophilicity,yes
+lir cmop,3,Pure Math 100%,LIR-CMOP; LIR-CMOP1; LIR-CMOP10,yes
+Literature LTL Specifications,1,Applied 100%,Literature LTL Specifications,yes
+littman,1,Pure Math 100%,littman57; littman89,yes
+LiveCodeBench v6,1,Applied 100%,LiveCodeBench v6,yes
+LKH,1,Pure Math 100%,LKH,yes
+LocalOpt,1,Pure Math 100%,LocalOpt,yes
+Location-selection problem,1,Applied 100%,Location-selection problem,yes
+Logic Grid Puzzle Generation,1,Applied 100%,Logic Grid Puzzle Generation,yes
+Lombard Effect Analysis,1,Applied 100%,Lombard Effect Analysis,yes
+longitude correction,1,Applied 100%,Longitude Correction (Ensemble Weight Optimization); Longitude Correction (Feature Selection),yes
+longitude prediction,1,Applied 100%,Longitude Prediction (Ensemble Weight Optimization); Longitude Prediction (Feature Selection),yes
+LoRaWAN Packet Delivery Ratio (PDR) and RSSI in university campus environment,1,Applied 100%,LoRaWAN Packet Delivery Ratio (PDR) and RSSI in university campus environment,yes
+loss discovery,1,Pure Math 100%,Loss Function Discovery; Loss Function Discovery (Transferability),yes
+Lotka-Volterra Conservation Laws,1,Applied 100%,Lotka-Volterra Conservation Laws,yes
+LOTZ,1,Pure Math 100%,LOTZ,yes
+LSMOP,7,Pure Math 100%,LSMOP test suite; LSMOP1-LSMOP9; LSMOP1,yes
+LSTM Model Compression,1,Applied 100%,LSTM Model Compression,yes
+Luhn,1,Pure Math 100%,Luhn,yes
+Lunar Lander,1,Pure Math 100%,Lunar Lander,yes
+LunarLander-v2,1,Pure Math 100%,LunarLander-v2,yes
+Lung,1,Applied 100%,Lung,yes
+Lung Cancer,3,Applied 100%,Lung Cancer,yes
+Lung nodule classification,1,Applied 100%,Lung nodule classification,yes
+Lung Segmentation,1,Applied 100%,Lung Segmentation,yes
+Lung Segmentation Task,1,Applied 100%,Lung Segmentation Task,yes
+Lymphography Classification,1,Applied 100%,Lymphography Classification,yes
+Lymphoma Cancer Classification,1,Applied 100%,Lymphoma Cancer Classification,yes
+lyndon factorization,1,Applied 100%,Lyndon Factorization (Balancing); Lyndon Factorization (Minimization),yes
+lz f series,1,Pure Math 100%,LZ_09_F1; LZ_09_F2; LZ_09_F3,yes
+LZ09,1,Pure Math 100%,LZ1-LZ9 Suite,yes
+m3s,1,Pure Math 100%,m3s,yes
+MACD Trading Strategy Optimization,1,Applied 100%,MACD Trading Strategy Optimization,yes
+mackey glass,2,Pure Math 100%,Mackey-Glass; Mackey-Glass (TV-ESN Parameter Optimization); Mackey-Glass (Vanilla ESN Hyperparameter Optimization),yes
+Madelon,1,Applied 100%,Madelon,no
+Madelon,1,Pure Math 100%,Madelon,no
+Madelon Counterfactual Generation,1,Applied 100%,Madelon Counterfactual Generation,yes
+Madelon Feature Selection,1,Applied 100%,Madelon Feature Selection,yes
+MaF,6,Pure Math 100%,MaF Suite; MaF Suite (MaF1-MaF6); MaF (1-15),yes
+Magic,1,Applied 100%,Magic,yes
+magman,1,Applied 100%,magman,yes
+Magnetic levitation-based cell separation,1,Applied 100%,Magnetic levitation-based cell separation,yes
+Main_Flm_Int,1,Applied 100%,Main_Flm_Int,yes
+maj series,1,Pure Math 100%,Maj6; Maj8,yes
+majority,2,Pure Math 100%,14-bits Majority-On; 15-Majority-on Problem,yes
+mal series,1,Pure Math 100%,Mal1; Mal2; Mal3,yes
+Malmo Minecraft (double T-maze),1,Pure Math 100%,Malmo Minecraft (double T-maze),yes
+Malware classification,1,Applied 100%,Malware classification,yes
+Mammographic,1,Applied 100%,Mammographic,yes
+MANET P-MPR Selection,1,Applied 100%,MANET P-MPR Selection,yes
+Many-modal Optimization Problems,1,Pure Math 100%,Many-modal Optimization Problems,yes
+Many-Objective Multiple Traveling Salesperson Problem in Path-Influenced Environments (MTSP-PIE),1,Pure Math 100%,Many-Objective Multiple Traveling Salesperson Problem in Path-Influenced Environments (MTSP-PIE),yes
+Mario Classification Problem,1,Pure Math 100%,Mario Classification Problem,yes
+Mario Pixel Art,1,Pure Math 100%,Mario Pixel Art,yes
+Market Timing,1,Applied 100%,Market Timing,yes
+Marketing,1,Applied 100%,Marketing,yes
+Markov Decision Process Policy Optimization,1,Pure Math 100%,Markov Decision Process Policy Optimization,yes
+mask8 (Masking cryptographic function),1,Pure Math 100%,mask8 (Masking cryptographic function),yes
+Masked Face Detection,1,Applied 100%,Masked Face Detection,yes
+Mass-Luminosity Relation Discovery,1,Applied 100%,Mass-Luminosity Relation Discovery,yes
+Mastermind,1,Pure Math 100%,Mastermind,yes
+Matching Pennies,1,Pure Math 100%,Matching Pennies,yes
+Matrix Factorization and Code Book Transfer,1,Applied 100%,Matrix Factorization and Code Book Transfer,yes
+matrix factorization with {...} clustering,1,Applied 100%,Matrix Factorization (MMMF/PMF) with K-means clustering; Matrix Factorization (MMMF/PMF) with Spectral clustering,yes
+Matyas,1,Pure Math 100%,Matyas,yes
+max sat,5,Pure Math 100%,MAX-3SAT; MAX-SAT,yes
+Max-Cut Set A (Fully Connected),1,Pure Math 100%,Max-Cut Set A (Fully Connected),yes
+Max-Cut Set B (3D Torus),1,Pure Math 100%,Max-Cut Set B (3D Torus),yes
+Max-Cut Set C (BIQMAC),1,Pure Math 100%,Max-Cut Set C (BIQMAC),yes
+MAX-kSAT (Application Instances),1,Applied 100%,MAX-kSAT (Application Instances),yes
+MAX-kSAT (Crafted Instances),1,Pure Math 100%,MAX-kSAT (Crafted Instances),yes
+Max-min throughput optimization problem (P1),1,Applied 100%,Max-min throughput optimization problem (P1),yes
+max_n,1,Pure Math 100%,max_n,yes
+MaxCut,1,Pure Math 100%,MaxCut,yes
+maximal coverage drifting oceanic particles,1,Applied 100%,Maximal Coverage of Drifting Oceanic Particles (6x9 grid); Maximal Coverage of Drifting Oceanic Particles (8x12 grid),yes
+Maximal Quasi-Clique Mining,1,Applied 100%,Maximal Quasi-Clique Mining,yes
+Maximizing Block Error Rate (BLER) in Autoencoder Wireless Communication,1,Applied 100%,Maximizing Block Error Rate (BLER) in Autoencoder Wireless Communication,yes
+Maximum Coverage Problem,1,Pure Math 100%,Maximum Coverage Problem,yes
+maze,1,Pure Math 100%,maze5; maze6,yes
+Maze Generation,1,Applied 100%,Maze Generation,yes
+MazeA Map Shift,1,Pure Math 100%,MazeA Map Shift,yes
+mazef,1,Pure Math 100%,mazeF1; mazeF2; mazeF3,yes
+mcomp4 (Magnitude Comparator),1,Pure Math 100%,mcomp4 (Magnitude Comparator),yes
+Mediamill,1,Applied 100%,Mediamill,yes
+Median,3,Pure Math 100%,Median,yes
+Median problem,1,Applied 100%,Median problem,yes
+Medical,2,Applied 100%,Medical,yes
+Medical dataset,1,Applied 100%,Medical dataset,yes
+Medical Image Segmentation,2,Applied 100%,Medical Image Segmentation,yes
+Medium Search Space,1,Applied 100%,Medium Search Space,yes
+Medusa,1,Applied 100%,Medusa,yes
+mega man level generation,1,Applied 100%,Mega Man Level Generation (MultiGAN); Mega Man Level Generation (OneGAN),yes
+Memory Instability,1,Pure Math 100%,Memory Instability,yes
+MentalChat16k,1,Applied 100%,MentalChat16k,yes
+Metaphor classification,1,Applied 100%,Metaphor classification,yes
+mg (hyperparameter tuning of echo state networks) series,1,Pure Math 100%,MG17; MG30,yes
+MGA-1DSM (Europa Tomography Probe Mission Design),1,Applied 100%,MGA-1DSM (Europa Tomography Probe Mission Design),yes
+Michalewicz,1,Pure Math 100%,Michalewicz,yes
+Micro surface defect detection,1,Applied 100%,Micro surface defect detection,yes
+Microgrid environmental protection and economic dispatch model,1,Applied 100%,Microgrid environmental protection and economic dispatch model,yes
+microrts scenario,1,Applied 100%,MicroRTS Scenario A; MicroRTS Scenario D,yes
+MicroRTS Scenario B,1,Applied 100%,MicroRTS Scenario B,yes
+MicroRTS Scenario C,1,Applied 100%,MicroRTS Scenario C,yes
+Middle Character,2,Pure Math 100%,Middle Character,yes
+MIMRMS (Minimum Redundancy Maximum Relevance based selection),1,Applied 100%,MIMRMS (Minimum Redundancy Maximum Relevance based selection),yes
+Minecart,1,Applied 100%,Minecart,yes
+Miner Selection Problem,1,Applied 100%,Miner Selection Problem,yes
+MiniGrid Symbolic Maze Solving,1,Pure Math 100%,MiniGrid Symbolic Maze Solving,yes
+Minimalistic Video Game Design,1,Applied 100%,Minimalistic Video Game Design,yes
+Minimum Spanning Tree,1,Pure Math 100%,Minimum Spanning Tree,yes
+Minimum Spanning Tree on General Graphs,1,Pure Math 100%,Minimum Spanning Tree on General Graphs,yes
+minimum spanning tree on triangular tailed graph g1,1,Pure Math 100%,Minimum Spanning Tree on Triangular-tailed graph G1; Multi-Objective Minimum Spanning Tree on Triangular-tailed graph G1^m,yes
+minimum spanning tree on triangular tailed graph g2,1,Pure Math 100%,Minimum Spanning Tree on Triangular-tailed graph G2; Multi-Objective Minimum Spanning Tree on Triangular-tailed graph G2^m,yes
+Minimum Spanning Tree on Triangular-tailed graphs G1 and G2,1,Pure Math 100%,Minimum Spanning Tree on Triangular-tailed graphs G1 and G2,yes
+MIPLIB 2017 - bab6,1,Pure Math 100%,MIPLIB 2017 - bab6,yes
+MIPLIB 2017 - proteindesign121hz512p9,1,Pure Math 100%,MIPLIB 2017 - proteindesign121hz512p9,yes
+MIPLIB 2017 - rail02,1,Pure Math 100%,MIPLIB 2017 - rail02,yes
+MIPLIB 2017 - s100,1,Pure Math 100%,MIPLIB 2017 - s100,yes
+MIPLIB 2017 - s250r10,1,Pure Math 100%,MIPLIB 2017 - s250r10,yes
+MIPLIB 2017 - thor50dday,1,Pure Math 100%,MIPLIB 2017 - thor50dday,yes
+miplib 2017 neos,1,Pure Math 100%,MIPLIB 2017 - neos-787933; MIPLIB 2017 - neos-848589,yes
+miRNA-mRNA regulatory module identification,1,Applied 100%,miRNA-mRNA regulatory module identification,yes
+MIRROR,1,Pure Math 100%,MIRROR,yes
+Mishra's Birds,1,Pure Math 100%,Mishra's Birds,yes
+MIT campus urban layout,1,Applied 100%,MIT campus urban layout,yes
+Mixed Media Evolutionary Art Generation,1,Applied 100%,Mixed Media Evolutionary Art Generation,yes
+mk dec,1,Pure Math 100%,mk-dec5; mk-dec8,yes
+mk-bim10,1,Pure Math 100%,mk-bim10,yes
+mk-KP,1,Pure Math 100%,mk-KP,yes
+MLL,2,Applied 100%,MLL,yes
+MLL Cancer Classification,1,Applied 100%,MLL Cancer Classification,yes
+MLNN Training,1,Applied 100%,MLNN Training,yes
+MMC-based PV system control,1,Applied 100%,MMC-based PV system control,yes
+mmf a series,1,Pure Math 100%,MMF14_a; MMF15_a,yes
+mmf series,1,Pure Math 100%,MMF1; MMF10; MMF11,yes
+"MMF Suite (MMF 10-13, 15, 15_a)",1,Pure Math 100%,"MMF Suite (MMF 10-13, 15, 15_a)",yes
+MMF1_e,1,Pure Math 100%,MMF1_e,yes
+MMF1_z,1,Pure Math 100%,MMF1_z,yes
+MMOPP test suite (12 test problems),1,Pure Math 100%,MMOPP test suite (12 test problems),yes
+MNIST,1,Pure Math 100%,MNIST,no
+mnist,6,Applied 100%,MNIST; MNIST (Class-incremental); MNIST (Non-incremental),no
+MNIST '7 to 9' classification,1,Applied 100%,MNIST '7 to 9' classification,yes
+MNIST Basic (MB),1,Applied 100%,MNIST Basic (MB),yes
+MNIST classification with 1-hidden-layer FNN (512 neurons),1,Applied 100%,MNIST classification with 1-hidden-layer FNN (512 neurons),yes
+MNIST Database Classification,1,Applied 100%,MNIST Database Classification,yes
+MNIST Dataset Classification,1,Applied 100%,MNIST Dataset Classification,yes
+MNIST digit generation,1,Applied 100%,MNIST digit generation,yes
+MNIST Handwritten Digit Recognition,1,Applied 100%,MNIST Handwritten Digit Recognition,yes
+mnist handwritten digits,1,Applied 100%,MNIST Handwritten Digits (Moore Neighborhood); MNIST Handwritten Digits (Von Neumann Neighborhood),yes
+mnist image classification,4,Applied 100%,MNIST Image Classification; MNIST Image Classification (two-layer CNN),yes
+MNIST Loss Function Optimization,1,Applied 100%,MNIST Loss Function Optimization,yes
+mnist-rot-12k,1,Applied 100%,mnist-rot-12k,yes
+MNISTRB,1,Applied 100%,MNISTRB,yes
+MNK-landscapes,2,Pure Math 100%,MNK-landscapes,yes
+MO-Ant,1,Applied 100%,MO-Ant,yes
+mo-halfcheetah-v4,1,Applied 100%,mo-halfcheetah-v4,yes
+MO-Hopper,1,Applied 100%,MO-Hopper,yes
+mo-hopper-v4,1,Applied 100%,mo-hopper-v4,yes
+mo-humanoid-v4,1,Applied 100%,mo-humanoid-v4,yes
+MO-Lunar Lander,1,Applied 100%,MO-Lunar Lander,yes
+Mobile Media (MM) PLA Design,1,Applied 100%,Mobile Media (MM) PLA Design,yes
+MobileNet,1,Applied 100%,MobileNet,yes
+MobileNet-style Neural Architecture Search,1,Applied 100%,MobileNet-style Neural Architecture Search,yes
+MobileNetV1 Compression,1,Applied 100%,MobileNetV1 Compression,yes
+Model City Simulation,1,Applied 100%,Model City Simulation,yes
+Modena Water Distribution Network,1,Applied 100%,Modena Water Distribution Network,yes
+Modified Continuous Rover Problem,1,Applied 100%,Modified Continuous Rover Problem,yes
+Modified WSCC test power system frequency response,1,Applied 100%,Modified WSCC test power system frequency response,yes
+Modularity Maximization for Permutation Matrix,1,Applied 100%,Modularity Maximization for Permutation Matrix,yes
+MOGenConVRP,1,Applied 100%,MOGenConVRP,yes
+Molecular Docking Grid Box Placement (IL-6R with resveratrol analogues),1,Applied 100%,Molecular Docking Grid Box Placement (IL-6R with resveratrol analogues),yes
+mona lisa 100K,1,Pure Math 100%,mona lisa 100K,yes
+Monolithic target,1,Applied 100%,Monolithic target,yes
+moon hdc,1,Pure Math 100%,moon10hdc1; moon10hdc2; moon10hdc3,yes
+moon10hd,1,Pure Math 100%,moon10hd,yes
+MOPTA 2008,1,Applied 100%,MOPTA 2008,yes
+Moran Process on Graphs,1,Pure Math 100%,Moran Process on Graphs,yes
+morretal06,1,Pure Math 100%,morretal06,yes
+Motor Imagery Brain-Computer Interface (BCI) Classification,1,Applied 100%,Motor Imagery Brain-Computer Interface (BCI) Classification,yes
+Motor imagery classification,1,Applied 100%,Motor imagery classification,yes
+Mountain car continuous,1,Pure Math 100%,Mountain car continuous,yes
+MountainCar,1,Pure Math 100%,MountainCar,yes
+movable antenna ris aided system optimization,1,Applied 100%,Movable-Antenna-and-RIS-aided System Optimization (Task 0: Sum-Rate Maximization); Movable-Antenna-and-RIS-aided System Optimization (Task 1: Min-Rate Maximization); Movable-Antenna-and-RIS-aided System Optimization (Task 2: Energy Efficiency Maximization),yes
+Movementlibras Feature Selection,1,Applied 100%,Movementlibras Feature Selection,yes
+Movie Scene Scheduling Problem (MSSP),1,Applied 100%,Movie Scene Scheduling Problem (MSSP),yes
+Moving Peaks,2,Pure Math 100%,Moving Peaks Benchmark,yes
+Moving Target Filter (MTF),1,Applied 100%,Moving Target Filter (MTF),yes
+movl,1,Applied 100%,movl,yes
+"MPC Horizon Tuning (Control Horizon Nc, Prediction Horizon Np)",1,Applied 100%,"MPC Horizon Tuning (Control Horizon Nc, Prediction Horizon Np)",yes
+MR,1,Applied 100%,MR,yes
+mr to hu mapping for {...} tissue,1,Applied 100%,MR-to-HU mapping for Bladder tissue; MR-to-HU mapping for Cancellous Bone tissue; MR-to-HU mapping for Cortical Bone tissue,yes
+MRDBI,1,Applied 100%,MRDBI,yes
+MRF Energy Minimization,1,Applied 100%,MRF Energy Minimization,yes
+mRMR Feature Selection,1,Pure Math 100%,mRMR Feature Selection,yes
+MRPC,1,Applied 100%,MRPC,yes
+MSCOCO Image Captioning Evaluation,1,Applied 100%,MSCOCO Image Captioning Evaluation,yes
+msiSpan vs gSpan scalability,1,Applied 100%,msiSpan vs gSpan scalability,yes
+MSRC-v2 Multi-label Classification,1,Applied 100%,MSRC-v2 Multi-label Classification,yes
+MSSVTDE,1,Applied 100%,MSSVTDE,yes
+MSTSP,1,Applied 100%,MSTSP1; MSTSP10; MSTSP11,yes
+MTQ,1,Pure Math 100%,MTQ,yes
+MTQ 125,1,Pure Math 100%,MTQ 125,yes
+mtsp,1,Pure Math 100%,eil51-10 MTSP; eil51-3 MTSP; eil51-5 MTSP,yes
+mu284,1,Applied 100%,mu284,yes
+"Mujoco Robot Control (InvertedDoublePendulum-v4, HalfCheetah-v4, Pusher-v4, Ant-v4)",1,Applied 100%,"Mujoco Robot Control (InvertedDoublePendulum-v4, HalfCheetah-v4, Pusher-v4, Ant-v4)",yes
+mul series,1,Pure Math 100%,mul3 (Multiplier); mul5 (Multiplier),yes
+multi objective generalized bin packing,1,Applied 100%,1D Multi-Objective Generalized Bin Packing Problem; 2D Multi-Objective Generalized Bin Packing Problem,yes
+multi physics electro thermo elastic micro actuator design,1,Applied 100%,Multi-physics Electro-thermo-elastic Micro-actuator Design (Problem 1); Multi-physics Electro-thermo-elastic Micro-actuator Design (Problem 2),yes
+multi rover distribution,1,Applied 100%,"Multi-Rover Distribution Problem (Setup 1: 10 solo-POI); Multi-Rover Distribution Problem (Setup 2: 8 solo-POI, 2 duo-POI)",yes
+multi sensor control,1,Applied 100%,Multi-Sensor Control (Scenario 1); Multi-Sensor Control (Scenario 2),yes
+multi task learning on {...},1,Applied 100%,Multi-task learning on MultiFashion; Multi-task learning on MultiFashion+MNIST; Multi-task learning on MultiMNIST,yes
+Multi-Agent Patch Foraging System,1,Pure Math 100%,Multi-Agent Patch Foraging System,yes
+Multi-criteria Classifier Ensemble,1,Pure Math 100%,Multi-criteria Classifier Ensemble,yes
+Multi-Dimensional Knapsack Problem,3,Pure Math 100%,Multi-Dimensional Knapsack Problem,yes
+Multi-energy load forecasting,1,Applied 100%,Multi-energy load forecasting,yes
+Multi-label Classification,1,Applied 100%,Multi-label Classification,no
+Multi-label Classification,1,Pure Math 100%,Multi-label Classification,no
+Multi-label Feature Selection,1,Applied 100%,Multi-label Feature Selection,yes
+Multi-microgrid scheduling optimization,1,Applied 100%,Multi-microgrid scheduling optimization,yes
+Multi-modal data (Example 1),1,Pure Math 100%,Multi-modal data (Example 1),yes
+Multi-modal Journey Planning Problem,1,Applied 100%,Multi-modal Journey Planning Problem,yes
+Multi-objective buoy placement problem,1,Applied 100%,Multi-objective buoy placement problem,yes
+Multi-Objective Feature Selection,1,Applied 100%,Multi-Objective Feature Selection,yes
+Multi-objective forest management problem,1,Applied 100%,Multi-objective forest management problem,yes
+Multi-Objective Habitat Problem,1,Applied 100%,Multi-Objective Habitat Problem,yes
+Multi-objective Interpolated Continuous Optimisation Problems (MO-ICOPs),1,Pure Math 100%,Multi-objective Interpolated Continuous Optimisation Problems (MO-ICOPs),yes
+Multi-Objective Minimum Spanning Tree on Triangular-tailed graphs G1^m and G2^m,1,Pure Math 100%,Multi-Objective Minimum Spanning Tree on Triangular-tailed graphs G1^m and G2^m,yes
+Multi-objective problems (unspecified),1,Pure Math 100%,Multi-objective problems (unspecified),yes
+Multi-objective Traveling Salesman Problem with Profits and Passengers (MoTSPPP),1,Applied 100%,Multi-objective Traveling Salesman Problem with Profits and Passengers (MoTSPPP),yes
+"Multi-objective VAWT design (Maximize RPM, Minimize Mass)",1,Applied 100%,"Multi-objective VAWT design (Maximize RPM, Minimize Mass)",yes
+Multi-Page (27D) Configuration,1,Applied 100%,Multi-Page (27D) Configuration,yes
+Multi-Peaks,1,Pure Math 100%,Multi-Peaks,yes
+Multi-period Optimal Power Flow (MOPF),1,Applied 100%,Multi-period Optimal Power Flow (MOPF),yes
+Multi-point Relay Selection Problem,1,Applied 100%,Multi-point Relay Selection Problem,yes
+Multi-Resource Satellite Scheduling Problem (MRSSP),1,Applied 100%,Multi-Resource Satellite Scheduling Problem (MRSSP),yes
+Multi-rigidity walking scenario,1,Applied 100%,Multi-rigidity walking scenario,yes
+Multi-robot Obstacle Avoidance,1,Applied 100%,Multi-robot Obstacle Avoidance,yes
+Multi-rover Exploration Domain,1,Applied 100%,Multi-rover Exploration Domain,yes
+Multi-Skill Resource Constrained Project Scheduling Problem (MS-RCPSP),1,Applied 100%,Multi-Skill Resource Constrained Project Scheduling Problem (MS-RCPSP),yes
+Multi-Skill Resource-Constrained Project Scheduling Problem (MS-RCPSP) - iMOPSE d36 instances,1,Applied 100%,Multi-Skill Resource-Constrained Project Scheduling Problem (MS-RCPSP) - iMOPSE d36 instances,yes
+Multi-Skill Resource-Constrained Project Scheduling Problem (MS-RCPSP) - Large-scale instances,1,Applied 100%,Multi-Skill Resource-Constrained Project Scheduling Problem (MS-RCPSP) - Large-scale instances,yes
+Multi-Stage Resource Allocation (MSRA),1,Applied 100%,Multi-Stage Resource Allocation (MSRA),yes
+Multi-Stage Weapon-Target Assignment Problem (MWTA),1,Applied 100%,Multi-Stage Weapon-Target Assignment Problem (MWTA),yes
+Multiclass EMG Signal Classification,1,Applied 100%,Multiclass EMG Signal Classification,yes
+Multidimensional Knapsack Problem,1,Applied 100%,Multidimensional Knapsack Problem,yes
+Multifactorial Evolutionary Algorithm (MFEA) / MFTO-MFEA,1,Pure Math 100%,Multifactorial Evolutionary Algorithm (MFEA) / MFTO-MFEA,yes
+Multilevel image thresholding,1,Applied 100%,Multilevel image thresholding,yes
+Multimodal,1,Pure Math 100%,Multimodal,yes
+Multimodal Biometric Feature Fusion,1,Applied 100%,Multimodal Biometric Feature Fusion,yes
+Multimodal Biometrics Fusion,1,Applied 100%,Multimodal Biometrics Fusion,yes
+Multimodal Biometrics Score Level Fusion,1,Applied 100%,Multimodal Biometrics Score Level Fusion,yes
+"Multimodal classification and regression datasets (prod, salary, airbnb, channel, wine, imdb, fake, kick, jigsaw, qaa, qaq, book, jc, cloth, ae, pop, house, mercari)",1,Pure Math 100%,"Multimodal classification and regression datasets (prod, salary, airbnb, channel, wine, imdb, fake, kick, jigsaw, qaa, qaq, book, jc, cloth, ae, pop, house, mercari)",yes
+Multimodal Optimization Problems,1,Pure Math 100%,Multimodal Optimization Problems,yes
+Multiple protein sequence alignment,1,Applied 100%,Multiple protein sequence alignment,yes
+Multiple Sequence Alignment (PREFAB4refm and SABrem),1,Applied 100%,Multiple Sequence Alignment (PREFAB4refm and SABrem),yes
+Multiple(pix) Feature Selection,1,Applied 100%,Multiple(pix) Feature Selection,yes
+multiplexer,4,Pure Math 100%,6-bit Multiplexer (6-MUX); 70-bit Multiplexer (70-MUX); 70-bits Multiplexer,yes
+Multiplier 3 x 3,1,Pure Math 100%,Multiplier 3 x 3,yes
+Mushroom,1,Applied 100%,Mushroom,yes
+Music mood estimation via Twin Gaussian Processes,1,Applied 100%,Music mood estimation via Twin Gaussian Processes,yes
+musk,2,Applied 100%,Musk; Musk1,yes
+Musk1 Feature Selection,2,Applied 100%,Musk1 Feature Selection,yes
+MUX (6-70),1,Pure Math 100%,MUX (6-70),yes
+Mux6,1,Pure Math 100%,Mux6,yes
+MV-PDPTW,1,Applied 100%,MV-PDPTW,yes
+MW,2,Pure Math 100%,MW Suite (MW1-MW14); MW1; MW10,yes
+MWSN Routing Optimization,1,Applied 100%,MWSN Routing Optimization,yes
+N-AA-CAES Thermodynamic Model Simulation,1,Applied 100%,N-AA-CAES Thermodynamic Model Simulation,yes
+N-TIDIGITS,1,Applied 100%,N-TIDIGITS,yes
+NACA0012 airfoil reproduction,1,Pure Math 100%,NACA0012 airfoil reproduction,yes
+NAND Logic Gate,1,Pure Math 100%,NAND Logic Gate,yes
+narma,1,Pure Math 100%,NARMA10; NARMA10 (no feedback); NARMA30,yes
+NARMA10 variant by Rodan and Tino,1,Pure Math 100%,NARMA10 variant by Rodan and Tino,yes
+NAS-Bench-201,2,Applied 100%,NAS-Bench-201,yes
+NAS-Bench-201 Search Space,1,Pure Math 100%,NAS-Bench-201 Search Space,yes
+Nash Equilibrium Problems,1,Pure Math 100%,Nash Equilibrium Problems,yes
+NASViT,1,Applied 100%,NASViT,yes
+NATS-Bench (NAS-Bench-201),1,Applied 100%,NATS-Bench (NAS-Bench-201),yes
+NATS-Bench size search space (Channel Configuration),1,Applied 100%,NATS-Bench size search space (Channel Configuration),yes
+NBA Playoffs Ranking Prediction,1,Applied 100%,NBA Playoffs Ranking Prediction,yes
+NBTI degradation simulation,1,Applied 100%,NBTI degradation simulation,yes
+nca morphogenesis,1,Pure Math 100%,NCA Morphogenesis (Square Target Shape); NCA Morphogenesis (Up-scaled Square Target Shape),yes
+NDVI Reconstruction,1,Applied 100%,NDVI Reconstruction,yes
+NeedHighMut,1,Pure Math 100%,NeedHighMut,yes
+Negative Log Likelihood minimization for CRF,1,Applied 100%,Negative Log Likelihood minimization for CRF,yes
+Negative To Zero,1,Pure Math 100%,Negative To Zero,yes
+Neighbour-based aggregation,1,Applied 100%,Neighbour-based aggregation,yes
+NetFlow Graph Partitioning,1,Applied 100%,NetFlow Graph Partitioning,yes
+Network Signal Setting Design (NSSD) for two interacting junctions,1,Applied 100%,Network Signal Setting Design (NSSD) for two interacting junctions,yes
+Networking Mode Optimization,1,Applied 100%,Networking Mode Optimization,yes
+NEU-DET Steel Surface Defect Detection,1,Applied 100%,NEU-DET Steel Surface Defect Detection,yes
+Neural Architecture Search,2,Applied 100%,Neural Architecture Search,yes
+Neural Combinatorial Optimization of Connectivity Graph,1,Applied 100%,Neural Combinatorial Optimization of Connectivity Graph,yes
+Newly Formulated Simple Test Problem,1,Pure Math 100%,Newly Formulated Simple Test Problem,yes
+newQCPsat_SAPScont,1,Pure Math 100%,newQCPsat_SAPScont,yes
+Next word prediction,1,Applied 100%,Next word prediction,yes
+NF-CoV (Novel Fictitious Coronavirus) mutation simulation,1,Applied 100%,NF-CoV (Novel Fictitious Coronavirus) mutation simulation,yes
+NF-CoV Immune Escape,1,Pure Math 100%,NF-CoV Immune Escape,yes
+NGAFID Engine Parameter Prediction,1,Applied 100%,NGAFID Engine Parameter Prediction,yes
+NGAFID Non-Engine Parameter Prediction,1,Applied 100%,NGAFID Non-Engine Parameter Prediction,yes
+nguyen,3,Pure Math 100%,nguyen7; Nguyen-1; Nguyen-11,yes
+nguyen c,1,Pure Math 100%,Nguyen-10c; Nguyen-9c,yes
+Nguyen Datasets,1,Pure Math 100%,Nguyen Datasets,yes
+nguyen-6 even + outliers,1,Pure Math 100%,nguyen-6 even + outliers,yes
+nihs task,1,Pure Math 100%,NIHS Task 1; NIHS Task 2,yes
+nils task,1,Pure Math 100%,NILS Task 1; NILS Task 2,yes
+nims task,1,Pure Math 100%,NIMS Task 1; NIMS Task 2,yes
+NIST BSSR1 Multimodal Biometrics Dataset,1,Applied 100%,NIST BSSR1 Multimodal Biometrics Dataset,yes
+NK landscape,14,Pure Math 100%,NK-Landscapes; NK-landscape; Bi-objective NK Landscapes,yes
+nkLand,2,Pure Math 100%,nkLand,yes
+NKQ-landscapes,1,Pure Math 100%,NKQ-landscapes,yes
+Node Localization,1,Applied 100%,Node Localization,yes
+Node Weight Dependent Traveling Salesperson Problem (W-TSP),1,Pure Math 100%,Node Weight Dependent Traveling Salesperson Problem (W-TSP),yes
+Noisy 8-DoF Arm,1,Applied 100%,Noisy 8-DoF Arm,yes
+Noisy Checkerboard Problem,1,Pure Math 100%,Noisy Checkerboard Problem,yes
+Noisy Rastrigin with LED,1,Pure Math 100%,Noisy Rastrigin with LED,yes
+noisy sphere,2,Pure Math 100%,Noisy Sphere Function (Dissymmetric); Noisy Sphere; Noisy Sphere Function (Symmetric),yes
+Noisy Sphere with LED,1,Pure Math 100%,Noisy Sphere with LED,yes
+Non-cooperative game for prosumer energy consumption optimization,1,Applied 100%,Non-cooperative game for prosumer energy consumption optimization,yes
+Non-linear Regression,1,Pure Math 100%,Non-linear Regression,yes
+Non-stationary Temporal Causal Network (nsTCN) learning,1,Applied 100%,Non-stationary Temporal Causal Network (nsTCN) learning,yes
+Non-stationary temporal causal networks (nsTCN) learning,1,Applied 100%,Non-stationary temporal causal networks (nsTCN) learning,yes
+"Nondominated sets (Linear, Convex-sphere, Concave-sphere shapes)",1,Pure Math 100%,"Nondominated sets (Linear, Convex-sphere, Concave-sphere shapes)",yes
+NOR Logic Gate,1,Pure Math 100%,NOR Logic Gate,yes
+Normalized Pareto Fronts (Triangular and Inverted Triangular),1,Pure Math 100%,Normalized Pareto Fronts (Triangular and Inverted Triangular),yes
+NPS performance evaluation index system,1,Applied 100%,NPS performance evaluation index system,yes
+NREO-GEN,1,Applied 100%,NREO-GEN,yes
+NTHU model,1,Applied 100%,NTHU model,yes
+Nuclear Power Plant Operations (NPPO),1,Applied 100%,Nuclear Power Plant Operations (NPPO),yes
+Number IO,1,Pure Math 100%,Number IO,yes
+NYC Morning Commute,1,Applied 100%,NYC Morning Commute,yes
+O-track Racetrack,1,Pure Math 100%,O-track Racetrack,yes
+oakoh04,1,Pure Math 100%,oakoh04,yes
+Object Tracking and Recognition,1,Applied 100%,Object Tracking and Recognition,yes
+objective,1,Pure Math 100%,4-objective test problem; 8-objective test problem,yes
+Obstacle Kinematics Augmented Optimization Problem (OKAOP),1,Applied 100%,Obstacle Kinematics Augmented Optimization Problem (OKAOP),yes
+Obstacle-avoiding lattice path planning,1,Applied 100%,Obstacle-avoiding lattice path planning,yes
+Obstacle-Aware Maximum Coverage Deployment (OAMCD),1,Applied 100%,Obstacle-Aware Maximum Coverage Deployment (OAMCD),yes
+Ocean Microbiome Dataset (50 KO targets),1,Applied 100%,Ocean Microbiome Dataset (50 KO targets),yes
+Oil Skimmer Assignment Problem,1,Applied 100%,Oil Skimmer Assignment Problem,yes
+Olivetti Faces Image Classification,1,Applied 100%,Olivetti Faces Image Classification,yes
+Omentum,1,Applied 100%,Omentum,yes
+Omni-test,2,Pure Math 100%,Omni-test,yes
+Once-for-all (OFA),1,Applied 100%,Once-for-all (OFA),yes
+ONECONE,1,Pure Math 100%,ONECONE,yes
+OneMax,32,Pure Math 100%,"Onemax; Noisy OneMax; Ruggedness (OneMax-based, W-Model)",yes
+OneMaxBlocks,1,Pure Math 100%,OneMaxBlocks,yes
+OneMinMax,4,Pure Math 100%,OneMinMax,yes
+Online Bin Packing (OBP),1,Pure Math 100%,Online Bin Packing (OBP),yes
+Online Meal Delivery Problem (OMDP),1,Applied 100%,Online Meal Delivery Problem (OMDP),yes
+Online Order Dispatching Problem,2,Applied 100%,Online Order Dispatching Problem,yes
+Online Restricted Container Relocation Problem,1,Applied 100%,Online Restricted Container Relocation Problem,yes
+Online Review Helpfulness Prediction,1,Applied 100%,Online Review Helpfulness Prediction,yes
+Online Route Planning Problem,1,Applied 100%,Online Route Planning Problem,yes
+open cavity flow,1,Applied 100%,Open Cavity Flow (Mode-switching regime); Open Cavity Flow (Narrow-bandwidth regime),yes
+OpenAI Gym tasks,1,Applied 100%,OpenAI Gym tasks,yes
+OpenML CC-18 and AutoML benchmark suite,1,Applied 100%,OpenML CC-18 and AutoML benchmark suite,yes
+OpenML Tabular Benchmark,1,Applied 100%,OpenML Tabular Benchmark,yes
+openml task,3,Applied 100%,OpenML Task 167104; OpenML Task 167161; OpenML Task 167168,yes
+OPTICS Parameter Tuning,1,Applied 100%,OPTICS Parameter Tuning,yes
+Optimal Communication Spanning Tree Problem,1,Applied 100%,Optimal Communication Spanning Tree Problem,yes
+optimal line formation biomimetic underwater vehicles,1,Applied 100%,Optimal Line Formation of 10 Biomimetic Underwater Vehicles (BUVs); Optimal Line Formation of 3 Biomimetic Underwater Vehicles (BUVs),yes
+Optimal Power Allocation for DC Transmission Lines,1,Applied 100%,Optimal Power Allocation for DC Transmission Lines,yes
+Optimal Power Flow (OPF) Problems under double-sided uncertainties,1,Applied 100%,Optimal Power Flow (OPF) Problems under double-sided uncertainties,yes
+Order Planning in Hot Rolling Process (OPHR),1,Applied 100%,Order Planning in Hot Rolling Process (OPHR),yes
+ordered clustered traveling salesman,1,Applied 100%,"Ordered Clustered Traveling Salesman Problem (OCTSP) - bayg29 instance (14,14 clusters); Ordered Clustered Traveling Salesman Problem (OCTSP) - bayg29 instance (9,9,10 clusters); Ordered Clustered Traveling Salesman Problem (OCTSP) - bays29 instance (14,14 clusters)",yes
+Organic solar cell thin-film fabrication optimization,1,Applied 100%,Organic solar cell thin-film fabrication optimization,yes
+Orienteering Problem (21 Large-Scale Instances),1,Applied 100%,Orienteering Problem (21 Large-Scale Instances),yes
+Orienteering Problem (OP),1,Pure Math 100%,Orienteering Problem (OP),yes
+Orienteering Problem with Time Windows (OPTW),1,Pure Math 100%,Orienteering Problem with Time Windows (OPTW),yes
+ORL,1,Applied 100%,ORL,yes
+ORL Face Database,1,Applied 100%,ORL Face Database,yes
+Ostermeier Ellipsoid,1,Pure Math 100%,Ostermeier Ellipsoid,yes
+Oulu-CASIA Dataset Classification,1,Applied 100%,Oulu-CASIA Dataset Classification,yes
+Ovarian,1,Applied 100%,Ovarian,yes
+Ovarian Cancer Classification,1,Applied 100%,Ovarian Cancer Classification,yes
+Oven Scheduling Problem,1,Applied 100%,Oven Scheduling Problem,yes
+Overall Optimization of Smart City,1,Applied 100%,Overall Optimization of Smart City,yes
+Ozone 8-Hours Clustering,1,Applied 100%,Ozone 8-Hours Clustering,yes
+P-MPR,1,Applied 100%,P-MPR,yes
+P1,1,Pure Math 100%,P1,yes
+P2,1,Pure Math 100%,P2,yes
+P2P Electricity Market Problem,1,Applied 100%,P2P Electricity Market Problem,yes
+P3,1,Pure Math 100%,P3,yes
+P4,1,Pure Math 100%,P4,yes
+P_avg,1,Applied 100%,P_avg,yes
+Packing While Travelling (PWT) with correlated weights and profits,1,Pure Math 100%,Packing While Travelling (PWT) with correlated weights and profits,yes
+Packing While Travelling (PWT) with uniform weights,1,Pure Math 100%,Packing While Travelling (PWT) with uniform weights,yes
+Paddy Leaf Classification Problem,1,Applied 100%,Paddy Leaf Classification Problem,yes
+Pagie polynomial,1,Pure Math 100%,Pagie polynomial,yes
+pagie1,2,Pure Math 100%,pagie1,yes
+Paige 1,1,Pure Math 100%,Paige 1,yes
+Paired Digits,1,Pure Math 100%,Paired Digits,yes
+par series,2,Pure Math 100%,Par5; par3; par7,yes
+Paragraph Vector training,1,Applied 100%,Paragraph Vector training,yes
+Parallel Resistors,1,Pure Math 100%,Parallel Resistors,yes
+Parameter identification of a permanent magnet synchronous machine model,1,Applied 100%,Parameter identification of a permanent magnet synchronous machine model,yes
+paris 100K,1,Pure Math 100%,paris 100K,yes
+parity,3,Pure Math 100%,3-bit Parity; Parity 3; 10-bit Parity,yes
+Parkinson's Disease Progression Prediction,1,Applied 100%,Parkinson's Disease Progression Prediction,yes
+Parkinsons,1,Applied 100%,Parkinsons,yes
+Parks Classification,1,Applied 100%,Parks Classification,yes
+Partial Classification Rule Mining,1,Applied 100%,Partial Classification Rule Mining,yes
+Partially Rotated Checkerboard Problem,1,Pure Math 100%,Partially Rotated Checkerboard Problem,yes
+Particle Filtering for object state estimation,1,Applied 100%,Particle Filtering for object state estimation,yes
+Pascal-Context,1,Applied 100%,Pascal-Context,yes
+Pascal-VOC 2012,1,Applied 100%,Pascal-VOC 2012,yes
+PASCAL-VOC6,1,Applied 100%,PASCAL-VOC6,yes
+Path graphs P_n,1,Pure Math 100%,Path graphs P_n,yes
+Path Planning,1,Applied 100%,Path Planning,yes
+Paths (Pn),1,Pure Math 100%,Paths (Pn),yes
+PC-RPR Dataset A (Reverse-generated),1,Applied 100%,PC-RPR Dataset A (Reverse-generated),yes
+PC-RPR Dataset B (Random-generated),1,Applied 100%,PC-RPR Dataset B (Random-generated),yes
+PC-Stable Algorithm for Causal Network Learning,1,Applied 100%,PC-Stable Algorithm for Causal Network Learning,yes
+Pedestrian Detection,3,Applied 100%,Pedestrian Detection,yes
+"Pegasus workflow scheduling (Montage, LIGO, SIPHT, Cybershake, Epigenomics)",1,Applied 100%,"Pegasus workflow scheduling (Montage, LIGO, SIPHT, Cybershake, Epigenomics)",yes
+Pelvic Bony Structure Motion Detection,1,Applied 100%,Pelvic Bony Structure Motion Detection,yes
+Pen identification classification,1,Applied 100%,Pen identification classification,yes
+Pendulum,1,Applied 100%,Pendulum,no
+Pendulum,1,Pure Math 100%,Pendulum,no
+Pendulum-v1 Policy Optimization,1,Applied 100%,Pendulum-v1 Policy Optimization,yes
+Penguins,1,Applied 100%,Penguins,yes
+Penguins Counterfactual Generation,1,Applied 100%,Penguins Counterfactual Generation,yes
+Perfect Binary Trees,1,Pure Math 100%,Perfect Binary Trees,yes
+Periodic Resource Availability Scenario,1,Pure Math 100%,Periodic Resource Availability Scenario,yes
+Periodic vehicle routing problem with maintenance scheduling,1,Applied 100%,Periodic vehicle routing problem with maintenance scheduling,yes
+permutation flowshop scheduling,2,Applied 100%,Permutation Flowshop Scheduling Problem (PFSSP); Permutation Flowshop Scheduling Problem,yes
+Permutation Flowshop Scheduling Problem (PFSP),1,Pure Math 100%,Permutation Flowshop Scheduling Problem (PFSP),yes
+Permuted Max-Ones,1,Pure Math 100%,Permuted Max-Ones,yes
+Person Authentication,1,Applied 100%,Person Authentication,yes
+perth wave scenario,1,Applied 100%,Perth wave scenario (49-buoy); Perth wave scenario (100-buoy),yes
+Perturbed sphere function,1,Pure Math 100%,Perturbed sphere function,yes
+Petrochemical production planning,1,Applied 100%,Petrochemical production planning,yes
+PH2 (Binary),1,Applied 100%,PH2 (Binary),yes
+PH2 (Multi-class),1,Applied 100%,PH2 (Multi-class),yes
+Phantom G,1,Applied 100%,Phantom G,yes
+Phantom W,1,Applied 100%,Phantom W,yes
+PHM08,1,Applied 100%,PHM08,yes
+Phoneme,1,Applied 100%,Phoneme,yes
+Phoneme recognition,1,Applied 100%,Phoneme recognition,yes
+Photonics,1,Applied 100%,Photonics,yes
+Photovoltaic potential estimation in Bangu neighborhood,1,Applied 100%,Photovoltaic potential estimation in Bangu neighborhood,yes
+Photovoltaic potential estimation in Parque das Nações neighborhood,1,Applied 100%,Photovoltaic potential estimation in Parque das Nações neighborhood,yes
+php,1,Applied 100%,php,yes
+Physical exercise dose-response model parameter fitting,1,Applied 100%,Physical exercise dose-response model parameter fitting,yes
+Picbreeder,1,Pure Math 100%,Picbreeder,yes
+pid controller tuning mimo water treatment plant,1,Applied 100%,PID controller tuning for MIMO water treatment plant (Initial Condition X1); PID controller tuning for MIMO water treatment plant (Initial Condition X2),yes
+pihs task,1,Pure Math 100%,PIHS Task 1; PIHS Task 2,yes
+pils task,1,Pure Math 100%,PILS Task 1; PILS Task 2,yes
+PIMA,1,Applied 100%,PIMA,yes
+Pima Indians Diabetes Database (D1),1,Applied 100%,Pima Indians Diabetes Database (D1),yes
+pims task,1,Pure Math 100%,PIMS Task 1; PIMS Task 2,yes
+Pitch,1,Applied 100%,Pitch,yes
+PitzDaily,1,Applied 100%,PitzDaily,yes
+Place Recognition in SLAM,1,Applied 100%,Place Recognition in SLAM,yes
+Plagiarism detection,1,Applied 100%,Plagiarism detection,yes
+PLAIN_small_02,1,Applied 100%,PLAIN_small_02,yes
+Planar Arm Inverse Kinematics,1,Pure Math 100%,Planar Arm Inverse Kinematics,yes
+Planar Kinematic Arm,1,Pure Math 100%,Planar Kinematic Arm,yes
+Planar Robot Arm,1,Pure Math 100%,Planar Robot Arm,yes
+"Plevris and Solorzano Benchmark Suite (F05, F07, F08, F10, F11, F19, F21, F26)",1,Pure Math 100%,"Plevris and Solorzano Benchmark Suite (F05, F07, F08, F10, F11, F19, F21, F26)",yes
+pmlb,1,Applied 100%,PMLB_225; PMLB_230; PMLB_522,yes
+PMLB Regression Suite,1,Applied 100%,PMLB Regression Suite,yes
+pMNK Landscapes,1,Pure Math 100%,pMNK Landscapes,yes
+Point Cloud ELA Feature Matching,1,Pure Math 100%,Point Cloud ELA Feature Matching,yes
+Polish (PL) 13-node network,1,Applied 100%,Polish (PL) 13-node network,yes
+Pollution,2,Applied 100%,Pollution,yes
+Polycomputational NAND gate design in granular metamaterial,1,Applied 100%,Polycomputational NAND gate design in granular metamaterial,yes
+Polygon Ultra Wideband Antenna,1,Applied 100%,Polygon Ultra Wideband Antenna,yes
+Polynomial function f = 6x + 8x^2 - x^3 - 2x^4,1,Pure Math 100%,Polynomial function f = 6x + 8x^2 - x^3 - 2x^4,yes
+Polynomial function f = x - 3x^2,1,Pure Math 100%,Polynomial function f = x - 3x^2,yes
+Polynomial function f = x1 + 2x2 - 3x1^2 - 2x1x2 - 2x2^2,1,Pure Math 100%,Polynomial function f = x1 + 2x2 - 3x1^2 - 2x1x2 - 2x2^2,yes
+Pong,1,Pure Math 100%,Pong,no
+pong,2,Applied 100%,Pong; Pong (Atari 2600),no
+portfolio optimization,3,Applied 100%,Portfolio optimization; Portfolio optimization (100 assets); Portfolio optimization (30 assets),yes
+Portfolio selection in G7 markets,1,Applied 100%,Portfolio selection in G7 markets,yes
+Portfolio selection in TSX and DJIA,1,Applied 100%,Portfolio selection in TSX and DJIA,yes
+Power factor adjustment for prosumers,1,Applied 100%,Power factor adjustment for prosumers,yes
+power structure optimization model carbon peak,1,Applied 100%,Power structure optimization model for carbon peak (Scenario 1: High imported power); Power structure optimization model for carbon peak (Scenario 2: High nuclear capacity),yes
+PPB,1,Applied 100%,PPB,yes
+PPI Network Topological Similarity Analysis,1,Applied 100%,PPI Network Topological Similarity Analysis,yes
+Precipitation rate prediction,1,Applied 100%,Precipitation rate prediction,yes
+Predator-prey pursuit task,1,Pure Math 100%,Predator-prey pursuit task,yes
+Predictive current control of single-phase induction motor,1,Applied 100%,Predictive current control of single-phase induction motor,yes
+Predictive Torque Control (PTC),1,Applied 100%,Predictive Torque Control (PTC),yes
+Prefix Paths,1,Pure Math 100%,Prefix Paths,yes
+pressure,1,Applied 100%,pressure,yes
+pressure vessel design,2,Applied 100%,pressure vessel design,yes
+probSAT on 7SAT90,1,Pure Math 100%,probSAT on 7SAT90,yes
+Proposed Bi-objective SB Test Suite (f1-f5),1,Pure Math 100%,Proposed Bi-objective SB Test Suite (f1-f5),yes
+Prostate,1,Applied 100%,Prostate,yes
+Prostate Tumor,1,Applied 100%,Prostate Tumor,yes
+Protein-Protein Interaction (PPI) Network Alignment,1,Applied 100%,Protein-Protein Interaction (PPI) Network Alignment,yes
+Provincial power system supply structure optimization,1,Applied 100%,Provincial power system supply structure optimization,yes
+ProxylessNAS,1,Applied 100%,ProxylessNAS,yes
+PSB2,1,Applied 100%,PSB2 Suite,yes
+Pursuers-and-evaders,1,Pure Math 100%,Pursuers-and-evaders,yes
+push4,1,Applied 100%,push4,yes
+PyGame Geometric 2D Navigation,1,Pure Math 100%,PyGame Geometric 2D Navigation,yes
+python,1,Applied 100%,python,yes
+QNLI Natural Language Inference (BERT-Base),1,Applied 100%,QNLI Natural Language Inference (BERT-Base),yes
+QRAM (QR),1,Applied 100%,QRAM (QR),yes
+quadratic,2,Pure Math 100%,Quadratic function (q(x) = xTx); Quadratic functions (includes Sphere function),yes
+quadratic assignment,3,Pure Math 100%,Quadratic Assignment Problem; Quadratic Assignment Problem (tai15a),yes
+quadratic assignment problem {...} generator,1,Pure Math 100%,Quadratic Assignment Problem (QAP) - Real-like Generator; Quadratic Assignment Problem (QAP) - Uniform Generator,yes
+quadratic basin h,1,Pure Math 100%,Quadratic Basin H0; Quadratic Basin H1; Quadratic Basin H2,yes
+Quadratic Knapsack Problem,1,Pure Math 100%,Quadratic Knapsack Problem,yes
+Quadratic Unconstrained Binary Optimization (QUBO),1,Pure Math 100%,Quadratic Unconstrained Binary Optimization (QUBO),yes
+Quadric,1,Pure Math 100%,Quadric,yes
+Quadruped walking,1,Applied 100%,Quadruped walking,yes
+quake,1,Applied 100%,quake,yes
+Quantile Forecasting of S&P 500 Futures,1,Applied 100%,Quantile Forecasting of S&P 500 Futures,yes
+Quarter,1,Pure Math 100%,Quarter,yes
+Quartic,1,Pure Math 100%,Quartic,yes
+Quasi-Clique Mining,1,Applied 100%,Quasi-Clique Mining,yes
+qubit grover circuit synthesis,1,Applied 100%,3-qubit Grover Circuit Synthesis (Entangled States); 3-qubit Grover Circuit Synthesis (Separable States),yes
+Query-based text summarization,1,Applied 100%,Query-based text summarization,yes
+R-track Racetrack,1,Pure Math 100%,R-track Racetrack,yes
+RA-MDS English Dataset,1,Applied 100%,RA-MDS English Dataset,yes
+Radar Coverage Domain,1,Applied 100%,Radar Coverage Domain,yes
+Radiotherapy Dose Planning (Circle Packing Problem Model),1,Applied 100%,Radiotherapy Dose Planning (Circle Packing Problem Model),yes
+Raga Classification,1,Applied 100%,Raga Classification,yes
+Railway Station Sint-Joost (j18),1,Applied 100%,Railway Station Sint-Joost (j18),yes
+randAB100,1,Applied 100%,randAB100,yes
+randCD100,1,Applied 100%,randCD100,yes
+Random ConstEval Opcodes,1,Pure Math 100%,Random ConstEval Opcodes,yes
+Random Flipping Challenge (RFC),1,Pure Math 100%,Random Flipping Challenge (RFC),yes
+Random Function Generator,1,Pure Math 100%,Random Function Generator,yes
+Random GP Trees (Whole AVX GP Interpreter),1,Pure Math 100%,Random GP Trees (Whole AVX GP Interpreter),yes
+Random GP Trees (Whole AVX GP Interpreter) with different conditional compilation options,1,Pure Math 100%,Random GP Trees (Whole AVX GP Interpreter) with different conditional compilation options,yes
+Random MNK Landscapes,1,Pure Math 100%,Random MNK Landscapes,yes
+Random Path Tracking,1,Applied 100%,Random Path Tracking,yes
+"Random Planted Vertex Cover (G(n, k, p))",1,Pure Math 100%,"Random Planted Vertex Cover (G(n, k, p))",yes
+Random Protected Division 3-trees,1,Pure Math 100%,Random Protected Division 3-trees,yes
+Random Short Path (RSP),1,Pure Math 100%,Random Short Path (RSP),yes
+Random Trajectory,1,Applied 100%,Random Trajectory,yes
+Random TSP,1,Pure Math 100%,Random TSP,yes
+Random Walk (RW) kernel,1,Applied 100%,Random Walk (RW) kernel,yes
+Randomly permuted input for non-dominated sorting,1,Pure Math 100%,Randomly permuted input for non-dominated sorting,yes
+Rank Level Fusion,1,Applied 100%,Rank Level Fusion,yes
+Rank Level Fusion using Biometrics,1,Applied 100%,Rank Level Fusion using Biometrics,yes
+Rank Level Fusion using NIST BSSR1 / Multimodal Gait Dataset,1,Applied 100%,Rank Level Fusion using NIST BSSR1 / Multimodal Gait Dataset,yes
+Ras protein family,1,Applied 100%,Ras protein family,yes
+rastrigin,27,Pure Math 100%,Rastrigin; 6-D Rastrigin; Rastrigin (F6),yes
+Rastrigin with LED,1,Pure Math 100%,Rastrigin with LED,yes
+Rastrigin-multi,1,Pure Math 100%,Rastrigin-multi,yes
+Rastrigin-proj,1,Pure Math 100%,Rastrigin-proj,yes
+RBSP,1,Applied 100%,RBSP,yes
+RCM Suite,1,Applied 100%,RCM Suite,yes
+rDTLZ2α,1,Pure Math 100%,rDTLZ2α,yes
+rDTLZ2αH,1,Pure Math 100%,rDTLZ2αH,yes
+RE and DDMOP suites,1,Applied 100%,RE and DDMOP suites,yes
+RE2-2-4,1,Applied 100%,RE2-2-4,yes
+RE2-4-1,1,Applied 100%,RE2-4-1,yes
+RE3-4-3,1,Applied 100%,RE3-4-3,yes
+RE3-4-7,2,Applied 100%,RE3-4-7,yes
+RE3-5-4,2,Applied 100%,RE3-5-4,yes
+Reacher,1,Pure Math 100%,Reacher,yes
+Real-time Energy Consumption Minimization Problem (rtECMP),1,Applied 100%,Real-time Energy Consumption Minimization Problem (rtECMP),yes
+RealJump,1,Pure Math 100%,RealJump,yes
+"RealJumpk function (RJk,x*)",1,Pure Math 100%,"RealJumpk function (RJk,x*)",yes
+REB5SmallOverlap,1,Pure Math 100%,REB5SmallOverlap,yes
+REBChainStrong,1,Pure Math 100%,REBChainStrong,yes
+REBGrid,1,Pure Math 100%,REBGrid,yes
+ReBNet Arch3 Memory Packing,1,Applied 100%,ReBNet Arch3 Memory Packing,yes
+Rebound library energy optimisation,1,Applied 100%,Rebound library energy optimisation,yes
+Recommendation,1,Applied 100%,Recommendation,yes
+Reconfiguração de Rede de Distribuição (RRD),1,Applied 100%,Reconfiguração de Rede de Distribuição (RRD),yes
+Rectangular Angle Cut Ultra Wideband Antenna,1,Applied 100%,Rectangular Angle Cut Ultra Wideband Antenna,yes
+Red Wine,1,Applied 100%,Red Wine,yes
+Red Wine Quality Prediction,1,Applied 100%,Red Wine Quality Prediction,yes
+Redundant arm,2,Applied 100%,Redundant arm,yes
+Referential Game,1,Pure Math 100%,Referential Game,yes
+Regression and Classification Datasets,1,Applied 100%,Regression and Classification Datasets,yes
+REO-GEN,1,Applied 100%,REO-GEN,yes
+Replace Space With Newline,1,Pure Math 100%,Replace Space With Newline,yes
+res8 (Resilient cryptographic function),1,Pure Math 100%,res8 (Resilient cryptographic function),yes
+resistance2,1,Pure Math 100%,resistance2,yes
+resnet compression,1,Applied 100%,ResNet-50 Compression; ResNet-110 Compression,yes
+resnet image classification testing,1,Applied 100%,ResNet101 Image Classification Testing; ResNet50 Image Classification Testing,yes
+ResNet-18 on ILSVRC-2012,1,Applied 100%,ResNet-18 on ILSVRC-2012,yes
+ResNet-50,1,Applied 100%,ResNet-50,yes
+Resource Gathering,1,Pure Math 100%,Resource Gathering,yes
+Resource-Constrained Project Scheduling Problem with Group Cumulative Constraint (RCPSP-GC),1,Applied 100%,Resource-Constrained Project Scheduling Problem with Group Cumulative Constraint (RCPSP-GC),yes
+Restricted Container Relocation Problem,1,Applied 100%,Restricted Container Relocation Problem,yes
+Retail Dataset Mining,1,Applied 100%,Retail Dataset Mining,yes
+Retail transaction processing and inventory management,1,Applied 100%,Retail transaction processing and inventory management,yes
+Retinal Cyst Segmentation,1,Applied 100%,Retinal Cyst Segmentation,yes
+Retinal vessel segmentation,1,Applied 100%,Retinal vessel segmentation,yes
+Reversed BinVal,1,Pure Math 100%,Reversed BinVal,yes
+rfid network planning,1,Applied 100%,RFID Network Planning Problem (C_100); RFID Network Planning Problem (C_30); RFID Network Planning Problem (C_50),yes
+RHex robot gait adaptation,1,Applied 100%,RHex robot gait adaptation,yes
+rho-correlated MNK Landscapes,1,Pure Math 100%,rho-correlated MNK Landscapes,yes
+rho-mnk-landscapes,2,Pure Math 100%,rho-mnk-landscapes,yes
+Rice Farm Optimization,1,Applied 100%,Rice Farm Optimization,yes
+Ridesharing with Timing Constraints,1,Applied 100%,Ridesharing with Timing Constraints,yes
+Ridge,3,Pure Math 100%,Ridge,yes
+Ridge with Corner,1,Pure Math 100%,Ridge with Corner,yes
+Ring,1,Applied 100%,Ring,yes
+River pollution problem,1,Applied 100%,River pollution problem,yes
+rl11849,1,Pure Math 100%,rl11849,yes
+rl5934,1,Pure Math 100%,rl5934,yes
+RLSF,1,Pure Math 100%,RLSF,yes
+RLSFH,1,Pure Math 100%,RLSFH,yes
+rn w memory packing,1,Applied 100%,RN152-W1A2 Memory Packing; RN101-W1A2 Memory Packing; RN50-W1A2 Memory Packing,yes
+RNN Verification (Well-parenthesized words),1,Applied 100%,RNN Verification (Well-parenthesized words),yes
+RoboGen Locomotion Task,1,Applied 100%,RoboGen Locomotion Task,yes
+Robotic ant maze,1,Applied 100%,Robotic ant maze,yes
+Robotic Arm,1,Pure Math 100%,Robotic Arm,yes
+Root-zone soil moisture estimation,1,Applied 100%,Root-zone soil moisture estimation,yes
+rosenbrock,21,Pure Math 100%,Rosenbrock; Rosenbrock (f8); Rosenbrock (rotated),yes
+Rotated Bent Cigar Function (f3),1,Pure Math 100%,Rotated Bent Cigar Function (f3),yes
+Rotated Checkerboard Problem,2,Pure Math 100%,Rotated Checkerboard Problem,yes
+Rotated Discus Function (f4),1,Pure Math 100%,Rotated Discus Function (f4),yes
+Rotated Griewank,1,Pure Math 100%,Rotated Griewank,yes
+Rotated High Conditioned Elliptic Function (f2),1,Pure Math 100%,Rotated High Conditioned Elliptic Function (f2),yes
+Rotated Hybrid Composition function,1,Pure Math 100%,Rotated Hybrid Composition function,yes
+Rotated Rastrigin,1,Pure Math 100%,Rotated Rastrigin,yes
+Rotated Rosenbrock,1,Pure Math 100%,Rotated Rosenbrock,yes
+Rotational Motion Under Dry Friction,1,Applied 100%,Rotational Motion Under Dry Friction,yes
+Rough Set Feature Selection / Reduct Generation,1,Applied 100%,Rough Set Feature Selection / Reduct Generation,yes
+Rover,1,Applied 100%,Rover,yes
+Rover Domain,1,Pure Math 100%,Rover Domain,no
+rover domain,3,Applied 100%,Rover Domain; Rover Domain (Default); Rover Domain (Halved Actuator Power),no
+rRLSF,1,Pure Math 100%,rRLSF,yes
+rRLSFH,1,Pure Math 100%,rRLSFH,yes
+rsa crt,1,Applied 100%,RSA-CRT (Hardware Accelerator); RSA-CRT (Software Implementation),yes
+RTE,1,Applied 100%,RTE,yes
+rud series,1,Pure Math 100%,RUD1; RUD2,yes
+Rule induction for disease progression prediction,1,Applied 100%,Rule induction for disease progression prediction,yes
+RWMOP (CEC 2021 real-world MOPs),1,Applied 100%,RWMOP01; RWMOP02; RWMOP03,yes
+S-box design,1,Applied 100%,S-box design,yes
+S-curve Path Tracking,1,Applied 100%,S-curve Path Tracking,yes
+S-layered games,1,Pure Math 100%,S-layered games,yes
+S1210 airfoil with slat reproduction,1,Pure Math 100%,S1210 airfoil with slat reproduction,yes
+Saliency Prediction,1,Pure Math 100%,Saliency Prediction,yes
+Salient Object Detection,1,Applied 100%,Salient Object Detection,yes
+Salomon,1,Pure Math 100%,Salomon,yes
+Salt-and-Pepper Noise Removal,1,Applied 100%,Salt-and-Pepper Noise Removal,yes
+SAMSum,1,Applied 100%,SAMSum,yes
+Sangsay Video Watermarking,1,Applied 100%,Sangsay Video Watermarking,yes
+"SAR ADC performance optimization (SNR, SFDR, DNL, INL)",1,Applied 100%,"SAR ADC performance optimization (SNR, SFDR, DNL, INL)",yes
+Sarcasm Detection,1,Applied 100%,Sarcasm Detection,yes
+SARS-CoV-2 protein pocket targets,1,Applied 100%,SARS-CoV-2 protein pocket targets,yes
+Satimage,1,Applied 100%,Satimage,yes
+Scenario A (Single static CB area),1,Applied 100%,Scenario A (Single static CB area),yes
+Scenario B (Two static CB areas),1,Applied 100%,Scenario B (Two static CB areas),yes
+Scenario C (Dynamic fast-moving CB),1,Applied 100%,Scenario C (Dynamic fast-moving CB),yes
+Scene,4,Applied 100%,Scene,yes
+Scene dataset,1,Applied 100%,Scene dataset,yes
+Scene Multi-label Classification,1,Applied 100%,Scene Multi-label Classification,yes
+Schaffer,2,Pure Math 100%,Schaffer,yes
+Schaffer's 352 datasets,1,Applied 100%,Schaffer's 352 datasets,yes
+Schaffer's F6,1,Pure Math 100%,Schaffer's F6,yes
+schwefel,6,Pure Math 100%,Schwefel; Schwefel 2.26; Schwefel12,yes
+schwefel s,2,Pure Math 100%,Schwefel's Problem 2.21 (f6); Schwefel's Function 1.2,yes
+Score Level Fusion for Biometric Identification,1,Applied 100%,Score Level Fusion for Biometric Identification,yes
+SCPD-Problem,1,Applied 100%,SCPD-Problem,yes
+Scrabble Score,1,Pure Math 100%,Scrabble Score,yes
+"Scratch Games Suite (CatchTheDots, FinalFight, FlappyParrot, FruitCatching, HackAttack, Pong, Snake, SpaceOdyssey)",1,Applied 100%,"Scratch Games Suite (CatchTheDots, FinalFight, FlappyParrot, FruitCatching, HackAttack, Pong, Snake, SpaceOdyssey)",yes
+sdtlz,2,Pure Math 100%,SDTLZ1; SDTLZ,yes
+Seed Quality Testing,1,Applied 100%,Seed Quality Testing,yes
+Seeds Clustering,1,Applied 100%,Seeds Clustering,yes
+segm,1,Applied 100%,segm,yes
+Segment Based Encoding Scheme (SES),1,Applied 100%,Segment Based Encoding Scheme (SES),yes
+Segmentation,2,Applied 100%,Segmentation,yes
+Segmentation Counterfactual Generation,1,Applied 100%,Segmentation Counterfactual Generation,yes
+Selection Instability,1,Pure Math 100%,Selection Instability,yes
+Semantic Textual Similarity,1,Applied 100%,Semantic Textual Similarity,yes
+Semi-supervised Learning,1,Pure Math 100%,Semi-supervised Learning,yes
+sensorless,1,Applied 100%,sensorless,yes
+Sentiment classification,3,Applied 100%,Sentiment classification,yes
+separable ellipsoid,2,Pure Math 100%,Separable ellipsoid (f2); Separable Ellipsoid (H_ellipse),yes
+Separable Rastrigin (f3),1,Pure Math 100%,Separable Rastrigin (f3),yes
+Separate Region Task,1,Pure Math 100%,Separate Region Task,yes
+Sepsis Survival Classification,1,Applied 100%,Sepsis Survival Classification,yes
+Series-Parallel (SP) PV array interconnection,1,Applied 100%,Series-Parallel (SP) PV array interconnection,yes
+Series-Parallel Switched Capacitor (SPSC) Active Charge Balancing,1,Applied 100%,Series-Parallel Switched Capacitor (SPSC) Active Charge Balancing,yes
+Severe Concept Drift,1,Pure Math 100%,Severe Concept Drift,yes
+SEZ Production-Chain Benchmark Suite,1,Applied 100%,SEZ Production-Chain Benchmark Suite,yes
+Shadow contour detection,1,Applied 100%,Shadow contour detection,yes
+Shapley's Game,1,Pure Math 100%,Shapley's Game,yes
+Sharp Ridge,1,Pure Math 100%,Sharp Ridge,yes
+Shepp-Logan phantom,1,Applied 100%,Shepp-Logan phantom,yes
+shifted ackley s,1,Pure Math 100%,Shifted Ackley's function (F13); Shifted Ackley's function (F14); Shifted Ackley's function (F15),yes
+shifted griewank s,1,Pure Math 100%,Shifted Griewank's function (F16); Shifted Griewank's function (F17); Shifted Griewank's function (F18),yes
+Shifted Rotated Rastrigin,1,Pure Math 100%,Shifted Rotated Rastrigin,yes
+shifted rotated {...} s function,1,Pure Math 100%,Shifted Rotated Rastrigin's function (F22); Shifted Rotated Rastrigin's function (F23); Shifted Rotated Rastrigin's function (F24),yes
+Shifted Sphere Function (f1),1,Pure Math 100%,Shifted Sphere Function (f1),yes
+ship berthing control task,1,Applied 100%,Ship Berthing Control Task 1 (Steady Wind Disturbance); Ship Berthing Control Task 2 (General Disturbance),yes
+Shopping List,1,Pure Math 100%,Shopping List,yes
+Shotgun007 game,1,Applied 100%,Shotgun007 game,yes
+Shubert,1,Pure Math 100%,Shubert,yes
+Shuttle Classification,1,Applied 100%,Shuttle Classification,yes
+SIC100 dataset,1,Applied 100%,SIC100 dataset,yes
+Sigmoid regression task (Amplitude Encoding),1,Applied 100%,Sigmoid regression task (Amplitude Encoding),yes
+Silent vulnerable dependency alert prediction,1,Applied 100%,Silent vulnerable dependency alert prediction,yes
+Silicone rubber electrical tree initiation and growth,1,Applied 100%,Silicone rubber electrical tree initiation and growth,yes
+Simglucose (UVA/Padova 2008),1,Applied 100%,Simglucose (UVA/Padova 2008),yes
+Simple Energy Data Fusion,1,Applied 100%,Simple Energy Data Fusion,yes
+Simplex,1,Pure Math 100%,Simplex,yes
+Simplex Pareto Front (Archiving Task),1,Pure Math 100%,Simplex Pareto Front (Archiving Task),yes
+Simplified Linear Production Process Case Study,1,Applied 100%,Simplified Linear Production Process Case Study,yes
+Single Diode Model (SDM) parameter extraction,1,Applied 100%,Single Diode Model (SDM) parameter extraction,yes
+single machine total weighted tardiness,1,Applied 100%,Single Machine Total Weighted Tardiness Problem (100 jobs); Single Machine Total Weighted Tardiness Problem (300 jobs),yes
+Single NAND gate design in granular metamaterial,1,Applied 100%,Single NAND gate design in granular metamaterial,yes
+Single Row Facility Layout Problem (SRFLP),1,Applied 100%,Single Row Facility Layout Problem (SRFLP),yes
+Single-objective VAWT design (Maximize RPM),1,Applied 100%,Single-objective VAWT design (Maximize RPM),yes
+Single-Page (24D) Configuration,1,Applied 100%,Single-Page (24D) Configuration,yes
+Single-stage DAB microinverter efficiency optimization,1,Applied 100%,Single-stage DAB microinverter efficiency optimization,yes
+Sinusoidal Trajectory,1,Applied 100%,Sinusoidal Trajectory,yes
+SIPHT workflow scheduling,1,Applied 100%,SIPHT workflow scheduling,yes
+Six-Legged Locomotion,1,Applied 100%,Six-Legged Locomotion,yes
+Skin Segmentation Classification,1,Applied 100%,Skin Segmentation Classification,yes
+Skin-NonSkin,1,Applied 100%,Skin-NonSkin,yes
+SKIP LIST indexing for Neo4j graph database,1,Applied 100%,SKIP LIST indexing for Neo4j graph database,yes
+Slab Scheduling Problem,1,Applied 100%,Slab Scheduling Problem,yes
+slice,1,Applied 100%,Slice-10; Slice-20,yes
+Small molecule multi-property prediction,1,Applied 100%,Small molecule multi-property prediction,yes
+Small Or Large,3,Pure Math 100%,Small Or Large,yes
+Small Search Space,1,Applied 100%,Small Search Space,yes
+Smallest,3,Pure Math 100%,Smallest,yes
+smd series,2,Pure Math 100%,SMD1; SMD6; SMD7,yes
+smd smd,2,Pure Math 100%,SMD1-SMD12; SMD1-SMD9,yes
+SMD Suite,1,Pure Math 100%,SMD Suite,yes
+SMOP Suite,1,Pure Math 100%,SMOP Suite,yes
+SMOP1-SMOP8,1,Pure Math 100%,SMOP1-SMOP8,yes
+SMOS SSS retrieval,1,Applied 100%,SMOS SSS retrieval,yes
+SMT2020,1,Applied 100%,SMT2020,yes
+smtq,1,Pure Math 100%,SMTQ; SMTQ 125,yes
+SNLI,1,Applied 100%,SNLI,yes
+Snow Day,2,Pure Math 100%,Snow Day,yes
+socmob,1,Applied 100%,socmob,yes
+Soft Robotic Jamming Gripper Optimization,1,Applied 100%,Soft Robotic Jamming Gripper Optimization,yes
+"Soil property prediction (CEC, Carbon, Nitrogen)",1,Applied 100%,"Soil property prediction (CEC, Carbon, Nitrogen)",yes
+Sol character mechanics generation,1,Applied 100%,Sol character mechanics generation,yes
+Solve Boolean,1,Pure Math 100%,Solve Boolean,yes
+sonar,3,Applied 100%,sonar,yes
+Sonar Classification,2,Applied 100%,Sonar Classification,yes
+Sonar Feature Selection,2,Applied 100%,Sonar Feature Selection,yes
+Sorting,1,Pure Math 100%,Sorting,yes
+Space-Time Super-Resolution,1,Applied 100%,Space-Time Super-Resolution,yes
+Spambase,1,Applied 100%,Spambase,yes
+Spambase Classification,1,Applied 100%,Spambase Classification,yes
+Spambase Feature Selection,1,Applied 100%,Spambase Feature Selection,yes
+spanish electricity market,1,Applied 100%,Spanish Electricity Market (TV-ESN Parameter Optimization); Spanish Electricity Market (Vanilla ESN Hyperparameter Optimization),yes
+Sparse constrained optimization problem (K-SVD dictionary learning),1,Applied 100%,Sparse constrained optimization problem (K-SVD dictionary learning),yes
+sparsemlp,1,Applied 100%,SparseMLP-1; SparseMLP-2,yes
+Spatio-temporal prediction,2,Applied 100%,Spatio-temporal prediction,yes
+Speaker Verification,2,Applied 100%,Speaker Verification,yes
+SPEAR-IBM,1,Pure Math 100%,SPEAR-IBM,yes
+SPEAR-IBM-SWV,1,Pure Math 100%,SPEAR-IBM-SWV,yes
+SPEAR-SWV,1,Pure Math 100%,SPEAR-SWV,yes
+Specified Dominant color (Green or red or blue),1,Applied 100%,Specified Dominant color (Green or red or blue),yes
+Speckled Pattern Problem,1,Pure Math 100%,Speckled Pattern Problem,yes
+Spect Classification,1,Applied 100%,Spect Classification,yes
+SPECT Feature Selection,1,Applied 100%,SPECT Feature Selection,yes
+Speech Enhancement Task,1,Applied 100%,Speech Enhancement Task,yes
+Speed Reducer Design Problem,1,Applied 100%,Speed Reducer Design Problem,yes
+Speed Reducer Design Problem (SR7),1,Pure Math 100%,Speed Reducer Design Problem (SR7),yes
+sphere,32,Pure Math 100%,Sphere function; Sphere (F1); 3D-sphere (3D-ball-Viablab-81ppa),yes
+Sphere Linear Projection,1,Pure Math 100%,Sphere Linear Projection,yes
+"Sphere target objects (7mm, 10mm, 14mm)",1,Applied 100%,"Sphere target objects (7mm, 10mm, 14mm)",yes
+Sphere with LED,1,Pure Math 100%,Sphere with LED,yes
+Sphere/Rosenbrock,1,Pure Math 100%,Sphere/Rosenbrock,yes
+SphereInt,3,Pure Math 100%,SphereInt,yes
+SphereLeadingOnes,2,Pure Math 100%,SphereLeadingOnes,yes
+SphereOneMax,2,Pure Math 100%,SphereOneMax,yes
+spherical,2,Pure Math 100%,Spherical; Spherical function (Equation 6),yes
+Spherical Separability,1,Pure Math 100%,Spherical Separability,yes
+Spin Words,1,Pure Math 100%,Spin Words,yes
+Splicing Forgery Detection,1,Applied 100%,Splicing Forgery Detection,yes
+Spoken Keyword Retrieval,1,Applied 100%,Spoken Keyword Retrieval,yes
+Spoof speech classification,1,Applied 100%,Spoof speech classification,yes
+Square Digits,1,Pure Math 100%,Square Digits,yes
+Square Path Tracking,1,Applied 100%,Square Path Tracking,yes
+Squeezing,1,Applied 100%,Squeezing,yes
+SRBCT,2,Applied 100%,SRBCT,yes
+Srbct Cancer Classification,1,Applied 100%,Srbct Cancer Classification,yes
+SRBCT Feature Selection,1,Applied 100%,SRBCT Feature Selection,yes
+SRBench,1,Pure Math 100%,SRBench,yes
+SRSD-Feynman Suite,1,Pure Math 100%,SRSD-Feynman Suite,yes
+SSG (small-scale smart greenhouse problem),1,Applied 100%,SSG (small-scale smart greenhouse problem),yes
+sst series,2,Applied 100%,SST-2; SST-5,yes
+SST-2 Sentiment Analysis (BERT-Base),1,Applied 100%,SST-2 Sentiment Analysis (BERT-Base),yes
+SSW,1,Pure Math 100%,SSW,yes
+st trading strategy,1,Applied 100%,St1 trading strategy; St2 trading strategy; St3 trading strategy,yes
+Stackelberg duopoly,1,Applied 100%,Stackelberg duopoly,yes
+Star Graph,1,Pure Math 100%,Star Graph,yes
+"Star graphs K_{1, n-1}",1,Pure Math 100%,"Star graphs K_{1, n-1}",yes
+Static Exploratory Path Planning,1,Applied 100%,Static Exploratory Path Planning,yes
+Statlog (German credit) dataset (D3),1,Applied 100%,Statlog (German credit) dataset (D3),yes
+Steel Plates Faults (SPF),1,Applied 100%,Steel Plates Faults (SPF),yes
+Steel Plates Faults Counterfactual Generation,1,Applied 100%,Steel Plates Faults Counterfactual Generation,yes
+Step,2,Pure Math 100%,Step,yes
+Step ellipsoid (f7),1,Pure Math 100%,Step ellipsoid (f7),yes
+STL10 Image Classification,1,Applied 100%,STL10 Image Classification,yes
+Stochastic model of Particle Swarm Optimization (PSO) with inertia weight,1,Pure Math 100%,Stochastic model of Particle Swarm Optimization (PSO) with inertia weight,yes
+stokes flow around sphere,1,Applied 100%,Stokes Flow around a Sphere - Instance 1; Stokes Flow around a Sphere - Instance 2; Stokes Flow around a Sphere - Instance 3,yes
+Stroke outcome classification,1,Applied 100%,Stroke outcome classification,yes
+Strongly convex and Lipschitz smooth functions,1,Pure Math 100%,Strongly convex and Lipschitz smooth functions,yes
+STSb-Multi-MT,1,Applied 100%,STSb-Multi-MT,yes
+Student,2,Applied 100%,Student,yes
+Substation rainwater treatment process optimization,1,Applied 100%,Substation rainwater treatment process optimization,yes
+Substitution Cipher,1,Pure Math 100%,Substitution Cipher,yes
+Subtraction processing technique,1,Applied 100%,Subtraction processing technique,yes
+Sudoku,3,Applied 100%,Sudoku,yes
+Sudoku Puzzle,1,Applied 100%,Sudoku Puzzle,yes
+sum squares,2,Pure Math 100%,Sum Squares; Sum of Squares (SoS),yes
+Sunshade Design Optimization,1,Applied 100%,Sunshade Design Optimization,yes
+Sunspots,1,Applied 100%,Sunspots,yes
+Super Anagrams,1,Pure Math 100%,Super Anagrams,yes
+Super Mario Bros. Level Generation,2,Applied 100%,Super Mario Bros. Level Generation,yes
+Super-Resolution Reconstruction,1,Applied 100%,Super-Resolution Reconstruction,yes
+Supp_Fuel_Flow,1,Applied 100%,Supp_Fuel_Flow,yes
+Surreal Number Generation,1,Pure Math 100%,Surreal Number Generation,yes
+SVHN,1,Applied 100%,SVHN,yes
+SVHN Loss Function Optimization,1,Applied 100%,SVHN Loss Function Optimization,yes
+SVHN with ResNet-32,1,Applied 100%,SVHN with ResNet-32,yes
+Swarm aggregation,1,Pure Math 100%,Swarm aggregation,yes
+Swarm foraging,1,Pure Math 100%,Swarm foraging,yes
+SWGCPsat_SAPScont,1,Pure Math 100%,SWGCPsat_SAPScont,yes
+Swimmer,2,Pure Math 100%,Swimmer,yes
+SwimmerMuJoCo,1,Pure Math 100%,SwimmerMuJoCo,yes
+sydney wave scenario,1,Applied 100%,Sydney wave scenario (100-buoy); Sydney wave scenario (49-buoy),yes
+SYM-PART rotated,2,Pure Math 100%,SYM-PART rotated,yes
+SYM-PART simple,2,Pure Math 100%,SYM-PART simple,yes
+SYM-PART1,1,Pure Math 100%,SYM-PART1,yes
+symbolic communication,1,Pure Math 100%,Symbolic Communication (Classification); Symbolic Communication (Regression),yes
+Symbolic Regression,1,Applied 100%,Symbolic Regression,yes
+Symbolic Regression for Tower Data,1,Applied 100%,Symbolic Regression for Tower Data,yes
+"Symmetric Triangle Function (n=16, m=1, s=4)",1,Pure Math 100%,"Symmetric Triangle Function (n=16, m=1, s=4)",yes
+syn series,1,Pure Math 100%,SYN-1; SYN-2; SYN-3,yes
+SYNTCOMP LTL Specifications,1,Applied 100%,SYNTCOMP LTL Specifications,yes
+SYNTECH15 LTL Specifications,1,Applied 100%,SYNTECH15 LTL Specifications,yes
+Synthetic Complexity Benchmark,1,Pure Math 100%,Synthetic Complexity Benchmark,yes
+Synthetic Image Detection,1,Applied 100%,Synthetic Image Detection,yes
+Synthetic Min-Max Test Problem,1,Pure Math 100%,Synthetic Min-Max Test Problem,yes
+Synthetic Mixture Dataset (D_mixed),1,Pure Math 100%,Synthetic Mixture Dataset (D_mixed),yes
+Synthetic regression tasks (Pätzel et al. approach),1,Pure Math 100%,Synthetic regression tasks (Pätzel et al. approach),yes
+synthetic series,1,Pure Math 100%,Synthetic 1; Synthetic 2,yes
+Synthetic Symbolic Regression Suite,1,Pure Math 100%,Synthetic Symbolic Regression Suite,yes
+"Synthetic Topology Optimization Task (TO1, TO2, TO3)",1,Pure Math 100%,"Synthetic Topology Optimization Task (TO1, TO2, TO3)",yes
+System decomposition of industrial process variables,1,Applied 100%,System decomposition of industrial process variables,yes
+t i dataset mining,1,Pure Math 100%,T25I10D10K Dataset Mining; T40I10D15K Dataset Mining,yes
+Tableau Markov Decision Process,1,Pure Math 100%,Tableau Markov Decision Process,yes
+Tanabe and Ishibuchi Real-World Suite,1,Applied 100%,Tanabe and Ishibuchi Real-World Suite,yes
+Target Set Selection (TSS) Problem,1,Applied 100%,Target Set Selection (TSS) Problem,yes
+task series,1,Pure Math 100%,Task 1 (Drugowitsch's Bayesian LCS model sampling); Task 2 (Exponential function approximation); Task 3 (Piecewise linear function with variable noise),yes
+Tecator,1,Applied 100%,Tecator,yes
+Telescope (MGT),1,Applied 100%,Telescope (MGT),yes
+temperature parameter optimization t rbm,1,Applied 100%,"Temperature Parameter Optimization for T-RBM (Fashion-MNIST, 128 hidden units); Temperature Parameter Optimization for T-RBM (Fashion-MNIST, 256 hidden units); Temperature Parameter Optimization for T-RBM (Fashion-MNIST, 512 hidden units)",yes
+Ten-fold cross-validation for classification using A*RSOR reducts,1,Applied 100%,Ten-fold cross-validation for classification using A*RSOR reducts,yes
+Tension/Compression Spring Design,1,Applied 100%,Tension/Compression Spring Design,yes
+terrain generation,1,Applied 100%,Terrain Generation (CPPN); Terrain Generation (Diamond Square Noise); Terrain Generation (GAN),yes
+Test Case Selection Problem,1,Applied 100%,Test Case Selection Problem,yes
+Test-Assignment Problem,1,Applied 100%,Test-Assignment Problem,yes
+Text classification,1,Applied 100%,Text classification,yes
+Text Segmentation,1,Applied 100%,Text Segmentation,yes
+Text Summarization Classification,2,Applied 100%,Text Summarization Classification,yes
+Texture,1,Applied 100%,Texture,yes
+Texture gradient estimation,1,Applied 100%,Texture gradient estimation,yes
+Texture Image Segmentation,1,Applied 100%,Texture Image Segmentation,yes
+The Legend of Zelda Dungeon Generation,2,Applied 100%,The Legend of Zelda Dungeon Generation,yes
+The Legend of Zelda Room Generation,1,Applied 100%,The Legend of Zelda Room Generation,yes
+Thermal power plant cycle efficiency optimization,1,Applied 100%,Thermal power plant cycle efficiency optimization,yes
+Third Order Bandpass Filter Design,1,Applied 100%,Third Order Bandpass Filter Design,yes
+Three Component Hydraulic Model Parameter Fitting,1,Applied 100%,Three Component Hydraulic Model Parameter Fitting,yes
+Three-Beams,1,Applied 100%,Three-Beams,yes
+Three-Beams + Structure,1,Applied 100%,Three-Beams + Structure,yes
+Three-option collective perceptual discrimination task,1,Applied 100%,Three-option collective perceptual discrimination task,yes
+Thyroid Classification,1,Applied 100%,Thyroid Classification,yes
+Tic-tac-toe,1,Applied 100%,Tic-tac-toe,yes
+Time Series Forecasting,1,Applied 100%,Time Series Forecasting,yes
+time series forecasting using {...},1,Applied 100%,Time series forecasting using HOFTS-LPM; Time series forecasting using HOFTSM,yes
+Time-Variant Charging Station Placement Problem,1,Applied 100%,Time-Variant Charging Station Placement Problem,yes
+Tincy-YOLO Memory Packing,1,Applied 100%,Tincy-YOLO Memory Packing,yes
+Tiny,1,Applied 100%,Tiny,yes
+Titanic,1,Applied 100%,Titanic,yes
+TNK,1,Pure Math 100%,TNK,yes
+Topic Evolution Modeling,1,Applied 100%,Topic Evolution Modeling,yes
+Total Cross Tied (TCT) PV array interconnection,1,Applied 100%,Total Cross Tied (TCT) PV array interconnection,yes
+Total energy demand estimation in Spain,1,Applied 100%,Total energy demand estimation in Spain,yes
+Tower,2,Applied 100%,Tower,yes
+Tox_171,1,Applied 100%,Tox_171,yes
+Toy Problem,1,Pure Math 100%,Toy Problem,yes
+TP1-TP10,1,Pure Math 100%,TP1-TP10,yes
+"TP2, DS1, DS2, DS3, DS1D, DS2D, DS3D, DS4m, DS5m",1,Pure Math 100%,"TP2, DS1, DS2, DS3, DS1D, DS2D, DS3D, DS4m, DS5m",yes
+Traceability recovery between NVD and IBM X-Force,1,Applied 100%,Traceability recovery between NVD and IBM X-Force,yes
+traceability recovery between nvd and {...},1,Applied 100%,Traceability recovery between NVD and ExploitDB; Traceability recovery between NVD and Openwall,yes
+Track 1: Day-ahead local energy market bidding optimization,1,Applied 100%,Track 1: Day-ahead local energy market bidding optimization,yes
+Track 2: Flexibility management of home appliances,1,Applied 100%,Track 2: Flexibility management of home appliances,yes
+Traffic Light Scheduling Problem (TLSP),1,Applied 100%,Traffic Light Scheduling Problem (TLSP),yes
+Traffic Signal Timing Optimization (TSTO),1,Applied 100%,Traffic Signal Timing Optimization (TSTO),yes
+Trajectory Vectoring,1,Applied 100%,Trajectory Vectoring,yes
+Transformer Attention Head Pruning for Time-series Forecasting,1,Applied 100%,Transformer Attention Head Pruning for Time-series Forecasting,yes
+Translation and Rotation Image Registration,1,Applied 100%,Translation and Rotation Image Registration,yes
+Transmission Expansion Planning,1,Applied 100%,Transmission Expansion Planning,yes
+TransNAS-Bench-101,1,Applied 100%,TransNAS-Bench-101,yes
+Trap,4,Pure Math 100%,Concatenated trap; Cyclic trap; Deceptive trap function of order 3 (Dec.3),yes
+traveling salesman,8,Pure Math 100%,Traveling Salesman Problem; Travelling Salesman Problem (TSP); Traveling Salesman Problem (50-vertex quasi-random instance),yes
+Traveling Salesman Problem,5,Applied 100%,Traveling Salesman Problem,yes
+Traveling Salesman Problem with Drone Launch Station Location (TSP-DLSL),1,Applied 100%,Traveling Salesman Problem with Drone Launch Station Location (TSP-DLSL),yes
+traveling salesperson,1,Applied 100%,Traveling Salesperson Problem (ECJ2018); Traveling Salesperson Problem (Evolved-Simple); Traveling Salesperson Problem (Evolved-Sophisticated),yes
+traveling thief,2,Applied 100%,Travelling Thief Problem (TTP); Traveling Thief Problem (TTP),yes
+Traveling Thief Problem (TTP),2,Pure Math 100%,Traveling Thief Problem (TTP),yes
+Tree Detection and Counting,1,Applied 100%,Tree Detection and Counting,yes
+Trees,1,Pure Math 100%,Trees,yes
+"Triangle Function (n=16, m=1, s=8)",1,Pure Math 100%,"Triangle Function (n=16, m=1, s=8)",yes
+Triangular and Inverted Triangular Pareto Fronts,1,Pure Math 100%,Triangular and Inverted Triangular Pareto Fronts,yes
+Trilateration Problem,1,Applied 100%,Trilateration Problem,yes
+TSP Instance Generation,1,Pure Math 100%,TSP Instance Generation,yes
+tsp instance generation for {...} vs {...},1,Pure Math 100%,TSP Instance Generation (n=100) for FI vs. NI; TSP Instance Generation (n=500) for EAX vs. LKH,yes
+TSPLIB,9,Pure Math 67% / Applied 33%,"TSPlib (eil51, eil76, eil101); TSPlib-derived VRP-RPD Benchmarks; TSPLIB",yes
+tumors,2,Applied 100%,11-Tumors; 9Tumors,yes
+tunable pid,1,Pure Math 100%,Tunable Test Problem PID 1 (Elliptic Function); Tunable Test Problem PID 10 (Different Powers Sum Function); Tunable Test Problem PID 11 (Skewed Schwefel N02 Function),yes
+Twitter,1,Pure Math 100%,Twitter,yes
+Two Tanks,1,Applied 100%,Two Tanks,yes
+Two-Beams,1,Applied 100%,Two-Beams,yes
+Two-Beams + Structure,1,Applied 100%,Two-Beams + Structure,yes
+Two-dimensional linear elastic boundary value problem,1,Applied 100%,Two-dimensional linear elastic boundary value problem,yes
+Two-option collective perceptual discrimination task,1,Applied 100%,Two-option collective perceptual discrimination task,yes
+Two-stage optimization scheduling of electric vehicle charging load,1,Applied 100%,Two-stage optimization scheduling of electric vehicle charging load,yes
+TWOCONES,1,Pure Math 100%,TWOCONES,yes
+TwoMax,1,Pure Math 100%,Twomax,yes
+Twonorm,1,Applied 100%,Twonorm,yes
+TwoQuarters,1,Pure Math 100%,TwoQuarters,yes
+u net hyperparameter optimization,2,Applied 100%,U-Net Hyperparameter Optimization (BraTS 2021); U-Net Hyperparameter Optimization (Figshare); U-net Hyperparameter Optimization,yes
+U(Θ(n)) (class of unimodal functions),1,Pure Math 100%,U(Θ(n)) (class of unimodal functions),yes
+U-Net reconstruction loss optimization,1,Applied 100%,U-Net reconstruction loss optimization,yes
+u2192,1,Applied 100%,u2192,yes
+uav based ad hoc wireless mesh network deployment,1,Applied 100%,UAV-based ad-hoc wireless mesh network deployment (One-hop); UAV-based ad-hoc wireless mesh network deployment (Two-hop),yes
+uav network deployment scenario s user distribution,1,Applied 100%,UAV Network Deployment - Scenario S1 User Distribution (Uniform); UAV Network Deployment - Scenario S2 User Distribution (Two Clusters); UAV Network Deployment - Scenario S3 User Distribution (Three Clusters),yes
+uav path planning,3,Applied 100%,UAV Path Planning; 3D UAV path planning; UAV 3D Path Planning,yes
+uav route planning environment e,1,Applied 100%,UAV Route Planning - Environment E3; UAV Route Planning - Environment E1; UAV Route Planning - Environment E2,yes
+UAV-assisted WSN data collection,1,Applied 100%,UAV-assisted WSN data collection,yes
+UBQP (bqp100),1,Pure Math 100%,UBQP (bqp100),yes
+UCI_AS,1,Applied 100%,UCI_AS,yes
+UCI_BH,1,Applied 100%,UCI_BH,yes
+UF (CEC 2009 unconstrained),4,Pure Math 100%,UF1; UF10; UF2,yes
+UF Suite,1,Pure Math 100%,UF Suite,yes
+ugdb,1,Applied 100%,Ugdb1; Ugdb2; Ugdb23,yes
+UMN dataset,1,Applied 100%,UMN dataset,yes
+umtr case,1,Pure Math 100%,uMTR Case 1 (f1 and f2 with bias 1.0); uMTR Case 2 (f1 and f2 with bias 0.5); uMTR Case 3 (f1 and f2 with no bias),yes
+Unbalanced Short Circuit Calculation,1,Applied 100%,Unbalanced Short Circuit Calculation,yes
+uncertain capacitated arc routing problem {...},4,Applied 100%,Uncertain Capacitated Arc Routing Problem; Uncertain Capacitated Arc Routing Problem (Ugdb and Uval); Uncertain Capacitated Arc Routing Problem (UCARP) Instances,yes
+Unconstrained Binary Quadratic Problem (UBQP),1,Pure Math 100%,Unconstrained Binary Quadratic Problem (UBQP),yes
+Unconstrained Binary Quadratic Programming,1,Pure Math 100%,Unconstrained Binary Quadratic Programming,yes
+Unconstrained MACRA WDP,1,Applied 100%,Unconstrained MACRA WDP,yes
+Unconstrained Minimum Spanning Tree,1,Pure Math 100%,Unconstrained Minimum Spanning Tree,yes
+Unconstrained TSP,1,Pure Math 100%,Unconstrained TSP,yes
+Uniform Resource Availability Scenario,1,Pure Math 100%,Uniform Resource Availability Scenario,yes
+Uniform Spider Trees,1,Pure Math 100%,Uniform Spider Trees,yes
+Unit Commitment (UC) problem,1,Applied 100%,Unit Commitment (UC) problem,yes
+Unrelated machines scheduling,1,Applied 100%,Unrelated machines scheduling,yes
+"Unrelated parallel machine scheduling problem with release dates and setup times (R|r_j, s_{ijk}|C_{max})",1,Applied 100%,"Unrelated parallel machine scheduling problem with release dates and setup times (R|r_j, s_{ijk}|C_{max})",yes
+Unrelated Parallel Machines Scheduling Problem with Precedence and Resource Constraints (UPMSP-PR),1,Applied 100%,Unrelated Parallel Machines Scheduling Problem with Precedence and Resource Constraints (UPMSP-PR),yes
+Unrestricted Container Relocation Problem,1,Applied 100%,Unrestricted Container Relocation Problem,yes
+UPDRS Disease Progression Prediction,1,Applied 100%,UPDRS Disease Progression Prediction,yes
+UPDRS Estimation in Parkinson's Disease Patients,1,Applied 100%,UPDRS Estimation in Parkinson's Disease Patients,yes
+urban traffic prediction,1,Applied 100%,Urban Traffic Prediction (Target Junction A13); Urban Traffic Prediction (Target Junction A21); Urban Traffic Prediction (Target Junction A36),yes
+usa 200K,1,Pure Math 100%,usa 200K,yes
+USCrime,1,Applied 100%,USCrime,yes
+User Knowledge Modelling Clustering,1,Applied 100%,User Knowledge Modelling Clustering,yes
+Uterus,1,Applied 100%,Uterus,yes
+uval,1,Applied 100%,Uval10A; Uval10D,yes
+Vector Average,1,Pure Math 100%,Vector Average,yes
+Vector Distance,1,Pure Math 100%,Vector Distance,yes
+VEGA Launch Vehicle Ascent Trajectory Optimization,1,Applied 100%,VEGA Launch Vehicle Ascent Trajectory Optimization,yes
+Vehicle,1,Applied 100%,Vehicle,yes
+Vehicle aerodynamic drag optimization,1,Applied 100%,Vehicle aerodynamic drag optimization,yes
+Vehicle aerodynamic lift optimization,1,Applied 100%,Vehicle aerodynamic lift optimization,yes
+Vehicle Crashworthiness,1,Applied 100%,Vehicle Crashworthiness,yes
+Vehicle Routing Problem with Cross-Docking (VRPCD),1,Applied 100%,Vehicle Routing Problem with Cross-Docking (VRPCD),yes
+Vehicle Routing Problem with Time Windows and Synchronization Constraints,1,Applied 100%,Vehicle Routing Problem with Time Windows and Synchronization Constraints,yes
+Vehicular path following control,1,Applied 100%,Vehicular path following control,yes
+Venture (Atari 2600),1,Applied 100%,Venture (Atari 2600),yes
+Vertebral,1,Applied 100%,Vertebral,yes
+vertex coloring complete bipartite graphs,1,Pure Math 100%,Vertex Coloring on Complete Bipartite Graphs (NumUsedColors); Vertex Coloring on Complete Bipartite Graphs (RankedColors),yes
+vertex coloring paths,1,Pure Math 100%,Vertex Coloring on Paths (RankedColors); Vertex Coloring on Paths (NumUsedColors),yes
+verus 100K,1,Pure Math 100%,verus 100K,yes
+VGDB,1,Applied 100%,VGDB,yes
+VGG-16 Compression,1,Applied 100%,VGG-16 Compression,yes
+VGG16 Image Classifier Repair,1,Applied 100%,VGG16 Image Classifier Repair,yes
+vie series,1,Pure Math 100%,VIE1; VIE2; VIE3,yes
+Virtual Camera Composition Problem,1,Applied 100%,Virtual Camera Composition Problem,yes
+Virtual Network Embedding (VNE) Problem,1,Applied 100%,Virtual Network Embedding (VNE) Problem,yes
+Visual Object Tracking Benchmark Sequences,1,Applied 100%,Visual Object Tracking Benchmark Sequences,yes
+VLD task,1,Applied 100%,VLD task,yes
+Voice Conversion Alignment,1,Applied 100%,Voice Conversion Alignment,yes
+Voice Liveness Detection,1,Applied 100%,Voice Liveness Detection,yes
+Voice Privacy,1,Applied 100%,Voice Privacy,yes
+vowel,1,Applied 100%,vowel,yes
+Vowel Feature Selection,1,Applied 100%,Vowel Feature Selection,yes
+voxel based soft robot locomotion,2,Applied 100%,Voxel-based Soft Robot Locomotion; Voxel-based Soft Robot Locomotion (Centralized Controller); Voxel-based Soft Robot Locomotion (Distributed Controller),yes
+VRPTW,1,Applied 100%,VRPTW,yes
+vsr locomotion,1,Applied 100%,VSR Locomotion (Heterogeneous representation); VSR Locomotion (Homogeneous representation),yes
+Walker Uni-directional,1,Applied 100%,Walker Uni-directional,yes
+walker v,2,Pure Math 100%,Walker2d-v2; Walker2d-v3,yes
+Walker-Uni,1,Applied 100%,Walker-Uni,yes
+Walker2D,2,Pure Math 100%,Walker2D,no
+Walker2d,3,Applied 100%,Walker2d,no
+Walker2DBullet,1,Pure Math 100%,Walker2DBullet,yes
+Walker2DMuJoCo,1,Pure Math 100%,Walker2DMuJoCo,yes
+Walking scenario,1,Applied 100%,Walking scenario,yes
+Walking up stairs scenario,1,Applied 100%,Walking up stairs scenario,yes
+WangFreitas,1,Pure Math 100%,WangFreitas,yes
+Wargame Simulation - Case 1: Expensive-Offence Configuration,1,Applied 100%,Wargame Simulation - Case 1: Expensive-Offence Configuration,yes
+Wargame Simulation - Case 2: Expensive-Defence Configuration,1,Applied 100%,Wargame Simulation - Case 2: Expensive-Defence Configuration,yes
+Wargame Simulation - Case 3: Balanced Configuration,1,Applied 100%,Wargame Simulation - Case 3: Balanced Configuration,yes
+WATER,1,Applied 100%,WATER,yes
+"Water Distribution Network Optimization (SN200, SN300, SN400, SN500, MN200, MN300, MN400, MN500, Balerma)",1,Applied 100%,"Water Distribution Network Optimization (SN200, SN300, SN400, SN500, MN200, MN300, MN400, MN500, Balerma)",yes
+Water Distribution System Chlorination Control,1,Applied 100%,Water Distribution System Chlorination Control,yes
+Water resource management and prediction,1,Applied 100%,Water resource management and prediction,yes
+Water Sensor Placement,1,Applied 100%,Water Sensor Placement,yes
+wav,1,Pure Math 100%,wav,yes
+Wave covariance function of mean-zero Gaussian process,1,Pure Math 100%,Wave covariance function of mean-zero Gaussian process,yes
+Wave function (Equation 5),1,Pure Math 100%,Wave function (Equation 5),yes
+Waveform_w_noise,1,Applied 100%,Waveform_w_noise,yes
+Waveform_wo_noise,1,Applied 100%,Waveform_wo_noise,yes
+Wavelet selection for signal denoising,1,Applied 100%,Wavelet selection for signal denoising,yes
+WBCD Feature Selection,1,Applied 100%,WBCD Feature Selection,yes
+WCCI20 MaTOP,1,Pure Math 100%,WCCI20 MaTOP,yes
+wdbc,2,Applied 100%,wdbc,yes
+WDBC Classification,1,Applied 100%,WDBC Classification,yes
+Weather,1,Applied 100%,Weather,yes
+web interface design,1,Applied 100%,"Web Interface Design (Independent Variables, Uniform Values - Setting 2); Web Interface Design (Independent Variables, Variable Values - Genome [3,6,2,3,6,2,2,6]); Web Interface Design (Interacting Variables - Genome [3,6,2,3,6,2,2,6])",yes
+Weierstrass (f16),1,Pure Math 100%,Weierstrass (f16),yes
+Weighted HITS,1,Applied 100%,Weighted HITS,yes
+Weighted l1–p Minimization,1,Pure Math 100%,Weighted l1–p Minimization,yes
+weighted minimum vertex cover,1,Pure Math 100%,Weighted Minimum Vertex Cover; Weighted Minimum Vertex Cover (Hard Instance G),yes
+Weightwise Perfectly Balanced (WPB) Boolean functions,1,Pure Math 100%,Weightwise Perfectly Balanced (WPB) Boolean functions,yes
+Weisfeiler-Lehman (WL)-SP kernel,1,Applied 100%,Weisfeiler-Lehman (WL)-SP kernel,yes
+Weisfeiler-Lehman (WL)-subtree kernel,1,Applied 100%,Weisfeiler-Lehman (WL)-subtree kernel,yes
+Welded beam design problem,1,Applied 100%,Welded beam design problem,yes
+WFG,15,Pure Math 100%,WFG1; WFG2; WFG4,yes
+Wheat Powdery Mildew (WPM) Detection,1,Applied 100%,Wheat Powdery Mildew (WPM) Detection,yes
+Wheat Yellow Rust (WYR) Detection,1,Applied 100%,Wheat Yellow Rust (WYR) Detection,yes
+Wheel graphs W_n,1,Pure Math 100%,Wheel graphs W_n,yes
+White Blood Cells Segmentation,1,Applied 100%,White Blood Cells Segmentation,yes
+White Wine Quality Prediction,1,Applied 100%,White Wine Quality Prediction,yes
+Wholesale Customers Clustering,1,Applied 100%,Wholesale Customers Clustering,yes
+Wildfire Spread Simulation,1,Applied 100%,Wildfire Spread Simulation,yes
+Wilt,1,Applied 100%,Wilt,yes
+Wind Farm Layout and Cable Connection Layout Optimization,1,Applied 100%,Wind Farm Layout and Cable Connection Layout Optimization,yes
+Wind power ramp detection,1,Applied 100%,Wind power ramp detection,yes
+Wind turbine design,1,Applied 100%,Wind turbine design,yes
+Wind Turbine Time Series Forecasting,1,Applied 100%,Wind Turbine Time Series Forecasting,yes
+wine,4,Applied 100%,wine,yes
+Wine Classification,1,Applied 100%,Wine Classification,yes
+Wine Counterfactual Generation,1,Applied 100%,Wine Counterfactual Generation,yes
+Wine Feature Selection,2,Applied 100%,Wine Feature Selection,yes
+Wine_red,1,Applied 100%,Wine_red,yes
+Wine_white,1,Applied 100%,Wine_white,yes
+Wireless Sensor Network Energy Optimization,1,Applied 100%,Wireless Sensor Network Energy Optimization,yes
+wireless sensor network gateway clustering,1,Applied 100%,Wireless Sensor Network Gateway Clustering (Constant Load); Wireless Sensor Network Gateway Clustering (Variable Load),yes
+Wisconsin Breast Cancer,1,Applied 100%,Wisconsin Breast Cancer,yes
+woods101,1,Pure Math 100%,woods101,yes
+Work-over Rig Scheduling Problem (WRSP),1,Applied 100%,Work-over Rig Scheduling Problem (WRSP),yes
+Workload allocation in the edge layer,1,Applied 100%,Workload allocation in the edge layer,yes
+Workover Rig Scheduling Problem,1,Applied 100%,Workover Rig Scheduling Problem,yes
+world 200K,1,Pure Math 100%,world 200K,yes
+Worst-of-MaxCuts,1,Pure Math 100%,Worst-of-MaxCuts,yes
+WP_LFL,1,Applied 100%,WP_LFL,yes
+WRA Suite,1,Pure Math 100%,WRA Suite,yes
+WSN deployment problem,1,Applied 100%,WSN deployment problem,yes
+WSN Node Clustering,1,Applied 100%,WSN Node Clustering,yes
+XGBoost Hyperparameter Tuning,1,Applied 100%,XGBoost Hyperparameter Tuning,yes
+Xin-She Yang function,1,Pure Math 100%,Xin-She Yang function,yes
+xnor classification task,1,Applied 100%,XNOR classification task (Amplitude Encoding); XNOR classification task (Frequency Encoding),yes
+XOR Logic Gate,1,Pure Math 100%,XOR Logic Gate,yes
+YABBOB,1,Pure Math 100%,YABBOB,yes
+yacht,2,Applied 100%,yacht,yes
+Yacht hydrodynamics,1,Applied 100%,Yacht hydrodynamics,yes
+Yacht Hydrodynamics Prediction,1,Applied 100%,Yacht Hydrodynamics Prediction,yes
+YAHDBBOB,1,Pure Math 100%,YAHDBBOB,yes
+YANOISYBBOB,1,Pure Math 100%,YANOISYBBOB,yes
+Year,1,Applied 100%,Year,yes
+Yeast,4,Applied 100%,Yeast,yes
+Yeast dataset,1,Applied 100%,Yeast dataset,yes
+Yeast Feature Selection,1,Applied 100%,Yeast Feature Selection,yes
+Yeast Multi-label Classification,1,Applied 100%,Yeast Multi-label Classification,yes
+Yoga,1,Applied 100%,Yoga,yes
+YOLOv3 Architecture Optimization,1,Applied 100%,YOLOv3 Architecture Optimization,yes
+YOLOv3 Pedestrian Detection and CNN Movement Classification,1,Applied 100%,YOLOv3 Pedestrian Detection and CNN Movement Classification,yes
+Z24 bridge,1,Applied 100%,Z24 bridge,yes
+Zakharov,1,Pure Math 100%,Zakharov,yes
+Zakharov + Branin (ZB),1,Pure Math 100%,Zakharov + Branin (ZB),yes
+Zakharov + Styblinski-Tang (ZS),1,Pure Math 100%,Zakharov + Styblinski-Tang (ZS),yes
+ZCAT (1-20),1,Pure Math 100%,ZCAT (1-20),yes
+ZDT,20,Pure Math 100%,ZDT3; ZDT1; ZDT2,yes
+Zero-sum games decomposable into MaxMin-layers,1,Pure Math 100%,Zero-sum games decomposable into MaxMin-layers,yes
+Zhong et al. Implicit Equations Suite,1,Pure Math 100%,Zhong et al. Implicit Equations Suite,yes
+Zigzag Path Tracking,1,Applied 100%,Zigzag Path Tracking,yes
+Zoo,1,Applied 100%,Zoo,yes
+Zoo Classification,1,Applied 100%,Zoo Classification,yes
+Zoo Feature Selection,1,Applied 100%,Zoo Feature Selection,yes
+ZXH-CF,1,Pure Math 100%,ZXH-CF,yes
+zzj series,1,Pure Math 100%,ZZJ1; ZZJ10; ZZJ2,yes
+{...} allocation of autonomous robots,1,Applied 100%,Full allocation (FullAllo) of autonomous robots; Partial allocation (PartAllo) of autonomous robots,yes
+{...} chance constrained knapsack problem,2,Pure Math 100%,Uncorrelated Chance-Constrained Knapsack Problem; Chance Constrained Multiple Knapsack Problem (CC-MKP); Dynamic Chance Constrained Multiple Knapsack Problem (DCC-MKP),yes
+{...} function with linear constraints,1,Pure Math 100%,Ellipsoid function (fellipsoid) with linear constraints; Sphere function (fsphere) with linear constraints,yes
+{...} hyperspectral image classification,1,Applied 100%,Indian Pines Hyperspectral Image Classification; Pavia University Hyperspectral Image Classification,yes
+{...} match text to image retrieval on {...},1,Applied 100%,Class-match text-to-image retrieval on ENTRep; Class-match text-to-image retrieval on MIMIC; Exact-match text-to-image retrieval on ENTRep,yes
+{...} mode lfo parameter estimation,1,Applied 100%,Single Mode LFO Parameter Estimation; Multiple Mode LFO Parameter Estimation (2 modes); Multiple Mode LFO Parameter Estimation (3 modes),yes
+{...} objective {...} problem,3,Pure Math 100%,Multi-objective binary knapsack problem; Bi-objective Binary Knapsack Problem (BOBKP); Bi-objective Quadratic Assignment Problem,yes
+{...} on tsp rue 1000 3000,1,Pure Math 100%,EAX on TSP RUE 1000-3000; LKH on TSP RUE 1000-3000,yes
+{...} rave latent space exploration,1,Applied 100%,VCTK RAVE latent space exploration; darbouka_onnx RAVE latent space exploration; vintage RAVE latent space exploration,yes
+{...} sensor robot swarm model,1,Applied 100%,Single-Sensor Robot Swarm Model; Two-Sensor Robot Swarm Model,yes
+{...} trading strategy optimization,1,Applied 100%,EMA Crossover Trading Strategy Optimization; Williams %R Trading Strategy Optimization,yes
+{...} under uniform constraint,1,Pure Math 100%,(1 + eps) test function under uniform constraint; Linear functions under uniform constraint,yes

@@ -87,3 +87,19 @@ $RECYCLE.BIN/
 *.snm
 *.synctex.gz
 *.toc
+
+# ==============================================================================
+# Project-specific (added 2026-11-15)
+# ==============================================================================
+# Local virtual environments under other names
+.venv*/
+venv*/
+# Notebook checkpoints
+.ipynb_checkpoints/
+# Fold caches of the evaluation (rebuilt from the training rows on demand)
+retrieval_v2/evaluation/folds_cache/
+# Temporary files the learned store writes before an atomic replace
+selflearn/store/*.tmp
+# Note: the learned store itself (selflearn/store/learned.jsonl) is TRACKED on purpose.
+# Note: *.npy above is ignored by default, but the frozen embeddings (paper_embeddings.npy,
+# entity_embeddings_v2.npy) are tracked explicitly and stay tracked.

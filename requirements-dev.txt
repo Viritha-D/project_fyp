@@ -1,0 +1,6 @@
+# Development and test tools (pinned, as used for the test runs): the full live environment plus pytest.
+# Install CPU torch first: pip install --index-url https://download.pytorch.org/whl/cpu torch==2.15.0+cpu
+-r app/requirements-live.txt
+pytest==9.2.0
+pluggy==1.7.0
+iniconfig==2.3.1

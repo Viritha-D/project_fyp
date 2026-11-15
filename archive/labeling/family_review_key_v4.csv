@@ -1,0 +1,61 @@
+pair_id,entity_id_a,entity_id_b,pair_type,evidence,family_a,family_b
+Q01,E01519,E01520,merged_by_numbered_series,numbered_series: mnist series,F01077,F01077
+Q02,E00292,E02677,negative_hard,"same stem ""f"", different qualifier",F00180,F01931
+Q03,E00771,E01222,merged_by_standard_suite,standard_suite: BBOB (COCO),F00485,F00485
+Q04,E00809,E00830,merged_by_standard_suite,standard_suite: LeadingOnes,F00515,F00515
+Q05,E00102,E00103,merged_by_numbered_series,numbered_series: ordered clustered traveling salesman problem eil instance series,F00056,F00056
+Q06,E01752,E01754,merged_by_numbered_series,numbered_series: ugdb series,F01255,F01255
+Q07,E00842,E00843,merged_by_template_outside_grid,template: {...} function with linear constraints,F00535,F00535
+Q08,E00016,E01578,merged_by_template_outside_grid,template: uncertain capacitated arc routing problem {...},F00014,F00014
+Q09,E00031,E00052,merged_by_standard_suite,standard_suite: MSTSP,F00026,F00026
+Q10,E00020,E01510,negative_hard,"same stem ""leukemia"", different qualifier",F00018,F01071
+Q11,E02629,E02630,merged_by_numbered_series,numbered_series: nguyen series,F00935,F00935
+Q12,E01055,E02258,merged_by_standard_suite,standard_suite: DTLZ,F00041,F00041
+Q13,E00253,E00255,merged_by_template_outside_grid,template: shifted rotated {...} s function,F00153,F00153
+Q14,E00232,E00235,merged_by_numbered_series,numbered_series: imop series,F00141,F00141
+Q15,E00344,E03148,negative_random,"random pair, different families",F00181,F02340
+Q16,E00856,E00857,merged_by_template_outside_grid,template: packing while traveling with {...} weights {...},F00543,F00543
+Q17,E00369,E02989,negative_random,"random pair, different families",F00193,F02191
+Q18,E02090,E02091,merged_by_template_outside_grid,template: {...} rave latent space exploration,F01503,F01503
+Q19,E01775,E01593,negative_random,"random pair, different families",F01272,F01138
+Q20,E01938,E01939,merged_by_numbered_series,numbered_series: directory of products optimization with ms series,F01387,F01387
+Q21,E00804,E00808,merged_by_standard_suite,standard_suite: OneMax,F00498,F00498
+Q22,E00250,E00255,merged_by_template_outside_grid,template: shifted rotated {...} s function,F00153,F00153
+Q23,E01591,E01592,merged_by_numbered_series,numbered_series: stokes flow around a sphere instance series,F01138,F01138
+Q24,E01739,E01740,merged_by_template_outside_grid,template: automl pipeline configuration on {...} dataset,F01246,F01246
+Q25,E02128,E02129,merged_by_numbered_series,numbered_series: densenet bc pruning on cifar series,F01529,F01529
+Q26,E01785,E01789,merged_by_template_outside_grid,template: {...} counterfactual generation,F01282,F01282
+Q27,E00356,E00504,merged_by_standard_suite,standard_suite: CEC 2021 suite,F00183,F00183
+Q28,E01010,E01969,negative_random,"random pair, different families",F00675,F01413
+Q29,E00917,E00918,merged_by_numbered_series,numbered_series: mul series,F00590,F00590
+Q30,E03144,E03145,merged_by_template_outside_grid,template: {...} hyperspectral image classification,F02337,F02337
+Q31,E00217,E01586,merged_by_standard_suite,standard_suite: UF (CEC 2009 unconstrained),F00133,F00133
+Q32,E00084,E00085,merged_by_standard_suite,standard_suite: CEC 2006 suite,F00044,F00044
+Q33,E00299,E01732,negative_hard,"same stem ""f"", different qualifier",F00180,F01243
+Q34,E00066,E02528,merged_by_standard_suite,standard_suite: ZDT,F00040,F00040
+Q35,E00973,E00974,merged_by_numbered_series,numbered_series: cifar image classification with wrn series,F00640,F00640
+Q36,E02216,E02217,merged_by_numbered_series,numbered_series: littman series,F01602,F01602
+Q37,E02090,E02092,merged_by_template_outside_grid,template: {...} rave latent space exploration,F01503,F01503
+Q38,E00932,E00934,merged_by_standard_suite,standard_suite: NK landscape,F00347,F00347
+Q39,E00299,E02191,negative_hard,"same stem ""f"", different qualifier",F00180,F01578
+Q40,E02304,E02321,merged_by_standard_suite,standard_suite: MW,F01559,F01559
+Q41,E00363,E00365,merged_by_numbered_series,numbered_series: image classification on cifar series,F00188,F00188
+Q42,E00407,E00408,merged_by_numbered_series,numbered_series: pils task series,F00211,F00211
+Q43,E00297,E01137,negative_random,"random pair, different families",F00180,F00768
+Q44,E02720,E02721,merged_by_numbered_series,numbered_series: sparsemlp series,F01964,F01964
+Q45,E01696,E03019,negative_random,"random pair, different families",F01217,F02221
+Q46,E00296,E02676,negative_hard,"same stem ""f"", different qualifier",F00180,F01931
+Q47,E01015,E01483,merged_by_standard_suite,standard_suite: TSPLIB,F00566,F00566
+Q48,E00282,E00630,merged_by_standard_suite,standard_suite: CEC 2013 suite,F00180,F00180
+Q49,E01273,E01274,merged_by_standard_suite,standard_suite: TSPLIB,F00566,F00566
+Q50,E02944,E00694,negative_random,"random pair, different families",F02146,F00416
+Q51,E00282,E02670,negative_hard,"same stem ""f"", different qualifier",F00180,F01927
+Q52,E02518,E02792,merged_by_standard_suite,standard_suite: MaF,F01270,F01270
+Q53,E01276,E02808,merged_by_standard_suite,standard_suite: BBOB (COCO),F00485,F00485
+Q54,E02931,E02519,negative_random,"random pair, different families",F02133,F01270
+Q55,E00602,E00608,merged_by_standard_suite,standard_suite: DASCMOP,F00341,F00341
+Q56,E02204,E02205,negative_hard,"same stem ""mackey glass"", different qualifier",F01591,F01592
+Q57,E02218,E02219,merged_by_numbered_series,numbered_series: maze series,F01603,F01603
+Q58,E00801,E00874,merged_by_standard_suite,standard_suite: OneMax,F00498,F00498
+Q59,E00342,E00351,merged_by_standard_suite,standard_suite: RWMOP (CEC 2021 real-world MOPs),F00181,F00181
+Q60,E00208,E02161,merged_by_standard_suite,standard_suite: LSMOP,F00132,F00132

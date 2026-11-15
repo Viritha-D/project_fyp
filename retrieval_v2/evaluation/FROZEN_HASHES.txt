@@ -1,0 +1,54 @@
+# FROZEN_HASHES.txt: sha256 of the frozen retrieval v2.2 system (tag retrieval-v2.2, commit 6c81556c35d4b679a8f75dfc9ac1df945c47bcdd).
+# Lines starting with "#" are comments. Verify from the repository root BEFORE any final scoring:
+#   grep -v "^#" retrieval_v2/evaluation/FROZEN_HASHES.txt | sha256sum -c --strict
+# Every line must print OK. Any FAILED line stops the final scoring.
+#
+# --- required files ---
+27fcc517a4ff6f27b1cf49064afa12258ef4bad7312c9e05f9bef5528c457abb  retrieval_v2/recommend_v21.py
+91049e910e497ce940938d9e7915cfe350e66b9f2b7f70549fe9f15b509b2767  retrieval_v2/config.json
+0bc4dccb2aa69d638b8629637334750168e535a9fe6d147063ea6f5d26adc2d1  families_v5.json
+fe97735e7cb3b205c0f8fbe71aabfcaf68b30009440be34dc685402101a39700  entity_to_family_v5.csv
+4a4c7ffa386e161d86bcc256dcb58765544acedfd146d672e49f05c13d34168b  family_notes_v5.json
+05bc9a29d12e6ef2d893da6fb99db1625c2544c0e298a44deaa90363736bd0e1  entity_embeddings_v2.npy
+fe085978336570f51fa62b77713dfb28023ac5ddccb5389d572dc49d9e4c683c  paper_embeddings.npy
+693077aacaf6992b95072a6ca87a206fb39def398776ce8cb97904a439146aae  retrieval_v2/v21_model.json
+a1824df8e1ab21f63ae586ecf9538ca38b83ed021e44974ce0c98bde93b4069c  retrieval_v2/evaluation/families_browse.csv
+# --- other files the ranking reads (also frozen) ---
+75dd622d73cdffad6e8309d02430d59371726637429fb027d5a07ace11efc15f  retrieval_v2/v21.py
+a8cdf4a89281c7543fda01c2ccddbb151f9d300ef77e7d796e08a457eff0c156  retrieval_v2/hybrid.py
+6bb26ddb7dace521095d7f8fde4a8603b2db869ad67dd0ff88f09fd23479aa35  retrieval_v2/v22/blend.py
+4a0ddb56d1bc0acfd8746f77f6f5c30f0f9e1f52c3c97cddf649d9aa2a45543a  retrieval_v2/v22/v22_selection.json
+5b5c7e03866c0ef19eda9a5cee5d75e30e49a83a7e8cc516b831cddf4d5d9660  retrieval_v2/evaluation/evaluate.py
+9d291044cd1748e616a3c7202dfac2be30cb9bc7985617776d36631604e23781  retrieval_v2/evaluation/score_human_queries.py
+46e0f3d6d95e654151aee5783b165af7c211dbdabb89cf42e5a2c41f5ab2c6f2  problem_entities_enriched_v2.json
+11d341ef398cc03ed7118ebd9b71d07cf06acbfd5ee2029d03710519aaa02e59  entity_ids_order_v2.txt
+429353214edb0a9b4ec7e48bfd9779417bd066b8b4828de477b6c51dda353791  entity_notes_v2.json
+abe4c16683529fb1a33c5aa3c94069f0aa8c1accee4521ca9fdc669c5159c73a  paper_to_entity_map_v2.csv
+d044beaf46234641241c75dd6d66109809a9bf92a7b87ddab7e08c62c0c8b7af  papers_master_with_matching_text_v2.csv
+#
+# --- values inside retrieval_v2/v21_model.json (sha256 of canonical JSON: sort_keys, separators (",", ":")) ---
+# ranker weights (stacker: features, mean, scale, coef, intercept): f2e3756339619c5423d99516d8033e7e08522265d155892180934a7f1ea1ced3
+# tier thresholds [0.07226278119639981, 0.1372011388505457]: 80231cf2446584d33d74e5be878cf47652556a111ccf35c213dac7126c9eb909
+# paper-kNN K = 100; lambda (v22_selection.json) = 1.0
+#
+# --- file roles ---
+# retrieval_v2/recommend_v21.py: CLI / ranking entry point
+# retrieval_v2/config.json: retrieval config
+# families_v5.json: families
+# entity_to_family_v5.csv: entity -> family map
+# family_notes_v5.json: family notes
+# entity_embeddings_v2.npy: entity embeddings
+# paper_embeddings.npy: paper embeddings
+# retrieval_v2/v21_model.json: ranker weights + tier thresholds + K + excluded entities
+# retrieval_v2/evaluation/families_browse.csv: families browse file (gold selection)
+# retrieval_v2/v21.py: v2.1 components
+# retrieval_v2/hybrid.py: v2 hybrid retrieval
+# retrieval_v2/v22/blend.py: v2.2 blend
+# retrieval_v2/v22/v22_selection.json: v2.2 selected lambda
+# retrieval_v2/evaluation/evaluate.py: query/metric helpers
+# retrieval_v2/evaluation/score_human_queries.py: scorer
+# problem_entities_enriched_v2.json: entity descriptions
+# entity_ids_order_v2.txt: embedding row order
+# entity_notes_v2.json: entity notes
+# paper_to_entity_map_v2.csv: record -> entity map
+# papers_master_with_matching_text_v2.csv: master records (kNN / popularity)

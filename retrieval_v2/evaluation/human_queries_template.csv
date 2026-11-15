@@ -1,0 +1,15 @@
+# Human-phrased query set for retrieval v2 (families v5).
+# Write 40-60 queries as a researcher would describe THEIR problem, then pick the gold families from
+# families_browse.csv (family_id, several allowed, separated by ';'). Do both BEFORE seeing any system
+# output; do not run recommend.py until the file is final. Do not copy benchmark names into the query
+# unless a real user would know them.
+# Quotas (60 in total; scale down proportionally for 40):
+#   15 continuous single-objective   (e.g. rugged multimodal continuous functions)
+#   10 multi-objective
+#   10 combinatorial                  (TSP, scheduling, routing)
+#   10 machine learning               (hyper-parameters, feature selection)
+#    5 control / reinforcement learning
+#    5 vague or underspecified
+# Use notes for the quota group and anything unusual. Lines starting with '#' are ignored.
+# Score with: python retrieval_v2/evaluation/score_human_queries.py retrieval_v2/evaluation/<file>.csv
+query_id,query_text,gold_families,notes

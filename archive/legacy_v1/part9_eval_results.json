@@ -1,0 +1,202 @@
+[
+  {
+    "id": "easy_1",
+    "difficulty": "easy",
+    "query": "I want to test my algorithm on a highly multimodal, rugged landscape with many local minima and oscillating structure",
+    "expected": "Rastrigin",
+    "actual_mapped": true,
+    "actual_entity": "Rastrigin",
+    "margin": 1.8062601387194759,
+    "correct": true
+  },
+  {
+    "id": "easy_2",
+    "difficulty": "easy",
+    "query": "I need a strategy for battery charge equalization using a series-parallel switched capacitor balancing circuit",
+    "expected": "Series-Parallel Switched Capacitor (SPSC) Active Charge Balancing",
+    "actual_mapped": true,
+    "actual_entity": "Series-Parallel Switched Capacitor (SPSC) Active Charge Balancing",
+    "margin": 7.246694877743721,
+    "correct": true
+  },
+  {
+    "id": "easy_3",
+    "difficulty": "easy",
+    "query": "simple unimodal sphere-shaped objective function, convex, single global optimum",
+    "expected": "Sphere function",
+    "actual_mapped": true,
+    "actual_entity": "Sphere function",
+    "margin": 2.2471559664514666,
+    "correct": true
+  },
+  {
+    "id": "easy_4",
+    "difficulty": "easy",
+    "query": "a bi-objective test problem with a convex Pareto front, commonly used to benchmark evolutionary multi-objective algorithms",
+    "expected": "ZDT1",
+    "actual_mapped": false,
+    "actual_entity": "OneMinMax",
+    "margin": 0.3909878730773926,
+    "correct": false
+  },
+  {
+    "id": "easy_5",
+    "difficulty": "easy",
+    "query": "IEEE CEC 2017 numerical optimization competition suite with unimodal, multimodal, hybrid, and composition functions",
+    "expected": "CEC 2017 benchmark test suite",
+    "actual_mapped": true,
+    "actual_entity": "CEC 2017 benchmark test suite",
+    "margin": 1.8383151995254448,
+    "correct": true
+  },
+  {
+    "id": "easy_6",
+    "difficulty": "easy",
+    "query": "narrow curved valley function, non-separable, classic banana-shaped optimization test case",
+    "expected": "Rosenbrock",
+    "actual_mapped": false,
+    "actual_entity": "CEC'2013 Test Suite (15 functions for large-scale global optimization)",
+    "margin": 0.3513856828212738,
+    "correct": false
+  },
+  {
+    "id": "easy_7",
+    "difficulty": "easy",
+    "query": "maximize the number of 1-bits in a binary string using an evolutionary algorithm",
+    "expected": "Onemax",
+    "actual_mapped": true,
+    "actual_entity": "Multifactorial Evolutionary Algorithm (MFEA) / MFTO-MFEA",
+    "margin": 3.092939853668213,
+    "correct": false
+  },
+  {
+    "id": "easy_8",
+    "difficulty": "easy",
+    "query": "three-objective scalable test problem used to evaluate many-objective evolutionary algorithms",
+    "expected": "DTLZ1",
+    "actual_mapped": false,
+    "actual_entity": "4-objective test problem",
+    "margin": 0.32358473539352417,
+    "correct": false
+  },
+  {
+    "id": "hard_1",
+    "difficulty": "hard",
+    "query": "multi-objective test problem that is deceptive and considered one of the harder problems in its benchmark family to approximate",
+    "expected": "ZDT4",
+    "actual_mapped": false,
+    "actual_entity": "Multi-objective buoy placement problem",
+    "margin": 0.17363858222961426,
+    "correct": false
+  },
+  {
+    "id": "hard_2",
+    "difficulty": "hard",
+    "query": "CEC benchmark suite with only 10 functions, real-parameter single-objective bound-constrained optimization, from a recent competition year",
+    "expected": "AMBIGUOUS (CEC 2021 or CEC 2022 both plausible)",
+    "actual_mapped": true,
+    "actual_entity": "CEC 2020 Real-World Single-Objective Constrained Optimization Competition Test Suite (57 problems)",
+    "margin": 2.080243102333896,
+    "correct": null
+  },
+  {
+    "id": "hard_3",
+    "difficulty": "hard",
+    "query": "a non-convex, disconnected Pareto front multi-objective problem in the same well-known bi-objective test family as ZDT1",
+    "expected": "ZDT3",
+    "actual_mapped": false,
+    "actual_entity": "DTLZ7",
+    "margin": 0.6379782051088208,
+    "correct": false
+  },
+  {
+    "id": "hard_4",
+    "difficulty": "hard",
+    "query": "single-objective real-parameter optimization suite from 2013 focused specifically on niching and multimodal optimization",
+    "expected": "AMBIGUOUS: could match CEC-2013 Real Parameter Optimization OR the separate CEC2013 Niching Benchmark Suite",
+    "actual_mapped": true,
+    "actual_entity": "CEC-2013 Real Parameter Optimization Test Suite",
+    "margin": 2.94877569172228,
+    "correct": null
+  },
+  {
+    "id": "hard_5",
+    "difficulty": "hard",
+    "query": "maximize the number of leading consecutive 1-bits in a binary string, a discrete optimization landscape known for being deceptive for hill-climbers",
+    "expected": "LeadingOnes",
+    "actual_mapped": true,
+    "actual_entity": "Generalized Leading-Ones",
+    "margin": 1.222333909985709,
+    "correct": false
+  },
+  {
+    "id": "hard_6",
+    "difficulty": "hard",
+    "query": "battery cell balancing approach that reports equalization time as its main performance measure",
+    "expected": "Series-Parallel Switched Capacitor (SPSC) Active Charge Balancing",
+    "actual_mapped": true,
+    "actual_entity": "Series-Parallel Switched Capacitor (SPSC) Active Charge Balancing",
+    "margin": 4.205141067504883,
+    "correct": true
+  },
+  {
+    "id": "oos_1",
+    "difficulty": "out_of_scope",
+    "query": "what's a good recipe for pasta carbonara",
+    "expected": "NO MATCH EXPECTED",
+    "actual_mapped": false,
+    "actual_entity": "Power structure optimization model for carbon peak (Scenario 1: High imported power)",
+    "margin": 0.0052337646484375,
+    "correct": true
+  },
+  {
+    "id": "oos_2",
+    "difficulty": "out_of_scope",
+    "query": "recommend a good science fiction movie to watch this weekend",
+    "expected": "NO MATCH EXPECTED",
+    "actual_mapped": false,
+    "actual_entity": "NOR Logic Gate",
+    "margin": 0.17261981964111328,
+    "correct": true
+  },
+  {
+    "id": "oos_3",
+    "difficulty": "out_of_scope",
+    "query": "how do I file my income tax return this year",
+    "expected": "NO MATCH EXPECTED",
+    "actual_mapped": false,
+    "actual_entity": "Chance-Constrained Knapsack Problem (Instance 1: Uniform profit, i.i.d weights)",
+    "margin": 0.05494213104248047,
+    "correct": true
+  },
+  {
+    "id": "oos_4",
+    "difficulty": "out_of_scope",
+    "query": "plan a 5-day vacation itinerary for a trip to Japan",
+    "expected": "NO MATCH EXPECTED",
+    "actual_mapped": false,
+    "actual_entity": "Traveling Salesman Problem (TSP)",
+    "margin": 0.027170181274414062,
+    "correct": true
+  },
+  {
+    "id": "oos_5",
+    "difficulty": "out_of_scope",
+    "query": "explain the plot of Romeo and Juliet",
+    "expected": "NO MATCH EXPECTED",
+    "actual_mapped": false,
+    "actual_entity": "Optimal Power Allocation for DC Transmission Lines",
+    "margin": 0.03427886962890625,
+    "correct": true
+  },
+  {
+    "id": "oos_6",
+    "difficulty": "out_of_scope",
+    "query": "I want to optimize my daily gym workout split for muscle growth",
+    "expected": "NO MATCH EXPECTED",
+    "actual_mapped": false,
+    "actual_entity": "Jump",
+    "margin": 0.2153513511672962,
+    "correct": true
+  }
+]
