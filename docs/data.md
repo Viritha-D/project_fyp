@@ -94,12 +94,16 @@ nothing was copied to `app/data/`. Frozen files stay where they are.
 
 **`.gitattributes` keeps them plain blobs.**
 
-- Every file above, plus `app.py` and `retrieval_v2/evaluation/queries_t*`, carries `-filter -diff -merge`.
-- `git check-attr filter` gives `unset` for all 48 paths.
-- If `.gitattributes` is combined with broader LFS rules, such as `main`'s `*.pdf`, `*.zip` and `*.csv filter=lfs`,
-  these lines must come **after** those rules: later lines win.
-- **Side effect:** `-diff` and `-merge` make git treat these files as binary for diff and merge. `git diff` shows
-  "Binary files differ" for them, and merges do not combine them line by line.
+- Only files that `main`'s LFS patterns (`*.pdf`, `*.zip`, `*.csv`) would match get a rule. Of the files the app
+  reads, those are the three frozen CSVs (`entity_to_family_v5.csv`, `paper_to_entity_map_v2.csv` and
+  `papers_master_with_matching_text_v2.csv`) and `retrieval_v2/evaluation/queries_t*.csv`. Each rule is
+  `-filter !diff !merge`.
+- The other 40 paths the app reads (`.py`, `.json`, `.md`, `.npy`, `.txt`, `.jsonl`, `.xlsx`, `.docx`) match no LFS
+  pattern, so they need no rule.
+- `git check-attr filter` gives `unset` for the 8 matched paths.
+- `!diff !merge` leave diff and merge at git's defaults, so `git diff` shows normal text.
+- If `.gitattributes` is combined with `main`'s LFS lines, these rules must come **after** those lines: later lines
+  win.
 
 **Simulation of `main`'s rules** (scratch clone, not pushed):
 
@@ -107,6 +111,20 @@ nothing was copied to `app/data/`. Frozen files stay where they are.
 2. 85 CSVs that the app does not read became LFS pointers (for example `paper_index.csv` and
    `retrieval_v2/evaluation/folds.csv`).
 3. None of the 48 app paths did, and every tracked app file's blob stayed byte-identical to HEAD.
+4. A scratch edit showed `git diff` printing normal text, both for `app/core.py` and for `entity_to_family_v5.csv`.
+
+**Merging `main` into this branch** (`git merge --no-commit --no-ff origin/main` in a scratch clone, then aborted):
+
+- **Three add/add conflicts:**
+  - `.gitattributes`;
+  - `README.md`;
+  - `master_dataset_clean.csv`. It is plain here and an LFS pointer on `main`, with the same content hash. The app
+    does not read it.
+- `main` adds only two PDFs and changes no file the app reads. After the merge, every app file in the index is a plain
+  blob, identical to this branch.
+- **Resolve `.gitattributes` with `main`'s lines first.** Kept in conflict-marker order (this branch's lines first),
+  `main`'s `*.csv filter=lfs` wins, and staging the 8 app CSVs turns all 8 into LFS pointers. With `main`'s lines
+  first, it turns 0 of 8 into pointers.
 
 **Clean-clone test** (`app/tools/lfs_proof/`):
 
