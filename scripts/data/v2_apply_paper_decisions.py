@@ -21,10 +21,10 @@ from pathlib import Path
 
 import pandas as pd
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[2]   # repository root (script lives in scripts/<group>/)
 INDEX = ROOT / 'paper_index.csv'
-REVIEW = ROOT / 'premi2023_review.csv'
-CHECK = ROOT / 'premi2023_proceedings_check.csv'
+REVIEW = ROOT / 'archive/data_review/premi2023_review.csv'
+CHECK = ROOT / 'archive/data_review/premi2023_proceedings_check.csv'
 MASTER = ROOT / 'papers_master_v2.csv'
 MERGE_CLASS = 'same paper, title variants'
 EXPECTED_MERGES = 6

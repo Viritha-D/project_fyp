@@ -31,11 +31,11 @@ from pathlib import Path
 import pandas as pd
 from pypdf import PdfReader
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[2]   # repository root (script lives in scripts/<group>/)
 MASTER = ROOT / 'papers_master_v2.csv'
 INDEX = ROOT / 'paper_index.csv'
-TOC_OUT = ROOT / 'premi2023_proceedings_toc.csv'
-CHECK_OUT = ROOT / 'premi2023_proceedings_check.csv'
+TOC_OUT = ROOT / 'archive/data_review/premi2023_proceedings_toc.csv'
+CHECK_OUT = ROOT / 'archive/data_review/premi2023_proceedings_check.csv'
 SECTION_HEADINGS = {'foreword', 'preface', 'messagefromthehonorarychair', 'organization', 'authorindex',
                     'abstractsofkeynoteinvitedandspecialtalks'}
 FUZZY = 0.90

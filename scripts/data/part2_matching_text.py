@@ -27,9 +27,9 @@ from pathlib import Path
 
 import pandas as pd
 
-ROOT = Path(__file__).resolve().parent
-MASTER_CSV = ROOT / 'papers_master_with_matching_text.csv'
-LOG_CSV = ROOT / 'ingest_log.csv'
+ROOT = Path(__file__).resolve().parents[2]   # repository root (script lives in scripts/<group>/)
+MASTER_CSV = ROOT / 'archive/legacy_v1/data/papers_master_with_matching_text.csv'
+LOG_CSV = ROOT / 'archive/ingest_logs/ingest_log.csv'
 
 APPLIED = 'Applied'
 MISSING = {'', 'Not Reported', 'N/A (Pure Math problem)'}

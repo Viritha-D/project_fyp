@@ -30,11 +30,11 @@ from pathlib import Path
 
 import pandas as pd
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[2]   # repository root (script lives in scripts/<group>/)
 MASTER = ROOT / 'papers_master_v2.csv'
 INDEX = ROOT / 'paper_index.csv'
-OUT = ROOT / 'premi2023_review.csv'
-CHECK = ROOT / 'premi2023_proceedings_check.csv'
+OUT = ROOT / 'archive/data_review/premi2023_review.csv'
+CHECK = ROOT / 'archive/data_review/premi2023_proceedings_check.csv'
 MATCHED = {'exact', 'running_head', 'prefix', 'fuzzy'}
 ARTICLES = {'a', 'an', 'the'}
 

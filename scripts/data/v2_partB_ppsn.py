@@ -14,10 +14,10 @@ from pathlib import Path
 
 import pandas as pd
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[2]   # repository root (script lives in scripts/<group>/)
 MASTER = ROOT / 'papers_master_v2.csv'
 OLD_MASTER = ROOT / 'backup_v1' / 'master_before_ingest.csv'
-OUT = ROOT / 'ppsn_review.csv'
+OUT = ROOT / 'archive/data_review/ppsn_review.csv'
 COLS = ['Paper_ID', 'Year', 'Source_File', 'Problem_Context', 'Benchmark_Name', 'Algorithm_Name',
         'Evaluation_Dataset', 'Authors']
 CONTENT_KEY = ['Paper_Title', 'Source_File', 'Benchmark_Name', 'Algorithm_Name', 'Evaluation_Dataset',

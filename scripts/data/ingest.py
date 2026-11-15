@@ -63,12 +63,12 @@ from pathlib import Path
 
 import pandas as pd
 
-ROOT = Path(__file__).resolve().parent
-MASTER_CSV = ROOT / 'papers_master_with_matching_text.csv'
+ROOT = Path(__file__).resolve().parents[2]   # repository root (script lives in scripts/<group>/)
+MASTER_CSV = ROOT / 'archive/legacy_v1/data/papers_master_with_matching_text.csv'
 BACKUP_DIR = ROOT / 'backup_v1'
 BACKUP_MASTER = BACKUP_DIR / 'master_before_ingest.csv'
-SKIPPED_CSV = ROOT / 'ingest_skipped.csv'
-LOG_CSV = ROOT / 'ingest_log.csv'
+SKIPPED_CSV = ROOT / 'archive/ingest_logs/ingest_skipped.csv'
+LOG_CSV = ROOT / 'archive/ingest_logs/ingest_log.csv'
 
 ID_COLS = ['paper_id', 'raw_paper_id']
 PART2_COLS = ['matching_text', 'language', 'matching_text_original', 'translated']

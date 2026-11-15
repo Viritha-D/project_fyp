@@ -34,7 +34,7 @@ from ingest import SUSPECT_MIN_SOURCES, SUSPECT_MIN_WORDS, word_count
 
 DetectorFactory.seed = 0
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[2]   # repository root (script lives in scripts/<group>/)
 INPUT = ROOT / 'papers_master_v2.csv'
 OLD_MASTER = ROOT / 'backup_v2' / 'papers_master_with_matching_text.csv'
 OUTPUT = ROOT / 'papers_master_with_matching_text_v2.csv'

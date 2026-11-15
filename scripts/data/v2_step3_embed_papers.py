@@ -24,15 +24,15 @@ import numpy as np
 import pandas as pd
 from sentence_transformers import SentenceTransformer
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[2]   # repository root (script lives in scripts/<group>/)
 INPUT_CSV = ROOT / 'papers_master_with_matching_text_v2.csv'
 MODEL_NAME = 'sentence-transformers/all-mpnet-base-v2'
 EXPECTED = (11342, 768)
 
 OUTPUT_EMBEDDINGS = ROOT / 'paper_embeddings.npy'
 OUTPUT_IDS = ROOT / 'paper_ids_order.txt'
-OUTPUT_METADATA = ROOT / 'embedding_metadata.json'
-OUTPUT_CSV_WITH_HASH = ROOT / 'papers_master_with_embeddings_ref.csv'
+OUTPUT_METADATA = ROOT / 'archive/legacy_v1/data/embedding_metadata.json'
+OUTPUT_CSV_WITH_HASH = ROOT / 'archive/legacy_v1/data/papers_master_with_embeddings_ref.csv'
 
 
 def main():

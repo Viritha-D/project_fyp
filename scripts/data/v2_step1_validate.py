@@ -20,10 +20,10 @@ from pathlib import Path
 
 import pandas as pd
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[2]   # repository root (script lives in scripts/<group>/)
 INPUT = ROOT / 'master_dataset_clean.csv'
 FROZEN = ROOT / 'papers_master_v2.csv'
-REPORT = ROOT / 'audit_report.md'
+REPORT = ROOT / 'docs/audit_report.md'
 INDEX = ROOT / 'paper_index.csv'
 OLD_MASTER = ROOT / 'backup_v2' / 'papers_master_with_matching_text.csv'
 GOLD = ROOT / 'gold_standard_labels.csv'
