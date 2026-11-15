@@ -2,19 +2,30 @@
 
 ## Git LFS: what is in it and why
 
-**On this branch (`claude/magical-pascal-uxsxvk`), nothing is in Git LFS.** `git lfs ls-files` lists no file. Every
-file, including the `.npy` embeddings and the CSV masters, is stored as ordinary git content. The branch's
-`.gitattributes` holds no LFS rule. It only pins the files the app reads as plain blobs (see "Files the app reads"
-below).
+**Since `main` was merged into this branch (merge commit `65114b9`, 2026-11-15), the branch uses `main`'s LFS rules.**
 
-**On `main`, LFS covers `*.pdf`, `*.zip` and `*.csv`.** It holds 12 files:
+`.gitattributes` starts with `main`'s three lines: `*.pdf`, `*.zip` and `*.csv filter=lfs`. `git lfs ls-files` lists
+12 files, all of them from `main`:
 
-- `2023-fyp.pdf` (136 MB);
-- one reference PDF;
-- ten v1-era CSVs, among them `master_dataset_clean.csv`, `papers_master_with_matching_text.csv` and
-  `paper_to_entity_map_final.csv`.
+- `2023-fyp.pdf` (136 MB) and one reference PDF;
+- `master_dataset_clean.csv`. It is the same content as before (sha256 `4119193c…`), now stored as an LFS pointer;
+- `main`'s 9 updated v1-era CSVs, added unchanged under `data/main_update_2026-11-14/`.
 
 The 136 MB PDF exceeds GitHub's 100 MB per-file limit, so it has to be in LFS.
+
+**Why the 9 updated CSVs sit in their own folder.** On this branch, the 9 root CSVs that `main` updated had been moved
+to `archive/`. Git's rename detection therefore mapped `main`'s edits onto files in `backup_v1/` and `backup_v2/`.
+One of those is `backup_v1/master_before_ingest.csv`, an input of `v2_entities_pipeline.py`. Those 9 files keep their
+earlier versions, and `main`'s versions are added unchanged in the new folder. Nothing reads that folder yet.
+
+**Everything else stays a plain blob.** That includes the `.npy` embeddings and every other CSV.
+
+- Rules placed after `main`'s lines keep `filter` unset, so these files can never become LFS pointers:
+  - the 8 CSVs the app reads (see "Files the app reads" below);
+  - every CSV in `backup_v1/` and `backup_v2/`.
+- The other CSVs match `*.csv filter=lfs` but are still stored as plain blobs. git-lfs warns that they "should have
+  been pointers". **Do not run `git add --renormalize`.** It would turn about 85 of them into LFS pointers. Re-adding
+  an edited CSV outside the protected paths also stores it in LFS.
 
 **Why the frozen files stay as plain git.**
 
@@ -25,8 +36,8 @@ The 136 MB PDF exceeds GitHub's 100 MB per-file limit, so it has to be in LFS.
 - **The files are small enough.** The largest tracked file is `paper_embeddings.npy` (34 MB), below GitHub's limit.
   The whole `.git` directory of this branch is about 31 MB packed.
 
-**Rule for new files.** Add any new file above 50 MB through LFS with a new `.gitattributes` rule. Never migrate files
-that are already tracked.
+**Rule for new files.** New `.pdf`, `.zip` and `.csv` files go to LFS automatically. Add a rule for any other new file
+above 50 MB. Never migrate files that are already tracked.
 
 ## Files the app reads (independent of Git LFS)
 
