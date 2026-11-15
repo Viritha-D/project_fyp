@@ -48,7 +48,7 @@ The details are in `docs/architecture.md`.
 ```
 python3.13 -m venv .venv
 .venv/bin/pip install --index-url https://download.pytorch.org/whl/cpu torch==2.15.0+cpu
-.venv/bin/pip install -r requirements-dev.txt
+.venv/bin/pip install -r requirements-dev.txt      # live stack (app/requirements-live.txt) + pytest
 source .venv/bin/activate
 ```
 
@@ -57,7 +57,7 @@ source .venv/bin/activate
 | mode | command | notes |
 |---|---|---|
 | live | `app/run_demo.sh` | answers your own questions. It checks the frozen hashes first. The first question downloads about 0.5 GB of models (internet needed) and takes 7 to 16 s. Memory peaks at 1.4 to 1.5 GB. |
-| precomputed | `streamlit run app/streamlit_app.py` | shows the precomputed examples only; needs only `app/requirements.txt` |
+| precomputed | `streamlit run app.py` | shows the precomputed examples only (the hosted mode); needs only `pip install -r requirements.txt` (streamlit, pandas, numpy) |
 
 **Run the tests and the integrity checks:**
 
@@ -141,6 +141,7 @@ The main ones are below. The full list is in `docs/limitations.md`.
 | `retrieval_v2/` | **frozen** retrieval system (v2, v2.1 stacked, v2.2 blend, v2.3 product wrapper) and `RESULTS.md` |
 | `retrieval_v2/evaluation/` | folds, query sets, pre-registrations, provenance, scorers, reports, `FROZEN_HASHES*.txt`, `FROZEN_ENV.txt` |
 | `selflearn/` | low-confidence fallback: extractor, matcher, trigger, learned store, verify command line (`docs/selflearning.md`) |
+| `app.py` | entry point for Streamlit Cloud (runs `app/streamlit_app.py`) |
 | `app/` | Streamlit demo (live and precomputed), gallery, site data, tools |
 | `tests/` | `tests/app`, `tests/selflearn` |
 | `scripts/` | build scripts for records, families and extraction (`scripts/README.md`) |

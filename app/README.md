@@ -36,12 +36,12 @@ python3.13 -m venv .venv
 source .venv/bin/activate && app/run_demo.sh          # verifies FROZEN_HASHES.txt and FROZEN_HASHES_v23.txt, then starts live
 ```
 
-The first query downloads the two models from Hugging Face. Precomputed mode: `streamlit run app/streamlit_app.py`.
+The first query downloads the two models from Hugging Face. Precomputed mode: `streamlit run app.py` (from the repository root).
 
 ## Deploy (hosted, precomputed)
 
-On Streamlit Community Cloud, set the main file path to `app/streamlit_app.py`. The dependencies are in
-`app/requirements.txt` (streamlit, pandas, numpy; no models are loaded). Deploy only from the branch you choose; nothing
+On Streamlit Community Cloud, set the main file path to `app.py` (repository root) and Python 3.13. The dependencies
+are in the root `requirements.txt` (streamlit, pandas, numpy; no models are loaded; same pins as `app/requirements.txt`). Deploy only from the branch you choose; nothing
 in this folder pushes or deploys by itself.
 
 ## What is frozen (do not change until the final test is scored)
