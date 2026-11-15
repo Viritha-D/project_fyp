@@ -1,57 +1,13 @@
-# Files the app reads, in cloud (precomputed) or live mode, stay plain git blobs: never Git LFS pointers.
+# Files the app reads that main's LFS patterns (*.pdf, *.zip, *.csv filter=lfs) would turn into pointers stay plain
+# git blobs. Other files the app reads (.py, .json, .md, .npy, .txt, .jsonl) match no LFS pattern and need no rule.
 # Measured 2026-11-15 by running both modes with every file open logged (docs/data.md, "Files the app reads").
-# Later lines override earlier ones. If this file is combined with broader LFS rules (main has *.pdf, *.zip and
-# *.csv filter=lfs), keep every line below AFTER those rules. Frozen files are listed here in place, never copied.
+# Later lines override earlier ones: if combined with main's LFS lines, keep these lines AFTER them.
+# !diff !merge leave diff and merge at git's defaults (normal text diffs); -filter keeps the content out of LFS.
 
-# entry points and app code
-app.py -filter -diff -merge
-app/core.py -filter -diff -merge
-app/live.py -filter -diff -merge
-app/streamlit_app.py -filter -diff -merge
-
-# app data
-app/demo_inputs.json -filter -diff -merge
-app/gallery.json -filter -diff -merge
-app/site_data.json -filter -diff -merge
-
-# frozen system code (FROZEN_HASHES*.txt)
-retrieval_v2/evaluation/evaluate.py -filter -diff -merge
-retrieval_v2/hybrid.py -filter -diff -merge
-retrieval_v2/recommend_v21.py -filter -diff -merge
-retrieval_v2/recommend_v23.py -filter -diff -merge
-retrieval_v2/v21.py -filter -diff -merge
-retrieval_v2/v22/blend.py -filter -diff -merge
-
-# frozen data and config (FROZEN_HASHES*.txt)
-entity_embeddings_v2.npy -filter -diff -merge
-entity_ids_order_v2.txt -filter -diff -merge
-entity_notes_v2.json -filter -diff -merge
-entity_to_family_v5.csv -filter -diff -merge
-families_v5.json -filter -diff -merge
-family_notes_v5.json -filter -diff -merge
-paper_embeddings.npy -filter -diff -merge
-paper_to_entity_map_v2.csv -filter -diff -merge
-papers_master_with_matching_text_v2.csv -filter -diff -merge
-problem_entities_enriched_v2.json -filter -diff -merge
-retrieval_v2/config.json -filter -diff -merge
-retrieval_v2/v21_model.json -filter -diff -merge
-retrieval_v2/v22/v22_selection.json -filter -diff -merge
-
-# other files the app reads
-retrieval_v2/RESULTS.md -filter -diff -merge
-retrieval_v2/evaluation/FROZEN_HASHES_v23.txt -filter -diff -merge
-selflearn/store/learned.jsonl -filter -diff -merge
-selflearn/threshold.json -filter -diff -merge
-
-# fallback module code
-selflearn/__init__.py -filter -diff -merge
-selflearn/extract.py -filter -diff -merge
-selflearn/fallback.py -filter -diff -merge
-selflearn/matcher.py -filter -diff -merge
-selflearn/profiles.py -filter -diff -merge
-selflearn/schema.py -filter -diff -merge
-selflearn/store.py -filter -diff -merge
-selflearn/trigger.py -filter -diff -merge
+# frozen data (FROZEN_HASHES*.txt), read in live mode; listed in place, never copied
+entity_to_family_v5.csv -filter !diff !merge
+paper_to_entity_map_v2.csv -filter !diff !merge
+papers_master_with_matching_text_v2.csv -filter !diff !merge
 
 # held-out test files: read only by the test-query guard, which is inactive once RESULTS.md reports the test
-retrieval_v2/evaluation/queries_t* -filter -diff -merge
+retrieval_v2/evaluation/queries_t*.csv -filter !diff !merge
