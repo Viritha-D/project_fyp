@@ -24,7 +24,7 @@ earlier versions, and `main`'s versions are added unchanged in the new folder. N
   - the 8 CSVs the app reads (see "Files the app reads" below);
   - every CSV in `backup_v1/` and `backup_v2/`.
 - The other CSVs match `*.csv filter=lfs` but are still stored as plain blobs. git-lfs warns that they "should have
-  been pointers". **Do not run `git add --renormalize`.** It would turn about 85 of them into LFS pointers. Re-adding
+  been pointers". **Do not run `git add --renormalize`.** It would turn the 68 CSVs still stored as plain blobs under that rule into LFS pointers. Re-adding
   an edited CSV outside the protected paths also stores it in LFS.
 
 **Why the frozen files stay as plain git.**
