@@ -90,6 +90,6 @@ The v1 and intermediate data layers (family layers v2 to v4, v1 entity maps, ing
 
 The records were extracted from conference papers (GECCO 6,450 records, CEC 3,675, PReMI 658, FOGA 467, PPSN 92; the Conference column).
 
-- The extraction prompts and scripts are in `scripts/extraction/`.
+- Part of the extraction code (three modules of the Gemini-based GECCO/PPSN extractor) is in `scripts/extraction/`.
 - The validation steps are in `scripts/data/` and `docs/data_notes.md`.
 - No paper has a DOI or URL in the data (`docs/limitations.md`).
