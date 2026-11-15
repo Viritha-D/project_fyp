@@ -15,8 +15,8 @@ from pathlib import Path
 
 import pandas as pd
 
-ROOT = Path(__file__).resolve().parent
-OUT = ROOT / 'labeling'
+ROOT = Path(__file__).resolve().parents[2]   # repository root (script lives in scripts/<group>/)
+OUT = ROOT / 'archive/labeling'
 MISSING = {'', 'Not Reported', 'N/A (Pure Math problem)'}
 
 DEFINITION = ('Label y if a researcher choosing benchmarks would treat the two as members of the same benchmark '
@@ -28,7 +28,7 @@ DEFINITION = ('Label y if a researcher choosing benchmarks would treat the two a
 
 
 def main():
-    sample = pd.read_csv(ROOT / 'family_review_sample_v3.csv', dtype=str, keep_default_na=False)
+    sample = pd.read_csv(ROOT / 'archive/family_layers/family_review_sample_v3.csv', dtype=str, keep_default_na=False)
     assert len(sample) == 80
     notes = {n['entity_id']: n for n in json.loads((ROOT / 'entity_notes_v2.json').read_text(encoding='utf-8'))}
     m = pd.read_csv(ROOT / 'paper_to_entity_map_v2.csv', dtype=str, keep_default_na=False)

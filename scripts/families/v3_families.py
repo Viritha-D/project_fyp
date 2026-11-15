@@ -24,8 +24,8 @@ import pandas as pd
 
 import v2_families as v2   # stem / template tokens / cue helpers; their rule sections are asserted equal below
 
-ROOT = Path(__file__).resolve().parent
-R = json.loads((ROOT / 'family_rules_v3.json').read_text(encoding='utf-8'))
+ROOT = Path(__file__).resolve().parents[2]   # repository root (script lives in scripts/<group>/)
+R = json.loads((ROOT / 'scripts/families/family_rules_v3.json').read_text(encoding='utf-8'))
 for sec in ('spelling_us', 'instance_ids'):
     assert R[sec] == v2.R[sec], f'{sec} differs from the v2 helpers'
 assert {k: v for k, v in R['stem'].items() if k != '_description'} == {k: v for k, v in v2.R['stem'].items() if k != '_description'}
@@ -37,8 +37,8 @@ CROSS = set(R['primary_key']['cross_category'])
 TPL = R['template']
 MISSING = v2.MISSING
 VENUES = v2.VENUES
-OUT_FAM, OUT_E2F, OUT_NOTES = ROOT / 'families_v3.json', ROOT / 'entity_to_family_v3.csv', ROOT / 'family_notes_v3.json'
-OUT_CAND, OUT_REVIEW = ROOT / 'family_candidates_v3.csv', ROOT / 'family_review_sample_v3.csv'
+OUT_FAM, OUT_E2F, OUT_NOTES = ROOT / 'archive/family_layers/families_v3.json', ROOT / 'archive/family_layers/entity_to_family_v3.csv', ROOT / 'archive/family_layers/family_notes_v3.json'
+OUT_CAND, OUT_REVIEW = ROOT / 'archive/family_layers/family_candidates_v3.csv', ROOT / 'archive/family_layers/family_review_sample_v3.csv'
 V2_RANDOM15 = ['F01940', 'F02118', 'F00371', 'F01397', 'F01272', 'F00969', 'F01044', 'F01512', 'F00349', 'F00899',
                'F01261', 'F01727', 'F00822', 'F00326', 'F00166']   # the 15 random v2 families shown in the v2 report
 
@@ -112,7 +112,7 @@ def main():
     m = pd.read_csv(ROOT / 'paper_to_entity_map_v2.csv', dtype=str, keep_default_na=False)
     d = pd.read_csv(ROOT / 'papers_master_with_matching_text_v2.csv', dtype=str, keep_default_na=False)
     idx = pd.read_csv(ROOT / 'paper_index.csv', dtype=str, keep_default_na=False)
-    v2fam = pd.read_csv(ROOT / 'entity_to_family_v2.csv', dtype=str, keep_default_na=False)
+    v2fam = pd.read_csv(ROOT / 'archive/family_layers/entity_to_family_v2.csv', dtype=str, keep_default_na=False)
     assert order == [n['entity_id'] for n in notes] and emb.shape[0] == len(order)
     N = pd.DataFrame(notes).set_index('entity_id')
     rows = d.assign(entity_id=m['entity_id'].values, paper_key=m['paper_key'].values)

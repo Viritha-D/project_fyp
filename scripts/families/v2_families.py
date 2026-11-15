@@ -22,8 +22,8 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-ROOT = Path(__file__).resolve().parent
-R = json.loads((ROOT / 'family_rules_v2.json').read_text(encoding='utf-8'))
+ROOT = Path(__file__).resolve().parents[2]   # repository root (script lives in scripts/<group>/)
+R = json.loads((ROOT / 'scripts/families/family_rules_v2.json').read_text(encoding='utf-8'))
 US = {k: v for k, v in R['spelling_us'].items() if not k.startswith('_')}
 S, IID, LC, T = R['stem'], R['instance_ids'], R['library_cue'], R['template']
 MISSING = {'', 'Not Reported', 'N/A (Pure Math problem)'}
@@ -44,12 +44,12 @@ EXPLICIT = set(IID['explicit_instances'])
 CUES = [(c['cue'], re.compile(c['regex'], re.I)) for c in LC['cues']]
 STD = [re.compile(p, re.I) for p in R['standard_suite_regex']['patterns']]
 
-OUT_FAM = ROOT / 'families_v2.json'
-OUT_E2F = ROOT / 'entity_to_family_v2.csv'
-OUT_NOTES = ROOT / 'family_notes_v2.json'
-OUT_CAND = ROOT / 'family_candidates_v2.csv'
-OUT_DUP = ROOT / 'possible_duplicate_entities_v2.csv'
-OUT_REVIEW = ROOT / 'family_review_sample.csv'
+OUT_FAM = ROOT / 'archive/family_layers/families_v2.json'
+OUT_E2F = ROOT / 'archive/family_layers/entity_to_family_v2.csv'
+OUT_NOTES = ROOT / 'archive/family_layers/family_notes_v2.json'
+OUT_CAND = ROOT / 'archive/family_layers/family_candidates_v2.csv'
+OUT_DUP = ROOT / 'archive/family_layers/possible_duplicate_entities_v2.csv'
+OUT_REVIEW = ROOT / 'archive/family_layers/family_review_sample.csv'
 
 
 def us(text):

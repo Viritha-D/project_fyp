@@ -25,8 +25,8 @@ import pandas as pd
 import v2_families as v2
 import v3_families as v3     # suite_key / template_name / cues_with_papers (rule sections asserted equal below)
 
-ROOT = Path(__file__).resolve().parent
-R = json.loads((ROOT / 'family_rules_v4.json').read_text(encoding='utf-8'))
+ROOT = Path(__file__).resolve().parents[2]   # repository root (script lives in scripts/<group>/)
+R = json.loads((ROOT / 'scripts/families/family_rules_v4.json').read_text(encoding='utf-8'))
 assert R['standard_suites'] == v3.R['standard_suites'] and R['stem'] == v3.R['stem']
 assert R['instance_ids'] == v3.R['instance_ids'] and R['library_cue']['cues'] == v3.R['library_cue']['cues']
 KIND = R['primary_key']['family_kind']
@@ -34,8 +34,8 @@ TPL, NS = R['template'], R['numbered_series']
 GENERIC_Q = set(NS['generic_qualifiers'])
 MISSING = v2.MISSING
 GRID = re.compile(r'Hyper-parameter Optimization .*Software Bug Prediction', re.I)
-OUT_FAM, OUT_E2F, OUT_NOTES = ROOT / 'families_v4.json', ROOT / 'entity_to_family_v4.csv', ROOT / 'family_notes_v4.json'
-LAB = ROOT / 'labeling'
+OUT_FAM, OUT_E2F, OUT_NOTES = ROOT / 'archive/family_layers/families_v4.json', ROOT / 'archive/family_layers/entity_to_family_v4.csv', ROOT / 'archive/family_layers/family_notes_v4.json'
+LAB = ROOT / 'archive/labeling'
 
 
 def norm_ctx(s):
@@ -74,8 +74,8 @@ def main():
     m = pd.read_csv(ROOT / 'paper_to_entity_map_v2.csv', dtype=str, keep_default_na=False)
     d = pd.read_csv(ROOT / 'papers_master_with_matching_text_v2.csv', dtype=str, keep_default_na=False)
     idx = pd.read_csv(ROOT / 'paper_index.csv', dtype=str, keep_default_na=False)
-    v3e = pd.read_csv(ROOT / 'entity_to_family_v3.csv', dtype=str, keep_default_na=False)
-    v3f = {f['family_id']: f for f in json.loads((ROOT / 'families_v3.json').read_text(encoding='utf-8'))}
+    v3e = pd.read_csv(ROOT / 'archive/family_layers/entity_to_family_v3.csv', dtype=str, keep_default_na=False)
+    v3f = {f['family_id']: f for f in json.loads((ROOT / 'archive/family_layers/families_v3.json').read_text(encoding='utf-8'))}
     assert order == [n['entity_id'] for n in notes]
     N = pd.DataFrame(notes).set_index('entity_id')
     rows = d.assign(entity_id=m['entity_id'].values, paper_key=m['paper_key'].values)

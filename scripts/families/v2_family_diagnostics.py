@@ -14,8 +14,8 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-ROOT = Path(__file__).resolve().parent
-OUT = ROOT / 'family_diagnostics_v2.md'
+ROOT = Path(__file__).resolve().parents[2]   # repository root (script lives in scripts/<group>/)
+OUT = ROOT / 'docs/family_diagnostics_v2.md'
 MISSING_RE = re.compile(r'(?i)^\s*(not reported|n/?a\b.*|unknown|none|)\s*$')
 CUSTOM = 'custom simulated data'
 LIB_PREFIX = ['tai', 'bayg', 'bays', 'bal', 'nug', 'chr', 'esc', 'had', 'kra', 'lipa', 'rou', 'scr', 'sko', 'ste',
