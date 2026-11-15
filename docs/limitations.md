@@ -22,6 +22,11 @@ seeing the test.
     Quay Crane Assignment and bar truss. It **misses the CEC 2006 suite**, because that suite's records in the data are
     mostly tagged unconstrained (19 records versus 5).
   - DASCMOP and MW profile as constrained but rank below 5.
+  - **This depends on the wording.** The audit's exact question (`docs/audit_demo.md`) triggers the fallback. Two
+    shorter versions tested on 2026-11-15 ("Differential evolution for real-valued problems with many equality and
+    inequality constraints and a small feasible region", and the same with "a very small feasible region.") did not.
+    Their top five included CEC 2011 suite and MOPTA 2008, so the conflict rule did not fire, and p1 (0.0496 and
+    0.0548) was above the threshold.
 - **The confidence trigger is weak.**
   - The low-confidence threshold (p1 < 0.0134, the probability of the blend's rank-1 family) has Youden's J = 0.197 on
     the 55 development queries.

@@ -87,8 +87,10 @@ shown. The key for unblinding is `selflearn/review_pack_key.csv`. No human judge
 
 ## Worked example and known gaps
 
-**Constrained example.** A differential-evolution question about many equality and inequality constraints and a small
-feasible region triggers the fallback, because every v2.3 top-five family conflicts with "constrained".
+**Constrained example.** The audit's question (`docs/audit_demo.md`: a differential-evolution variant for problems
+with many equality and inequality constraints and a very small feasible region) triggers the fallback, because every
+v2.3 top-five family conflicts with "constrained". Shorter wordings of the same question did not trigger it in a
+check on 2026-11-15 (`docs/limitations.md`).
 
 - The shortlist is CEC 2010 suite, Obstacle-Aware Maximum Coverage Deployment, CEC 2024 suite, Berth and Quay Crane
   Assignment, and bar truss.
