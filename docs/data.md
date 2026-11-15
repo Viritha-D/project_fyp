@@ -2,8 +2,10 @@
 
 ## Git LFS: what is in it and why
 
-**On this branch (`claude/magical-pascal-uxsxvk`), nothing is in Git LFS.** There is no `.gitattributes`, and every
-file, including the `.npy` embeddings and the CSV masters, is stored as ordinary git content.
+**On this branch (`claude/magical-pascal-uxsxvk`), nothing is in Git LFS.** `git lfs ls-files` lists no file. Every
+file, including the `.npy` embeddings and the CSV masters, is stored as ordinary git content. The branch's
+`.gitattributes` holds no LFS rule. It only pins the files the app reads as plain blobs (see "Files the app reads"
+below).
 
 **On `main`, LFS covers `*.pdf`, `*.zip` and `*.csv`.** It holds 12 files:
 
@@ -25,6 +27,96 @@ The 136 MB PDF exceeds GitHub's 100 MB per-file limit, so it has to be in LFS.
 
 **Rule for new files.** Add any new file above 50 MB through LFS with a new `.gitattributes` rule. Never migrate files
 that are already tracked.
+
+## Files the app reads (independent of Git LFS)
+
+**How the list was measured** (2026-11-15). Both modes were run headless in a scratch clone, with every file open
+logged twice: by a Python audit hook (`open` events) and by `strace -e openat`. A browser then drove each run:
+
+- **cloud (precomputed) mode:** loaded the page and opened all six gallery examples;
+- **live mode:** did the same, then asked three questions: the audit's constrained question (which triggers the
+  fallback and writes to the store), a timetabling question and an off-topic question.
+
+Python's bytecode cache was cleared and disabled, so every imported source file was logged. The two loggers agreed on
+every file. The result is below; MB = 10^6 bytes.
+
+| mode | data files | size | code files in the repository |
+|---|---|---|---|
+| cloud (precomputed) | 4 | 0.1 MB | 3, plus the entry point `app.py` |
+| live | 20 | 74.7 MB | 17 |
+
+| path | size | cloud | live | frozen | `git lfs ls-files` |
+|---|---|---|---|---|---|
+| `app/demo_inputs.json` | 2.5 KB | yes | yes |  | not tracked |
+| `app/gallery.json` | 81.6 KB | yes | yes |  | not tracked |
+| `app/site_data.json` | 8.3 KB | yes | yes |  | not tracked |
+| `entity_embeddings_v2.npy` | 9.83 MB |  | yes | yes | not tracked |
+| `entity_ids_order_v2.txt` | 22.4 KB |  | yes | yes | not tracked |
+| `entity_notes_v2.json` | 5.65 MB |  | yes | yes | not tracked |
+| `entity_to_family_v5.csv` | 0.41 MB |  | yes | yes | not tracked |
+| `families_v5.json` | 1.60 MB |  | yes | yes | not tracked |
+| `family_notes_v5.json` | 4.96 MB |  | yes | yes | not tracked |
+| `paper_embeddings.npy` | 34.84 MB |  | yes | yes | not tracked |
+| `paper_to_entity_map_v2.csv` | 3.23 MB |  | yes | yes | not tracked |
+| `papers_master_with_matching_text_v2.csv` | 10.37 MB |  | yes | yes | not tracked |
+| `problem_entities_enriched_v2.json` | 3.64 MB |  | yes | yes | not tracked |
+| `retrieval_v2/RESULTS.md` | 43.3 KB |  | yes |  | not tracked |
+| `retrieval_v2/config.json` | 1.0 KB |  | yes | yes | not tracked |
+| `retrieval_v2/evaluation/FROZEN_HASHES_v23.txt` | 2.1 KB | yes | yes |  | not tracked |
+| `retrieval_v2/v21_model.json` | 1.2 KB |  | yes | yes | not tracked |
+| `retrieval_v2/v22/v22_selection.json` | 1.4 KB |  | yes | yes | not tracked |
+| `selflearn/store/learned.jsonl` | 0.9 KB |  | yes |  | not in git yet (created by the first local suggestion) |
+| `selflearn/threshold.json` | 0.9 KB |  | yes |  | not tracked |
+| `app/core.py` | 12.7 KB | yes | yes |  | not tracked |
+| `app/live.py` | 3.7 KB |  | yes |  | not tracked |
+| `app/streamlit_app.py` | 14.2 KB | yes | yes |  | not tracked |
+| `retrieval_v2/evaluation/evaluate.py` | 15.2 KB |  | yes | yes | not tracked |
+| `retrieval_v2/hybrid.py` | 7.4 KB |  | yes | yes | not tracked |
+| `retrieval_v2/recommend_v21.py` | 9.2 KB |  | yes | yes | not tracked |
+| `retrieval_v2/recommend_v23.py` | 2.3 KB | yes | yes | yes | not tracked |
+| `retrieval_v2/v21.py` | 10.0 KB |  | yes | yes | not tracked |
+| `retrieval_v2/v22/blend.py` | 0.8 KB |  | yes | yes | not tracked |
+| `selflearn/__init__.py` | 0.5 KB |  | yes |  | not tracked |
+| `selflearn/extract.py` | 7.3 KB |  | yes |  | not tracked |
+| `selflearn/fallback.py` | 3.6 KB |  | yes |  | not tracked |
+| `selflearn/matcher.py` | 5.4 KB |  | yes |  | not tracked |
+| `selflearn/profiles.py` | 4.5 KB |  | yes |  | not tracked |
+| `selflearn/schema.py` | 2.8 KB |  | yes |  | not tracked |
+| `selflearn/store.py` | 5.9 KB |  | yes |  | not tracked |
+| `selflearn/trigger.py` | 1.8 KB |  | yes |  | not tracked |
+
+**Read only under a condition** (found by static search, not opened in either run):
+`retrieval_v2/evaluation/queries_t*`. The test-query guard in `app/core.py` reads these files only if
+`retrieval_v2/RESULTS.md` has no "Independent test" section. It has one, so the guard is inactive.
+
+**No LFS-tracked file is needed, so no copy was made.** None of these files is tracked by Git LFS on this branch, so
+nothing was copied to `app/data/`. Frozen files stay where they are.
+
+**`.gitattributes` keeps them plain blobs.**
+
+- Every file above, plus `app.py` and `retrieval_v2/evaluation/queries_t*`, carries `-filter -diff -merge`.
+- `git check-attr filter` gives `unset` for all 48 paths.
+- If `.gitattributes` is combined with broader LFS rules, such as `main`'s `*.pdf`, `*.zip` and `*.csv filter=lfs`,
+  these lines must come **after** those rules: later lines win.
+- **Side effect:** `-diff` and `-merge` make git treat these files as binary for diff and merge. `git diff` shows
+  "Binary files differ" for them, and merges do not combine them line by line.
+
+**Simulation of `main`'s rules** (scratch clone, not pushed):
+
+1. `main`'s three LFS lines were placed first, and `git add --renormalize .` was run with the LFS filter configured.
+2. 85 CSVs that the app does not read became LFS pointers (for example `paper_index.csv` and
+   `retrieval_v2/evaluation/folds.csv`).
+3. None of the 48 app paths did, and every tracked app file's blob stayed byte-identical to HEAD.
+
+**Clean-clone test** (`app/tools/lfs_proof/`):
+
+1. `GIT_LFS_SKIP_SMUDGE=1 git clone` of origin, then a checkout of this branch.
+2. A fresh Python 3.13.18 virtualenv, with `pip install -r requirements.txt` (streamlit, pandas, numpy; no torch).
+3. The app was run headless in cloud mode with `streamlit run app.py`. The page loaded, and all six gallery examples
+   were opened.
+4. Result: the app opened 1,434 regular files, 9 of them inside the clone. **None starts with
+   `version https://git-lfs.github.com/spec`.** As a negative control, the checker fails when it is given a real
+   LFS pointer from `main`.
 
 ## Frozen data files (repository root)
 
