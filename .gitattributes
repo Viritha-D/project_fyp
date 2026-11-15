@@ -15,3 +15,8 @@ papers_master_with_matching_text_v2.csv -filter !diff !merge
 
 # held-out test files: read only by the test-query guard, which is inactive once RESULTS.md reports the test
 retrieval_v2/evaluation/queries_t*.csv -filter !diff !merge
+
+# pinned build-path inputs: v2_entities_pipeline.py (run by frozen evaluate.py) reads CSVs in backup_v1/ and backup_v2/;
+# they stay plain blobs so main's *.csv filter=lfs can never turn them into pointers
+backup_v1/*.csv -filter !diff !merge
+backup_v2/*.csv -filter !diff !merge
